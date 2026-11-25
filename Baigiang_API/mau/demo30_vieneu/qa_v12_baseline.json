@@ -1,0 +1,61 @@
+{
+ "file": "D:/Edit/Baigiang_API/mau/demo30/api_pro_demo30_an.mp4",
+ "dur_s": 28.86,
+ "loudness": {
+  "LUFS": -14.48,
+  "TP": -0.87,
+  "LRA": 1.7
+ },
+ "f0": {
+  "median": 143.7,
+  "p10": 108.0,
+  "p90": 207.7,
+  "voiced_pct": 72.9
+ },
+ "asr_words": 83,
+ "asr_speech_s": 28.72,
+ "wpm": 173.0,
+ "transcript": [
+  {
+   "t0": 0.02,
+   "t1": 6.66,
+   "text": "API, giao diện lập trình ứng dụng, lớp trung gian giữa các hệ thống, hợp đồng giữa client và server."
+  },
+  {
+   "t0": 6.66,
+   "t1": 10.9,
+   "text": "The client viết bằng React, gửi request qua giao thức HTTP."
+  },
+  {
+   "t0": 10.9,
+   "t1": 15.3,
+   "text": "API trên nốt dây, tiếp nhận, xác thức tâu cần và định tuyến."
+  },
+  {
+   "t0": 15.3,
+   "t1": 20.34,
+   "text": "Quỷ vấn mai SQL và lấy giữ liệu cần thiết, trả đi sponjation,"
+  },
+  {
+   "t0": 20.34,
+   "t1": 23.1,
+   "text": "kem mả trạng thái 200 và thời gian phản hồi."
+  },
+  {
+   "t0": 23.1,
+   "t1": 26.14,
+   "text": "Toàn bộ vòng gọi chỉ mất vài chục milli dây."
+  },
+  {
+   "t0": 26.14,
+   "t1": 28.74,
+   "text": "Một vòng gọi API trọn vẹn."
+  }
+ ],
+ "ref_f0": {
+  "median": 152.2,
+  "p10": 128.4,
+  "p90": 170.3,
+  "voiced_pct": 37.9
+ }
+}

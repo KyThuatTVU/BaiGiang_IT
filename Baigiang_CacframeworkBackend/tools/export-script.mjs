@@ -1,0 +1,9 @@
+// Xuất kịch bản nguồn (ESM) ra build/script.json cho TTS và timeline.
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { scenes } from '../src/data/script.mjs';
+
+mkdirSync('build', { recursive: true });
+const out = { title: 'Khám phá các ngôn ngữ lập trình và framework phổ biến trong Backend', scenes };
+writeFileSync('build/script.json', JSON.stringify(out, null, 1));
+const cues = scenes.reduce((n, s) => n + s.cues.length, 0);
+console.log(`script.json: ${scenes.length} scenes, ${cues} cues`);

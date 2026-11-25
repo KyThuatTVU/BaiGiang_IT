@@ -1,0 +1,26 @@
+{
+ "specs": {
+  "vcodec": "h264",
+  "w": 1920,
+  "h": 1080,
+  "fps": 30.0,
+  "acodec": "aac",
+  "dur": 666.43
+ },
+ "specs_ok": true,
+ "loudness": {
+  "input_i": "-14.41",
+  "input_tp": "-1.37",
+  "input_lra": "3.90"
+ },
+ "loudness_ok": true,
+ "av_diff_s": -0.08,
+ "av_ok": true,
+ "srt_errors": [],
+ "srt_ok": true,
+ "frame_errors": [],
+ "frames_ok": true,
+ "min_font_px": 28,
+ "font_ok": true,
+ "all_ok": true
+}

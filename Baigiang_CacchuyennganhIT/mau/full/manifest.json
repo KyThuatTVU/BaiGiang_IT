@@ -1,0 +1,1790 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+10%",
+  "text": "Để một ứng dụng mua sắm trực tuyến đến tay bạn, cần bao nhiêu người phía sau?",
+  "subs": [
+   "Để một ứng dụng mua sắm trực tuyến",
+   "đến tay bạn, cần bao nhiêu người phía sau?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tò mò, lên giọng cuối câu hỏi; nhịp nhanh vừa"
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+10%",
+  "text": "Không chỉ một lập trình viên đâu, mà là cả một đội ngũ.",
+  "subs": [
+   "Không chỉ một lập trình viên đâu —",
+   "mà là cả một đội ngũ."
+  ],
+  "pause_after": 0.0,
+  "direction": "Dí dỏm nhẹ ở \"đâu\"; nhấn \"cả một đội ngũ\""
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+10%",
+  "text": "Mỗi người một vai trò rất khác nhau.",
+  "subs": [
+   "Mỗi người một vai trò rất khác nhau."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"rất khác nhau\""
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+10%",
+  "text": "Xin chào các bạn! Chào mừng đến với An Tech A-ca-đê-my,",
+  "subs": [
+   "Xin chào các bạn!",
+   "Chào mừng đến với An Tech Academy —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Năng lượng tốt, thân thiện"
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+10%",
+  "text": "nơi chúng ta cùng khám phá công nghệ theo cách dễ hiểu, và thực tế nhất.",
+  "subs": [
+   "nơi chúng ta cùng khám phá công nghệ",
+   "theo cách dễ hiểu và thực tế nhất."
+  ],
+  "pause_after": 0.0,
+  "direction": "Bình tĩnh, rõ ràng"
+ },
+ {
+  "id": "S02c3",
+  "scene": "S02",
+  "rate": "+10%",
+  "text": "Hôm nay, chúng ta sẽ mở tấm bản đồ sáu chuyên ngành của Công nghệ thông tin,",
+  "subs": [
+   "Hôm nay, chúng ta sẽ mở tấm bản đồ",
+   "sáu chuyên ngành của Công nghệ thông tin,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tạo mong đợi, nhấn \"sáu chuyên ngành\""
+ },
+ {
+  "id": "S02c4",
+  "scene": "S02",
+  "rate": "+10%",
+  "text": "để bạn tìm ra con đường phù hợp với mình.",
+  "subs": [
+   "để bạn tìm ra con đường phù hợp với mình."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng, ấm áp"
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+10%",
+  "text": "Sau video này, bạn sẽ phân biệt được sáu nhóm chuyên ngành,",
+  "subs": [
+   "Sau video này, bạn sẽ phân biệt được",
+   "sáu nhóm chuyên ngành,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ ràng, mạch lạc"
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+10%",
+  "text": "kể được vài vị trí nghề nghiệp tiêu biểu của mỗi nhóm,",
+  "subs": [
+   "kể được vài vị trí nghề nghiệp tiêu biểu",
+   "của mỗi nhóm,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê có nhịp"
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+10%",
+  "text": "và tự đối chiếu sở thích của mình với từng hướng đi.",
+  "subs": [
+   "và tự đối chiếu sở thích của mình",
+   "với từng hướng đi."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"tự đối chiếu\""
+ },
+ {
+  "id": "S03c4",
+  "scene": "S03",
+  "rate": "-5%",
+  "text": "Sáu nhóm đó là: Công nghệ phần mềm; Khoa học dữ liệu và Trí tuệ nhân tạo;",
+  "subs": [
+   "Sáu nhóm đó là: Công nghệ phần mềm;",
+   "Khoa học dữ liệu và Trí tuệ nhân tạo;"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đọc chậm vừa, tách bạch từng tên"
+ },
+ {
+  "id": "S03c5",
+  "scene": "S03",
+  "rate": "+10%",
+  "text": "An toàn thông tin; Hệ thống thông tin; Mạng máy tính và Điện toán đám mây;",
+  "subs": [
+   "An toàn thông tin; Hệ thống thông tin;",
+   "Mạng máy tính và Điện toán đám mây;"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp liệt kê"
+ },
+ {
+  "id": "S03c6",
+  "scene": "S03",
+  "rate": "+10%",
+  "text": "cùng Đồ họa máy tính và Phát triển trò chơi. Bắt đầu nhé!",
+  "subs": [
+   "cùng Đồ họa máy tính và",
+   "Phát triển trò chơi. Bắt đầu nhé!"
+  ],
+  "pause_after": 1.0,
+  "direction": "Tăng nhịp nhẹ, hào hứng ở câu chốt"
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+10%",
+  "text": "Đầu tiên: Công nghệ phần mềm.",
+  "subs": [
+   "Đầu tiên: Công nghệ phần mềm."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên chuyên ngành"
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "-5%",
+  "text": "Đây là lĩnh vực nghiên cứu, phân tích, thiết kế, xây dựng, kiểm thử,",
+  "subs": [
+   "Đây là lĩnh vực nghiên cứu, phân tích,",
+   "thiết kế, xây dựng, kiểm thử"
+  ],
+  "pause_after": 0.0,
+  "direction": "Định nghĩa: chậm ~0,95×, chắc giọng"
+ },
+ {
+  "id": "S04c3",
+  "scene": "S04",
+  "rate": "+10%",
+  "text": "và bảo trì sản phẩm phần mềm.",
+  "subs": [
+   "và bảo trì sản phẩm phần mềm."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp định nghĩa"
+ },
+ {
+  "id": "S04c4",
+  "scene": "S04",
+  "rate": "+10%",
+  "text": "Nói dễ hiểu: muốn biến ý tưởng như oép-sai-tờ bán hàng, ứng dụng đặt đồ ăn,",
+  "subs": [
+   "Nói dễ hiểu: muốn biến ý tưởng như",
+   "website bán hàng, ứng dụng đặt đồ ăn,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi, tự nhiên"
+ },
+ {
+  "id": "S04c5",
+  "scene": "S04",
+  "rate": "+10%",
+  "text": "hay phần mềm quản lý sinh viên thành sản phẩm chạy được,",
+  "subs": [
+   "hay phần mềm quản lý sinh viên",
+   "thành sản phẩm chạy được,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"chạy được\""
+ },
+ {
+  "id": "S04c6",
+  "scene": "S04",
+  "rate": "+10%",
+  "text": "bạn cần Công nghệ phần mềm.",
+  "subs": [
+   "bạn cần Công nghệ phần mềm."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+10%",
+  "text": "Trong đó có ba hướng lập trình phổ biến.",
+  "subs": [
+   "Trong đó có ba hướng lập trình phổ biến."
+  ],
+  "pause_after": 0.0,
+  "direction": "Dẫn nhập, nhấn \"ba hướng\""
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+10%",
+  "text": "Frontend Developer xây dựng giao diện người dùng trực tiếp nhìn thấy,",
+  "subs": [
+   "Frontend Developer xây dựng giao diện",
+   "người dùng trực tiếp nhìn thấy,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giải thích bình tĩnh"
+ },
+ {
+  "id": "S05c3",
+  "scene": "S05",
+  "rate": "-5%",
+  "text": "với Ếch Ti Em En, Si Ét Ét, Gia-vơ Sờ-críp, và thư viện Ri-ác.",
+  "subs": [
+   "với HTML, CSS, JavaScript",
+   "và thư viện React."
+  ],
+  "pause_after": 0.0,
+  "direction": "Thuật ngữ: chậm ~0,95×, tách bạch"
+ },
+ {
+  "id": "S05c4",
+  "scene": "S05",
+  "rate": "+10%",
+  "text": "Backend Developer xử lý nghiệp vụ phía máy chủ: đăng nhập, đơn hàng,",
+  "subs": [
+   "Backend Developer xử lý nghiệp vụ",
+   "phía máy chủ: đăng nhập, đơn hàng,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê có nhịp, rõ ràng"
+ },
+ {
+  "id": "S05c5",
+  "scene": "S05",
+  "rate": "+10%",
+  "text": "thanh toán, kết nối cơ sở dữ liệu;, công nghệ thường gặp là Nâu-đờ chấm Giây Ét, Gia-vơ,",
+  "subs": [
+   "thanh toán, kết nối cơ sở dữ liệu;",
+   "công nghệ thường gặp là Node.js, Java,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tiếp nhịp liệt kê"
+ },
+ {
+  "id": "S05c6",
+  "scene": "S05",
+  "rate": "-5%",
+  "text": "Pi Ếch Pi, Pai-thơn, và Si Sáp.",
+  "subs": [
+   "PHP, Python và C#."
+  ],
+  "pause_after": 0.0,
+  "direction": "Thuật ngữ: chậm, tách bạch"
+ },
+ {
+  "id": "S05c7",
+  "scene": "S05",
+  "rate": "+10%",
+  "text": "Full-stack Developer làm được cả hai phía.",
+  "subs": [
+   "Full-stack Developer làm được cả hai phía."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"cả hai phía\""
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+10%",
+  "text": "Bên cạnh lập trình viên còn có Software Tester và Kiu Ây Engineer,",
+  "subs": [
+   "Bên cạnh lập trình viên còn có",
+   "Software Tester và QA Engineer —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giới thiệu vai trò mới"
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+10%",
+  "text": "người kiểm thử, săn lỗi, và giữ chất lượng phần mềm trước khi đến tay người dùng.",
+  "subs": [
+   "người kiểm thử, săn lỗi và giữ chất lượng",
+   "phần mềm trước khi đến tay người dùng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"săn lỗi\", dí dỏm nhẹ"
+ },
+ {
+  "id": "S06c3",
+  "scene": "S06",
+  "rate": "+10%",
+  "text": "Sản phẩm tốt không chỉ chạy được, mà còn phải chạy đúng.",
+  "subs": [
+   "Sản phẩm tốt không chỉ chạy được,",
+   "mà còn phải chạy đúng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn đối lập \"chạy được / chạy đúng\"; nghỉ ngắn"
+ },
+ {
+  "id": "S06c4",
+  "scene": "S06",
+  "rate": "+10%",
+  "text": "Một lỗi nhỏ lọt ra ngoài cũng có thể làm hỏng trải nghiệm,",
+  "subs": [
+   "Một lỗi nhỏ lọt ra ngoài",
+   "cũng có thể làm hỏng trải nghiệm"
+  ],
+  "pause_after": 0.0,
+  "direction": "Cảnh báo nhẹ"
+ },
+ {
+  "id": "S06c5",
+  "scene": "S06",
+  "rate": "+10%",
+  "text": "của hàng nghìn người dùng.",
+  "subs": [
+   "của hàng nghìn người dùng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+10%",
+  "text": "Nhóm này hợp với bạn nếu bạn thích lập trình, tư duy logic,",
+  "subs": [
+   "Nhóm này hợp với bạn nếu bạn thích",
+   "lập trình, tư duy logic"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi, tâm tình"
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+10%",
+  "text": "và muốn tự tay làm ra sản phẩm công nghệ dùng được trong thực tế.",
+  "subs": [
+   "và muốn tự tay làm ra sản phẩm công nghệ",
+   "dùng được trong thực tế."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nhấn \"tự tay\"; nghỉ chuyển cảnh"
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+10%",
+  "text": "Chuyên ngành thứ hai: Khoa học dữ liệu, và Trí tuệ nhân tạo.",
+  "subs": [
+   "Chuyên ngành thứ hai: Khoa học dữ liệu",
+   "và Trí tuệ nhân tạo."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên"
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+10%",
+  "text": "Mỗi lần bạn tìm kiếm trên Gu-gồ, xem video trên Du-túp, hay mua hàng,",
+  "subs": [
+   "Mỗi lần bạn tìm kiếm trên Google,",
+   "xem video trên YouTube hay mua hàng"
+  ],
+  "pause_after": 0.0,
+  "direction": "Ví dụ đời thường, nhịp nhanh vừa"
+ },
+ {
+  "id": "S08c3",
+  "scene": "S08",
+  "rate": "+10%",
+  "text": "trực tuyến, hệ thống đều ghi nhận dữ liệu.",
+  "subs": [
+   "trực tuyến, hệ thống đều ghi nhận dữ liệu."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S08c4",
+  "scene": "S08",
+  "rate": "+10%",
+  "text": "Nhưng dữ liệu thô chưa tự có giá trị,",
+  "subs": [
+   "Nhưng dữ liệu thô chưa tự có giá trị —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"chưa tự\", nghỉ ngắn"
+ },
+ {
+  "id": "S08c5",
+  "scene": "S08",
+  "rate": "+10%",
+  "text": "phải phân tích, xử lý, và khai thác nó.",
+  "subs": [
+   "phải phân tích, xử lý và khai thác nó."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "-5%",
+  "text": "Khoa học dữ liệu dùng thống kê, lập trình và thuật toán,",
+  "subs": [
+   "Khoa học dữ liệu dùng thống kê, lập trình",
+   "và thuật toán"
+  ],
+  "pause_after": 0.0,
+  "direction": "Định nghĩa: chậm, rõ"
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+10%",
+  "text": "để tìm xu hướng, quy luật, và thông tin hữu ích từ dữ liệu.",
+  "subs": [
+   "để tìm xu hướng, quy luật",
+   "và thông tin hữu ích từ dữ liệu."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"xu hướng, quy luật\""
+ },
+ {
+  "id": "S09c3",
+  "scene": "S09",
+  "rate": "+10%",
+  "text": "Trí tuệ nhân tạo đi xa hơn: xây dựng hệ thống biết học từ dữ liệu,",
+  "subs": [
+   "Trí tuệ nhân tạo đi xa hơn:",
+   "xây dựng hệ thống biết học từ dữ liệu"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tạo mong đợi"
+ },
+ {
+  "id": "S09c4",
+  "scene": "S09",
+  "rate": "+10%",
+  "text": "để thực hiện những nhiệm vụ thông minh.",
+  "subs": [
+   "để thực hiện những nhiệm vụ thông minh."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S09c5",
+  "scene": "S09",
+  "rate": "+10%",
+  "text": "Khoa học dữ liệu thiên về phân tích và giải thích;,",
+  "subs": [
+   "Khoa học dữ liệu thiên về",
+   "phân tích và giải thích;"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối chiếu, tách bạch"
+ },
+ {
+  "id": "S09c6",
+  "scene": "S09",
+  "rate": "+10%",
+  "text": "Ây Ai thiên về dạy máy tự học để thực hiện nhiệm vụ.",
+  "subs": [
+   "AI thiên về dạy máy tự học",
+   "để thực hiện nhiệm vụ."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"tự học\""
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+10%",
+  "text": "Ví dụ: bạn vừa xem một chiếc điện thoại trên trang thương mại điện tử,",
+  "subs": [
+   "Ví dụ: bạn vừa xem một chiếc điện thoại",
+   "trên trang thương mại điện tử,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi, kể chuyện"
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+10%",
+  "text": "hệ thống phân tích lịch sử tìm kiếm và mua hàng,",
+  "subs": [
+   "hệ thống phân tích lịch sử",
+   "tìm kiếm và mua hàng,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"lịch sử\""
+ },
+ {
+  "id": "S10c3",
+  "scene": "S10",
+  "rate": "+10%",
+  "text": "để gợi ý những sản phẩm hợp sở thích bạn.",
+  "subs": [
+   "để gợi ý những sản phẩm hợp sở thích bạn."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"hợp sở thích bạn\""
+ },
+ {
+  "id": "S10c4",
+  "scene": "S10",
+  "rate": "+10%",
+  "text": "Đó chính là hệ thống gợi ý sản phẩm, một ứng dụng rất đời thường của Ây Ai.",
+  "subs": [
+   "Đó chính là hệ thống gợi ý sản phẩm —",
+   "một ứng dụng rất đời thường của AI."
+  ],
+  "pause_after": 0.0,
+  "direction": "Kết luận chắc giọng, dí dỏm nhẹ"
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "-5%",
+  "text": "Công nghệ thường gặp: Pai-thơn, Ét Kiu En, Pan-đợz, Sai-kit Lơn, Ten-sơ-phờ-lâu, và Pai Thoóc.",
+  "subs": [
+   "Công nghệ thường gặp: Python, SQL, Pandas,",
+   "Scikit-learn, TensorFlow và PyTorch."
+  ],
+  "pause_after": 0.0,
+  "direction": "Thuật ngữ: chậm ~0,95×, tách bạch"
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+10%",
+  "text": "Vị trí nghề nghiệp: Data Analyst, Data Scientist,",
+  "subs": [
+   "Vị trí nghề nghiệp: Data Analyst,",
+   "Data Scientist,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê rõ nhịp"
+ },
+ {
+  "id": "S11c3",
+  "scene": "S11",
+  "rate": "+10%",
+  "text": "Machine Learning Engineer, Ây Ai Engineer.",
+  "subs": [
+   "Machine Learning Engineer, AI Engineer."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp liệt kê"
+ },
+ {
+  "id": "S11c4",
+  "scene": "S11",
+  "rate": "+10%",
+  "text": "Hợp với bạn nếu bạn thích toán, thống kê, và tò mò cách máy tính học hỏi, dự đoán.",
+  "subs": [
+   "Hợp với bạn nếu bạn thích toán, thống kê",
+   "và tò mò cách máy tính học hỏi, dự đoán."
+  ],
+  "pause_after": 1.0,
+  "direction": "Tâm tình; nhấn \"học hỏi, dự đoán\"; nghỉ chuyển cảnh"
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+10%",
+  "text": "Thứ ba: An toàn thông tin.",
+  "subs": [
+   "Thứ ba: An toàn thông tin."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên"
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "rate": "+10%",
+  "text": "Thử tưởng tượng tài khoản ngân hàng bị đánh cắp,",
+  "subs": [
+   "Thử tưởng tượng tài khoản ngân hàng",
+   "bị đánh cắp,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nghiêm túc, nhấn từng viễn cảnh"
+ },
+ {
+  "id": "S12c3",
+  "scene": "S12",
+  "rate": "+10%",
+  "text": "thông tin khách hàng bị rò rỉ, hay hệ thống máy chủ bị tấn công,",
+  "subs": [
+   "thông tin khách hàng bị rò rỉ,",
+   "hay hệ thống máy chủ bị tấn công —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp nghiêm túc"
+ },
+ {
+  "id": "S12c4",
+  "scene": "S12",
+  "rate": "+10%",
+  "text": "hậu quả sẽ nghiêm trọng thế nào?",
+  "subs": [
+   "hậu quả sẽ nghiêm trọng thế nào?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Lên giọng câu hỏi; nghỉ ngắn"
+ },
+ {
+  "id": "S12c5",
+  "scene": "S12",
+  "rate": "+10%",
+  "text": "An toàn thông tin hướng đến giải quyết chính những vấn đề đó.",
+  "subs": [
+   "An toàn thông tin hướng đến giải quyết",
+   "chính những vấn đề đó."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S13c1",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "Người làm bảo mật tìm lỗ hổng, kiểm tra sức phòng thủ của hệ thống,",
+  "subs": [
+   "Người làm bảo mật tìm lỗ hổng,",
+   "kiểm tra sức phòng thủ của hệ thống,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giải thích bình tĩnh"
+ },
+ {
+  "id": "S13c2",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "giám sát hoạt động đáng ngờ, và xây giải pháp ngăn tấn công.",
+  "subs": [
+   "giám sát hoạt động đáng ngờ",
+   "và xây giải pháp ngăn tấn công."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"ngăn tấn công\""
+ },
+ {
+  "id": "S13c3",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "Ví dụ, chuyên gia kiểm thử xâm nhập có thể được doanh nghiệp giao,",
+  "subs": [
+   "Ví dụ, chuyên gia kiểm thử xâm nhập",
+   "có thể được doanh nghiệp giao"
+  ],
+  "pause_after": 0.0,
+  "direction": "Kể chuyện, rõ ràng"
+ },
+ {
+  "id": "S13c4",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "dò tìm điểm yếu của oép-sai-tờ trước khi hacker kịp khai thác.",
+  "subs": [
+   "dò tìm điểm yếu của website",
+   "trước khi hacker kịp khai thác."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"trước khi\""
+ },
+ {
+  "id": "S13c5",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "Họ cũng diễn tập ứng phó sự cố, để doanh nghiệp không bị động,",
+  "subs": [
+   "Họ cũng diễn tập ứng phó sự cố",
+   "để doanh nghiệp không bị động"
+  ],
+  "pause_after": 0.0,
+  "direction": "Bổ sung"
+ },
+ {
+  "id": "S13c6",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "khi tấn công thật xảy ra.",
+  "subs": [
+   "khi tấn công thật xảy ra."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S14c1",
+  "scene": "S14",
+  "rate": "+10%",
+  "text": "Một nguyên tắc bắt buộc: mọi hoạt động kiểm thử xâm nhập,",
+  "subs": [
+   "Một nguyên tắc bắt buộc:",
+   "mọi hoạt động kiểm thử xâm nhập"
+  ],
+  "pause_after": 0.0,
+  "direction": "Cảnh báo: nhấn rõ mức độ quan trọng"
+ },
+ {
+  "id": "S14c2",
+  "scene": "S14",
+  "rate": "+10%",
+  "text": "chỉ được thực hiện trong phạm vi được cho phép.",
+  "subs": [
+   "chỉ được thực hiện trong phạm vi",
+   "được cho phép."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chậm, chắc, nhấn \"được cho phép\""
+ },
+ {
+  "id": "S14c3",
+  "scene": "S14",
+  "rate": "+10%",
+  "text": "Bảo mật là bảo vệ hệ thống, không phải tấn công tùy tiện.",
+  "subs": [
+   "Bảo mật là bảo vệ hệ thống,",
+   "không phải tấn công tùy tiện."
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối lập rõ; nghỉ ngắn"
+ },
+ {
+  "id": "S15c1",
+  "scene": "S15",
+  "rate": "+10%",
+  "text": "Vị trí phổ biến: Security Analyst, Penetration Tester, Security Engineer.",
+  "subs": [
+   "Vị trí phổ biến: Security Analyst,",
+   "Penetration Tester, Security Engineer."
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê rõ nhịp"
+ },
+ {
+  "id": "S15c2",
+  "scene": "S15",
+  "rate": "-5%",
+  "text": "Kiến thức nền: mạng máy tính, hệ điều hành, Li-nợks, mã hóa dữ liệu,",
+  "subs": [
+   "Kiến thức nền: mạng máy tính,",
+   "hệ điều hành, Linux, mã hóa dữ liệu"
+  ],
+  "pause_after": 0.0,
+  "direction": "Thuật ngữ chậm, tách bạch"
+ },
+ {
+  "id": "S15c3",
+  "scene": "S15",
+  "rate": "+10%",
+  "text": "và bảo mật ứng dụng.",
+  "subs": [
+   "và bảo mật ứng dụng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S15c4",
+  "scene": "S15",
+  "rate": "+10%",
+  "text": "Hợp với bạn nếu bạn cẩn thận, thích khám phá,",
+  "subs": [
+   "Hợp với bạn nếu bạn cẩn thận,",
+   "thích khám phá"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi"
+ },
+ {
+  "id": "S15c5",
+  "scene": "S15",
+  "rate": "+10%",
+  "text": "và muốn bảo vệ các hệ thống công nghệ.",
+  "subs": [
+   "và muốn bảo vệ các hệ thống công nghệ."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nhấn \"bảo vệ\"; nghỉ chuyển cảnh"
+ },
+ {
+  "id": "S16c1",
+  "scene": "S16",
+  "rate": "+10%",
+  "text": "Thứ tư: Hệ thống thông tin, lĩnh vực kết hợp công nghệ, dữ liệu,",
+  "subs": [
+   "Thứ tư: Hệ thống thông tin —",
+   "lĩnh vực kết hợp công nghệ, dữ liệu"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên"
+ },
+ {
+  "id": "S16c2",
+  "scene": "S16",
+  "rate": "+10%",
+  "text": "và hoạt động quản lý của doanh nghiệp.",
+  "subs": [
+   "và hoạt động quản lý của doanh nghiệp."
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ ràng"
+ },
+ {
+  "id": "S16c3",
+  "scene": "S16",
+  "rate": "+10%",
+  "text": "Khác với việc tập trung viết code để tạo sản phẩm,",
+  "subs": [
+   "Khác với việc tập trung viết code",
+   "để tạo sản phẩm,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối chiếu, nghỉ ngắn"
+ },
+ {
+  "id": "S16c4",
+  "scene": "S16",
+  "rate": "+10%",
+  "text": "ở đây công nghệ được dùng để giải các bài toán quản lý và vận hành thực tế.",
+  "subs": [
+   "ở đây công nghệ được dùng để giải",
+   "các bài toán quản lý và vận hành thực tế."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"quản lý và vận hành\""
+ },
+ {
+  "id": "S17c1",
+  "scene": "S17",
+  "rate": "+10%",
+  "text": "Ví dụ: một công ty muốn xây hệ thống quản lý nhân sự.",
+  "subs": [
+   "Ví dụ: một công ty muốn xây",
+   "hệ thống quản lý nhân sự."
+  ],
+  "pause_after": 0.0,
+  "direction": "Kể chuyện, gần gũi"
+ },
+ {
+  "id": "S17c2",
+  "scene": "S17",
+  "rate": "-5%",
+  "text": "Trước khi lập trình, phải tìm hiểu quy trình tuyển dụng, chấm công,",
+  "subs": [
+   "Trước khi lập trình, phải tìm hiểu",
+   "quy trình tuyển dụng, chấm công,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê chậm vừa, tách bạch"
+ },
+ {
+  "id": "S17c3",
+  "scene": "S17",
+  "rate": "+10%",
+  "text": "tính lương, phân quyền, và quản lý hồ sơ.",
+  "subs": [
+   "tính lương, phân quyền và quản lý hồ sơ."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp liệt kê"
+ },
+ {
+  "id": "S17c4",
+  "scene": "S17",
+  "rate": "+10%",
+  "text": "Người phân tích và chuyển các yêu cầu đó thành tài liệu cho đội phát triển,",
+  "subs": [
+   "Người phân tích và chuyển các yêu cầu đó",
+   "thành tài liệu cho đội phát triển"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"chuyển thành tài liệu\""
+ },
+ {
+  "id": "S17c5",
+  "scene": "S17",
+  "rate": "-5%",
+  "text": "chính là Business Analyst, chuyên viên phân tích nghiệp vụ.",
+  "subs": [
+   "chính là Business Analyst —",
+   "chuyên viên phân tích nghiệp vụ."
+  ],
+  "pause_after": 0.0,
+  "direction": "Định nghĩa chắc giọng"
+ },
+ {
+  "id": "S18c1",
+  "scene": "S18",
+  "rate": "+10%",
+  "text": "Ngoài ra còn có System Analyst, Database Administrator,",
+  "subs": [
+   "Ngoài ra còn có System Analyst,",
+   "Database Administrator"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê rõ nhịp"
+ },
+ {
+  "id": "S18c2",
+  "scene": "S18",
+  "rate": "+10%",
+  "text": "và chuyên viên triển khai hệ thống I A Pi.",
+  "subs": [
+   "và chuyên viên triển khai hệ thống ERP."
+  ],
+  "pause_after": 0.0,
+  "direction": "Viết tắt: tách chữ cái"
+ },
+ {
+  "id": "S18c3",
+  "scene": "S18",
+  "rate": "-5%",
+  "text": "Kiến thức quan trọng gồm Ét Kiu En, cơ sở dữ liệu, Du Em En, Bi Pi Em En,",
+  "subs": [
+   "Kiến thức quan trọng gồm SQL,",
+   "cơ sở dữ liệu, UML, BPMN,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Viết tắt: chậm, tách bạch"
+ },
+ {
+  "id": "S18c4",
+  "scene": "S18",
+  "rate": "+10%",
+  "text": "phân tích nghiệp vụ, và thiết kế hệ thống.",
+  "subs": [
+   "phân tích nghiệp vụ và thiết kế hệ thống."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S19c1",
+  "scene": "S19",
+  "rate": "+10%",
+  "text": "Hợp với bạn nếu bạn thích phân tích vấn đề,",
+  "subs": [
+   "Hợp với bạn nếu bạn thích",
+   "phân tích vấn đề,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tâm tình"
+ },
+ {
+  "id": "S19c2",
+  "scene": "S19",
+  "rate": "+10%",
+  "text": "tìm hiểu cách doanh nghiệp vận hành, và làm cầu nối giữa người sử dụng,",
+  "subs": [
+   "tìm hiểu cách doanh nghiệp vận hành,",
+   "và làm cầu nối giữa người sử dụng"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"cầu nối\""
+ },
+ {
+  "id": "S19c3",
+  "scene": "S19",
+  "rate": "+10%",
+  "text": "với đội ngũ lập trình.",
+  "subs": [
+   "với đội ngũ lập trình."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nghỉ chuyển cảnh"
+ },
+ {
+  "id": "S20c1",
+  "scene": "S20",
+  "rate": "+10%",
+  "text": "Thứ năm: Mạng máy tính, và Điện toán đám mây.",
+  "subs": [
+   "Thứ năm: Mạng máy tính",
+   "và Điện toán đám mây."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên"
+ },
+ {
+  "id": "S20c2",
+  "scene": "S20",
+  "rate": "+10%",
+  "text": "Một trường đại học với hàng nghìn máy tính, hệ thống Oai Fai, máy chủ,",
+  "subs": [
+   "Một trường đại học với hàng nghìn",
+   "máy tính, hệ thống Wi-Fi, máy chủ"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn quy mô \"hàng nghìn\""
+ },
+ {
+  "id": "S20c3",
+  "scene": "S20",
+  "rate": "+10%",
+  "text": "và phần mềm quản lý, làm sao tất cả kết nối, trao đổi dữ liệu, và chạy ổn định?",
+  "subs": [
+   "và phần mềm quản lý — làm sao tất cả",
+   "kết nối, trao đổi dữ liệu và chạy ổn định?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Lên giọng câu hỏi"
+ },
+ {
+  "id": "S20c4",
+  "scene": "S20",
+  "rate": "+10%",
+  "text": "Đó là nhiệm vụ của người làm mạng.",
+  "subs": [
+   "Đó là nhiệm vụ của người làm mạng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S21c1",
+  "scene": "S21",
+  "rate": "+10%",
+  "text": "Họ thiết kế, cấu hình, triển khai, và bảo trì mạng nội bộ, máy chủ,",
+  "subs": [
+   "Họ thiết kế, cấu hình, triển khai",
+   "và bảo trì mạng nội bộ, máy chủ"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê có nhịp"
+ },
+ {
+  "id": "S21c2",
+  "scene": "S21",
+  "rate": "+10%",
+  "text": "và thiết bị kết nối.",
+  "subs": [
+   "và thiết bị kết nối."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S21c3",
+  "scene": "S21",
+  "rate": "-5%",
+  "text": "Kiến thức nền gồm Ti Si Pi trên Ai Pi, Đi En Ét, Đi Ây Si Pi, Li-nợks, Win-đâu-zơ Sơ-vờ, ảo hóa,",
+  "subs": [
+   "Kiến thức nền gồm TCP/IP, DNS, DHCP,",
+   "Linux, Windows Server, ảo hóa"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giao thức: chậm ~0,9×, tách bạch"
+ },
+ {
+  "id": "S21c4",
+  "scene": "S21",
+  "rate": "+10%",
+  "text": "và quản trị hệ thống.",
+  "subs": [
+   "và quản trị hệ thống."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S22c1",
+  "scene": "S22",
+  "rate": "+10%",
+  "text": "Ngày nay, thay vì tự đầu tư toàn bộ máy chủ vật lý,",
+  "subs": [
+   "Ngày nay, thay vì tự đầu tư",
+   "toàn bộ máy chủ vật lý,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối chiếu, nghỉ ngắn"
+ },
+ {
+  "id": "S22c2",
+  "scene": "S22",
+  "rate": "+10%",
+  "text": "doanh nghiệp có thể dùng tài nguyên điện toán từ các nền tảng đám mây,",
+  "subs": [
+   "doanh nghiệp có thể dùng tài nguyên",
+   "điện toán từ các nền tảng đám mây"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"đám mây\""
+ },
+ {
+  "id": "S22c3",
+  "scene": "S22",
+  "rate": "-5%",
+  "text": "như A-ma-dơn Oép Sơ-vi-xìz, Mai-crơ-sóft Æ-dờ, hay Gu-gồ Clau-đờ,",
+  "subs": [
+   "như Amazon Web Services, Microsoft Azure",
+   "hay Google Cloud —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tên riêng: chậm, tách bạch"
+ },
+ {
+  "id": "S22c4",
+  "scene": "S22",
+  "rate": "+10%",
+  "text": "linh hoạt hơn, và trả theo mức sử dụng.",
+  "subs": [
+   "linh hoạt hơn và trả theo mức sử dụng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn lợi ích"
+ },
+ {
+  "id": "S22c5",
+  "scene": "S22",
+  "rate": "+10%",
+  "text": "Đám mây cũng giúp đội ngũ kỹ thuật mở rộng hệ thống trong vài phút,",
+  "subs": [
+   "Đám mây cũng giúp đội ngũ kỹ thuật mở rộng",
+   "hệ thống trong vài phút"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"vài phút\""
+ },
+ {
+  "id": "S22c6",
+  "scene": "S22",
+  "rate": "+10%",
+  "text": "thay vì vài tuần mua sắm phần cứng.",
+  "subs": [
+   "thay vì vài tuần mua sắm phần cứng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối lập \"phút / tuần\""
+ },
+ {
+  "id": "S23c1",
+  "scene": "S23",
+  "rate": "+10%",
+  "text": "Vị trí nghề nghiệp: Network Engineer, System Administrator, Cloud Engineer,",
+  "subs": [
+   "Vị trí nghề nghiệp: Network Engineer,",
+   "System Administrator, Cloud Engineer"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê rõ nhịp"
+ },
+ {
+  "id": "S23c2",
+  "scene": "S23",
+  "rate": "+10%",
+  "text": "và Ai Ti Support.",
+  "subs": [
+   "và IT Support."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S23c3",
+  "scene": "S23",
+  "rate": "+10%",
+  "text": "Hợp với bạn nếu bạn thích tìm hiểu cách In-tơ-nét vận hành,",
+  "subs": [
+   "Hợp với bạn nếu bạn thích tìm hiểu",
+   "cách Internet vận hành,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi"
+ },
+ {
+  "id": "S23c4",
+  "scene": "S23",
+  "rate": "+10%",
+  "text": "cách máy chủ hoạt động, và cách các thiết bị kết nối với nhau.",
+  "subs": [
+   "cách máy chủ hoạt động",
+   "và cách các thiết bị kết nối với nhau."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nhấn \"kết nối\"; nghỉ chuyển cảnh"
+ },
+ {
+  "id": "S24c1",
+  "scene": "S24",
+  "rate": "+10%",
+  "text": "Cuối cùng: Đồ họa máy tính, và Phát triển trò chơi điện tử,",
+  "subs": [
+   "Cuối cùng: Đồ họa máy tính",
+   "và Phát triển trò chơi điện tử —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chuyển phần, nhấn tên"
+ },
+ {
+  "id": "S24c2",
+  "scene": "S24",
+  "rate": "+10%",
+  "text": "nơi lập trình gặp mỹ thuật, sáng tạo, và công nghệ mô phỏng.",
+  "subs": [
+   "nơi lập trình gặp mỹ thuật, sáng tạo",
+   "và công nghệ mô phỏng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Hào hứng vừa phải"
+ },
+ {
+  "id": "S24c3",
+  "scene": "S24",
+  "rate": "+10%",
+  "text": "Bạn từng chơi những trò chơi có nhân vật chuyển động chân thực,",
+  "subs": [
+   "Bạn từng chơi những trò chơi có nhân vật",
+   "chuyển động chân thực,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Câu hỏi gợi hình ảnh"
+ },
+ {
+  "id": "S24c4",
+  "scene": "S24",
+  "rate": "+10%",
+  "text": "môi trường ba chiều sống động?",
+  "subs": [
+   "môi trường ba chiều sống động?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Lên giọng câu hỏi"
+ },
+ {
+  "id": "S24c5",
+  "scene": "S24",
+  "rate": "+10%",
+  "text": "Đằng sau là cả đội ngũ lập trình viên, và chuyên viên đồ họa.",
+  "subs": [
+   "Đằng sau là cả đội ngũ lập trình viên",
+   "và chuyên viên đồ họa."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"cả đội ngũ\""
+ },
+ {
+  "id": "S25c1",
+  "scene": "S25",
+  "rate": "+10%",
+  "text": "Người làm lĩnh vực này phát triển trò chơi điện tử, mô hình Ba Đê, hoạt hình,",
+  "subs": [
+   "Người làm lĩnh vực này phát triển",
+   "trò chơi điện tử, mô hình 3D, hoạt hình,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê có nhịp"
+ },
+ {
+  "id": "S25c2",
+  "scene": "S25",
+  "rate": "+10%",
+  "text": "mô phỏng kỹ thuật, và các ứng dụng thực tế ảo,",
+  "subs": [
+   "mô phỏng kỹ thuật và các ứng dụng",
+   "thực tế ảo —"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"thực tế ảo\""
+ },
+ {
+  "id": "S25c3",
+  "scene": "S25",
+  "rate": "+10%",
+  "text": "vừa cần code, vừa cần mắt thẩm mỹ.",
+  "subs": [
+   "vừa cần code, vừa cần mắt thẩm mỹ."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn đối lập \"code / thẩm mỹ\""
+ },
+ {
+  "id": "S26c1",
+  "scene": "S26",
+  "rate": "-5%",
+  "text": "Công nghệ phổ biến gồm Du-nơ-ti, Ăn-riêu En-gin, Si Sáp, Si Plớt Plớt, Blen-đờ,",
+  "subs": [
+   "Công nghệ phổ biến gồm Unity,",
+   "Unreal Engine, C#, C++, Blender"
+  ],
+  "pause_after": 0.0,
+  "direction": "Thuật ngữ: chậm ~0,95×, tách bạch"
+ },
+ {
+  "id": "S26c2",
+  "scene": "S26",
+  "rate": "+10%",
+  "text": "và các công cụ thiết kế đồ họa.",
+  "subs": [
+   "và các công cụ thiết kế đồ họa."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S26c3",
+  "scene": "S26",
+  "rate": "+10%",
+  "text": "Vị trí nghề nghiệp: Game Developer, Game Designer, Ba Đê Artist,",
+  "subs": [
+   "Vị trí nghề nghiệp: Game Developer,",
+   "Game Designer, 3D Artist"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê rõ nhịp"
+ },
+ {
+  "id": "S26c4",
+  "scene": "S26",
+  "rate": "+10%",
+  "text": "và Graphics Programmer.",
+  "subs": [
+   "và Graphics Programmer."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S27c1",
+  "scene": "S27",
+  "rate": "+10%",
+  "text": "Hợp với bạn nếu bạn vừa mê công nghệ, vừa thích thiết kế hình ảnh,",
+  "subs": [
+   "Hợp với bạn nếu bạn vừa mê công nghệ,",
+   "vừa thích thiết kế hình ảnh"
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi, hào hứng"
+ },
+ {
+  "id": "S27c2",
+  "scene": "S27",
+  "rate": "+10%",
+  "text": "và trò chơi điện tử.",
+  "subs": [
+   "và trò chơi điện tử."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S27c3",
+  "scene": "S27",
+  "rate": "+10%",
+  "text": "Sáng tạo ở đây không chỉ là vẽ đẹp, mà còn làm cho thế giới ảo,",
+  "subs": [
+   "Sáng tạo ở đây không chỉ là vẽ đẹp —",
+   "mà còn làm cho thế giới ảo"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nghỉ ngắn, tạo mong đợi"
+ },
+ {
+  "id": "S27c4",
+  "scene": "S27",
+  "rate": "+10%",
+  "text": "chuyển động đúng, và mượt.",
+  "subs": [
+   "chuyển động đúng và mượt."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nhấn \"đúng và mượt\"; nghỉ chuyển phần"
+ },
+ {
+  "id": "S28c1",
+  "scene": "S28",
+  "rate": "+10%",
+  "text": "Vậy đâu là chuyên ngành tốt nhất?",
+  "subs": [
+   "Vậy đâu là chuyên ngành tốt nhất?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Câu hỏi, lên giọng, nghỉ ngắn"
+ },
+ {
+  "id": "S28c2",
+  "scene": "S28",
+  "rate": "+10%",
+  "text": "Câu trả lời: không có chuyên ngành nào tốt nhất cho tất cả mọi người.",
+  "subs": [
+   "Câu trả lời: không có chuyên ngành nào",
+   "tốt nhất cho tất cả mọi người."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng, nhấn \"không có\""
+ },
+ {
+  "id": "S28c3",
+  "scene": "S28",
+  "rate": "+10%",
+  "text": "Mỗi lĩnh vực có yêu cầu, đặc điểm, và cơ hội phát triển riêng.",
+  "subs": [
+   "Mỗi lĩnh vực có yêu cầu, đặc điểm",
+   "và cơ hội phát triển riêng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ ràng"
+ },
+ {
+  "id": "S28c4",
+  "scene": "S28",
+  "rate": "+10%",
+  "text": "Điều đáng chọn là chuyên ngành phù hợp với bạn,",
+  "subs": [
+   "Điều đáng chọn là chuyên ngành",
+   "phù hợp với bạn,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"phù hợp với bạn\""
+ },
+ {
+  "id": "S28c5",
+  "scene": "S28",
+  "rate": "+10%",
+  "text": "không phải chuyên ngành \"hot\" nhất.",
+  "subs": [
+   "không phải chuyên ngành \"hot\" nhất."
+  ],
+  "pause_after": 0.0,
+  "direction": "Dí dỏm nhẹ ở \"hot\""
+ },
+ {
+  "id": "S29c1",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Thích lập trình, xây ứng dụng? Công nghệ phần mềm.",
+  "subs": [
+   "Thích lập trình, xây ứng dụng?",
+   "Công nghệ phần mềm."
+  ],
+  "pause_after": 0.0,
+  "direction": "Hỏi–đáp nhanh, linh hoạt"
+ },
+ {
+  "id": "S29c2",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Mê phân tích dữ liệu và Ây Ai? Khoa học dữ liệu.",
+  "subs": [
+   "Mê phân tích dữ liệu và AI?",
+   "Khoa học dữ liệu."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp hỏi–đáp"
+ },
+ {
+  "id": "S29c3",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Quan tâm bảo mật, phòng chống tấn công? An toàn thông tin.",
+  "subs": [
+   "Quan tâm bảo mật, phòng chống tấn công?",
+   "An toàn thông tin."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S29c4",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Thích quy trình và bài toán quản lý? Hệ thống thông tin.",
+  "subs": [
+   "Thích quy trình và bài toán quản lý?",
+   "Hệ thống thông tin."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S29c5",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Mê hạ tầng, máy chủ, kết nối mạng? Mạng và đám mây.",
+  "subs": [
+   "Mê hạ tầng, máy chủ, kết nối mạng?",
+   "Mạng và đám mây."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S29c6",
+  "scene": "S29",
+  "rate": "+10%",
+  "text": "Còn đam mê hình ảnh, thiết kế, trò chơi? Đồ họa và game.",
+  "subs": [
+   "Còn đam mê hình ảnh, thiết kế, trò chơi?",
+   "Đồ họa và game."
+  ],
+  "pause_after": 0.0,
+  "direction": "Chốt nhịp, hào hứng"
+ },
+ {
+  "id": "S30c1",
+  "scene": "S30",
+  "rate": "+10%",
+  "text": "Bây giờ, dừng lại ba giây và tự hỏi:,",
+  "subs": [
+   "Bây giờ, dừng lại ba giây và tự hỏi:"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chậm lại, mời gọi"
+ },
+ {
+  "id": "S30c2",
+  "scene": "S30",
+  "rate": "+10%",
+  "text": "mình thích tạo ra sản phẩm, phân tích dữ liệu, hay bảo vệ hệ thống?",
+  "subs": [
+   "mình thích tạo ra sản phẩm,",
+   "phân tích dữ liệu, hay bảo vệ hệ thống?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Lên giọng lựa chọn; [nghỉ 3 s] sau câu"
+ },
+ {
+  "id": "S30c3",
+  "scene": "S30",
+  "rate": "+10%",
+  "text": "Câu trả lời chính là manh mối đầu tiên của bạn.",
+  "subs": [
+   "Câu trả lời chính là manh mối",
+   "đầu tiên của bạn."
+  ],
+  "pause_after": 3.0,
+  "direction": "Ấm áp, chắc giọng"
+ },
+ {
+  "id": "S31c1",
+  "scene": "S31",
+  "rate": "+10%",
+  "text": "Và một lời khuyên quan trọng: đừng chọn chuyên ngành chỉ vì nghe nói,",
+  "subs": [
+   "Và một lời khuyên quan trọng:",
+   "đừng chọn chuyên ngành chỉ vì nghe nói"
+  ],
+  "pause_after": 0.0,
+  "direction": "Cảnh báo nhẹ, nhấn \"đừng\""
+ },
+ {
+  "id": "S31c2",
+  "scene": "S31",
+  "rate": "+10%",
+  "text": "lĩnh vực đó lương cao.",
+  "subs": [
+   "lĩnh vực đó lương cao."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp cảnh báo"
+ },
+ {
+  "id": "S31c3",
+  "scene": "S31",
+  "rate": "+10%",
+  "text": "Hãy tìm hiểu bản chất công việc, thử thực hành một dự án nhỏ,",
+  "subs": [
+   "Hãy tìm hiểu bản chất công việc,",
+   "thử thực hành một dự án nhỏ,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Khuyến khích, rõ ràng"
+ },
+ {
+  "id": "S31c4",
+  "scene": "S31",
+  "rate": "+10%",
+  "text": "rồi tự đánh giá xem mình có thực sự phù hợp.",
+  "subs": [
+   "rồi tự đánh giá xem mình",
+   "có thực sự phù hợp."
+  ],
+  "pause_after": 1.0,
+  "direction": "Nhấn \"thực sự phù hợp\""
+ },
+ {
+  "id": "S32c1",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "Tóm lại, Công nghệ thông tin là một thế giới rộng lớn,",
+  "subs": [
+   "Tóm lại, Công nghệ thông tin",
+   "là một thế giới rộng lớn,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tổng kết: chắc, cô đọng"
+ },
+ {
+  "id": "S32c2",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "mỗi chuyên ngành một vai trò quan trọng.",
+  "subs": [
+   "mỗi chuyên ngành một vai trò quan trọng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp tổng kết"
+ },
+ {
+  "id": "S32c3",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "Dù chọn con đường nào, hãy nhớ ba hành trang:,",
+  "subs": [
+   "Dù chọn con đường nào,",
+   "hãy nhớ ba hành trang:"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"ba hành trang\", nghỉ ngắn"
+ },
+ {
+  "id": "S32c4",
+  "scene": "S32",
+  "rate": "-5%",
+  "text": "nền tảng kiến thức vững chắc, khả năng thực hành,",
+  "subs": [
+   "nền tảng kiến thức vững chắc,",
+   "khả năng thực hành,"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê chậm, nhấn từng ý"
+ },
+ {
+  "id": "S32c5",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "và tinh thần học hỏi không ngừng.",
+  "subs": [
+   "và tinh thần học hỏi không ngừng."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S32c6",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "Công nghệ có thể đổi thay từng ngày, nhưng tư duy và cách học mới là hành trang,",
+  "subs": [
+   "Công nghệ có thể đổi thay từng ngày,",
+   "nhưng tư duy và cách học mới là hành trang"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nghỉ ngắn trước đối lập"
+ },
+ {
+  "id": "S32c7",
+  "scene": "S32",
+  "rate": "+10%",
+  "text": "đi cùng bạn lâu dài.",
+  "subs": [
+   "đi cùng bạn lâu dài."
+  ],
+  "pause_after": 0.0,
+  "direction": "Truyền cảm hứng, chắc giọng"
+ },
+ {
+  "id": "S33c1",
+  "scene": "S33",
+  "rate": "+10%",
+  "text": "Bạn đang nghiêng về chuyên ngành nào?",
+  "subs": [
+   "Bạn đang nghiêng về chuyên ngành nào?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Câu hỏi mở, thân thiện"
+ },
+ {
+  "id": "S33c2",
+  "scene": "S33",
+  "rate": "+10%",
+  "text": "Hãy để lại câu trả lời, và thử một dự án nhỏ đầu tiên,",
+  "subs": [
+   "Hãy để lại câu trả lời,",
+   "và thử một dự án nhỏ đầu tiên"
+  ],
+  "pause_after": 0.0,
+  "direction": "Khuyến khích"
+ },
+ {
+  "id": "S33c3",
+  "scene": "S33",
+  "rate": "+10%",
+  "text": "ngay tuần này nhé.",
+  "subs": [
+   "ngay tuần này nhé."
+  ],
+  "pause_after": 0.0,
+  "direction": "Dí dỏm nhẹ"
+ },
+ {
+  "id": "S34c1",
+  "scene": "S34",
+  "rate": "+10%",
+  "text": "Cảm ơn bạn đã theo dõi bài giảng hôm nay.",
+  "subs": [
+   "Cảm ơn bạn đã theo dõi bài giảng hôm nay."
+  ],
+  "pause_after": 0.0,
+  "direction": "Ấm áp, biết ơn"
+ },
+ {
+  "id": "S34c2",
+  "scene": "S34",
+  "rate": "+10%",
+  "text": "Đừng quên theo dõi An Tech A-ca-đê-my để cùng khám phá thêm nhiều kiến thức,",
+  "subs": [
+   "Đừng quên theo dõi An Tech Academy",
+   "để cùng khám phá thêm nhiều kiến thức"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn tên thương hiệu"
+ },
+ {
+  "id": "S34c3",
+  "scene": "S34",
+  "rate": "+10%",
+  "text": "công nghệ hữu ích.",
+  "subs": [
+   "công nghệ hữu ích."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giữ nhịp"
+ },
+ {
+  "id": "S34c4",
+  "scene": "S34",
+  "rate": "+10%",
+  "text": "Xin chào, và hẹn gặp lại trong những bài học tiếp theo!",
+  "subs": [
+   "Xin chào và hẹn gặp lại",
+   "trong những bài học tiếp theo!"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tươi, dứt khoát"
+ }
+]

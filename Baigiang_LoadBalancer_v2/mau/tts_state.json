@@ -1,0 +1,226 @@
+{
+ "S01c1": {
+  "dur": 9.33,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S01c2": {
+  "dur": 7.04,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c1": {
+  "dur": 10.78,
+  "variant": 3,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c2": {
+  "dur": 10.45,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c3": {
+  "dur": 7.19,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c1": {
+  "dur": 8.22,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c2": {
+  "dur": 10.53,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c3": {
+  "dur": 9.44,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c2": {
+  "dur": 9.13,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c3": {
+  "dur": 9.95,
+  "variant": 3,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S05c2": {
+  "dur": 7.98,
+  "variant": 4,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S05c3": {
+  "dur": 8.6,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S06c1": {
+  "dur": 7.58,
+  "variant": 3,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S06c2": {
+  "dur": 11.39,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S06c3": {
+  "dur": 9.46,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S07c2": {
+  "dur": 9.59,
+  "variant": 4,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c1": {
+  "dur": 8.68,
+  "variant": 2,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c2": {
+  "dur": 14.68,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c3": {
+  "dur": 3.42,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S09c1": {
+  "dur": 8.74,
+  "variant": 2,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S10c1": {
+  "dur": 9.89,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S10c2": {
+  "dur": 8.41,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S10c3": {
+  "dur": 7.5,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c1": {
+  "dur": 8.22,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S05c1": {
+  "dur": 9.39,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S07c1": {
+  "dur": 11.89,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S09c2": {
+  "dur": 10.6,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S09c3": {
+  "dur": 10.52,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ }
+}

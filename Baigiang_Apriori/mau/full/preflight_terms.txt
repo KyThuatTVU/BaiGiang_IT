@@ -1,0 +1,8 @@
+  0.00s  S03c2  Apriori — thuật toán  (3.28s)
+  3.98s  S03c3  giao dịch (transaction)  (7.53s)
+ 12.21s  S06c1  Support  (7.39s)
+ 20.30s  S14c2  Confidence  (6.24s)
+ 27.24s  S15c1  Lift  (5.64s)
+ 33.58s  S18c1  Flask  (6.07s)
+ 40.35s  S18c3  JSON  (4.12s)
+ 45.17s  S23c2  mlxtend  (9.26s)

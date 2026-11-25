@@ -1,0 +1,38 @@
+1
+00:00:00,000 --> 00:00:01,014
+Xin chào các bạn!
+
+2
+00:00:01,014 --> 00:00:06,500
+Chào mừng các bạn đến với An Tech Academy – nơi cùng nhau học công
+nghệ và làm chủ tương lai.
+
+3
+00:00:06,720 --> 00:00:11,010
+Hôm nay chúng ta cùng tìm hiểu cách ứng dụng hiện đại chia sẻ dữ liệu
+theo thời gian thực.
+
+4
+00:00:11,810 --> 00:00:16,229
+Hãy tưởng tượng một nhóm sinh viên cùng làm việc trên một bảng ghi chú
+trực tuyến.
+
+5
+00:00:16,229 --> 00:00:19,558
+Bạn A vừa cập nhật nội dung, nhưng bạn B vẫn thấy dữ liệu cũ,
+
+6
+00:00:19,558 --> 00:00:21,140
+còn bạn C phải tải lại trang.
+
+7
+00:00:21,940 --> 00:00:24,438
+Khi A thay đổi ghi chú, hệ thống nhận dữ liệu,
+
+8
+00:00:24,438 --> 00:00:27,860
+xử lý tại máy chủ và gửi cập nhật đến những người đang kết nối.
+
+9
+00:00:28,080 --> 00:00:31,320
+Nhờ vậy, ai đang mở ứng dụng cũng thấy bản mới nhất.

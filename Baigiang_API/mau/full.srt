@@ -1,0 +1,159 @@
+1
+00:00:00,000 --> 00:00:04,100
+Chào các bạn!
+Chào mừng đến với An Tech Academy.
+
+2
+00:00:04,580 --> 00:00:10,550
+Bấm đặt món trên app, hai giây sau đã có xác nhận.
+Ai đã nói chuyện với nhà bếp?
+
+3
+00:00:11,030 --> 00:00:16,670
+Câu trả lời là API.
+Năm phút nữa, bạn sẽ hiểu nó chạy thế nào.
+
+4
+00:00:17,670 --> 00:00:25,540
+Frontend là mặt tiền: nút bấm, danh sách sản phẩm.
+Backend xử lý, tính toán, lưu dữ liệu.
+
+5
+00:00:26,290 --> 00:00:34,520
+Không có quy tắc chung, mỗi màn hình chép cứng dữ liệu.
+Đổi một cái giá là sửa cả chục chỗ.
+
+6
+00:00:35,000 --> 00:00:41,810
+Cần một quầy giao dịch chung:
+gửi yêu cầu — trả kết quả. Đó là API.
+
+7
+00:00:42,810 --> 00:00:52,690
+API — Application Programming Interface.
+Bộ quy tắc để hai phần mềm nói chuyện.
+
+8
+00:00:53,440 --> 00:01:02,030
+Giống ổ cắm điện: cắm phích là có điện,
+không cần biết nhà máy điện xây thế nào.
+
+9
+00:01:02,510 --> 00:01:11,720
+Có quy tắc chung, có đầu vào — đầu ra,
+và giấu phần xử lý bên trong.
+
+10
+00:01:12,720 --> 00:01:25,200
+Khách = Client · Bồi bàn = API · Phiếu = Request
+Bếp = Backend · Món bưng ra = Response
+
+11
+00:01:25,950 --> 00:01:35,710
+Bồi bàn ghi phiếu, chuyển xuống bếp.
+Bếp nấu xong, bồi bàn bưng ra.
+
+12
+00:01:36,190 --> 00:01:45,280
+Bồi bàn không nấu ăn — API không tự xử lý nghiệp vụ.
+Nó là người đưa thư: đúng người, đúng món.
+
+13
+00:01:46,280 --> 00:01:56,720
+Endpoint là địa chỉ cụ thể để gửi yêu cầu.
+API có nhiều endpoint: sản phẩm, đơn hàng, người dùng.
+
+14
+00:01:57,470 --> 00:02:06,830
+https = giao thức · example.com = tên miền
+api/products = tài nguyên · 1 = mã sản phẩm
+
+15
+00:02:07,310 --> 00:02:14,670
+Endpoint là cái cửa.
+HTTP method là việc bạn muốn làm ở cửa đó.
+
+16
+00:02:15,670 --> 00:02:22,220
+Request là lá phiếu gửi đi.
+Bốn phần: method · URL · headers · body.
+
+17
+00:02:22,970 --> 00:02:33,570
+Method = hành động · URL = địa chỉ
+Headers = giấy tờ · Body = nội dung (JSON)
+
+18
+00:02:34,050 --> 00:02:44,030
+POST /api/products · Content-Type: application/json
+Body: tên, giá, số lượng
+
+19
+00:02:45,030 --> 00:02:54,270
+GET lấy · POST tạo · PUT thay thế · DELETE xóa
+Chỉ sửa một trường: PATCH
+
+20
+00:02:55,020 --> 00:02:59,860
+Đó chính là CRUD:
+Create · Read · Update · Delete
+
+21
+00:03:00,340 --> 00:03:12,020
+200 OK · 201 Created · 400 sai · 401 chưa đăng nhập
+404 không thấy · 500 server lỗi
+
+22
+00:03:13,020 --> 00:03:21,270
+Response: status · headers · body.
+Body thường là JSON — dễ đọc cho người và máy.
+
+23
+00:03:22,020 --> 00:03:29,910
+JSON: string · number · boolean · null · object · array
+Danh sách = array các object
+
+24
+00:03:30,390 --> 00:03:39,050
+JSON.stringify để đóng gói
+JSON.parse để mở ra
+
+25
+00:03:40,050 --> 00:03:51,280
+Node.js + Express.js: app.get("/api/products")
+res.json(...) — chưa tới 20 dòng
+
+26
+00:03:52,030 --> 00:04:01,240
+Mở localhost:3000/api/products là thấy JSON.
+Thử POST bằng Postman hoặc Thunder Client.
+
+27
+00:04:01,720 --> 00:04:11,050
+fetch(endpoint) → await response.json()
+Frontend không cần biết backend lưu ở đâu.
+
+28
+00:04:12,050 --> 00:04:20,610
+Quên express.json → body rỗng.
+Quên CORS → trình duyệt chặn.
+
+29
+00:04:21,360 --> 00:04:31,320
+API = cầu nối · Endpoint = địa chỉ
+Method + status code = ngôn ngữ chung
+
+30
+00:04:31,800 --> 00:04:39,810
+Hiểu API là mở cửa bước sang backend.
+RESTful, JWT và bảo mật API — bài sau.
+
+31
+00:04:40,810 --> 00:04:46,250
+Cảm ơn các bạn đã theo dõi An Tech Academy.
+Hiểu công nghệ, làm chủ tương lai!
+
+32
+00:04:47,000 --> 00:04:51,840
+Nhớ theo dõi kênh và để lại câu hỏi nha.
+Hẹn gặp lại!

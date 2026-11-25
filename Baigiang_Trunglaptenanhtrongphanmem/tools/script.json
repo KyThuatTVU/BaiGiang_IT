@@ -1,0 +1,376 @@
+{
+  "title": "Xử lý trùng lặp tên file Avatar trong phần mềm",
+  "project": "Baigiang_Trunglaptenanhtrongphanmem",
+  "scenes": [
+    {
+      "id": "s01",
+      "tag": "PHẦN 01 · ĐẶT VẤN ĐỀ TRÙNG TÊN FILE",
+      "cues": [
+        {
+          "id": "c01",
+          "say": "Xin chào các bạn! Chào mừng đến với An Tếch Academy, nền tảng kiến thức công nghệ thực chiến.",
+          "sub": "Xin chào các bạn! Chào mừng đến với AN TECH ACADEMY, nền tảng kiến thức công nghệ thực chiến."
+        },
+        {
+          "id": "c02",
+          "say": "Hãy tưởng tượng chúng ta đang xây dựng một ứng dụng quản lý người dùng.",
+          "sub": "Hãy tưởng tượng chúng ta đang xây dựng một ứng dụng quản lý người dùng."
+        },
+        {
+          "id": "c03",
+          "say": "Người dùng A tải lên ảnh đại diện tên một chấm j p e g là ảnh chân dung của mình.",
+          "sub": "Người dùng A tải lên ảnh đại diện tên 1.jpg là ảnh chân dung của mình."
+        },
+        {
+          "id": "c04",
+          "say": "Cùng lúc đó, người dùng B cũng tải lên một ảnh tên một chấm j p e g, nhưng lại là ảnh một chú mèo dễ thương.",
+          "sub": "Cùng lúc đó, người dùng B cũng tải lên một ảnh tên 1.jpg, nhưng lại là ảnh một chú mèo dễ thương."
+        },
+        {
+          "id": "c05",
+          "say": "Nếu hệ thống chỉ lưu theo tên tệp tin vào một thư mục chung, chuyện gì sẽ xảy ra?",
+          "sub": "Nếu hệ thống chỉ lưu theo tên file vào một thư mục chung, chuyện gì sẽ xảy ra?"
+        },
+        {
+          "id": "c06",
+          "say": "Đúng vậy, ảnh của người dùng A sẽ bị ảnh của người dùng B ghi đè hoàn toàn!",
+          "sub": "Đúng vậy, ảnh của người dùng A sẽ bị ảnh của người dùng B ghi đè hoàn toàn!"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "tag": "PHẦN 02 · BẢN CHẤT: TÊN FILE VS ĐƯỜNG DẪN",
+      "cues": [
+        {
+          "id": "c07",
+          "say": "Tên một chấm j p e g thực chất chỉ là tên gọi, không phải mã định danh duy nhất của dữ liệu.",
+          "sub": "Tên 1.jpg thực chất chỉ là tên gọi, không phải mã định danh duy nhất của dữ liệu."
+        },
+        {
+          "id": "c08",
+          "say": "Bạn có thể hình dung thư mục như một ngăn tủ, tên tệp tin như món đồ bên trong, còn đường dẫn chính là địa chỉ ngăn tủ.",
+          "sub": "Bạn có thể hình dung thư mục như một ngăn tủ, tên file như món đồ bên trong, còn đường dẫn chính là địa chỉ ngăn tủ."
+        },
+        {
+          "id": "c09",
+          "say": "Hai tệp tin hoàn toàn có thể trùng tên nếu chúng nằm ở hai thư mục khác nhau trên máy chủ.",
+          "sub": "Hai file hoàn toàn có thể trùng tên nếu chúng nằm ở hai thư mục khác nhau trên máy chủ."
+        },
+        {
+          "id": "c10",
+          "say": "Ví dụ, đường dẫn Website gạch chéo User A gạch chéo một chấm j p e g hoàn toàn khác với User B gạch chéo một chấm j p e g.",
+          "sub": "Ví dụ: Website/UserA/1.jpg hoàn toàn khác với Website/UserB/1.jpg."
+        },
+        {
+          "id": "c11",
+          "say": "Vấn đề không nằm ở việc người dùng đặt tên tệp tin giống nhau.",
+          "sub": "Vấn đề không nằm ở việc người dùng đặt tên file giống nhau."
+        },
+        {
+          "id": "c12",
+          "say": "Vấn đề là chương trình của chúng ta đã dùng chung một vị trí lưu trữ cho hai tệp tin khác nhau.",
+          "sub": "Vấn đề là chương trình của chúng ta đã dùng chung một vị trí lưu trữ cho hai file khác nhau."
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "tag": "PHẦN 03 · THIẾT KẾ GIẢI PHÁP: UUID VÀ THƯ MỤC RIÊNG",
+      "cues": [
+        {
+          "id": "c13",
+          "say": "Để giải quyết triệt để vấn đề này, chúng ta có hai giải pháp kỹ thuật tiêu chuẩn.",
+          "sub": "Để giải quyết triệt để vấn đề này, chúng ta có hai giải pháp kỹ thuật tiêu chuẩn."
+        },
+        {
+          "id": "c14",
+          "say": "Thứ nhất: Tạo thư mục riêng cho từng tài khoản dựa trên mã diu-sơ ai-đi.",
+          "sub": "Thứ nhất: Tạo thư mục riêng cho từng tài khoản dựa trên mã user_id."
+        },
+        {
+          "id": "c15",
+          "say": "Thứ hai: Không dùng tên gốc của người dùng, mà tự sinh tên tệp tin mới bằng chuỗi ngẫu nhiên U U I D.",
+          "sub": "Thứ hai: Không dùng tên gốc của người dùng, mà tự sinh tên file mới bằng chuỗi ngẫu nhiên UUID."
+        },
+        {
+          "id": "c16",
+          "say": "Trong P H P, chúng ta có thể kết hợp hàm ran-đôm bai và bin tu hếch để tạo ra chuỗi 32 ký tự độc nhất vô nhị.",
+          "sub": "Trong PHP, chúng ta kết hợp random_bytes và bin2hex để tạo chuỗi 32 ký tự độc nhất vô nhị."
+        },
+        {
+          "id": "c17",
+          "say": "Cách tiếp cận hoàn hảo nhất là kết hợp cả hai: thư mục theo diu-sơ ai-đi, bên trong là tên tệp tin ngẫu nhiên.",
+          "sub": "Cách tiếp cận hoàn hảo nhất là kết hợp cả hai: thư mục theo user_id, bên trong là tên file ngẫu nhiên."
+        },
+        {
+          "id": "c18",
+          "say": "Cấu trúc này vừa triệt tiêu hoàn toàn xung đột tên, vừa giúp máy chủ phân vùng dữ liệu cực kỳ ngăn nắp.",
+          "sub": "Cấu trúc này vừa triệt tiêu hoàn toàn xung đột tên, vừa giúp máy chủ phân vùng dữ liệu cực kỳ ngăn nắp."
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "tag": "PHẦN 04 · THIẾT KẾ MYSQL: TÁCH BIỆT NƠI LƯU FILE VÀ METADATA",
+      "cues": [
+        {
+          "id": "c19",
+          "say": "Nhiều bạn mới lập trình thường băn khoăn: Có nên lưu luôn tệp tin ảnh vào cơ sở dữ liệu Mai-ét-kiu-eo không?",
+          "sub": "Nhiều bạn mới lập trình thường băn khoăn: Có nên lưu luôn file ảnh vào cơ sở dữ liệu MySQL không?"
+        },
+        {
+          "id": "c20",
+          "say": "Câu trả lời chuẩn mực là không! Chúng ta tách biệt hoàn toàn giữa nơi lưu trữ tệp tin và nơi lưu thông tin.",
+          "sub": "Câu trả lời chuẩn mực là không! Chúng ta tách biệt hoàn toàn giữa nơi lưu trữ file và nơi lưu thông tin."
+        },
+        {
+          "id": "c21",
+          "say": "Tệp tin ảnh thực tế được lưu trên ổ đĩa máy chủ trong thư mục úp-lốt.",
+          "sub": "File ảnh thực tế được lưu trên ổ đĩa máy chủ trong thư mục uploads."
+        },
+        {
+          "id": "c22",
+          "say": "Còn Mai-ét-kiu-eo chỉ lưu siêu dữ liệu và đường dẫn tương đối tới ảnh trong cột a-va-ta pát.",
+          "sub": "Còn MySQL chỉ lưu siêu dữ liệu và đường dẫn tương đối tới ảnh trong cột avatar_path."
+        },
+        {
+          "id": "c23",
+          "say": "Với thiết kế này, cơ sở dữ liệu luôn nhẹ nhàng, sao lưu nhanh chóng và truy vấn cực kỳ mượt mà.",
+          "sub": "Với thiết kế này, cơ sở dữ liệu luôn nhẹ nhàng, sao lưu nhanh chóng và truy vấn cực kỳ mượt mà."
+        },
+        {
+          "id": "c24",
+          "say": "P H P sẽ dùng diu-sơ ai-đi để truy vấn lấy đường dẫn, sau đó cung cấp đường dẫn này cho trình duyệt hiển thị.",
+          "sub": "PHP sẽ dùng user_id để truy vấn lấy đường dẫn, sau đó cung cấp đường dẫn này cho trình duyệt hiển thị."
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "tag": "PHẦN 05 · THỰC HÀNH HTML & CSS: BIỂU MẪU VÀ CẮT AVATAR TRÒN",
+      "cues": [
+        {
+          "id": "c25",
+          "say": "Bước vào phần thực hành, trước hết là biểu mẫu H T M L trong tệp in-đếch chấm P H P.",
+          "sub": "Bước vào phần thực hành, trước hết là biểu mẫu HTML trong file index.php."
+        },
+        {
+          "id": "c26",
+          "say": "Hãy luôn ghi nhớ thuộc tính bắt buộc: enctype bằng multipart gạch chéo form data, nếu thiếu, tệp tin sẽ không thể tải lên!",
+          "sub": "Ghi nhớ thuộc tính bắt buộc: enctype=\"multipart/form-data\", nếu thiếu, file sẽ không thể tải lên!"
+        },
+        {
+          "id": "c27",
+          "say": "Về phía C S S, để tạo khung ảnh đại diện hình tròn hoàn hảo, chúng ta dùng border radius 50 phần trăm.",
+          "sub": "Về phía CSS, để tạo khung ảnh đại diện hình tròn hoàn hảo, chúng ta dùng border-radius: 50%."
+        },
+        {
+          "id": "c28",
+          "say": "Và đặc biệt là thuộc tính object fit bằng cover.",
+          "sub": "Và đặc biệt là thuộc tính object-fit: cover."
+        },
+        {
+          "id": "c29",
+          "say": "Cover giúp hình ảnh lấp đầy khung tròn tự nhiên mà không bao giờ bị méo mó tỷ lệ, bất kể ảnh gốc vuông hay chữ nhật.",
+          "sub": "Cover giúp ảnh lấp đầy khung tròn tự nhiên mà không bị méo mó tỷ lệ, bất kể ảnh gốc vuông hay chữ nhật."
+        },
+        {
+          "id": "c30",
+          "say": "Chúng ta cũng giới hạn thuộc tính accept cho các định dạng ảnh phổ biến như J P G, P N G và Uép-P.",
+          "sub": "Chúng ta cũng giới hạn thuộc tính accept cho các định dạng ảnh phổ biến như JPG, PNG và WEBP."
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "tag": "PHẦN 06 · XỬ LÝ PHP: 8 BƯỚC UPLOAD AN TOÀN",
+      "cues": [
+        {
+          "id": "c31",
+          "say": "Trái tim của hệ thống nằm ở tệp úp-lốt chấm P H P với quy trình tám bước bảo mật nghiêm ngặt.",
+          "sub": "Trái tim của hệ thống nằm ở file upload.php với quy trình 8 bước bảo mật nghiêm ngặt."
+        },
+        {
+          "id": "c32",
+          "say": "Bước một: Luôn lấy diu-sơ ai-đi từ phiên làm việc session phía máy chủ, tuyệt đối không tin dữ liệu gửi từ trình duyệt!",
+          "sub": "Bước 1: Luôn lấy user_id từ phiên làm việc session phía server, tuyệt đối không tin ID gửi từ client!"
+        },
+        {
+          "id": "c33",
+          "say": "Bước hai và ba: Kiểm tra mã lỗi upload và giới hạn dung lượng tệp tin tối đa năm mê-ga-bai.",
+          "sub": "Bước 2 & 3: Kiểm tra mã lỗi upload ($_FILES) và giới hạn dung lượng file tối đa 5 MiB."
+        },
+        {
+          "id": "c34",
+          "say": "Bước bốn: Dùng thư viện finfo để đọc kiểu mai-mờ thực tế từ nội dung byte, ngăn chặn kẻ xấu đổi đuôi tệp tin mã độc thành chấm j p e g.",
+          "sub": "Bước 4: Dùng thư viện finfo đọc MIME type thực tế từ byte, ngăn chặn đổi đuôi mã độc thành .jpg."
+        },
+        {
+          "id": "c35",
+          "say": "Bước năm: Tạo tên tệp tin mới ngẫu nhiên bằng hàm bin tu hếch kết hợp ran-đôm bai.",
+          "sub": "Bước 5: Tạo tên file mới ngẫu nhiên bằng hàm bin2hex kết hợp random_bytes."
+        },
+        {
+          "id": "c36",
+          "say": "Bước sáu: Kiểm tra và tự động tạo thư mục riêng theo diu-sơ ai-đi với quyền hạn an toàn.",
+          "sub": "Bước 6: Kiểm tra và tự động tạo thư mục riêng theo user_id với quyền hạn an toàn."
+        },
+        {
+          "id": "c37",
+          "say": "Bước bảy: Dùng hàm mu úp-lô-đít phai chuyển tệp tin từ thư mục tạm vào vị trí chính thức.",
+          "sub": "Bước 7: Dùng move_uploaded_file chuyển file từ thư mục tạm vào vị trí chính thức."
+        },
+        {
+          "id": "c38",
+          "say": "Và bước tám: Dùng Pri-pe-đờ Stết-mân cập nhật đường dẫn a-va-ta pát vào Mai-ét-kiu-eo, triệt tiêu hoàn toàn nguy cơ Ét-kiu-eo In-dếch-sừn.",
+          "sub": "Bước 8: Dùng Prepared Statement cập nhật avatar_path vào MySQL, triệt tiêu nguy cơ SQL Injection."
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "tag": "PHẦN 07 · TRUY XUẤT ĐÚNG ẢNH ĐẠI DIỆN",
+      "cues": [
+        {
+          "id": "c39",
+          "say": "Khi cả hai người dùng đã lưu ảnh thành công, làm thế nào hệ thống hiển thị đúng ảnh cho từng người?",
+          "sub": "Khi cả hai người dùng đã lưu ảnh thành công, làm thế nào hệ thống hiển thị đúng ảnh cho từng người?"
+        },
+        {
+          "id": "c40",
+          "say": "Hãy phân biệt rõ hai công đoạn riêng biệt trong quy trình này.",
+          "sub": "Hãy phân biệt rõ hai công đoạn riêng biệt trong quy trình này."
+        },
+        {
+          "id": "c41",
+          "say": "Đầu tiên, khi Người dùng A đăng nhập với ID bằng một, P H P gửi truy vấn SELECT a-va-ta pát từ bảng users với ID bằng một.",
+          "sub": "Đầu tiên, khi User A đăng nhập với ID = 1, PHP gửi truy vấn SELECT avatar_path FROM users WHERE id = 1."
+        },
+        {
+          "id": "c42",
+          "say": "Mai-ét-kiu-eo trả về chuỗi đường dẫn tương đối của Người dùng A trong thư mục lưu trữ.",
+          "sub": "MySQL trả về chuỗi đường dẫn tương đối của User A trong thư mục lưu trữ."
+        },
+        {
+          "id": "c43",
+          "say": "Sau đó, trình duyệt nhận đường dẫn và gửi yêu cầu H T T P để tải đúng bức ảnh từ thư mục máy chủ về hiển thị.",
+          "sub": "Sau đó, trình duyệt nhận đường dẫn và gửi yêu cầu HTTP để tải đúng bức ảnh từ web server về hiển thị."
+        },
+        {
+          "id": "c44",
+          "say": "Mai-ét-kiu-eo không tự tìm tệp tin; nó chỉ lưu chỉ mục, còn việc phân phát ảnh là nhiệm vụ của web server.",
+          "sub": "MySQL không tự tìm file; nó chỉ lưu chỉ mục, còn việc phân phát ảnh là nhiệm vụ của web server."
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "tag": "PHẦN 08 · TRÙNG TÊN FILE VS TRÙNG NỘI DUNG (SHA-256)",
+      "cues": [
+        {
+          "id": "c45",
+          "say": "Một điểm thú vị mở rộng: Trùng tên tệp tin hoàn toàn khác với việc trùng nội dung tệp tin!",
+          "sub": "Một điểm thú vị mở rộng: Trùng tên file hoàn toàn khác với việc trùng nội dung file!"
+        },
+        {
+          "id": "c46",
+          "say": "Hai tệp tin cùng tên một chấm j p e g có thể mang dữ liệu hoàn toàn khác nhau.",
+          "sub": "Hai file cùng tên 1.jpg có thể mang dữ liệu hoàn toàn khác nhau."
+        },
+        {
+          "id": "c47",
+          "say": "Ngược lại, hai tệp tin khác tên vẫn có thể chứa cùng những byte dữ liệu giống hệt nhau.",
+          "sub": "Ngược lại, hai file khác tên vẫn có thể chứa cùng những byte dữ liệu giống hệt nhau."
+        },
+        {
+          "id": "c48",
+          "say": "Để phát hiện hai tệp tin có trùng nội dung byte hay không, chúng ta sử dụng thuật toán băm Ét-hát-a hai năm sáu qua hàm hát phai.",
+          "sub": "Để phát hiện hai file có trùng nội dung byte hay không, chúng ta dùng thuật toán băm SHA-256 qua hàm hash_file."
+        },
+        {
+          "id": "c49",
+          "say": "Nếu giá trị băm giống hệt nhau, nội dung nhị phân của chúng chắc chắn trùng khớp.",
+          "sub": "Nếu giá trị băm giống hệt nhau, nội dung nhị phân của chúng chắc chắn trùng khớp."
+        },
+        {
+          "id": "c50",
+          "say": "Còn nếu muốn nhận diện hai ảnh chụp cùng một đối tượng đã qua chỉnh sửa màu sắc, các bạn hãy tìm hiểu thêm về Pơ-sép-chu-ơl Hát-sinh nhé!",
+          "sub": "Còn nếu muốn nhận diện ảnh tương đồng thị giác đã qua chỉnh sửa, các bạn tìm hiểu thêm về Perceptual Hashing nhé!"
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "tag": "PHẦN 09 · ỨNG DỤNG THỰC TẾ VÀ SAI LẦM CẦN TRÁNH",
+      "cues": [
+        {
+          "id": "c51",
+          "say": "Mô hình xử lý này chính là xương sống của mọi hệ thống lớn mà bạn tiếp xúc hàng ngày.",
+          "sub": "Mô hình xử lý này chính là xương sống của mọi hệ thống lớn mà bạn tiếp xúc hàng ngày."
+        },
+        {
+          "id": "c52",
+          "say": "Từ mạng xã hội hiển thị hàng triệu avatar, hệ thống nhân sự quản lý hồ sơ, cho đến sàn thương mại điện tử với hàng vạn ảnh sản phẩm.",
+          "sub": "Từ mạng xã hội hiển thị hàng triệu avatar, hệ thống nhân sự, cho đến sàn thương mại điện tử hàng vạn sản phẩm."
+        },
+        {
+          "id": "c53",
+          "say": "Trong các dự án quy mô lớn, các bạn có thể chuyển thư mục cục bộ sang các dịch vụ lưu trữ đám mây như A-ma-dôn Éts-ba hay Cờ-lao-đi-ne-ri.",
+          "sub": "Trong các dự án lớn, các bạn có thể chuyển thư mục sang các dịch vụ lưu trữ đám mây như Amazon S3 hay Cloudinary."
+        },
+        {
+          "id": "c54",
+          "say": "Tuy nhiên, nguyên tắc cốt lõi về định danh chủ sở hữu và lưu đường dẫn trong cơ sở dữ liệu vẫn không bao giờ thay đổi.",
+          "sub": "Tuy nhiên, nguyên tắc cốt lõi về định danh chủ sở hữu và lưu đường dẫn trong cơ sở dữ liệu vẫn không thay đổi."
+        },
+        {
+          "id": "c55",
+          "say": "Hãy luôn ghi nhớ: Đừng bao giờ chỉ dựa vào đuôi mở rộng, và hãy dọn dẹp ảnh cũ khi người dùng cập nhật ảnh mới.",
+          "sub": "Ghi nhớ: Đừng bao giờ chỉ dựa vào đuôi file, và hãy dọn dẹp ảnh cũ khi người dùng cập nhật ảnh mới."
+        },
+        {
+          "id": "c56",
+          "say": "Đồng thời, tên tệp tin ngẫu nhiên không thể thay thế cho cơ chế kiểm tra phân quyền truy cập an toàn!",
+          "sub": "Đồng thời, tên file ngẫu nhiên không thể thay thế cho cơ chế kiểm tra phân quyền truy cập an toàn!"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "tag": "PHẦN 10 · TỔNG KẾT & LỜI KẾT",
+      "cues": [
+        {
+          "id": "c57",
+          "say": "Để tổng kết bài học hôm nay, các bạn chỉ cần ghi nhớ trọn vẹn ba điều:",
+          "sub": "Để tổng kết bài học hôm nay, các bạn chỉ cần ghi nhớ trọn vẹn 3 điều:"
+        },
+        {
+          "id": "c58",
+          "say": "Thứ nhất: Tránh ghi đè bằng cách kết hợp thư mục người dùng với tên tệp tin U U I D ngẫu nhiên.",
+          "sub": "1. Tránh ghi đè bằng cách kết hợp thư mục người dùng với tên file UUID ngẫu nhiên."
+        },
+        {
+          "id": "c59",
+          "say": "Thứ hai: Luôn xác định chủ sở hữu dữ liệu dựa trên phiên đăng nhập diu-sơ ai-đi đã xác thực.",
+          "sub": "2. Luôn xác định chủ sở hữu dữ liệu dựa trên phiên đăng nhập user_id đã xác thực."
+        },
+        {
+          "id": "c60",
+          "say": "Và thứ ba: Lưu đường dẫn ảnh trong Mai-ét-kiu-eo và sử dụng Pri-pe-đờ Stết-mân để truy xuất an toàn, chính xác.",
+          "sub": "3. Lưu đường dẫn ảnh trong MySQL và sử dụng Prepared Statements để truy xuất an toàn, chính xác."
+        },
+        {
+          "id": "c61",
+          "say": "Hy vọng bài học này đã giúp các bạn hiểu sâu về cách quản lý tệp tin và dữ liệu trong phần mềm thực chiến.",
+          "sub": "Hy vọng bài học này đã giúp các bạn hiểu sâu về cách quản lý tệp tin và dữ liệu trong phần mềm thực chiến."
+        },
+        {
+          "id": "c62",
+          "say": "Cảm ơn các bạn đã đồng hành cùng An Tếch Academy. Hãy theo dõi kênh và hẹn gặp lại các bạn trong những bài học lập trình tiếp theo!",
+          "sub": "Cảm ơn các bạn đã đồng hành cùng AN TECH ACADEMY. Hãy theo dõi kênh và hẹn gặp lại các bạn trong những bài học tiếp theo!"
+        }
+      ]
+    }
+  ]
+}

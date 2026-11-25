@@ -1,0 +1,72 @@
+{
+ "S06c1": {
+  "dur": 7.39,
+  "variant": 0,
+  "bytes": 44352
+ },
+ "S07c2": {
+  "dur": 6.24,
+  "variant": 0,
+  "bytes": 37440
+ },
+ "S08c3": {
+  "dur": 6.98,
+  "variant": 3,
+  "bytes": 41904
+ },
+ "S09c4": {
+  "dur": 5.61,
+  "variant": 0,
+  "bytes": 33696
+ },
+ "S12c1": {
+  "dur": 5.25,
+  "variant": 1,
+  "bytes": 31536
+ },
+ "S13c3": {
+  "dur": 8.92,
+  "variant": 0,
+  "bytes": 53568
+ },
+ "S14c4": {
+  "dur": 10.15,
+  "variant": 0,
+  "bytes": 60912
+ },
+ "S15c4": {
+  "dur": 4.0,
+  "variant": 0,
+  "bytes": 24048
+ },
+ "S16c4": {
+  "dur": 4.24,
+  "variant": 0,
+  "bytes": 25488
+ },
+ "S18c1": {
+  "dur": 6.07,
+  "variant": 1,
+  "bytes": 36432
+ },
+ "S19c2": {
+  "dur": 4.17,
+  "variant": 2,
+  "bytes": 25056
+ },
+ "S20c3": {
+  "dur": 4.65,
+  "variant": 0,
+  "bytes": 27936
+ },
+ "S22c2": {
+  "dur": 4.68,
+  "variant": 0,
+  "bytes": 28080
+ },
+ "S23c2": {
+  "dur": 9.26,
+  "variant": 0,
+  "bytes": 55584
+ }
+}

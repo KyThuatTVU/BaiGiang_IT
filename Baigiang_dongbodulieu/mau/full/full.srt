@@ -1,0 +1,474 @@
+1
+00:00:00,000 --> 00:00:01,014
+Xin chào các bạn!
+
+2
+00:00:01,014 --> 00:00:06,500
+Chào mừng các bạn đến với An Tech Academy – nơi cùng nhau học công
+nghệ và làm chủ tương lai.
+
+3
+00:00:06,720 --> 00:00:11,010
+Hôm nay chúng ta cùng tìm hiểu cách ứng dụng hiện đại chia sẻ dữ liệu
+theo thời gian thực.
+
+4
+00:00:11,810 --> 00:00:16,229
+Hãy tưởng tượng một nhóm sinh viên cùng làm việc trên một bảng ghi chú
+trực tuyến.
+
+5
+00:00:16,229 --> 00:00:19,558
+Bạn A vừa cập nhật nội dung, nhưng bạn B vẫn thấy dữ liệu cũ,
+
+6
+00:00:19,558 --> 00:00:21,140
+còn bạn C phải tải lại trang.
+
+7
+00:00:21,940 --> 00:00:25,419
+Vậy làm sao để mọi người thấy dữ liệu mới ngay khi có người cập nhật,
+
+8
+00:00:25,419 --> 00:00:26,780
+mà không cần tải lại trang?
+
+9
+00:00:26,000 --> 00:00:31,700
+Đây chính là bài toán đồng bộ dữ liệu thời gian thực – Real-time Data
+Synchronization.
+
+10
+00:00:32,500 --> 00:00:37,559
+Bài học hôm nay gồm bốn phần: cơ chế hoạt động, truyền dữ liệu giữa
+Client và Server,
+
+11
+00:00:37,559 --> 00:00:40,630
+xử lý xung đột và thực hành với Node.js, Socket.IO.
+
+12
+00:00:41,430 --> 00:00:44,020
+Đồng bộ dữ liệu thời gian thực là gì?
+
+13
+00:00:44,240 --> 00:00:48,960
+Đây là cơ chế giúp nhiều thiết bị nhận thay đổi dữ liệu gần như ngay lập
+tức khi có người cập nhật.
+
+14
+00:00:49,760 --> 00:00:52,258
+Khi A thay đổi ghi chú, hệ thống nhận dữ liệu,
+
+15
+00:00:52,258 --> 00:00:55,680
+xử lý tại máy chủ và gửi cập nhật đến những người đang kết nối.
+
+16
+00:00:55,900 --> 00:00:59,140
+Nhờ vậy, ai đang mở ứng dụng cũng thấy bản mới nhất.
+
+17
+00:00:59,940 --> 00:01:05,310
+Có hai cơ chế truyền thông phổ biến. Thứ nhất là HTTP Request –
+Response.
+
+18
+00:01:05,530 --> 00:01:09,629
+Với HTTP, trình duyệt gửi yêu cầu, máy chủ trả kết quả.
+
+19
+00:01:09,629 --> 00:01:13,280
+Muốn biết dữ liệu đổi chưa, phải gửi yêu cầu mới.
+
+20
+00:01:14,080 --> 00:01:20,650
+Ví dụ, cứ năm giây một lần, website gọi API để kiểm tra dữ liệu. Cách này
+gọi là Polling.
+
+21
+00:01:21,450 --> 00:01:25,380
+Thứ hai là WebSocket – kết nối hai chiều giữa Client và Server.
+
+22
+00:01:25,600 --> 00:01:26,523
+Sau khi kết nối,
+
+23
+00:01:26,523 --> 00:01:31,140
+hai bên gửi dữ liệu cho nhau mà không cần yêu cầu HTTP mới cho từng lần
+cập nhật.
+
+24
+00:01:31,940 --> 00:01:33,007
+Trong bài thực hành,
+
+25
+00:01:33,007 --> 00:01:36,900
+chúng ta dùng Socket.IO – thư viện giao tiếp thời gian thực theo sự kiện.
+
+26
+00:01:37,120 --> 00:01:41,580
+Socket.IO thường dùng WebSocket khi có thể, kèm cơ chế dự phòng.
+
+27
+00:01:42,380 --> 00:01:44,320
+Quy trình gồm bốn bước.
+
+28
+00:01:44,540 --> 00:01:46,740
+Client kết nối đến Server.
+
+29
+00:01:46,960 --> 00:01:49,690
+Người dùng thực hiện thao tác cập nhật dữ liệu.
+
+30
+00:01:49,910 --> 00:01:52,500
+Server tiếp nhận và xử lý dữ liệu.
+
+31
+00:01:52,720 --> 00:01:56,530
+Server phát sự kiện đến các Client liên quan để cập nhật giao diện.
+
+32
+00:01:57,330 --> 00:02:02,030
+Server là trung tâm tiếp nhận và phân phối dữ liệu để mọi thiết bị cùng nhìn
+một trạng thái chung.
+
+33
+00:02:02,250 --> 00:02:06,230
+Nếu không có máy chủ, mỗi trình duyệt chỉ thấy dữ liệu riêng của nó.
+
+34
+00:02:07,030 --> 00:02:10,240
+Trước khi viết code, chúng ta cần nắm ba khái niệm.
+
+35
+00:02:11,040 --> 00:02:13,240
+Một là Client – Server.
+
+36
+00:02:13,460 --> 00:02:17,947
+Client là phía người dùng, như trình duyệt trên máy tính hoặc điện thoại.
+
+37
+00:02:17,947 --> 00:02:21,020
+Server nhận yêu cầu, xử lý và gửi kết quả trở lại.
+
+38
+00:02:21,820 --> 00:02:27,050
+Hai là Event. Trong Socket.IO, ta gửi và lắng nghe sự kiện.
+
+39
+00:02:27,270 --> 00:02:30,360
+update-data: người dùng muốn cập nhật dữ liệu.
+
+40
+00:02:30,580 --> 00:02:33,600
+sync-state: gửi trạng thái dữ liệu hiện tại.
+
+41
+00:02:33,820 --> 00:02:36,720
+data-updated: báo dữ liệu vừa cập nhật.
+
+42
+00:02:36,940 --> 00:02:39,940
+Nhờ vậy, hệ thống trao đổi dữ liệu linh hoạt.
+
+43
+00:02:40,740 --> 00:02:43,652
+Ba là xử lý xung đột – Conflict Resolution.
+
+44
+00:02:43,652 --> 00:02:48,800
+Hai người cùng sửa một tài liệu gần như cùng lúc. Hệ thống chọn nội dung
+nào?
+
+45
+00:02:49,600 --> 00:02:55,172
+Một cách đơn giản là Last Write Wins – LWW: áp dụng bản cập nhật cuối
+theo thứ tự xác định,
+
+46
+00:02:55,172 --> 00:02:56,720
+ví dụ thứ tự Server nhận.
+
+47
+00:02:57,520 --> 00:03:01,740
+Cách khác là Optimistic Locking, dùng phiên bản dữ liệu để kiểm tra.
+
+48
+00:03:01,960 --> 00:03:07,544
+Nếu dữ liệu đã đổi từ lúc người dùng đọc, hệ thống từ chối cập nhật và yêu
+cầu tải lại.
+
+49
+00:03:07,544 --> 00:03:10,790
+OT và CRDT là kỹ thuật nâng cao, sẽ học ở bài sau.
+
+50
+00:03:11,590 --> 00:03:14,780
+Bây giờ, chúng ta sẽ xây dựng ứng dụng SyncLab.
+
+51
+00:03:15,000 --> 00:03:17,388
+Mục tiêu: khu vực ghi chú dùng chung.
+
+52
+00:03:17,388 --> 00:03:22,100
+Khi A nhập và nhấn Gửi, trình duyệt B nhận thay đổi gần như ngay lập tức.
+
+53
+00:03:22,320 --> 00:03:28,220
+Bước 1: khởi tạo dự án. Tạo thư mục synclab, mở Terminal và chạy các
+lệnh.
+
+54
+00:03:28,440 --> 00:03:31,150
+npm init, gạch ngang y.
+
+55
+00:03:31,370 --> 00:03:34,510
+npm install express socket chấm ai-âu.
+
+56
+00:03:35,310 --> 00:03:39,940
+Express giúp xây máy chủ Web; socket.io hỗ trợ giao tiếp thời gian thực.
+
+57
+00:03:40,160 --> 00:03:45,270
+Cấu trúc gồm server.js và thư mục public chứa index.html.
+
+58
+00:03:46,070 --> 00:03:51,510
+Bước 2: xây dựng Server. Tạo file server.js và viết đoạn code sau.
+
+59
+00:03:51,730 --> 00:03:56,410
+Khởi tạo Express và HTTP Server để Socket.IO dùng cùng máy chủ.
+
+60
+00:03:56,630 --> 00:04:01,070
+sharedData lưu nội dung ghi chú và số phiên bản – trạng thái chung của
+ứng dụng.
+
+61
+00:04:01,870 --> 00:04:05,384
+Khi Client kết nối, Server gửi trạng thái hiện tại bằng sync-state,
+
+62
+00:04:05,384 --> 00:04:07,220
+để người mới thấy dữ liệu mới nhất.
+
+63
+00:04:07,440 --> 00:04:11,768
+Khi nhận update-data, Server kiểm tra, cập nhật nội dung và tăng phiên
+bản,
+
+64
+00:04:11,768 --> 00:04:13,990
+để chặn dữ liệu sai kiểu hoặc quá dài.
+
+65
+00:04:14,210 --> 00:04:19,150
+Hàm emit của io phát data-updated đến tất cả Client, gồm cả người vừa
+gửi.
+
+66
+00:04:19,370 --> 00:04:22,510
+Đây là bước giúp mọi trình duyệt nhận cùng một trạng thái.
+
+67
+00:04:23,310 --> 00:04:29,380
+Bước 3: xây dựng giao diện Client. Tạo file public/index.html.
+
+68
+00:04:29,600 --> 00:04:33,440
+Giao diện gồm ô nhập, nút Gửi cập nhật và dòng số phiên bản.
+
+69
+00:04:33,660 --> 00:04:36,820
+Client gọi hàm io để tạo kết nối với Server.
+
+70
+00:04:37,620 --> 00:04:41,917
+Khi nhận sync-state, trình duyệt hiển thị dữ liệu hiện tại; khi nhận
+data-updated,
+
+71
+00:04:41,917 --> 00:04:44,410
+giao diện tự cập nhật nội dung và số phiên bản.
+
+72
+00:04:44,630 --> 00:04:49,070
+Khi nhấn Gửi cập nhật, Client phát update-data kèm nội dung lên Server.
+
+73
+00:04:49,870 --> 00:04:53,660
+Chúng ta đã hoàn thành ứng dụng đồng bộ dữ liệu thời gian thực cơ bản.
+
+74
+00:04:53,880 --> 00:04:56,880
+Hai trình duyệt giờ đây chia sẻ cùng một ghi chú.
+
+75
+00:04:57,680 --> 00:05:03,750
+Bây giờ, hãy kiểm tra kết quả. Tại Terminal, chạy node, file server chấm
+giây-ét.
+
+76
+00:05:03,970 --> 00:05:07,760
+Sau đó, mở trình duyệt truy cập localhost, cổng ba nghìn.
+
+77
+00:05:07,980 --> 00:05:11,140
+Mở thêm một tab hoặc trình duyệt khác cùng địa chỉ.
+
+78
+00:05:11,940 --> 00:05:17,580
+Ở trình duyệt thứ nhất, nhập: "Đây là dữ liệu cập nhật từ người dùng A", rồi
+nhấn Gửi cập nhật.
+
+79
+00:05:17,800 --> 00:05:21,970
+Ngay lập tức, trình duyệt thứ hai nhận nội dung mới mà không cần tải lại
+trang.
+
+80
+00:05:22,190 --> 00:05:24,970
+Số phiên bản cũng tăng sau mỗi lần cập nhật.
+
+81
+00:05:25,770 --> 00:05:28,090
+Vậy điều gì đã xảy ra phía sau?
+
+82
+00:05:28,310 --> 00:05:30,723
+Client A gửi update-data lên Server.
+
+83
+00:05:30,723 --> 00:05:35,750
+Server cập nhật dữ liệu, tăng phiên bản và phát data-updated đến mọi
+Client.
+
+84
+00:05:35,970 --> 00:05:39,350
+Client B nhận sự kiện và đổi nội dung trên giao diện.
+
+85
+00:05:39,570 --> 00:05:43,430
+Đó là luồng đồng bộ thời gian thực, có thể ứng dụng vào nhiều hệ thống.
+
+86
+00:05:44,230 --> 00:05:46,939
+Trong thực tế, cơ chế này dùng cho quản lý công việc,
+
+87
+00:05:46,939 --> 00:05:49,240
+khi nhiều người theo dõi trạng thái nhiệm vụ.
+
+88
+00:05:49,460 --> 00:05:53,999
+Website bán hàng cập nhật đơn hàng, tồn kho; quản lý lớp học cập nhật
+danh sách,
+
+89
+00:05:53,999 --> 00:05:56,700
+kết quả; ứng dụng trò chuyện gửi nhận tin nhắn.
+
+90
+00:05:56,920 --> 00:06:00,200
+Trong giáo dục, học sinh cùng làm bài nhóm trực tuyến.
+
+91
+00:06:00,000 --> 00:06:05,390
+Lưu ý: ví dụ này lưu dữ liệu trong RAM, khởi động lại Server sẽ mất.
+
+92
+00:06:05,610 --> 00:06:09,370
+Hệ thống thực tế cần MySQL hoặc PostgreSQL để lưu lâu dài.
+
+93
+00:06:09,590 --> 00:06:14,340
+Cần thêm xác thực người dùng, kiểm tra quyền, xử lý mất kết nối và kiểm
+soát xung đột.
+
+94
+00:06:14,560 --> 00:06:18,809
+Quan trọng: Socket.IO truyền nhanh nhưng không tự đảm bảo nhất quán.
+
+95
+00:06:18,809 --> 00:06:22,120
+Điều đó phụ thuộc logic xử lý và lưu trữ phía Server.
+
+96
+00:06:22,920 --> 00:06:25,630
+Đồng bộ thời gian thực mang lại nhiều lợi ích.
+
+97
+00:06:25,850 --> 00:06:30,210
+Thứ nhất, dữ liệu cập nhật gần như tức thì, nâng cao trải nghiệm người
+dùng.
+
+98
+00:06:30,430 --> 00:06:34,650
+Thứ hai, nhiều Client cùng theo dõi một trạng thái mà không cần tải lại
+trang.
+
+99
+00:06:34,870 --> 00:06:39,160
+Thứ ba, Socket.IO giúp xây ứng dụng tương tác thời gian thực dễ dàng.
+
+100
+00:06:39,960 --> 00:06:44,180
+Thứ nhất, quản lý nhiều kết nối đồng thời có thể gây áp lực lên máy chủ.
+
+101
+00:06:44,400 --> 00:06:48,330
+Thứ hai, cần cơ chế phục hồi khi mất kết nối hoặc xung đột dữ liệu.
+
+102
+00:06:48,550 --> 00:06:53,010
+Thứ ba, nhiều máy chủ cần thêm giải pháp chia sẻ trạng thái và phân phối
+sự kiện.
+
+103
+00:06:53,230 --> 00:06:56,710
+Khi số người dùng tăng, chi phí hạ tầng cũng tăng theo.
+
+104
+00:06:57,510 --> 00:07:02,281
+Tóm lại, chúng ta đã hiểu đồng bộ thời gian thực, phân biệt HTTP và
+WebSocket,
+
+105
+00:07:02,281 --> 00:07:05,070
+nắm Client – Server và Event trong Socket.IO.
+
+106
+00:07:05,290 --> 00:07:08,720
+Đồng thời, chúng ta đã biết cách xử lý xung đột dữ liệu.
+
+107
+00:07:09,520 --> 00:07:14,029
+Bài tập: phát triển SyncLab thành bảng quản lý công việc, nhiều người
+thêm, sửa,
+
+108
+00:07:14,029 --> 00:07:17,340
+cập nhật trạng thái; lưu vào MySQL và kiểm soát phiên bản.
+
+109
+00:07:17,560 --> 00:07:22,047
+Hy vọng bài học giúp các bạn hiểu rõ cách xây dựng ứng dụng Web thời
+gian thực.
+
+110
+00:07:22,047 --> 00:07:23,600
+Cảm ơn các bạn đã theo dõi!
+
+111
+00:07:23,820 --> 00:07:29,670
+Hẹn gặp lại trong bài học tiếp theo. AN TECH ACADEMY – HỌC CÔNG
+NGHỆ, LÀM CHỦ TƯƠNG LAI!

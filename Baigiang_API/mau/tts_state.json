@@ -1,0 +1,162 @@
+{
+ "S01c1": {
+  "dur": 4.1,
+  "variant": 1,
+  "bytes": 24624
+ },
+ "S01c2": {
+  "dur": 5.97,
+  "variant": 0,
+  "bytes": 35856
+ },
+ "S01c3": {
+  "dur": 5.64,
+  "variant": 2,
+  "bytes": 33840
+ },
+ "S02c1": {
+  "dur": 7.87,
+  "variant": 1,
+  "bytes": 47232
+ },
+ "S02c2": {
+  "dur": 8.23,
+  "variant": 0,
+  "bytes": 49392
+ },
+ "S02c3": {
+  "dur": 6.81,
+  "variant": 0,
+  "bytes": 40896
+ },
+ "S03c1": {
+  "dur": 9.88,
+  "variant": 0,
+  "bytes": 59328
+ },
+ "S03c2": {
+  "dur": 8.59,
+  "variant": 0,
+  "bytes": 51552
+ },
+ "S03c3": {
+  "dur": 9.21,
+  "variant": 1,
+  "bytes": 55296
+ },
+ "S04c1": {
+  "dur": 12.48,
+  "variant": 0,
+  "bytes": 74880
+ },
+ "S04c2": {
+  "dur": 9.76,
+  "variant": 0,
+  "bytes": 58608
+ },
+ "S04c3": {
+  "dur": 9.09,
+  "variant": 2,
+  "bytes": 54576
+ },
+ "S05c1": {
+  "dur": 10.44,
+  "variant": 0,
+  "bytes": 62640
+ },
+ "S05c2": {
+  "dur": 9.36,
+  "variant": 0,
+  "bytes": 56160
+ },
+ "S05c3": {
+  "dur": 7.36,
+  "variant": 4,
+  "bytes": 44208
+ },
+ "S06c1": {
+  "dur": 6.55,
+  "variant": 0,
+  "bytes": 39312
+ },
+ "S06c2": {
+  "dur": 10.6,
+  "variant": 0,
+  "bytes": 63648
+ },
+ "S06c3": {
+  "dur": 9.98,
+  "variant": 0,
+  "bytes": 59904
+ },
+ "S07c1": {
+  "dur": 9.24,
+  "variant": 0,
+  "bytes": 55440
+ },
+ "S07c2": {
+  "dur": 4.84,
+  "variant": 1,
+  "bytes": 29088
+ },
+ "S07c3": {
+  "dur": 11.68,
+  "variant": 0,
+  "bytes": 70128
+ },
+ "S08c1": {
+  "dur": 8.25,
+  "variant": 1,
+  "bytes": 49536
+ },
+ "S08c2": {
+  "dur": 7.89,
+  "variant": 0,
+  "bytes": 47376
+ },
+ "S08c3": {
+  "dur": 8.66,
+  "variant": 1,
+  "bytes": 51984
+ },
+ "S09c1": {
+  "dur": 11.23,
+  "variant": 0,
+  "bytes": 67392
+ },
+ "S09c2": {
+  "dur": 9.21,
+  "variant": 5,
+  "bytes": 55296
+ },
+ "S09c3": {
+  "dur": 9.33,
+  "variant": 3,
+  "bytes": 56016
+ },
+ "S10c1": {
+  "dur": 8.56,
+  "variant": 3,
+  "bytes": 51408
+ },
+ "S10c2": {
+  "dur": 9.96,
+  "variant": 0,
+  "bytes": 59760
+ },
+ "S10c3": {
+  "dur": 8.01,
+  "variant": 0,
+  "bytes": 48096
+ },
+ "S11c1": {
+  "dur": 5.44,
+  "variant": 0,
+  "bytes": 32688
+ },
+ "S11c2": {
+  "dur": 4.84,
+  "variant": 3,
+  "bytes": 29088
+ }
+}

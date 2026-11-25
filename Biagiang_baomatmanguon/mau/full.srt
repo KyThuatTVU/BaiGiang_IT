@@ -1,0 +1,119 @@
+1
+00:00:00,000 --> 00:00:09,070
+Xin chào các bạn! Chào mừng quay lại với An Tech Academy
+— học công nghệ cùng An. Hôm nay mình có một câu đố nhỏ.
+
+2
+00:00:09,570 --> 00:00:17,850
+Chỉ cần gõ thêm vài chữ vào thanh địa chỉ,
+bạn có thể nhìn thấy nguyên bộ đồ lòng của một website.
+
+3
+00:00:18,400 --> 00:00:30,110
+Thủ phạm là lỗi cấu hình để lộ mã nguồn và cấu trúc thư mục.
+Cách chặn: Apache, tệp .htaccess và Front Controller.
+
+4
+00:00:31,110 --> 00:00:41,740
+Đầu tiên, hãy mở mắt của trình duyệt: nhấn F12
+hoặc Ctrl + Shift + I để mở DevTools.
+
+5
+00:00:42,240 --> 00:00:57,980
+Mở tab Network: mọi tệp gửi xuống trình duyệt đều hiện ra.
+Ẩn JavaScript để bảo mật khác gì rèm trong suốt che cửa kính.
+
+6
+00:00:58,980 --> 00:01:11,480
+Nhưng phần nghiêm trọng nằm ở máy chủ: PHP chỉ trả kết quả,
+cấu trúc thư mục vẫn có thể bị lộ nếu cấu hình sai.
+
+7
+00:01:12,030 --> 00:01:23,710
+Gõ thẳng đường dẫn tới thư mục config hay BookingService.php:
+có thể thấy danh sách tệp, tải cả cấu hình và file SQL.
+
+8
+00:01:24,260 --> 00:01:35,250
+Lộ mã nguồn, lộ cấu hình, lộ dữ liệu — thành bàn đạp tấn công.
+Thấy tên thư mục chưa chắc hack được, nhưng lộ là rủi ro phải dẹp.
+
+9
+00:01:36,250 --> 00:01:50,050
+Người gác cửa là Apache: nhận yêu cầu HTTP,
+xác định tài nguyên và trả phản hồi cho trình duyệt.
+
+10
+00:01:50,550 --> 00:02:03,410
+Tệp .htaccess đổi luật ngay tại thư mục cần bảo vệ.
+Điều kiện: bật AllowOverride và module mod_rewrite.
+
+11
+00:02:04,410 --> 00:02:16,650
+Tắt Directory Listing bằng: Options -Indexes
+Mở thư mục trống, máy chủ không còn khoe danh sách tệp.
+
+12
+00:02:17,150 --> 00:02:32,030
+Tắt danh sách không chặn được từng tệp nếu biết đúng tên.
+Chặn cả thư mục: Require all denied → 403 Forbidden.
+
+13
+00:02:33,030 --> 00:02:45,410
+Dùng FilesMatch chặn tệp nhạy cảm: .env, .sql, .log, .bak…
+Cờ (?i) giúp so khớp không phân biệt hoa thường.
+
+14
+00:02:45,910 --> 00:02:56,230
+Đừng chỉ tin vào phần mở rộng: hãy để tệp bí mật
+ngoài DocumentRoot — như nhật ký đừng bỏ quên ở quán cà phê.
+
+15
+00:02:57,230 --> 00:03:08,070
+URL Rewrite giấu đường dẫn vật lý: /about/ →
+frontend/pages/about/index.html (người dùng không thấy).
+
+16
+00:03:08,570 --> 00:03:24,090
+RewriteRule khớp /about/ → frontend/pages/about/index.html [L]
+Rewrite nội bộ giữ URL; chuyển hướng 301 thì đổi URL.
+
+17
+00:03:25,090 --> 00:03:36,700
+Front Controller: mọi yêu cầu đi qua một cửa duy nhất
+là index.php, thay vì login.php, products.php, orders.php…
+
+18
+00:03:37,200 --> 00:03:51,840
+Index.php đọc URL → xác định route → kiểm tra quyền → xử lý.
+Không lấy đường dẫn người dùng nhập đưa thẳng vào include!
+
+19
+00:03:52,840 --> 00:04:07,860
+Whitelist Routing: chỉ chạy route đã khai báo trước.
+Đường dẫn lạ → 404. Không có cửa thì không mở.
+
+20
+00:04:08,860 --> 00:04:27,720
+Tách rõ PUBLIC (frontend, assets, index.php) và
+PRIVATE (app, config, routes, storage, .env).
+
+21
+00:04:28,270 --> 00:04:41,030
+Luồng: trình duyệt → Apache → Front Controller → Router → xử lý.
+Sai luật: 403. Sai route: 404.
+
+22
+00:04:42,030 --> 00:04:56,090
+1. DevTools thấy mọi thứ gửi xuống trình duyệt.
+2. .htaccess chặn thư mục, chặn tệp, đổi URL.  3. Whitelist route.
+
+23
+00:04:56,590 --> 00:05:13,070
+Dòng nào tắt danh sách thư mục? A. Require all denied
+B. Options -Indexes   C. RewriteEngine On  → Đáp án: B
+
+24
+00:05:14,070 --> 00:05:27,480
+Bảo mật là kiểm soát đúng chỗ, không phải che giấu.
+Cảm ơn các bạn — hẹn gặp ở bài tiếp theo!

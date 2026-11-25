@@ -1,0 +1,80 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy. 5.000 người cùng mua hàng trong một giây — web có sập không?",
+  "say": "Chào các bạn! Chào mừng đến với An Tech Academy. 5.000 người cùng mua hàng trong một giây — web có sập không?",
+  "subs": [
+   "Chào các bạn! Chào mừng đến với An Tech Academy.",
+   "5.000 người cùng mua hàng trong một giây — web có sập không?"
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Câu trả lời là Load Balancer — cách giữ hệ thống đứng vững khi truy cập tăng vọt.",
+  "say": "Câu trả lời là Load Balancer — cách giữ hệ thống đứng vững khi truy cập tăng vọt.",
+  "subs": [
+   "Câu trả lời là Load Balancer.",
+   "Cách giữ hệ thống đứng vững khi truy cập tăng vọt."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Ngày 12/12, 5.000 người truy cập cùng lúc, dồn hết request vào một server.",
+  "say": "Ngày 12/12, 5.000 người truy cập cùng lúc, dồn hết request vào một server.",
+  "subs": [
+   "Ngày 12/12, 5.000 người truy cập cùng lúc,",
+   "dồn hết request vào một server."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "CPU vọt lên, RAM đầy, trang quay mãi. Một server khỏe đến mấy cũng có giới hạn.",
+  "say": "CPU vọt lên, RAM đầy, trang quay mãi. Một server khỏe đến mấy cũng có giới hạn.",
+  "subs": [
+   "CPU vọt lên, RAM đầy, trang quay mãi.",
+   "Một server khỏe đến mấy cũng có giới hạn."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Load Balancer đứng trước các server, nhận request rồi chia đều cho phía sau.",
+  "say": "Load Balancer đứng trước các server, nhận request rồi chia đều cho phía sau.",
+  "subs": [
+   "Load Balancer đứng trước các server,",
+   "nhận request rồi chia đều cho phía sau."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Giống trạm thu phí: nhiều làn, một nhân viên điều phối.",
+  "say": "Giống trạm thu phí: nhiều làn, một nhân viên điều phối.",
+  "subs": [
+   "Giống trạm thu phí:",
+   "nhiều làn, một nhân viên điều phối."
+  ]
+ }
+]

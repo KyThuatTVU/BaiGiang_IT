@@ -1,0 +1,67 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy.",
+  "say": "Chào các bạn! Chào mừng đến với An Tech Academy.",
+  "subs": [
+   "Chào các bạn!",
+   "Chào mừng đến với An Tech Academy."
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bạn bấm đặt món trên app, hai giây sau đã có thông báo xác nhận. Vậy ai đã nói chuyện với nhà bếp?",
+  "say": "Bạn bấm đặt món trên app, hai giây sau đã có thông báo xác nhận. Vậy ai đã nói chuyện với nhà bếp?",
+  "subs": [
+   "Bấm đặt món trên app, hai giây sau đã có xác nhận.",
+   "Ai đã nói chuyện với nhà bếp?"
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Câu trả lời là API. Năm phút nữa, bạn sẽ hiểu nó là gì và chạy như thế nào.",
+  "say": "Câu trả lời là API. Năm phút nữa, bạn sẽ hiểu nó là gì và chạy như thế nào.",
+  "subs": [
+   "Câu trả lời là API.",
+   "Năm phút nữa, bạn sẽ hiểu nó chạy thế nào."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Dễ nhất là ví dụ nhà hàng. Bạn là khách, tức Client. Anh bồi bàn là API. Phiếu gọi món là Request. Nhà bếp là Backend. Món bưng ra là Response.",
+  "say": "Dễ nhất là ví dụ nhà hàng. Bạn là khách, tức Client. Anh bồi bàn là API. Phiếu gọi món là Request. Nhà bếp là Backend. Món bưng ra là Response.",
+  "subs": [
+   "Khách = Client · Bồi bàn = API · Phiếu = Request",
+   "Bếp = Backend · Món bưng ra = Response"
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bạn gọi cơm gà. Bồi bàn ghi phiếu, chuyển xuống bếp. Bếp kiểm tra nguyên liệu, nấu chín, trao lại. Bồi bàn bưng ra bàn cho bạn.",
+  "say": "Bạn gọi cơm gà. Bồi bàn ghi phiếu, chuyển xuống bếp. Bếp kiểm tra nguyên liệu, nấu chín, trao lại. Bồi bàn bưng ra bàn cho bạn.",
+  "subs": [
+   "Bồi bàn ghi phiếu, chuyển xuống bếp.",
+   "Bếp nấu xong, bồi bàn bưng ra."
+  ]
+ }
+]

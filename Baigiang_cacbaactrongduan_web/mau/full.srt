@@ -1,0 +1,212 @@
+1
+00:00:00,000 --> 00:00:06,930
+Xin chào các bạn! Chào mừng các bạn đã quay trở lại
+với An Tech Academy – Học công nghệ cùng An.
+
+2
+00:00:07,230 --> 00:00:15,510
+Bạn đã bao giờ tự hỏi: trong một công ty phần mềm, ai lên ý tưởng,
+ai chia việc cho lập trình viên, và ai kiểm tra website trước khi phát hành?
+
+3
+00:00:15,810 --> 00:00:24,130
+Hôm nay, chúng ta sẽ khám phá bên trong một dự án phát triển phần mềm thực tế,
+qua ví dụ một website bán hàng. Bắt đầu nhé!
+
+4
+00:00:25,130 --> 00:00:28,100
+Trước tiên, dự án phần mềm là gì?
+
+5
+00:00:28,400 --> 00:00:36,390
+Đó là một tập hợp các hoạt động có mục tiêu, thời gian, nguồn lực và phạm vi xác định,
+để xây dựng hoặc nâng cấp một sản phẩm phần mềm.
+
+6
+00:00:36,690 --> 00:00:49,500
+Ví dụ, một cửa hàng điện thoại muốn có website bán hàng: hiển thị sản phẩm, giỏ hàng,
+đặt hàng, thanh toán và thống kê doanh thu. Tất cả được tổ chức thành một dự án.
+
+7
+00:00:50,500 --> 00:00:59,690
+Lưu ý nhỏ: công ty phần mềm là tổ chức, còn dự án là một công việc cụ thể bên trong công ty.
+Một công ty có thể chạy nhiều dự án cùng lúc.
+
+8
+00:00:59,990 --> 00:01:10,330
+Vậy vì sao cần nhiều vị trí? Nếu một lập trình viên phải tự phân tích, thiết kế, viết code,
+kiểm thử và triển khai, khối lượng sẽ quá lớn khi hệ thống phát triển.
+
+9
+00:01:10,630 --> 00:01:16,220
+Vì vậy, công việc được chia theo chuyên môn, mỗi người một phần,
+cùng hướng đến mục tiêu chung.
+
+10
+00:01:17,220 --> 00:01:26,700
+Cơ cấu đội ngũ phần mềm thường gồm bốn nhóm: lãnh đạo và định hướng;
+quản lý dự án; quản lý chuyên môn; và nhóm trực tiếp phát triển, triển khai sản phẩm.
+
+11
+00:01:27,000 --> 00:01:32,880
+Đây là mô hình tham khảo. Thực tế, mỗi công ty tổ chức linh hoạt khác nhau.
+
+12
+00:01:33,880 --> 00:01:47,890
+Nhóm đầu tiên: lãnh đạo và định hướng. CEO, Giám đốc điều hành, lo chiến lược kinh doanh,
+khách hàng và doanh thu. Ví dụ, CEO quyết định đầu tư vào nền tảng thương mại điện tử.
+
+13
+00:01:48,190 --> 00:01:59,470
+CTO, Giám đốc công nghệ, định hướng công nghệ và kiến trúc hệ thống.
+Ví dụ: chọn Node.js hay PHP, MySQL hay PostgreSQL.
+
+14
+00:01:59,770 --> 00:02:09,142
+Còn Project Sponsor, người bảo trợ dự án, phê duyệt mục tiêu, ngân sách,
+và hỗ trợ các vấn đề vượt quyền hạn của quản lý dự án.
+
+15
+00:02:10,142 --> 00:02:27,632
+Nhóm quản lý dự án, trước hết là Project Manager, gọi tắt là PM. PM lập kế hoạch, phân chia công việc,
+theo dõi tiến độ, quản lý rủi ro và báo cáo các bên.
+
+16
+00:02:27,932 --> 00:02:34,652
+Nhớ nhé: PM không cần là người code giỏi nhất, mà cần kỹ năng tổ chức,
+giao tiếp và hiểu quy trình phần mềm.
+
+17
+00:02:35,652 --> 00:02:42,802
+Product Owner, hay PO, quyết định tính năng nào quan trọng và được ưu tiên làm trước,
+thông qua Product Backlog.
+
+18
+00:02:43,102 --> 00:02:57,262
+Còn Business Analyst, hay BA, là cầu nối giữa khách hàng và đội kỹ thuật. Khách hàng nói:
+tôi muốn website bán hàng. BA sẽ hỏi tiếp: có cần đăng nhập không, thanh toán bằng gì?
+
+19
+00:02:57,562 --> 00:03:06,152
+Sau đó, BA viết tài liệu yêu cầu như SRS, Use Case và User Story,
+để đội phát triển hiểu chính xác cần xây dựng gì.
+
+20
+00:03:07,152 --> 00:03:16,652
+Nhóm chuyên môn có Tech Lead định hướng kỹ thuật và review code; UI/UX Lead định hướng thiết kế;
+còn QA Lead xây dựng chiến lược kiểm thử.
+
+21
+00:03:17,652 --> 00:03:27,702
+Đến nhóm phát triển sản phẩm. UI/UX Designer thiết kế các trang: trang chủ, sản phẩm,
+giỏ hàng, thanh toán, thường trên Figma.
+
+22
+00:03:28,002 --> 00:03:37,262
+Frontend Developer chuyển thiết kế thành giao diện chạy trên trình duyệt,
+bằng HTML, CSS, JavaScript và các thư viện như React.
+
+23
+00:03:38,262 --> 00:03:44,742
+Backend Developer xử lý logic phía máy chủ.
+Ví dụ, khi bạn nhấn đăng nhập:
+
+24
+00:03:45,442 --> 00:03:58,732
+Frontend gửi email và mật khẩu qua API. Backend kiểm tra, truy vấn cơ sở dữ liệu,
+xác thực tài khoản, rồi trả kết quả về Frontend. Dữ liệu trả về thường ở dạng JSON.
+
+25
+00:03:59,032 --> 00:04:06,112
+Công nghệ phổ biến: Node.js với Express, PHP với Laravel, Java với Spring Boot.
+
+26
+00:04:07,112 --> 00:04:16,604
+Database Engineer thiết kế các bảng dữ liệu: người dùng, sản phẩm, đơn hàng,
+với khóa chính, khóa ngoại và quan hệ giữa các bảng.
+
+27
+00:04:16,904 --> 00:04:25,014
+QA và Tester kiểm thử sản phẩm: thử đăng nhập đúng, sai mật khẩu, bỏ trống thông tin,
+và tạo Bug Report khi phát hiện lỗi.
+
+28
+00:04:26,014 --> 00:04:33,594
+DevOps Engineer đưa website lên máy chủ, cấu hình tên miền, HTTPS
+và tự động hóa triển khai bằng CI/CD.
+
+29
+00:04:33,894 --> 00:04:43,994
+Security Engineer rà soát lỗ hổng như SQL Injection, XSS.
+Còn Technical Writer viết tài liệu kỹ thuật và hướng dẫn sử dụng.
+
+30
+00:04:44,994 --> 00:04:51,234
+Vậy các vị trí phối hợp ra sao? Một dự án website thường đi qua sáu giai đoạn.
+
+31
+00:04:51,834 --> 00:05:07,794
+Khởi động, phân tích yêu cầu, thiết kế hệ thống, phát triển, kiểm thử, rồi triển khai và bàn giao.
+Mỗi giai đoạn có kết quả rõ ràng: Project Charter, tài liệu SRS, bản thiết kế, mã nguồn...
+
+32
+00:05:08,094 --> 00:05:29,374
+Khởi động có CEO, Sponsor và PM. Phân tích yêu cầu do BA chủ trì. Thiết kế có Designer, Tech Lead.
+Phát triển: Frontend, Backend. Kiểm thử: QA, Tester. Triển khai, bàn giao: DevOps và PM.
+
+33
+00:05:30,374 --> 00:05:41,694
+Khi khách hàng muốn thêm chức năng thanh toán, yêu cầu đi qua BA làm rõ, PM đánh giá tiến độ,
+Tech Lead chọn giải pháp, rồi Designer, Developer, QA và DevOps cùng thực hiện.
+
+34
+00:05:41,994 --> 00:05:45,734
+Không phải khách hàng vừa nói là lập trình viên code ngay đâu nhé!
+
+35
+00:05:46,034 --> 00:05:56,114
+Công cụ quen thuộc: Jira quản lý công việc, Figma thiết kế, Git và GitHub quản lý mã nguồn,
+Postman kiểm thử API, và Docker đóng gói triển khai.
+
+36
+00:05:57,114 --> 00:06:11,654
+Với người mới, đừng chọn chức danh chỉ vì lương cao. Thích giao diện, hãy bắt đầu với Frontend.
+Thích logic và dữ liệu, tìm hiểu Backend. Thích phân tích, hãy thử Business Analyst.
+
+37
+00:06:11,954 --> 00:06:25,694
+Và đừng lo nếu chưa biết mình là ai trong công ty phần mềm. Một người hoàn toàn có thể đổi hướng.
+Hãy thử bài tập: lập nhóm tám người, phân vai xây website quản lý nhà hàng trong tám tuần nhé.
+
+38
+00:06:26,694 --> 00:06:39,054
+Thử tài nhé! Câu một: ai điều phối tiến độ và công việc của dự án?
+A, Frontend Developer. B, Project Manager. C, Tester.
+
+39
+00:06:41,354 --> 00:06:44,874
+Đáp án: B, Project Manager!
+
+40
+00:06:45,174 --> 00:06:55,054
+Câu hai: công cụ nào dùng thiết kế giao diện?
+A, MySQL. B, Docker. C, Figma.
+
+41
+00:06:57,354 --> 00:07:00,234
+Đáp án: C, Figma!
+
+42
+00:07:01,234 --> 00:07:14,530
+Tóm lại, hãy nhớ ba điều: một sản phẩm web là công sức của cả đội ngũ; mỗi vị trí có vai trò riêng;
+và bạn có thể bắt đầu từ vị trí phù hợp với sở thích của mình.
+
+43
+00:07:14,830 --> 00:07:25,820
+Lập trình không chỉ là viết code, mà là giải quyết vấn đề và phối hợp con người.
+Nếu thấy hữu ích, hãy theo dõi kênh để cùng khám phá thêm nhiều kiến thức thực tế.
+
+44
+00:07:26,120 --> 00:07:33,460
+Cảm ơn các bạn đã theo dõi An Tech Academy – Học công nghệ cùng An.
+Hẹn gặp lại trong bài học tiếp theo!

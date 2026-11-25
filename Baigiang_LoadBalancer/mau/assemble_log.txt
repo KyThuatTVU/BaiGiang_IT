@@ -1,0 +1,16 @@
+S01 encoded 905
+S02 encoded 808
+S03 encoded 643
+S04 encoded 982
+S05 encoded 583
+S06 encoded 766
+S07 encoded 584
+S08 encoded 718
+S09 encoded 602
+S10 encoded 647
+S11 encoded 582
+S12 encoded 981
+VIDEO full 290.10s
+LOUDNORM_IN {'input_i': '-20.10', 'input_tp': '-2.13', 'input_lra': '2.80'}
+FINAL_LOUDNESS {'input_i': '-14.72', 'input_tp': '-0.80', 'input_lra': '2.80'}
+DRAFT_DONE full 290.08s

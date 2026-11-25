@@ -1,0 +1,197 @@
+{
+  "title": "Tích hợp API thanh toán ngân hàng vào website thương mại điện tử",
+  "version": "v1",
+  "voice": "vieneu",
+  "ref": "Kit/cache/ref_voice/ref_final.wav",
+  "fps": 30,
+  "size": [1920, 1080],
+  "music": false,
+  "scenes": [
+    {
+      "id": "s01",
+      "title": "Hook + lời chào",
+      "hold": 4.0,
+      "cues": [
+        {"id": "s0101", "say": "Xin chào các bạn! Chào mừng đến với An Tech Academy.", "pause": 0.25},
+        {"id": "s0102", "say": "Hôm nay, chúng ta sẽ nối website bán hàng với ngân hàng.", "pause": 0.30},
+        {"id": "s0103", "say": "Khách đã chuyển khoản, mà đơn hàng vẫn báo chờ thanh toán?", "pause": 0.35},
+        {"id": "s0104", "say": "Nhân viên phải mở ứng dụng ngân hàng, dò từng giao dịch mỗi ngày?", "pause": 0.35},
+        {"id": "s0105", "say": "Đó là lúc API thanh toán ngân hàng phát huy tác dụng.", "pause": 0.40},
+        {"id": "s0106", "say": "Chúng ta sẽ đi từ khái niệm, đến luồng xử lý và code Node.js.", "pause": 0.30},
+        {"id": "s0107", "say": "Kèm theo webhook, bảo mật và cách chống xử lý trùng.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s02",
+      "title": "API ngân hàng là gì",
+      "hold": 5.0,
+      "cues": [
+        {"id": "s0201", "say": "API ngân hàng là giao diện lập trình do ngân hàng cung cấp.", "pause": 0.30},
+        {"id": "s0202", "say": "Nó cho phép phần mềm bên ngoài gọi dịch vụ ngân hàng qua Internet.", "pause": 0.30},
+        {"id": "s0203", "say": "Ví dụ, khách đặt mua một chiếc điện thoại giá mười lăm triệu đồng.", "pause": 0.35},
+        {"id": "s0204", "say": "Chưa tích hợp, nhân viên phải kiểm tra biến động số dư, rồi đối chiếu nội dung chuyển khoản.", "pause": 0.35},
+        {"id": "s0205", "say": "Sau đó quay lại website xác nhận, kho mới bắt đầu giao hàng.", "pause": 0.30},
+        {"id": "s0206", "say": "Đã tích hợp, website tự tạo giao dịch, ngân hàng xử lý và thông báo về máy chủ.", "pause": 0.30},
+        {"id": "s0207", "say": "Backend xác minh, rồi tự cập nhật đơn đã thanh toán.", "pause": 0.30},
+        {"id": "s0208", "say": "Giá trị lớn nhất là tự động hóa và đồng bộ dữ liệu.", "pause": 0.30},
+        {"id": "s0209", "say": "Mỗi ngày hàng trăm đơn, nhân viên không thể dò thủ công.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s03",
+      "title": "Điều kiện cấp API và bộ thông tin",
+      "hold": 6.0,
+      "cues": [
+        {"id": "s0301", "say": "Nhưng mở tài khoản doanh nghiệp chưa đủ để có API thanh toán.", "pause": 0.30},
+        {"id": "s0302", "say": "Doanh nghiệp phải đăng ký dịch vụ, ký hợp đồng và hoàn tất xác minh.", "pause": 0.30},
+        {"id": "s0303", "say": "Ngân hàng cấp môi trường thử nghiệm sandbox để lập trình viên kiểm thử.", "pause": 0.30},
+        {"id": "s0304", "say": "Kiểm thử đạt, mới được phê duyệt sang môi trường chính thức.", "pause": 0.45},
+        {"id": "s0305", "say": "Bộ thông tin thường gồm Client ID, Client Secret, khóa ký và chứng thư số.", "pause": 0.35},
+        {"id": "s0306", "say": "Tùy ngân hàng, có thể thêm API Key, Access Token hoặc Merchant ID.", "pause": 0.30},
+        {"id": "s0307", "say": "Điểm quan trọng: không nhúng bí mật vào JavaScript chạy trên trình duyệt.", "pause": 0.40},
+        {"id": "s0308", "say": "Chỉ Backend được giữ và sử dụng thông tin xác thực.", "pause": 0.30},
+        {"id": "s0309", "say": "Mỗi ngân hàng có tài liệu và quy trình riêng.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s04",
+      "title": "Năm nhóm API ngân hàng",
+      "hold": 7.0,
+      "cues": [
+        {"id": "s0401", "say": "Có năm nhóm API ngân hàng thường gặp.", "pause": 0.25},
+        {"id": "s0402", "say": "Nhóm một: cổng thanh toán, tạo giao dịch và chuyển khách sang trang thanh toán.", "pause": 0.30},
+        {"id": "s0403", "say": "Nhóm hai: thanh toán QR, sinh mã gắn với số tiền và mã đơn hàng.", "pause": 0.30},
+        {"id": "s0404", "say": "Nhóm ba: thông báo biến động số dư, gửi giao dịch về hệ thống doanh nghiệp.", "pause": 0.30},
+        {"id": "s0405", "say": "Nhóm bốn: tài khoản định danh, giúp nhận diện tiền chuyển vào của từng đơn.", "pause": 0.30},
+        {"id": "s0406", "say": "Nhóm năm: API chuyển tiền, cho phép chi hộ theo quyền được cấp.", "pause": 0.40},
+        {"id": "s0407", "say": "Lưu ý rất quan trọng: chỉ tạo được mã QR không có nghĩa là đã biết khách thanh toán.", "pause": 0.40},
+        {"id": "s0408", "say": "Muốn tự xác nhận, phải có thông báo giao dịch hoặc chức năng đối soát.", "pause": 0.30},
+        {"id": "s0409", "say": "Chọn đúng nhóm API theo nhu cầu, đừng chỉ nhìn vào tên gọi.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s05",
+      "title": "Năm thành phần hệ thống",
+      "hold": 5.0,
+      "cues": [
+        {"id": "s0501", "say": "Hãy chia hệ thống thành năm thành phần.", "pause": 0.25},
+        {"id": "s0502", "say": "Customer là người mua hàng.", "pause": 0.25},
+        {"id": "s0503", "say": "Frontend là giao diện website.", "pause": 0.25},
+        {"id": "s0504", "say": "Backend xử lý nghiệp vụ đơn hàng.", "pause": 0.25},
+        {"id": "s0505", "say": "Bank API nối tới ngân hàng hoặc nhà cung cấp thanh toán.", "pause": 0.30},
+        {"id": "s0506", "say": "Database lưu đơn hàng và giao dịch.", "pause": 0.30},
+        {"id": "s0507", "say": "Backend là trung tâm, và là thành phần duy nhất gọi ngân hàng.", "pause": 0.45}
+      ]
+    },
+    {
+      "id": "s06",
+      "title": "Luồng thanh toán tám bước",
+      "hold": 8.0,
+      "cues": [
+        {"id": "s0601", "say": "Khi khách nhấn nút Thanh toán, luồng xử lý bắt đầu.", "pause": 0.30},
+        {"id": "s0602", "say": "Bước một: Frontend gửi danh sách sản phẩm, số lượng và phương thức thanh toán.", "pause": 0.30},
+        {"id": "s0603", "say": "Bước hai: Backend tự tính tiền từ dữ liệu trong Database.", "pause": 0.30},
+        {"id": "s0604", "say": "Không tin số tiền do Frontend gửi lên, vì client có thể sửa.", "pause": 0.35},
+        {"id": "s0605", "say": "Đơn hàng được lưu ở trạng thái chờ thanh toán.", "pause": 0.40},
+        {"id": "s0606", "say": "Bước ba: Backend gửi mã đơn, số tiền và nội dung sang ngân hàng.", "pause": 0.30},
+        {"id": "s0607", "say": "Bước bốn: ngân hàng trả về URL thanh toán hoặc dữ liệu QR.", "pause": 0.30},
+        {"id": "s0608", "say": "Bước năm: khách quét mã và xác thực trong ứng dụng ngân hàng.", "pause": 0.30},
+        {"id": "s0609", "say": "Bước sáu: ngân hàng gọi Webhook hoặc IPN về máy chủ doanh nghiệp.", "pause": 0.35},
+        {"id": "s0610", "say": "Bước bảy: Backend kiểm tra chữ ký, mã giao dịch, số tiền và trạng thái.", "pause": 0.35},
+        {"id": "s0611", "say": "Bước tám: hợp lệ thì cập nhật đã thanh toán và chuyển đơn sang xử lý.", "pause": 0.35},
+        {"id": "s0612", "say": "Nếu bước bảy thất bại, tuyệt đối không cập nhật đơn hàng.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s07",
+      "title": "Return URL và Webhook",
+      "hold": 5.0,
+      "cues": [
+        {"id": "s0701", "say": "Cần phân biệt hai khái niệm rất dễ nhầm: Return URL và Webhook.", "pause": 0.30},
+        {"id": "s0702", "say": "Return URL chỉ đưa trình duyệt của khách quay về website.", "pause": 0.30},
+        {"id": "s0703", "say": "Nó phục vụ hiển thị kết quả, không phải bằng chứng thanh toán.", "pause": 0.30},
+        {"id": "s0704", "say": "Webhook hay IPN là kênh máy chủ ngân hàng gọi thẳng máy chủ doanh nghiệp.", "pause": 0.40},
+        {"id": "s0705", "say": "Không xác nhận đơn chỉ vì khách đã quay về trang thành công.", "pause": 0.30},
+        {"id": "s0706", "say": "Kẻ giả mạo hoàn toàn có thể tự mở địa chỉ đó.", "pause": 0.30},
+        {"id": "s0707", "say": "Hãy xác minh dữ liệu từ ngân hàng trước khi cập nhật.", "pause": 0.45}
+      ]
+    },
+    {
+      "id": "s08",
+      "title": "Xác thực OAuth và bảo mật khóa",
+      "hold": 6.0,
+      "cues": [
+        {"id": "s0801", "say": "Nhiều ngân hàng dùng OAuth 2.0 để cấp quyền truy cập.", "pause": 0.30},
+        {"id": "s0802", "say": "Backend gửi Client ID và Client Secret đến máy chủ xác thực.", "pause": 0.30},
+        {"id": "s0803", "say": "Hợp lệ thì nhận về Access Token.", "pause": 0.35},
+        {"id": "s0804", "say": "Token được gắn vào header khi gọi API thanh toán.", "pause": 0.30},
+        {"id": "s0805", "say": "Khi hết hạn, Backend lấy token mới theo quy định.", "pause": 0.30},
+        {"id": "s0806", "say": "Bí mật phải nằm trong biến môi trường của Backend.", "pause": 0.30},
+        {"id": "s0807", "say": "Không đưa Client Secret, Private Key hay API Key vào mã trình duyệt.", "pause": 0.35},
+        {"id": "s0808", "say": "Trong môi trường thật, cần HTTPS, xoay vòng khóa và giới hạn quyền.", "pause": 0.30},
+        {"id": "s0809", "say": "Không ghi thông tin bí mật vào log hay mã nguồn công khai.", "pause": 0.45}
+      ]
+    },
+    {
+      "id": "s09",
+      "title": "Thiết kế Database orders và payments",
+      "hold": 6.0,
+      "cues": [
+        {"id": "s0901", "say": "Trước khi viết API, hãy thiết kế cơ sở dữ liệu.", "pause": 0.30},
+        {"id": "s0902", "say": "Bảng orders quản lý đơn hàng và trạng thái thanh toán.", "pause": 0.30},
+        {"id": "s0903", "say": "Bảng payments lưu từng lần thử thanh toán.", "pause": 0.30},
+        {"id": "s0904", "say": "Một đơn có thể thất bại, thử lại rồi mới thành công.", "pause": 0.35},
+        {"id": "s0905", "say": "Tách hai bảng giúp giữ đầy đủ lịch sử giao dịch.", "pause": 0.30},
+        {"id": "s0906", "say": "Thêm ràng buộc duy nhất trên nhà cung cấp và mã giao dịch.", "pause": 0.30},
+        {"id": "s0907", "say": "Đây là chốt chặn chống xử lý trùng ở tầng dữ liệu.", "pause": 0.45}
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Ba bước code Node.js",
+      "hold": 11.0,
+      "cues": [
+        {"id": "s1001", "say": "Bước một: API tạo đơn hàng.", "pause": 0.30},
+        {"id": "s1002", "say": "Backend lấy giá từ Database, tính tổng rồi lưu đơn.", "pause": 0.30},
+        {"id": "s1003", "say": "Bước hai: tạo giao dịch thanh toán.", "pause": 0.30},
+        {"id": "s1004", "say": "Backend lấy token, gửi mã đơn, số tiền, URL nhận kết quả.", "pause": 0.30},
+        {"id": "s1005", "say": "Ngân hàng trả về payment URL để chuyển khách sang thanh toán.", "pause": 0.40},
+        {"id": "s1006", "say": "Bước ba: nhận Webhook tại endpoint riêng.", "pause": 0.30},
+        {"id": "s1007", "say": "Phải xác minh chữ ký trước khi đọc dữ liệu.", "pause": 0.30},
+        {"id": "s1008", "say": "Mở transaction, khóa đơn hàng bằng FOR UPDATE.", "pause": 0.30},
+        {"id": "s1009", "say": "Kiểm tra số tiền, trạng thái, rồi cập nhật bảng thanh toán và bảng đơn hàng.", "pause": 0.30},
+        {"id": "s1010", "say": "Sai bất kỳ bước nào, rollback toàn bộ để giữ dữ liệu nhất quán.", "pause": 0.40},
+        {"id": "s1011", "say": "Code trong bài là mô hình minh họa, không phải SDK của ngân hàng.", "pause": 0.50}
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Trạng thái, trùng lặp và đối soát",
+      "hold": 7.0,
+      "cues": [
+        {"id": "s1101", "say": "Thực tế không chỉ có thành công và thất bại.", "pause": 0.30},
+        {"id": "s1102", "say": "Còn chờ thanh toán, hết hạn, quá thời gian chờ và giao dịch gửi lặp.", "pause": 0.35},
+        {"id": "s1103", "say": "Timeout không có nghĩa là thất bại, vì ngân hàng có thể đã xử lý.", "pause": 0.40},
+        {"id": "s1104", "say": "Gửi lặp phải nhận diện bằng mã giao dịch duy nhất.", "pause": 0.30},
+        {"id": "s1105", "say": "Xử lý lặp lại vẫn chỉ tạo một kết quả. Đó là tính bất biến khi lặp lại.", "pause": 0.35},
+        {"id": "s1106", "say": "Webhook cần HTTPS, chữ ký, thời gian gửi và giới hạn IP.", "pause": 0.30},
+        {"id": "s1107", "say": "Cuối ngày, đối soát để tìm chênh lệch giữa website và ngân hàng.", "pause": 0.30},
+        {"id": "s1108", "say": "Webhook có thể thất lạc, nên cần truy vấn trạng thái dự phòng.", "pause": 0.45}
+      ]
+    },
+    {
+      "id": "s12",
+      "title": "Tổng kết và lời kết",
+      "hold": 5.0,
+      "cues": [
+        {"id": "s1201", "say": "Tóm lại, tích hợp thanh toán không chỉ là một lời gọi HTTP.", "pause": 0.35},
+        {"id": "s1202", "say": "Đó là cả quy trình: tạo đơn, tạo giao dịch, xác minh và cập nhật.", "pause": 0.30},
+        {"id": "s1203", "say": "Hãy nhớ ba điều: tính tiền ở Backend, xác minh chữ ký, chống trùng.", "pause": 0.30},
+        {"id": "s1204", "say": "Và luôn có đối soát cho những giao dịch bị thất lạc.", "pause": 0.45},
+        {"id": "s1205", "say": "Cảm ơn các bạn đã theo dõi An Tech Academy.", "pause": 0.35},
+        {"id": "s1206", "say": "Nhớ theo dõi kênh để không bỏ lỡ bài giảng tiếp theo.", "pause": 0.40},
+        {"id": "s1207", "say": "Hẹn gặp lại các bạn!", "pause": 0.50}
+      ]
+    }
+  ]
+}

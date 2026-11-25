@@ -1,0 +1,263 @@
+{
+ "S01c1": {
+  "dur": 11.0,
+  "variant": 1,
+  "bytes": 70128,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+15%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S01c2": {
+  "dur": 8.8,
+  "variant": 0,
+  "bytes": 57024,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+13%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S01c3": {
+  "dur": 7.66,
+  "variant": 2,
+  "bytes": 50544,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+12%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c1": {
+  "dur": 9.02,
+  "variant": 0,
+  "bytes": 58752,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c2": {
+  "dur": 8.56,
+  "variant": 0,
+  "bytes": 56016,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c1": {
+  "dur": 9.03,
+  "variant": 1,
+  "bytes": 59472,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+8%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c2": {
+  "dur": 9.74,
+  "variant": 0,
+  "bytes": 63072,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c3": {
+  "dur": 7.72,
+  "variant": 0,
+  "bytes": 51120,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c1": {
+  "dur": 12.08,
+  "variant": 2,
+  "bytes": 77328,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+8%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c2": {
+  "dur": 12.16,
+  "variant": 0,
+  "bytes": 77904,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S04c3": {
+  "dur": 8.6,
+  "variant": 2,
+  "bytes": 56016,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+12%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S05c2": {
+  "dur": 11.1,
+  "variant": 0,
+  "bytes": 70992,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S06c1": {
+  "dur": 13.86,
+  "variant": 0,
+  "bytes": 88560,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S07c2": {
+  "dur": 8.57,
+  "variant": 2,
+  "bytes": 55728,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+11%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c1": {
+  "dur": 10.19,
+  "variant": 0,
+  "bytes": 65520,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c2": {
+  "dur": 10.72,
+  "variant": 1,
+  "bytes": 68832,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+8%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S08c3": {
+  "dur": 9.49,
+  "variant": 2,
+  "bytes": 61488,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S09c1": {
+  "dur": 9.86,
+  "variant": 0,
+  "bytes": 63792,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S09c2": {
+  "dur": 7.02,
+  "variant": 0,
+  "bytes": 46656,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+11%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S10c1": {
+  "dur": 5.67,
+  "variant": 0,
+  "bytes": 39168,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S10c2": {
+  "dur": 8.35,
+  "variant": 1,
+  "bytes": 54720,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S11c1": {
+  "dur": 8.54,
+  "variant": 2,
+  "bytes": 55728,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S11c2": {
+  "dur": 10.24,
+  "variant": 0,
+  "bytes": 65952,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S12c1": {
+  "dur": 9.59,
+  "variant": 0,
+  "bytes": 62208,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S12c2": {
+  "dur": 8.8,
+  "variant": 0,
+  "bytes": 57312,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+10%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S05c1": {
+  "dur": 10.06,
+  "variant": 0,
+  "bytes": 64800,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+8%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S06c2": {
+  "dur": 11.51,
+  "variant": 1,
+  "bytes": 73584,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+11%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S07c1": {
+  "dur": 14.08,
+  "variant": 3,
+  "bytes": 89280,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+9%",
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S12c3": {
+  "dur": 9.39,
+  "variant": 0,
+  "bytes": 60912,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "rate": "+12%",
+  "shift": 0.0,
+  "trimmed": true
+ }
+}

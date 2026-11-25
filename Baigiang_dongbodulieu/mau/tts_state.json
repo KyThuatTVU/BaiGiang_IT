@@ -1,0 +1,27 @@
+{
+ "S01c1": {
+  "dur": 6.5,
+  "variant": 1,
+  "bytes": 39024
+ },
+ "S01c2": {
+  "dur": 4.29,
+  "variant": 2,
+  "bytes": 25776
+ },
+ "S02c1": {
+  "dur": 9.33,
+  "variant": 0,
+  "bytes": 56016
+ },
+ "S06c1": {
+  "dur": 5.92,
+  "variant": 0,
+  "bytes": 35568
+ },
+ "S06c2": {
+  "dur": 3.24,
+  "variant": 0,
+  "bytes": 19440
+ }
+}

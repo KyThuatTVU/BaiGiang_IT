@@ -1,0 +1,32 @@
+{
+ "S01c1": {
+  "dur": 3.46,
+  "variant": 1,
+  "bytes": 24624,
+  "trimmed": true
+ },
+ "S01c2": {
+  "dur": 5.27,
+  "variant": 0,
+  "bytes": 35856,
+  "trimmed": true
+ },
+ "S01c3": {
+  "dur": 4.98,
+  "variant": 2,
+  "bytes": 33840,
+  "trimmed": true
+ },
+ "S04c1": {
+  "dur": 11.88,
+  "variant": 1,
+  "bytes": 75312,
+  "trimmed": true
+ },
+ "S04c2": {
+  "dur": 9.05,
+  "variant": 0,
+  "bytes": 58608,
+  "trimmed": true
+ }
+}

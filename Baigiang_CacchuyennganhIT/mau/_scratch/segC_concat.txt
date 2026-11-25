@@ -1,0 +1,3 @@
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/bis_c1.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/sil02.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/var_baotri_nodot.mp3'

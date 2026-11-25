@@ -1,0 +1,14 @@
+1
+00:00:00,000 --> 00:00:11,660
+Chào các bạn! Chào mừng đến với An Tech Academy.
+Trang web 30 ảnh, mỗi ảnh 5 MB — đợi mãi ảnh chưa hiện.
+
+2
+00:00:12,210 --> 00:00:21,690
+30 × 5 MB = 150 MB cho một trang chủ.
+Mạng di động càng chậm — khách bỏ đi, đơn hàng đi theo.
+
+3
+00:00:22,690 --> 00:00:35,550
+Nén mất dữ liệu (Lossy): bỏ chi tiết mắt khó thấy
+để đổi lấy dung lượng nhỏ hơn nhiều. Ví dụ: JPEG.

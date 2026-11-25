@@ -1,0 +1,523 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Xin chào các bạn! Chào mừng các bạn đã quay trở lại với An Tech Academy – Học công nghệ cùng An.",
+  "say": "Xin chào các bạn! Chào mừng các bạn đã quay trở lại với An Téc A-ca-đê-mi, Học công nghệ cùng An.",
+  "subs": [
+   "Xin chào các bạn! Chào mừng các bạn đã quay trở lại",
+   "với An Tech Academy – Học công nghệ cùng An."
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Bạn đã bao giờ tự hỏi: trong một công ty phần mềm, ai lên ý tưởng, ai chia việc cho lập trình viên, và ai kiểm tra website trước khi phát hành?",
+  "say": "Bạn đã bao giờ tự hỏi: trong một công ty phần mềm, ai lên ý tưởng, ai chia việc cho lập trình viên, và ai kiểm tra website trước khi phát hành?",
+  "subs": [
+   "Bạn đã bao giờ tự hỏi: trong một công ty phần mềm, ai lên ý tưởng,",
+   "ai chia việc cho lập trình viên, và ai kiểm tra website trước khi phát hành?"
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Hôm nay, chúng ta sẽ khám phá bên trong một dự án phát triển phần mềm thực tế, qua ví dụ một website bán hàng. Bắt đầu nhé!",
+  "say": "Hôm nay, chúng ta sẽ khám phá bên trong một dự án phát triển phần mềm thực tế, qua ví dụ một website bán hàng. Bắt đầu nhé!",
+  "subs": [
+   "Hôm nay, chúng ta sẽ khám phá bên trong một dự án phát triển phần mềm thực tế,",
+   "qua ví dụ một website bán hàng. Bắt đầu nhé!"
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Trước tiên, dự án phần mềm là gì?",
+  "say": "Trước tiên, dự án phần mềm là gì?",
+  "subs": [
+   "Trước tiên, dự án phần mềm là gì?"
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Đó là một tập hợp các hoạt động có mục tiêu, thời gian, nguồn lực và phạm vi xác định, để xây dựng hoặc nâng cấp một sản phẩm phần mềm.",
+  "say": "Đó là một tập hợp các hoạt động có mục tiêu, thời gian, nguồn lực và phạm vi xác định, để xây dựng hoặc nâng cấp một sản phẩm phần mềm.",
+  "subs": [
+   "Đó là một tập hợp các hoạt động có mục tiêu, thời gian, nguồn lực và phạm vi xác định,",
+   "để xây dựng hoặc nâng cấp một sản phẩm phần mềm."
+  ]
+ },
+ {
+  "id": "S02c3",
+  "scene": "S02",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Ví dụ, một cửa hàng điện thoại muốn có website bán hàng: hiển thị sản phẩm, giỏ hàng, đặt hàng, thanh toán và thống kê doanh thu. Tất cả được tổ chức thành một dự án, từ xác định yêu cầu đến triển khai.",
+  "say": "Ví dụ, một cửa hàng điện thoại muốn có website bán hàng: hiển thị sản phẩm, giỏ hàng, đặt hàng, thanh toán và thống kê doanh thu. Tất cả được tổ chức thành một dự án, từ xác định yêu cầu đến triển khai.",
+  "subs": [
+   "Ví dụ, một cửa hàng điện thoại muốn có website bán hàng: hiển thị sản phẩm, giỏ hàng,",
+   "đặt hàng, thanh toán và thống kê doanh thu. Tất cả được tổ chức thành một dự án."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Lưu ý nhỏ: công ty phần mềm là tổ chức, còn dự án là một công việc cụ thể bên trong công ty. Một công ty có thể chạy nhiều dự án cùng lúc.",
+  "say": "Lưu ý nhỏ: công ty phần mềm là tổ chức, còn dự án là một công việc cụ thể bên trong công ty. Một công ty có thể chạy nhiều dự án cùng lúc.",
+  "subs": [
+   "Lưu ý nhỏ: công ty phần mềm là tổ chức, còn dự án là một công việc cụ thể bên trong công ty.",
+   "Một công ty có thể chạy nhiều dự án cùng lúc."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Vậy vì sao cần nhiều vị trí? Nếu một lập trình viên phải tự phân tích, thiết kế, viết code, kiểm thử và triển khai, khối lượng sẽ quá lớn khi hệ thống phát triển.",
+  "say": "Vậy vì sao cần nhiều vị trí? Nếu một lập trình viên phải tự phân tích, thiết kế, viết code, kiểm thử và triển khai, khối lượng sẽ quá lớn khi hệ thống phát triển.",
+  "subs": [
+   "Vậy vì sao cần nhiều vị trí? Nếu một lập trình viên phải tự phân tích, thiết kế, viết code,",
+   "kiểm thử và triển khai, khối lượng sẽ quá lớn khi hệ thống phát triển."
+  ]
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Vì vậy, công việc được chia theo chuyên môn, mỗi người một phần, cùng hướng đến mục tiêu chung.",
+  "say": "Vì vậy, công việc được chia theo chuyên môn, mỗi người một phần, cùng hướng đến mục tiêu chung.",
+  "subs": [
+   "Vì vậy, công việc được chia theo chuyên môn, mỗi người một phần,",
+   "cùng hướng đến mục tiêu chung."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Cơ cấu đội ngũ phần mềm thường gồm bốn nhóm: lãnh đạo và định hướng; quản lý dự án; quản lý chuyên môn; và nhóm trực tiếp phát triển, triển khai sản phẩm.",
+  "say": "Cơ cấu đội ngũ phần mềm thường gồm bốn nhóm: lãnh đạo và định hướng; quản lý dự án; quản lý chuyên môn; và nhóm trực tiếp phát triển, triển khai sản phẩm.",
+  "subs": [
+   "Cơ cấu đội ngũ phần mềm thường gồm bốn nhóm: lãnh đạo và định hướng;",
+   "quản lý dự án; quản lý chuyên môn; và nhóm trực tiếp phát triển, triển khai sản phẩm."
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Đây là mô hình tham khảo. Thực tế, mỗi công ty tổ chức linh hoạt khác nhau.",
+  "say": "Đây là mô hình tham khảo. Thực tế, mỗi công ty tổ chức linh hoạt khác nhau.",
+  "subs": [
+   "Đây là mô hình tham khảo. Thực tế, mỗi công ty tổ chức linh hoạt khác nhau."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Nhóm đầu tiên: lãnh đạo và định hướng. CEO, Giám đốc điều hành, lo chiến lược kinh doanh, khách hàng và doanh thu. Ví dụ, CEO quyết định đầu tư vào nền tảng thương mại điện tử vì thấy tiềm năng kinh doanh.",
+  "say": "Nhóm đầu tiên: lãnh đạo và định hướng. Si I Âu, Giám đốc điều hành, lo chiến lược kinh doanh, khách hàng và doanh thu. Ví dụ, Si I Âu quyết định đầu tư vào nền tảng thương mại điện tử vì thấy tiềm năng kinh doanh.",
+  "subs": [
+   "Nhóm đầu tiên: lãnh đạo và định hướng. CEO, Giám đốc điều hành, lo chiến lược kinh doanh,",
+   "khách hàng và doanh thu. Ví dụ, CEO quyết định đầu tư vào nền tảng thương mại điện tử."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "CTO, Giám đốc công nghệ, định hướng công nghệ và kiến trúc hệ thống. Ví dụ: chọn Node.js hay PHP, MySQL hay PostgreSQL.",
+  "say": "Si Ti Âu, Giám đốc công nghệ, định hướng công nghệ và kiến trúc hệ thống. Ví dụ: chọn Nâu-đờ chấm Giây Ét hay Pi Ếch Pi, Mai Ét Kiu En hay Pốt-gờ-rét Kiu En.",
+  "subs": [
+   "CTO, Giám đốc công nghệ, định hướng công nghệ và kiến trúc hệ thống.",
+   "Ví dụ: chọn Node.js hay PHP, MySQL hay PostgreSQL."
+  ]
+ },
+ {
+  "id": "S05c3",
+  "scene": "S05",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Còn Project Sponsor, người bảo trợ dự án, phê duyệt mục tiêu, ngân sách, và hỗ trợ các vấn đề vượt quyền hạn của quản lý dự án.",
+  "say": "Còn Pró-giếc Sờ-pón-sờ, người bảo trợ dự án, phê duyệt mục tiêu, ngân sách, và hỗ trợ các vấn đề vượt quyền hạn của quản lý dự án.",
+  "subs": [
+   "Còn Project Sponsor, người bảo trợ dự án, phê duyệt mục tiêu, ngân sách,",
+   "và hỗ trợ các vấn đề vượt quyền hạn của quản lý dự án."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Nhóm quản lý dự án, trước hết là Project Manager, gọi tắt là PM. PM lập kế hoạch, phân chia công việc, theo dõi tiến độ, quản lý rủi ro và báo cáo các bên. Ví dụ, một lập trình viên nghỉ việc giữa dự án, PM phải phối hợp các bên để xử lý kịp thời.",
+  "say": "Nhóm quản lý dự án, trước hết là Pró-giếc Mæ-ni-dờ, gọi tắt là Pi Em. Pi Em lập kế hoạch, phân chia công việc, theo dõi tiến độ, quản lý rủi ro và báo cáo các bên. Ví dụ, một lập trình viên nghỉ việc giữa dự án, Pi Em phải phối hợp các bên để xử lý kịp thời.",
+  "subs": [
+   "Nhóm quản lý dự án, trước hết là Project Manager, gọi tắt là PM. PM lập kế hoạch, phân chia công việc,",
+   "theo dõi tiến độ, quản lý rủi ro và báo cáo các bên."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+5%",
+  "pause_after": 0.4,
+  "text": "Nhớ nhé: PM không cần là người code giỏi nhất, mà cần kỹ năng tổ chức, giao tiếp và hiểu quy trình phần mềm.",
+  "say": "Nhớ nhé: Pi Em không cần là người code giỏi nhất, mà cần kỹ năng tổ chức, giao tiếp và hiểu quy trình phần mềm.",
+  "subs": [
+   "Nhớ nhé: PM không cần là người code giỏi nhất, mà cần kỹ năng tổ chức,",
+   "giao tiếp và hiểu quy trình phần mềm."
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Product Owner, hay PO, quyết định tính năng nào quan trọng và được ưu tiên làm trước, thông qua Product Backlog.",
+  "say": "Pró-đắc Âu-nờ, hay Pi Âu, quyết định tính năng nào quan trọng và được ưu tiên làm trước, thông qua Pró-đắc Bấc-lóc.",
+  "subs": [
+   "Product Owner, hay PO, quyết định tính năng nào quan trọng và được ưu tiên làm trước,",
+   "thông qua Product Backlog."
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Còn Business Analyst, hay BA, là cầu nối giữa khách hàng và đội kỹ thuật. Khách hàng nói: tôi muốn website bán hàng. BA sẽ hỏi tiếp: có cần đăng nhập không, thanh toán bằng gì, hủy đơn thì xử lý ra sao?",
+  "say": "Còn Bít-nờs A-nơ-lít, hay Bi Ây, là cầu nối giữa khách hàng và đội kỹ thuật. Khách hàng nói: tôi muốn website bán hàng. Bi Ây sẽ hỏi tiếp: có cần đăng nhập không, thanh toán bằng gì, hủy đơn thì xử lý ra sao?",
+  "subs": [
+   "Còn Business Analyst, hay BA, là cầu nối giữa khách hàng và đội kỹ thuật. Khách hàng nói:",
+   "tôi muốn website bán hàng. BA sẽ hỏi tiếp: có cần đăng nhập không, thanh toán bằng gì?"
+  ]
+ },
+ {
+  "id": "S07c3",
+  "scene": "S07",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Sau đó, BA viết tài liệu yêu cầu như SRS, Use Case và User Story, để đội phát triển hiểu chính xác cần xây dựng gì.",
+  "say": "Sau đó, Bi Ây viết tài liệu yêu cầu như Ét A Ét, Diu-zờ Cấy và Diu-zờ Sờ-to-ri, để đội phát triển hiểu chính xác cần xây dựng gì.",
+  "subs": [
+   "Sau đó, BA viết tài liệu yêu cầu như SRS, Use Case và User Story,",
+   "để đội phát triển hiểu chính xác cần xây dựng gì."
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Nhóm chuyên môn có Tech Lead định hướng kỹ thuật và review code; UI/UX Lead định hướng thiết kế giao diện và trải nghiệm người dùng; còn QA Lead xây dựng chiến lược kiểm thử.",
+  "say": "Nhóm chuyên môn có Téc Lít định hướng kỹ thuật và ri-viu code; Iu Ai Iu Éc Lít định hướng thiết kế giao diện và trải nghiệm người dùng; còn Kiu Ây Lít xây dựng chiến lược kiểm thử.",
+  "subs": [
+   "Nhóm chuyên môn có Tech Lead định hướng kỹ thuật và review code; UI/UX Lead định hướng thiết kế;",
+   "còn QA Lead xây dựng chiến lược kiểm thử."
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Đến nhóm phát triển sản phẩm. UI/UX Designer thiết kế các trang: trang chủ, sản phẩm, giỏ hàng, thanh toán, thường trên Figma.",
+  "say": "Đến nhóm phát triển sản phẩm. Iu Ai Iu Éc Đi-dai-nờ thiết kế các trang: trang chủ, sản phẩm, giỏ hàng, thanh toán, thường trên Phíg-mơ.",
+  "subs": [
+   "Đến nhóm phát triển sản phẩm. UI/UX Designer thiết kế các trang: trang chủ, sản phẩm,",
+   "giỏ hàng, thanh toán, thường trên Figma."
+  ]
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Frontend Developer chuyển thiết kế thành giao diện chạy trên trình duyệt, bằng HTML, CSS, JavaScript và các thư viện như React.",
+  "say": "Phờ-ront-en Đi-ve-lớp-pờ chuyển thiết kế thành giao diện chạy trên trình duyệt, bằng Ếch Ti Em En, Si Ét Ét, Gia-vơ Sờ-críp và các thư viện như Ri-ác.",
+  "subs": [
+   "Frontend Developer chuyển thiết kế thành giao diện chạy trên trình duyệt,",
+   "bằng HTML, CSS, JavaScript và các thư viện như React."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+5%",
+  "pause_after": 0.4,
+  "text": "Backend Developer xử lý logic phía máy chủ. Ví dụ, khi bạn nhấn đăng nhập:",
+  "say": "Bắc-en Đi-ve-lớp-pờ xử lý logic phía máy chủ. Ví dụ, khi bạn nhấn đăng nhập:",
+  "subs": [
+   "Backend Developer xử lý logic phía máy chủ.",
+   "Ví dụ, khi bạn nhấn đăng nhập:"
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Frontend gửi email và mật khẩu qua API. Backend kiểm tra, truy vấn cơ sở dữ liệu, xác thực tài khoản, rồi trả kết quả về Frontend. Dữ liệu trả về thường ở dạng JSON.",
+  "say": "Phờ-ront-en gửi email và mật khẩu qua Ây Pi Ai. Bắc-en kiểm tra, truy vấn cơ sở dữ liệu, xác thực tài khoản, rồi trả kết quả về Phờ-ront-en. Dữ liệu trả về thường ở dạng Giây-sần.",
+  "subs": [
+   "Frontend gửi email và mật khẩu qua API. Backend kiểm tra, truy vấn cơ sở dữ liệu,",
+   "xác thực tài khoản, rồi trả kết quả về Frontend. Dữ liệu trả về thường ở dạng JSON."
+  ]
+ },
+ {
+  "id": "S10c3",
+  "scene": "S10",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Công nghệ phổ biến: Node.js với Express, PHP với Laravel, Java với Spring Boot.",
+  "say": "Công nghệ phổ biến: Nâu-đờ chấm Giây Ét với Ích-sờ-prét, Pi Ếch Pi với La-rơ-ven, Gia-vơ với Sờ-ring Bút.",
+  "subs": [
+   "Công nghệ phổ biến: Node.js với Express, PHP với Laravel, Java với Spring Boot."
+  ]
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Database Engineer thiết kế các bảng dữ liệu: người dùng, sản phẩm, đơn hàng, với khóa chính, khóa ngoại và quan hệ giữa các bảng.",
+  "say": "Đây-tơ-bế En-gi-nia thiết kế các bảng dữ liệu: người dùng, sản phẩm, đơn hàng, với khóa chính, khóa ngoại và quan hệ giữa các bảng.",
+  "subs": [
+   "Database Engineer thiết kế các bảng dữ liệu: người dùng, sản phẩm, đơn hàng,",
+   "với khóa chính, khóa ngoại và quan hệ giữa các bảng."
+  ]
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "QA và Tester kiểm thử sản phẩm: thử đăng nhập đúng, sai mật khẩu, bỏ trống thông tin, và tạo Bug Report khi phát hiện lỗi.",
+  "say": "Kiu Ây và Tét-tờ kiểm thử sản phẩm: thử đăng nhập đúng, sai mật khẩu, bỏ trống thông tin, và tạo Bấc Ri-pót khi phát hiện lỗi.",
+  "subs": [
+   "QA và Tester kiểm thử sản phẩm: thử đăng nhập đúng, sai mật khẩu, bỏ trống thông tin,",
+   "và tạo Bug Report khi phát hiện lỗi."
+  ]
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "DevOps Engineer đưa website lên máy chủ, cấu hình tên miền, HTTPS và tự động hóa triển khai bằng CI/CD.",
+  "say": "Đev-Óp En-gi-nia đưa website lên máy chủ, cấu hình tên miền, Ếch Ti Ti Pi Ét và tự động hóa triển khai bằng Si Ai Si Đi.",
+  "subs": [
+   "DevOps Engineer đưa website lên máy chủ, cấu hình tên miền, HTTPS",
+   "và tự động hóa triển khai bằng CI/CD."
+  ]
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "rate": "+0%",
+  "pause_after": 0.0,
+  "text": "Security Engineer rà soát lỗ hổng như SQL Injection, XSS. Còn Technical Writer viết tài liệu kỹ thuật và hướng dẫn sử dụng.",
+  "say": "Si-kiu-ri-ti En-gi-nia rà soát lỗ hổng như Ét Kiu En In-giếc-sần, Éc Ét Ét. Còn Téc-ni-cồ Rai-tờ viết tài liệu kỹ thuật và hướng dẫn sử dụng.",
+  "subs": [
+   "Security Engineer rà soát lỗ hổng như SQL Injection, XSS.",
+   "Còn Technical Writer viết tài liệu kỹ thuật và hướng dẫn sử dụng."
+  ]
+ },
+ {
+  "id": "S13c1",
+  "scene": "S13",
+  "rate": "+5%",
+  "pause_after": 0.3,
+  "text": "Vậy các vị trí phối hợp ra sao? Một dự án website thường đi qua sáu giai đoạn.",
+  "say": "Vậy các vị trí phối hợp ra sao? Một dự án website thường đi qua sáu giai đoạn.",
+  "subs": [
+   "Vậy các vị trí phối hợp ra sao? Một dự án website thường đi qua sáu giai đoạn."
+  ]
+ },
+ {
+  "id": "S13c2",
+  "scene": "S13",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Khởi động, phân tích yêu cầu, thiết kế hệ thống, phát triển, kiểm thử, rồi triển khai và bàn giao. Mỗi giai đoạn có kết quả rõ ràng: Project Charter, tài liệu SRS, bản thiết kế, mã nguồn, báo cáo kiểm thử, và website chạy thật.",
+  "say": "Khởi động, phân tích yêu cầu, thiết kế hệ thống, phát triển, kiểm thử, rồi triển khai và bàn giao. Mỗi giai đoạn có kết quả rõ ràng: Pró-giếc Chát-tờ, tài liệu Ét A Ét, bản thiết kế, mã nguồn, báo cáo kiểm thử, và website chạy thật.",
+  "subs": [
+   "Khởi động, phân tích yêu cầu, thiết kế hệ thống, phát triển, kiểm thử, rồi triển khai và bàn giao.",
+   "Mỗi giai đoạn có kết quả rõ ràng: Project Charter, tài liệu SRS, bản thiết kế, mã nguồn..."
+  ]
+ },
+ {
+  "id": "S13c3",
+  "scene": "S13",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Khởi động có CEO, Sponsor và PM. Phân tích yêu cầu do BA chủ trì. Thiết kế có Designer, Tech Lead và Database Engineer. Phát triển là sân khấu của Frontend, Backend. Kiểm thử thuộc về QA, Tester. Còn triển khai và bàn giao do DevOps và PM đảm nhiệm.",
+  "say": "Khởi động có Si I Âu, Sờ-pón-sờ và Pi Em. Phân tích yêu cầu do Bi Ây chủ trì. Thiết kế có Đi-dai-nờ, Téc Lít và Đây-tơ-bế En-gi-nia. Phát triển là sân khấu của Phờ-ront-en, Bắc-en. Kiểm thử thuộc về Kiu Ây, Tét-tờ. Còn triển khai và bàn giao do Đev-Óp và Pi Em đảm nhiệm.",
+  "subs": [
+   "Khởi động có CEO, Sponsor và PM. Phân tích yêu cầu do BA chủ trì. Thiết kế có Designer, Tech Lead.",
+   "Phát triển: Frontend, Backend. Kiểm thử: QA, Tester. Triển khai, bàn giao: DevOps và PM."
+  ]
+ },
+ {
+  "id": "S14c1",
+  "scene": "S14",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Khi khách hàng muốn thêm chức năng thanh toán, yêu cầu đi qua BA làm rõ, PM đánh giá tiến độ, Tech Lead chọn giải pháp, rồi Designer, Developer, QA và DevOps cùng thực hiện.",
+  "say": "Khi khách hàng muốn thêm chức năng thanh toán, yêu cầu đi qua Bi Ây làm rõ, Pi Em đánh giá tiến độ, Téc Lít chọn giải pháp, rồi Đi-dai-nờ, Đi-ve-lớp-pờ, Kiu Ây và Đev-Óp cùng thực hiện.",
+  "subs": [
+   "Khi khách hàng muốn thêm chức năng thanh toán, yêu cầu đi qua BA làm rõ, PM đánh giá tiến độ,",
+   "Tech Lead chọn giải pháp, rồi Designer, Developer, QA và DevOps cùng thực hiện."
+  ]
+ },
+ {
+  "id": "S14c2",
+  "scene": "S14",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Không phải khách hàng vừa nói là lập trình viên code ngay đâu nhé!",
+  "say": "Không phải khách hàng vừa nói là lập trình viên code ngay đâu nhé!",
+  "subs": [
+   "Không phải khách hàng vừa nói là lập trình viên code ngay đâu nhé!"
+  ]
+ },
+ {
+  "id": "S14c3",
+  "scene": "S14",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Công cụ quen thuộc: Jira quản lý công việc, Figma thiết kế, Git và GitHub quản lý mã nguồn, Postman kiểm thử API, và Docker đóng gói triển khai.",
+  "say": "Công cụ quen thuộc: Gi-rơ quản lý công việc, Phíg-mơ thiết kế, Ghít và Ghít Hấp quản lý mã nguồn, Pốt-mần kiểm thử Ây Pi Ai, và Đóc-cờ đóng gói triển khai.",
+  "subs": [
+   "Công cụ quen thuộc: Jira quản lý công việc, Figma thiết kế, Git và GitHub quản lý mã nguồn,",
+   "Postman kiểm thử API, và Docker đóng gói triển khai."
+  ]
+ },
+ {
+  "id": "S15c1",
+  "scene": "S15",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Với người mới, đừng chọn chức danh chỉ vì lương cao. Thích giao diện, hãy bắt đầu với Frontend. Thích logic và dữ liệu, tìm hiểu Backend. Thích phân tích và làm việc với khách hàng, hãy thử Business Analyst.",
+  "say": "Với người mới, đừng chọn chức danh chỉ vì lương cao. Thích giao diện, hãy bắt đầu với Phờ-ront-en. Thích logic và dữ liệu, tìm hiểu Bắc-en. Thích phân tích và làm việc với khách hàng, hãy thử Bít-nờs A-nơ-lít.",
+  "subs": [
+   "Với người mới, đừng chọn chức danh chỉ vì lương cao. Thích giao diện, hãy bắt đầu với Frontend.",
+   "Thích logic và dữ liệu, tìm hiểu Backend. Thích phân tích, hãy thử Business Analyst."
+  ]
+ },
+ {
+  "id": "S15c2",
+  "scene": "S15",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Và đừng lo nếu chưa biết mình là ai trong công ty phần mềm. Một người hoàn toàn có thể đổi hướng khi tích lũy thêm kiến thức. Hãy thử bài tập: lập nhóm tám người, phân vai để xây website quản lý nhà hàng trong tám tuần nhé.",
+  "say": "Và đừng lo nếu chưa biết mình là ai trong công ty phần mềm. Một người hoàn toàn có thể đổi hướng khi tích lũy thêm kiến thức. Hãy thử bài tập: lập nhóm tám người, phân vai để xây website quản lý nhà hàng trong tám tuần nhé.",
+  "subs": [
+   "Và đừng lo nếu chưa biết mình là ai trong công ty phần mềm. Một người hoàn toàn có thể đổi hướng.",
+   "Hãy thử bài tập: lập nhóm tám người, phân vai xây website quản lý nhà hàng trong tám tuần nhé."
+  ]
+ },
+ {
+  "id": "S16c1",
+  "scene": "S16",
+  "rate": "+5%",
+  "pause_after": 2.0,
+  "text": "Thử tài nhé! Câu một: ai điều phối tiến độ và công việc của dự án? A, Frontend Developer. B, Project Manager. C, Tester.",
+  "say": "Thử tài nhé! Câu một: ai điều phối tiến độ và công việc của dự án? A, Phờ-ront-en Đi-ve-lớp-pờ. B, Pró-giếc Mæ-ni-dờ. C, Tét-tờ.",
+  "subs": [
+   "Thử tài nhé! Câu một: ai điều phối tiến độ và công việc của dự án?",
+   "A, Frontend Developer. B, Project Manager. C, Tester."
+  ]
+ },
+ {
+  "id": "S16c2",
+  "scene": "S16",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Đáp án: B, Project Manager!",
+  "say": "Đáp án: B, Pró-giếc Mæ-ni-dờ!",
+  "subs": [
+   "Đáp án: B, Project Manager!"
+  ]
+ },
+ {
+  "id": "S16c3",
+  "scene": "S16",
+  "rate": "+5%",
+  "pause_after": 2.0,
+  "text": "Câu hai: công cụ nào dùng thiết kế giao diện? A, MySQL. B, Docker. C, Figma.",
+  "say": "Câu hai: công cụ nào dùng thiết kế giao diện? A, Mai Ét Kiu En. B, Đóc-cờ. C, Phíg-mơ.",
+  "subs": [
+   "Câu hai: công cụ nào dùng thiết kế giao diện?",
+   "A, MySQL. B, Docker. C, Figma."
+  ]
+ },
+ {
+  "id": "S16c4",
+  "scene": "S16",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Đáp án: C, Figma!",
+  "say": "Đáp án: C, Phíg-mơ!",
+  "subs": [
+   "Đáp án: C, Figma!"
+  ]
+ },
+ {
+  "id": "S17c1",
+  "scene": "S17",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Tóm lại, hãy nhớ ba điều: một sản phẩm web là công sức của cả đội ngũ; mỗi vị trí có vai trò riêng trong quy trình sáu giai đoạn; và bạn có thể bắt đầu từ vị trí phù hợp với sở thích của mình.",
+  "say": "Tóm lại, hãy nhớ ba điều: một sản phẩm web là công sức của cả đội ngũ; mỗi vị trí có vai trò riêng trong quy trình sáu giai đoạn; và bạn có thể bắt đầu từ vị trí phù hợp với sở thích của mình.",
+  "subs": [
+   "Tóm lại, hãy nhớ ba điều: một sản phẩm web là công sức của cả đội ngũ; mỗi vị trí có vai trò riêng;",
+   "và bạn có thể bắt đầu từ vị trí phù hợp với sở thích của mình."
+  ]
+ },
+ {
+  "id": "S17c2",
+  "scene": "S17",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Lập trình không chỉ là viết code, mà là giải quyết vấn đề và phối hợp con người để tạo ra sản phẩm có giá trị. Nếu thấy hữu ích, hãy theo dõi kênh để cùng khám phá thêm nhiều kiến thức thực tế.",
+  "say": "Lập trình không chỉ là viết code, mà là giải quyết vấn đề và phối hợp con người để tạo ra sản phẩm có giá trị. Nếu thấy hữu ích, hãy theo dõi kênh để cùng khám phá thêm nhiều kiến thức thực tế.",
+  "subs": [
+   "Lập trình không chỉ là viết code, mà là giải quyết vấn đề và phối hợp con người.",
+   "Nếu thấy hữu ích, hãy theo dõi kênh để cùng khám phá thêm nhiều kiến thức thực tế."
+  ]
+ },
+ {
+  "id": "S17c3",
+  "scene": "S17",
+  "rate": "+5%",
+  "pause_after": 0.0,
+  "text": "Cảm ơn các bạn đã theo dõi An Tech Academy – Học công nghệ cùng An. Hẹn gặp lại trong bài học tiếp theo!",
+  "say": "Cảm ơn các bạn đã theo dõi An Téc A-ca-đê-mi, Học công nghệ cùng An. Hẹn gặp lại trong bài học tiếp theo!",
+  "subs": [
+   "Cảm ơn các bạn đã theo dõi An Tech Academy – Học công nghệ cùng An.",
+   "Hẹn gặp lại trong bài học tiếp theo!"
+  ]
+ }
+]

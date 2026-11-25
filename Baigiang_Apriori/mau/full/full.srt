@@ -1,0 +1,305 @@
+1
+00:00:00,000 --> 00:00:06,810
+Bạn vừa thêm một chiếc điện thoại vào giỏ hàng.
+Ngay lập tức, website gợi ý ốp lưng, kính cường lực, tai nghe.
+
+2
+00:00:07,030 --> 00:00:14,320
+Ngẫu nhiên ư? Không hề.
+Hệ thống đã đọc hàng nghìn hoá đơn để tìm ra những món hay mua cùng nhau.
+
+3
+00:00:15,420 --> 00:00:20,260
+Chào mừng bạn đến với An Tech Academy.
+
+4
+00:00:21,360 --> 00:00:24,360
+Trong bảy phút tới, bạn sẽ nắm được ba việc.
+
+5
+00:00:24,580 --> 00:00:27,860
+Một, hiểu nguyên lý hoạt động của Apriori.
+
+6
+00:00:28,080 --> 00:00:35,610
+Hai, đọc đúng ba chỉ số Support, Confidence, Lift.
+Ba, tự chạy thuật toán và đưa kết quả lên website.
+
+7
+00:00:36,710 --> 00:00:44,650
+Apriori là thuật toán tìm các tập mục phổ biến:
+những nhóm sản phẩm thường xuất hiện cùng nhau.
+
+8
+00:00:44,870 --> 00:00:50,530
+Mục tiêu: biến nhóm phổ biến thành luật gợi ý,
+ví dụ: mua bánh mì thì mua thêm sữa.
+
+9
+00:00:51,630 --> 00:00:58,080
+Bài học dùng một cửa hàng nhỏ với 10 hoá đơn.
+Mỗi dòng là một giao dịch.
+
+10
+00:00:58,300 --> 00:01:05,830
+Bốn sản phẩm: Sữa, Bánh mì, Trứng, Bơ.
+Sữa và Bánh mì đi với nhau rất nhiều.
+
+11
+00:01:06,050 --> 00:01:12,190
+Nhưng cảm giác chưa đủ để xây hệ thống.
+Ta cần con số, và cần cách tính nhanh.
+
+12
+00:01:13,290 --> 00:01:20,680
+Support = số giao dịch chứa X / tổng số giao dịch
+
+13
+00:01:20,900 --> 00:01:27,110
+Bánh mì + Sữa: 6 / 10 = 60%
+
+14
+00:01:27,330 --> 00:01:36,040
+Support càng cao, nhóm càng phổ biến.
+Nhưng duyệt mọi tổ hợp là không tưởng.
+
+15
+00:01:37,140 --> 00:01:43,040
+Sữa 80% · Bánh mì 60% · Trứng 50% · Bơ 30%
+
+16
+00:01:43,260 --> 00:01:49,500
+Bánh mì + Sữa: 60%
+Các cặp còn lại: 10–30%
+
+17
+00:01:49,720 --> 00:01:56,600
+4 món → 15 tập con
+10 hoá đơn đã vậy, hàng triệu thì sao?
+
+18
+00:01:57,700 --> 00:02:04,370
+Nếu một tập không phổ biến,
+mọi tập lớn hơn chứa nó cũng không phổ biến.
+
+19
+00:02:04,590 --> 00:02:11,740
+Bơ + Trứng = 10%
+→ Bơ + Trứng + Sữa ≤ 10%
+
+20
+00:02:11,960 --> 00:02:18,940
+Loại cả nhánh mà không cần đếm.
+Apriori = "đi trước": dùng điều đã biết để loại trừ.
+
+21
+00:02:20,040 --> 00:02:24,120
+Bốn bước, lặp lại đến khi không còn tập mới.
+
+22
+00:02:24,340 --> 00:02:28,320
+1. Đếm từng món — tập 1 phần tử
+
+23
+00:02:28,540 --> 00:02:34,700
+2. Ghép thành cặp ứng viên
+3. Giữ cặp đạt ngưỡng Support
+
+24
+00:02:34,920 --> 00:02:40,530
+4. Tạo luật kết hợp
+
+25
+00:02:41,630 --> 00:02:46,310
+Bước 1 · ngưỡng Support tối thiểu 40%
+
+26
+00:02:46,530 --> 00:02:52,980
+Bơ 30% < 40% → loại
+Còn: Sữa, Bánh mì, Trứng
+
+27
+00:02:53,200 --> 00:02:58,070
+3 món thay vì 4.
+Mọi tổ hợp chứa Bơ đều bị loại theo.
+
+28
+00:02:59,170 --> 00:03:04,760
+C(3,2) = 3 cặp ứng viên
+
+29
+00:03:04,980 --> 00:03:11,380
+Bánh mì + Sữa 60% ✓
+Sữa + Trứng 30% ✗ · Bánh mì + Trứng 20% ✗
+
+30
+00:03:11,600 --> 00:03:18,840
+Không tạo được bộ ba → dừng.
+Không gian tổ hợp thu về 1 cặp.
+
+31
+00:03:19,940 --> 00:03:25,190
+Bánh mì → Sữa  ·  Sữa → Bánh mì
+
+32
+00:03:25,410 --> 00:03:31,720
+Cùng một cặp, hai chiều khác nhau.
+Support không phân biệt chiều → cần Confidence.
+
+33
+00:03:32,820 --> 00:03:37,450
+Confidence: trong số đơn có A,
+bao nhiêu % cũng có B?
+
+34
+00:03:37,670 --> 00:03:41,960
+Confidence(A→B) = Support(A, B) / Support(A)
+
+35
+00:03:42,180 --> 00:03:51,100
+Bánh mì → Sữa: 60/60 = 100%
+Sữa → Bánh mì: 60/80 = 75%
+
+36
+00:03:52,200 --> 00:03:59,900
+Confidence cao chưa chắc đã mạnh.
+Sữa vốn đã có trong 80% đơn hàng.
+
+37
+00:04:00,420 --> 00:04:06,660
+Lift = Confidence(A→B) / Support(B)
+
+38
+00:04:06,880 --> 00:04:12,920
+0,75 / 0,80 = 1,25
+Chiều ngược lại: 1,00 / 0,80 = 1,25
+
+39
+00:04:13,140 --> 00:04:23,290
+Lift > 1: dính nhau hơn mức ngẫu nhiên (+25%)
+= 1: không liên kết · < 1: dính ít hơn bình thường
+
+40
+00:04:24,390 --> 00:04:30,030
+pip install pandas mlxtend flask
+
+41
+00:04:30,250 --> 00:04:34,760
+Khai báo 10 giao dịch
+
+42
+00:04:34,980 --> 00:04:40,060
+One-hot: 1 = có, 0 = không
+
+43
+00:04:40,280 --> 00:04:44,280
+TransactionEncoder → bảng 10 × 4
+
+44
+00:04:45,380 --> 00:04:48,980
+apriori(df, min_support=0.4)
+
+45
+00:04:49,200 --> 00:04:53,060
+4 tập 1 phần tử + 1 cặp = 5 tập phổ biến
+
+46
+00:04:53,280 --> 00:04:57,640
+association_rules(metric="confidence", min_threshold=0.6)
+
+47
+00:04:57,860 --> 00:05:02,100
+Mỗi luật: support · confidence · lift
+
+48
+00:05:03,200 --> 00:05:07,520
+Lọc luật có sản phẩm ở vế trái
+
+49
+00:05:07,740 --> 00:05:12,010
+sort by lift → confidence
+
+50
+00:05:12,230 --> 00:05:17,530
+recommend("Bánh mì") → ["Sữa"]
+
+51
+00:05:18,630 --> 00:05:24,700
+Frontend: giao diện · Backend: xử lý
+
+52
+00:05:24,920 --> 00:05:30,920
+Tra bảng luật đã tính sẵn
+
+53
+00:05:31,140 --> 00:05:35,260
+Flask mở API: /recommend
+
+54
+00:05:36,360 --> 00:05:40,440
+GET /recommend?product=Bánh mì
+
+55
+00:05:40,660 --> 00:05:44,830
+{ "product": "Bánh mì", "recommendations": ["Sữa"] }
+
+56
+00:05:45,050 --> 00:05:50,300
+Thiếu product → 400 + thông báo lỗi
+
+57
+00:05:51,400 --> 00:05:57,490
+fetch → JSON → hiển thị gợi ý
+
+58
+00:05:57,710 --> 00:06:01,570
+Mở trang sản phẩm → gợi ý hiện
+
+59
+00:06:01,790 --> 00:06:06,440
+Tính toán ở server · trình duyệt chỉ hiển thị
+
+60
+00:06:07,540 --> 00:06:10,850
+Đây là mô hình minh hoạ.
+
+61
+00:06:11,370 --> 00:06:17,340
+Dữ liệu thật lấy từ database.
+Tính lại luật theo lịch hoặc khi có dữ liệu mới.
+
+62
+00:06:18,440 --> 00:06:21,460
+Ưu điểm và hạn chế
+
+63
+00:06:21,680 --> 00:06:26,360
+Dễ hiểu · dễ triển khai · quy luật có ý nghĩa
+
+64
+00:06:26,580 --> 00:06:31,710
+Nhiều sản phẩm → tổ hợp bùng nổ
+tốn thời gian và bộ nhớ
+
+65
+00:06:31,930 --> 00:06:41,240
+Phụ thuộc dữ liệu và ngưỡng bạn chọn.
+Hệ thống lớn: cân nhắc FP-Growth.
+
+66
+00:06:42,340 --> 00:06:44,710
+Ba điều cần nhớ
+
+67
+00:06:44,930 --> 00:06:54,190
+1. Apriori = cắt tỉa dần
+2. Support · Confidence · Lift
+
+68
+00:06:54,410 --> 00:06:58,510
+3. Vài chục dòng Python → gợi ý trên web
+
+69
+00:06:58,730 --> 00:07:06,600
+Cảm ơn bạn đã theo dõi An Tech Academy.
+Thử đổi ngưỡng Support và xem luật thay đổi nhé!

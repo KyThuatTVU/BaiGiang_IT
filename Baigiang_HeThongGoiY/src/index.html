@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<title>Cá nhân hóa người dùng & Hệ thống gợi ý sản phẩm</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="stage">
+  <div class="bg"></div>
+  <div class="bg-mesh mesh-a" id="blobA"></div>
+  <div class="bg-mesh mesh-b" id="blobB"></div>
+  <div class="bg-mesh mesh-c" id="blobC"></div>
+  <div class="bg-dots"></div>
+  <div id="floating"></div>
+  <div id="sweep"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect x="4" y="4" width="40" height="40" rx="13" fill="#1D4ED8"/>
+        <path d="M14 32l7-16 4 9 3-6 6 13" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="34" cy="14" r="4" fill="#F59E0B"/>
+      </svg>
+      <div class="brand-text">
+        <span class="brand-title">AN TECH ACADEMY</span>
+        <span class="brand-sub">RECOMMENDER SYSTEMS · PERSONALIZATION</span>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="part-chip" id="partChip">BÀI GIẢNG</div>
+      <div class="progress">
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="progress-label" id="progressLabel">00:00</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="scenes"></main>
+
+  <footer class="caption-wrap">
+    <div class="caption" id="caption"></div>
+  </footer>
+
+  <div class="timecode" id="timecode">00:00</div>
+</div>
+
+<script src="timeline.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

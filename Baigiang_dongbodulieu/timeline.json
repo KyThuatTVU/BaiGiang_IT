@@ -1,0 +1,752 @@
+{
+ "total": 460.711,
+ "scenes": [
+  {
+   "id": "S01",
+   "part": "P1",
+   "title": "Mở đầu thương hiệu",
+   "start": 0.0,
+   "dur": 12.998,
+   "cues": [
+    {
+     "id": "S01c1",
+     "offset": 0.0,
+     "dur": 7.057
+    },
+    {
+     "id": "S01c2",
+     "offset": 7.277,
+     "dur": 5.722
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "part": "P1",
+   "title": "Tình huống ba người dùng",
+   "start": 14.098,
+   "dur": 11.062,
+   "cues": [
+    {
+     "id": "S02c1",
+     "offset": 0.0,
+     "dur": 11.062
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "part": "P1",
+   "title": "Câu hỏi và tên bài toán",
+   "start": 26.26,
+   "dur": 11.854,
+   "cues": [
+    {
+     "id": "S03c1",
+     "offset": 0.0,
+     "dur": 6.167
+    },
+    {
+     "id": "S03c2",
+     "offset": 6.387,
+     "dur": 5.467
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "part": "P1",
+   "title": "Lộ trình bài học",
+   "start": 39.214,
+   "dur": 8.709,
+   "cues": [
+    {
+     "id": "S04c1",
+     "offset": 0.0,
+     "dur": 8.709
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "part": "P2",
+   "title": "Định nghĩa",
+   "start": 49.023,
+   "dur": 8.866,
+   "cues": [
+    {
+     "id": "S05c1",
+     "offset": 0.0,
+     "dur": 2.352
+    },
+    {
+     "id": "S05c2",
+     "offset": 2.572,
+     "dur": 6.294
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "part": "P2",
+   "title": "Luồng đồng bộ",
+   "start": 58.989,
+   "dur": 10.519,
+   "cues": [
+    {
+     "id": "S06c1",
+     "offset": 0.0,
+     "dur": 6.993
+    },
+    {
+     "id": "S06c2",
+     "offset": 7.213,
+     "dur": 3.306
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "part": "P2",
+   "title": "HTTP Request – Response",
+   "start": 70.608,
+   "dur": 11.536,
+   "cues": [
+    {
+     "id": "S07c1",
+     "offset": 0.0,
+     "dur": 4.641
+    },
+    {
+     "id": "S07c2",
+     "offset": 4.861,
+     "dur": 6.675
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "part": "P2",
+   "title": "Polling",
+   "start": 83.244,
+   "dur": 5.658,
+   "cues": [
+    {
+     "id": "S08c1",
+     "offset": 0.0,
+     "dur": 5.658
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "part": "P2",
+   "title": "WebSocket",
+   "start": 90.002,
+   "dur": 10.455,
+   "cues": [
+    {
+     "id": "S09c1",
+     "offset": 0.0,
+     "dur": 4.005
+    },
+    {
+     "id": "S09c2",
+     "offset": 4.225,
+     "dur": 6.23
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "part": "P2",
+   "title": "Socket.IO",
+   "start": 101.557,
+   "dur": 10.265,
+   "cues": [
+    {
+     "id": "S10c1",
+     "offset": 0.0,
+     "dur": 5.976
+    },
+    {
+     "id": "S10c2",
+     "offset": 6.196,
+     "dur": 4.069
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "part": "P2",
+   "title": "Bốn bước",
+   "start": 112.921,
+   "dur": 13.404,
+   "cues": [
+    {
+     "id": "S11c1",
+     "offset": 0.0,
+     "dur": 1.462
+    },
+    {
+     "id": "S11c2",
+     "offset": 1.682,
+     "dur": 1.653
+    },
+    {
+     "id": "S11c3",
+     "offset": 3.555,
+     "dur": 2.988
+    },
+    {
+     "id": "S11c4",
+     "offset": 6.763,
+     "dur": 2.161
+    },
+    {
+     "id": "S11c5",
+     "offset": 9.144,
+     "dur": 4.259
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "part": "P2",
+   "title": "Server trung tâm",
+   "start": 127.425,
+   "dur": 10.773,
+   "cues": [
+    {
+     "id": "S12c1",
+     "offset": 0.0,
+     "dur": 6.23
+    },
+    {
+     "id": "S12c2",
+     "offset": 6.45,
+     "dur": 4.323
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "part": "P3",
+   "title": "Ba khái niệm",
+   "start": 139.298,
+   "dur": 3.242,
+   "cues": [
+    {
+     "id": "S13c1",
+     "offset": 0.0,
+     "dur": 3.242
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "part": "P3",
+   "title": "Client – Server",
+   "start": 143.641,
+   "dur": 9.565,
+   "cues": [
+    {
+     "id": "S14c1",
+     "offset": 0.0,
+     "dur": 1.462
+    },
+    {
+     "id": "S14c2",
+     "offset": 1.682,
+     "dur": 7.883
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "part": "P3",
+   "title": "Event và bảng sự kiện",
+   "start": 154.306,
+   "dur": 15.692,
+   "cues": [
+    {
+     "id": "S15c1",
+     "offset": 0.0,
+     "dur": 3.751
+    },
+    {
+     "id": "S15c2",
+     "offset": 3.971,
+     "dur": 2.924
+    },
+    {
+     "id": "S15c3",
+     "offset": 7.115,
+     "dur": 2.797
+    },
+    {
+     "id": "S15c4",
+     "offset": 10.132,
+     "dur": 2.479
+    },
+    {
+     "id": "S15c5",
+     "offset": 12.832,
+     "dur": 2.861
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "part": "P3",
+   "title": "Xung đột dữ liệu",
+   "start": 171.098,
+   "dur": 7.692,
+   "cues": [
+    {
+     "id": "S16c1",
+     "offset": 0.0,
+     "dur": 7.692
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "part": "P3",
+   "title": "Last Write Wins",
+   "start": 179.891,
+   "dur": 7.438,
+   "cues": [
+    {
+     "id": "S17c1",
+     "offset": 0.0,
+     "dur": 7.438
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "part": "P3",
+   "title": "Optimistic Locking",
+   "start": 188.429,
+   "dur": 13.316,
+   "cues": [
+    {
+     "id": "S18c1",
+     "offset": 0.0,
+     "dur": 4.323
+    },
+    {
+     "id": "S18c2",
+     "offset": 4.543,
+     "dur": 8.773
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "part": "P4",
+   "title": "Mục tiêu và khởi tạo",
+   "start": 202.845,
+   "dur": 19.507,
+   "cues": [
+    {
+     "id": "S19c1",
+     "offset": 0.0,
+     "dur": 2.988
+    },
+    {
+     "id": "S19c2",
+     "offset": 3.208,
+     "dur": 7.057
+    },
+    {
+     "id": "S19c3",
+     "offset": 10.485,
+     "dur": 4.704
+    },
+    {
+     "id": "S19c4",
+     "offset": 15.409,
+     "dur": 1.462
+    },
+    {
+     "id": "S19c5",
+     "offset": 17.091,
+     "dur": 2.416
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "part": "P4",
+   "title": "Thư viện và cấu trúc",
+   "start": 223.451,
+   "dur": 8.421,
+   "cues": [
+    {
+     "id": "S20c1",
+     "offset": 0.0,
+     "dur": 4.577
+    },
+    {
+     "id": "S20c2",
+     "offset": 4.797,
+     "dur": 3.624
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "part": "P4",
+   "title": "Code server: khởi tạo",
+   "start": 232.972,
+   "dur": 13.727,
+   "cues": [
+    {
+     "id": "S21c1",
+     "offset": 0.0,
+     "dur": 4.196
+    },
+    {
+     "id": "S21c2",
+     "offset": 4.416,
+     "dur": 4.005
+    },
+    {
+     "id": "S21c3",
+     "offset": 8.641,
+     "dur": 5.086
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "part": "P4",
+   "title": "Code server: kết nối và phát sự kiện",
+   "start": 247.799,
+   "dur": 22.847,
+   "cues": [
+    {
+     "id": "S22c1",
+     "offset": 0.0,
+     "dur": 6.548
+    },
+    {
+     "id": "S22c2",
+     "offset": 6.768,
+     "dur": 7.247
+    },
+    {
+     "id": "S22c3",
+     "offset": 14.235,
+     "dur": 4.704
+    },
+    {
+     "id": "S22c4",
+     "offset": 19.16,
+     "dur": 3.687
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "part": "P4",
+   "title": "Giao diện Client",
+   "start": 271.746,
+   "dur": 10.993,
+   "cues": [
+    {
+     "id": "S23c1",
+     "offset": 0.0,
+     "dur": 3.942
+    },
+    {
+     "id": "S23c2",
+     "offset": 4.162,
+     "dur": 3.814
+    },
+    {
+     "id": "S23c3",
+     "offset": 8.196,
+     "dur": 2.797
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "part": "P4",
+   "title": "Code client",
+   "start": 283.839,
+   "dur": 12.998,
+   "cues": [
+    {
+     "id": "S24c1",
+     "offset": 0.0,
+     "dur": 8.264
+    },
+    {
+     "id": "S24c2",
+     "offset": 8.484,
+     "dur": 4.514
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "part": "P4",
+   "title": "Hoàn thành demo",
+   "start": 297.937,
+   "dur": 7.785,
+   "cues": [
+    {
+     "id": "S25c1",
+     "offset": 0.0,
+     "dur": 4.45
+    },
+    {
+     "id": "S25c2",
+     "offset": 4.67,
+     "dur": 3.115
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "part": "P5",
+   "title": "Chạy thử",
+   "start": 306.822,
+   "dur": 12.455,
+   "cues": [
+    {
+     "id": "S26c1",
+     "offset": 0.0,
+     "dur": 5.149
+    },
+    {
+     "id": "S26c2",
+     "offset": 5.369,
+     "dur": 3.624
+    },
+    {
+     "id": "S26c3",
+     "offset": 9.213,
+     "dur": 3.242
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "part": "P5",
+   "title": "Demo cập nhật",
+   "start": 320.378,
+   "dur": 14.299,
+   "cues": [
+    {
+     "id": "S27c1",
+     "offset": 0.0,
+     "dur": 6.039
+    },
+    {
+     "id": "S27c2",
+     "offset": 6.259,
+     "dur": 5.022
+    },
+    {
+     "id": "S27c3",
+     "offset": 11.502,
+     "dur": 2.797
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "part": "P5",
+   "title": "Phía sau",
+   "start": 335.776,
+   "dur": 17.698,
+   "cues": [
+    {
+     "id": "S28c1",
+     "offset": 0.0,
+     "dur": 1.971
+    },
+    {
+     "id": "S28c2",
+     "offset": 2.191,
+     "dur": 7.184
+    },
+    {
+     "id": "S28c3",
+     "offset": 9.594,
+     "dur": 3.369
+    },
+    {
+     "id": "S28c4",
+     "offset": 13.184,
+     "dur": 4.514
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "part": "P5",
+   "title": "Ứng dụng thực tế",
+   "start": 354.574,
+   "dur": 18.304,
+   "cues": [
+    {
+     "id": "S29c1",
+     "offset": 0.0,
+     "dur": 6.294
+    },
+    {
+     "id": "S29c2",
+     "offset": 6.514,
+     "dur": 8.137
+    },
+    {
+     "id": "S29c3",
+     "offset": 14.871,
+     "dur": 3.433
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "part": "P5",
+   "title": "Giới hạn",
+   "start": 373.978,
+   "dur": 21.893,
+   "cues": [
+    {
+     "id": "S30c1",
+     "offset": 0.0,
+     "dur": 4.323
+    },
+    {
+     "id": "S30c2",
+     "offset": 4.543,
+     "dur": 3.687
+    },
+    {
+     "id": "S30c3",
+     "offset": 8.45,
+     "dur": 5.467
+    },
+    {
+     "id": "S30c4",
+     "offset": 14.137,
+     "dur": 7.756
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "part": "P6",
+   "title": "Ưu điểm",
+   "start": 396.971,
+   "dur": 17.761,
+   "cues": [
+    {
+     "id": "S31c1",
+     "offset": 0.0,
+     "dur": 2.924
+    },
+    {
+     "id": "S31c2",
+     "offset": 3.144,
+     "dur": 4.832
+    },
+    {
+     "id": "S31c3",
+     "offset": 8.196,
+     "dur": 4.959
+    },
+    {
+     "id": "S31c4",
+     "offset": 13.375,
+     "dur": 4.387
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "part": "P6",
+   "title": "Hạn chế",
+   "start": 415.832,
+   "dur": 18.143,
+   "cues": [
+    {
+     "id": "S32c1",
+     "offset": 0.0,
+     "dur": 4.577
+    },
+    {
+     "id": "S32c2",
+     "offset": 4.797,
+     "dur": 4.259
+    },
+    {
+     "id": "S32c3",
+     "offset": 9.277,
+     "dur": 5.149
+    },
+    {
+     "id": "S32c4",
+     "offset": 14.646,
+     "dur": 3.497
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "part": "P6",
+   "title": "Tổng kết",
+   "start": 435.075,
+   "dur": 11.663,
+   "cues": [
+    {
+     "id": "S33c1",
+     "offset": 0.0,
+     "dur": 7.883
+    },
+    {
+     "id": "S33c2",
+     "offset": 8.103,
+     "dur": 3.56
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "part": "P6",
+   "title": "Bài tập và kết thúc",
+   "start": 447.838,
+   "dur": 21.673,
+   "cues": [
+    {
+     "id": "S34c1",
+     "offset": 0.0,
+     "dur": 8.837
+    },
+    {
+     "id": "S34c2",
+     "offset": 9.057,
+     "dur": 6.802
+    },
+    {
+     "id": "S34c3",
+     "offset": 16.079,
+     "dur": 5.594
+    }
+   ]
+  }
+ ],
+ "params": {
+  "cps": 15.73,
+  "gap": 0.22,
+  "tail": 1.1,
+  "xfade": 0.3
+ }
+}

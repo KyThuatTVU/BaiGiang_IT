@@ -1,0 +1,129 @@
+1
+00:00:00,000 --> 00:00:10,940
+Chào các bạn! Chào mừng đến với An Tech Academy.
+12 giờ đêm 12/12, cả sàn giảm giá — chuyện gì sẽ xảy ra?
+
+2
+00:00:11,490 --> 00:00:19,720
+110.000 lượt truy cập một ngày. Cao điểm:
+5.000 người cùng lúc — ai cũng bấm mua.
+
+3
+00:00:20,220 --> 00:00:28,860
+Và rồi web sập — không phải vì hết hàng,
+mà vì máy chủ không kham nổi. Cứu tinh: Load Balancer.
+
+4
+00:00:29,860 --> 00:00:39,260
+CPU leo dốc, RAM đầy, phản hồi kéo dài.
+Một máy chủ gánh 5.000 kết nối — nghe thôi đã mệt.
+
+5
+00:00:39,810 --> 00:00:55,500
+Khách không vào được, thanh toán báo lỗi.
+Nâng cấp một máy? Đỡ chút rồi chạm trần — cần cách khác.
+
+6
+00:00:56,500 --> 00:01:05,980
+Load Balancer là 'nhân viên điều phối' trước cửa hệ thống:
+nhận yêu cầu và chia việc cho nhiều máy chủ phía sau.
+
+7
+00:01:06,580 --> 00:01:16,630
+Như siêu thị ngày sale: mở thêm quầy và có người
+chỉ khách vào quầy trống. Nó điều phối, không bán hàng.
+
+8
+00:01:17,630 --> 00:01:31,740
+Kiến trúc 4 lớp: Client → Load Balancer
+→ các Backend Server → Database.
+
+9
+00:01:32,340 --> 00:01:49,060
+Trình duyệt → Load Balancer → Server 01 → Database → trả kết quả.
+Request sau sang Server 02, 03. Không máy nào gồng một mình.
+
+10
+00:01:50,060 --> 00:01:59,100
+Horizontal Scaling: thêm nhiều máy chủ bình thường
+thay vì mua một siêu máy chủ đắt gấp mười.
+
+11
+00:01:59,650 --> 00:02:08,210
+Một máy ốm, hai máy vẫn chạy.
+Khỏe hơn, rẻ hơn, dễ nâng cấp từng bước.
+
+12
+00:02:09,210 --> 00:02:20,320
+Round Robin — chia lần lượt như phát bài:
+01 → 02 → 03 → quay lại 01.
+
+13
+00:02:20,870 --> 00:02:33,440
+Hợp khi các máy cấu hình như nhau.
+Máy khỏe hơn mà chia đều — nghe sai sai đúng không?
+
+14
+00:02:34,440 --> 00:02:44,420
+Weighted Round Robin — máy khỏe nhận nhiều việc hơn:
+Server 01 w=3, Server 02 w=1, Server 03 w=1.
+
+15
+00:02:44,970 --> 00:02:52,620
+5 request: Server 01 nhận 3, hai máy kia mỗi máy 1.
+Đúng sức, đúng việc — khỏi cãi nhau.
+
+16
+00:02:53,620 --> 00:03:00,600
+Least Connections: chọn máy đang ít kết nối nhất.
+Request nặng nhẹ khác nhau thì cách này rất hợp.
+
+17
+00:03:01,150 --> 00:03:16,240
+Server 01: 100 kết nối, Server 02: 30, Server 03: 10.
+Request tiếp theo → Server 03. Ai rảnh thì làm.
+
+18
+00:03:17,240 --> 00:03:25,970
+IP Hash: băm địa chỉ IP để chọn máy chủ.
+Cùng IP → cùng máy: tiện cho giỏ hàng, phiên đăng nhập.
+
+19
+00:03:26,570 --> 00:03:36,000
+Nhưng đổi cấu hình hay thêm bớt máy chủ,
+khách có thể nhảy máy. Không thuật toán nào hoàn hảo.
+
+20
+00:03:37,000 --> 00:03:45,590
+Lỡ một máy chủ chết thì sao?
+Load Balancer có Health Check để xử lý chuyện này.
+
+21
+00:03:46,140 --> 00:03:57,270
+Định kỳ gọi GET /health: trả 200 là khỏe.
+Lỗi hoặc im lặng → gạch tên. Sửa xong → quay lại đội.
+
+22
+00:03:58,270 --> 00:04:07,960
+Nginx, HAProxy hay cloud đều cân bằng tải được.
+Cấu hình Nginx: upstream gồm 3 địa chỉ backend.
+
+23
+00:04:08,510 --> 00:04:16,360
+server { listen 80; location / { proxy_pass ... } }
+Một tầng cân bằng tải gọn gàng chỉ với vài dòng.
+
+24
+00:04:17,360 --> 00:04:26,860
+Load Balancer không phải cây đũa thần:
+Database quá tải, SQL chậm, thanh toán lỗi → vẫn ì ạch.
+
+25
+00:04:27,460 --> 00:04:35,500
+Còn phải lo phiên đăng nhập, đồng bộ dữ liệu,
+chống đặt hàng trùng. Cân bằng tải chỉ là một mảnh ghép.
+
+26
+00:04:36,150 --> 00:04:49,060
+Một cửa ngõ · nhiều máy chủ · bốn thuật toán · health check.
+Cảm ơn các bạn — hẹn gặp ở bài tiếp theo!

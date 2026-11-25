@@ -1,0 +1,47 @@
+{
+  "segments": [
+    {
+      "seg": "segA1",
+      "rate": "+10%",
+      "dur_s": 8.18,
+      "speech_s": 8.18,
+      "syllables": 30,
+      "syl_per_s": 3.67
+    },
+    {
+      "seg": "segA2",
+      "rate": "+10%",
+      "dur_s": 6.43,
+      "speech_s": 6.43,
+      "syllables": 27,
+      "syl_per_s": 4.2
+    },
+    {
+      "seg": "segB1",
+      "rate": "-5%",
+      "dur_s": 5.95,
+      "speech_s": 5.95,
+      "syllables": 17,
+      "syl_per_s": 2.86
+    },
+    {
+      "seg": "segB2",
+      "rate": "-5%",
+      "dur_s": 7.03,
+      "speech_s": 7.03,
+      "syllables": 20,
+      "syl_per_s": 2.84
+    },
+    {
+      "seg": "segC_dinhnghia",
+      "rate": "-5%",
+      "dur_s": 8.59,
+      "speech_s": 8.39,
+      "syllables": 21,
+      "syl_per_s": 2.5
+    }
+  ],
+  "voice_sample_total_s": 28.82,
+  "speech_s": 27.59,
+  "overall_syl_per_s": 3.41
+}

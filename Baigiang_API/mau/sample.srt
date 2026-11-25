@@ -1,0 +1,24 @@
+1
+00:00:00,000 --> 00:00:03,460
+Chào các bạn!
+Chào mừng đến với An Tech Academy.
+
+2
+00:00:03,940 --> 00:00:09,210
+Bấm đặt món trên app, hai giây sau đã có xác nhận.
+Ai đã nói chuyện với nhà bếp?
+
+3
+00:00:09,690 --> 00:00:14,670
+Câu trả lời là API.
+Năm phút nữa, bạn sẽ hiểu nó chạy thế nào.
+
+4
+00:00:15,670 --> 00:00:27,550
+Khách = Client · Bồi bàn = API · Phiếu = Request
+Bếp = Backend · Món bưng ra = Response
+
+5
+00:00:28,300 --> 00:00:37,350
+Bồi bàn ghi phiếu, chuyển xuống bếp.
+Bếp nấu xong, bồi bàn bưng ra.

@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:11,000
+Chào các bạn! Chào mừng đến với An Tech Academy.
+Trang web 30 ảnh, mỗi ảnh 5 MB — đợi mãi ảnh chưa hiện.
+
+2
+00:00:11,550 --> 00:00:20,350
+30 × 5 MB = 150 MB cho một trang chủ.
+Mạng di động càng chậm — khách bỏ đi, đơn hàng đi theo.
+
+3
+00:00:20,850 --> 00:00:28,510
+Hôm nay: làm ảnh nhẹ đi mà mắt vẫn thấy đẹp.
+Tên chuyên môn: nén ảnh — Image Compression.
+
+4
+00:00:29,510 --> 00:00:38,530
+Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang,
+tốn băng thông, tốn lưu trữ — mỗi MB đều có chi phí.
+
+5
+00:00:39,080 --> 00:00:47,640
+Quan trọng nhất: trải nghiệm.
+Trang tải chậm là trang khó bán hàng.
+
+6
+00:00:48,640 --> 00:00:57,670
+Nén ảnh: giảm dung lượng bằng cách loại bỏ hoặc
+tổ chức lại thông tin theo một thuật toán.
+
+7
+00:00:58,270 --> 00:01:08,010
+Ví dụ: 5 MB → 350 KB, giảm khoảng 93%.
+(Số liệu giả định để minh họa — thực tế tùy ảnh.)
+
+8
+00:01:08,660 --> 00:01:16,380
+Tải nhanh hơn · ít băng thông · ít lưu trữ ·
+khách ở lại lâu hơn — một mũi tên trúng bốn đích.
+
+9
+00:01:17,380 --> 00:01:29,460
+Nén mất dữ liệu (Lossy): bỏ chi tiết mắt khó thấy
+để đổi lấy dung lượng nhỏ hơn nhiều. Ví dụ: JPEG.
+
+10
+00:01:30,060 --> 00:01:42,220
+Cùng ảnh: quality 90 ≈ 618 KB → quality 50 ≈ 194 KB.
+Giảm hơn ba lần — nhưng bắt đầu nhòe, xuất hiện nhiễu.
+
+11
+00:01:42,820 --> 00:01:51,420
+Đặc trưng JPEG: ô vuông 8×8 pixel, lỗi vùng chuyển màu.
+Chữ và nét mảnh nén mạnh → răng cưa ngay.
+
+12
+00:01:52,420 --> 00:02:02,480
+Nén không mất dữ liệu (Lossless): không vứt chi tiết,
+khôi phục y nguyên bản gốc. Đại diện: PNG.
+
+13
+00:02:03,030 --> 00:02:14,130
+PNG: nét chữ sắc, nền trong suốt → hợp logo, icon,
+ảnh chụp màn hình. Đổi lại: file nặng hơn JPEG, WebP.
+
+14
+00:02:15,130 --> 00:02:28,990
+JPEG: nhẹ, hợp ảnh chụp · PNG: nét, nền trong suốt
+WebP: cân bằng · AVIF: định dạng mới, nén rất tốt.
+
+15
+00:02:29,540 --> 00:02:41,050
+JPEG 128 KB · PNG 512 KB · WebP 78 KB · AVIF 45 KB.
+Số liệu từ infographic — ảnh khác, kết quả khác.
+
+16
+00:02:42,050 --> 00:02:56,130
+Ảnh chụp, sản phẩm → JPEG/WebP. Logo, icon → PNG/SVG.
+Ảnh bản đồ, chữ nhỏ → tránh JPEG nén mạnh.
+
+17
+00:02:56,730 --> 00:03:05,300
+RAW: ảnh gốc để chỉnh sửa, chưa dành cho web.
+Xuất sang JPEG/WebP trước khi đăng.
+
+18
+00:03:06,300 --> 00:03:16,490
+Công cụ: Squoosh, TinyPNG, ImageMagick.
+Dân Node.js: Sharp — nén ngay trên máy chủ.
+
+19
+00:03:17,040 --> 00:03:27,760
+npm install sharp → đọc product.jpg, resize 800px,
+chuyển WebP quality 80 → lưu product.webp.
+
+20
+00:03:28,360 --> 00:03:37,850
+sharp · resize · withoutEnlargement · webp ·
+quality 80 · toFile — ảnh nhẹ hơn, sẵn sàng lên web.
+
+21
+00:03:38,850 --> 00:03:48,710
+Thẻ img: src, alt, width, loading="lazy".
+lazy = khoan tải, đợi khách cuộn gần tới.
+
+22
+00:03:49,260 --> 00:03:56,280
+width + height: trang không nhảy khi ảnh tải xong.
+srcset: trình duyệt tự chọn kích thước phù hợp.
+
+23
+00:03:57,280 --> 00:04:02,950
+Thương mại điện tử: nén ảnh sản phẩm, trang mượt hơn.
+Tin tức: tối ưu ảnh bài viết.
+
+24
+00:04:03,500 --> 00:04:11,850
+Du lịch: giảm thư viện ảnh. Giáo dục: ảnh khóa học.
+Hễ có ảnh trên web — là có chỗ cho nén ảnh.
+
+25
+00:04:12,850 --> 00:04:21,390
+Đừng nén quá tay — ảnh vỡ thì đẹp mấy cũng vô nghĩa.
+Resize đúng kích thước hiển thị thực tế.
+
+26
+00:04:21,990 --> 00:04:32,230
+width, height + lazy loading. Cân nhắc CDN / dịch vụ
+tối ưu ảnh. Cân bằng dung lượng ↔ chất lượng.
+
+27
+00:04:33,230 --> 00:04:42,820
+1. Nén ảnh giảm dung lượng, tăng tốc tải.
+2. Lossy (JPEG) cho ảnh chụp · Lossless (PNG) cho logo.
+
+28
+00:04:43,420 --> 00:04:52,220
+3. WebP/AVIF: hiện đại, nhớ kiểm tra trình duyệt hỗ trợ.
+4. Sharp + lazy loading + CDN = website nhẹ.
+
+29
+00:04:52,820 --> 00:05:02,210
+Không phải nén càng nhỏ càng tốt — mà là cân bằng
+dung lượng, chất lượng, trải nghiệm. Hẹn gặp lại!

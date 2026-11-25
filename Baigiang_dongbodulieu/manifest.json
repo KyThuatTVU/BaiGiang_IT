@@ -1,0 +1,524 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "text": "Xin chào các bạn! Chào mừng các bạn đến với An Tech Academy – nơi cùng nhau học công nghệ và làm chủ tương lai.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "text": "Hôm nay chúng ta cùng tìm hiểu cách ứng dụng hiện đại chia sẻ dữ liệu theo thời gian thực.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "text": "Hãy tưởng tượng một nhóm sinh viên cùng làm việc trên một bảng ghi chú trực tuyến. Bạn A vừa cập nhật nội dung, nhưng bạn B vẫn thấy dữ liệu cũ, còn bạn C phải tải lại trang.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "text": "Vậy làm sao để mọi người thấy dữ liệu mới ngay khi có người cập nhật, mà không cần tải lại trang?",
+  "rate": "+18%"
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "text": "Đây chính là bài toán đồng bộ dữ liệu thời gian thực – Real-time Data Synchronization.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "text": "Bài học hôm nay gồm bốn phần: cơ chế hoạt động, truyền dữ liệu giữa Client và Server, xử lý xung đột và thực hành với Node.js, Socket.IO.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "text": "Đồng bộ dữ liệu thời gian thực là gì?",
+  "rate": "+18%"
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "text": "Đây là cơ chế giúp nhiều thiết bị nhận thay đổi dữ liệu gần như ngay lập tức khi có người cập nhật.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "text": "Khi A thay đổi ghi chú, hệ thống nhận dữ liệu, xử lý tại máy chủ và gửi cập nhật đến những người đang kết nối.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "text": "Nhờ vậy, ai đang mở ứng dụng cũng thấy bản mới nhất.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "text": "Có hai cơ chế truyền thông phổ biến. Thứ nhất là HTTP Request – Response.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "text": "Với HTTP, trình duyệt gửi yêu cầu, máy chủ trả kết quả. Muốn biết dữ liệu đổi chưa, phải gửi yêu cầu mới.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "text": "Ví dụ, cứ năm giây một lần, website gọi API để kiểm tra dữ liệu. Cách này gọi là Polling.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "text": "Thứ hai là WebSocket – kết nối hai chiều giữa Client và Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "text": "Sau khi kết nối, hai bên gửi dữ liệu cho nhau mà không cần yêu cầu HTTP mới cho từng lần cập nhật.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "text": "Trong bài thực hành, chúng ta dùng Socket.IO – thư viện giao tiếp thời gian thực theo sự kiện.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "text": "Socket.IO thường dùng WebSocket khi có thể, kèm cơ chế dự phòng.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "text": "Quy trình gồm bốn bước.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "text": "Client kết nối đến Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S11c3",
+  "scene": "S11",
+  "text": "Người dùng thực hiện thao tác cập nhật dữ liệu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S11c4",
+  "scene": "S11",
+  "text": "Server tiếp nhận và xử lý dữ liệu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S11c5",
+  "scene": "S11",
+  "text": "Server phát sự kiện đến các Client liên quan để cập nhật giao diện.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "text": "Server là trung tâm tiếp nhận và phân phối dữ liệu để mọi thiết bị cùng nhìn một trạng thái chung.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "text": "Nếu không có máy chủ, mỗi trình duyệt chỉ thấy dữ liệu riêng của nó.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S13c1",
+  "scene": "S13",
+  "text": "Trước khi viết code, chúng ta cần nắm ba khái niệm.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S14c1",
+  "scene": "S14",
+  "text": "Một là Client – Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S14c2",
+  "scene": "S14",
+  "text": "Client là phía người dùng, như trình duyệt trên máy tính hoặc điện thoại. Server nhận yêu cầu, xử lý và gửi kết quả trở lại.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S15c1",
+  "scene": "S15",
+  "text": "Hai là Event. Trong Socket.IO, ta gửi và lắng nghe sự kiện.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S15c2",
+  "scene": "S15",
+  "text": "update-data: người dùng muốn cập nhật dữ liệu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S15c3",
+  "scene": "S15",
+  "text": "sync-state: gửi trạng thái dữ liệu hiện tại.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S15c4",
+  "scene": "S15",
+  "text": "data-updated: báo dữ liệu vừa cập nhật.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S15c5",
+  "scene": "S15",
+  "text": "Nhờ vậy, hệ thống trao đổi dữ liệu linh hoạt.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S16c1",
+  "scene": "S16",
+  "text": "Ba là xử lý xung đột – Conflict Resolution. Hai người cùng sửa một tài liệu gần như cùng lúc. Hệ thống chọn nội dung nào?",
+  "rate": "+18%"
+ },
+ {
+  "id": "S17c1",
+  "scene": "S17",
+  "text": "Một cách đơn giản là Last Write Wins – LWW: áp dụng bản cập nhật cuối theo thứ tự xác định, ví dụ thứ tự Server nhận.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S18c1",
+  "scene": "S18",
+  "text": "Cách khác là Optimistic Locking, dùng phiên bản dữ liệu để kiểm tra.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S18c2",
+  "scene": "S18",
+  "text": "Nếu dữ liệu đã đổi từ lúc người dùng đọc, hệ thống từ chối cập nhật và yêu cầu tải lại. OT và CRDT là kỹ thuật nâng cao, sẽ học ở bài sau.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S19c1",
+  "scene": "S19",
+  "text": "Bây giờ, chúng ta sẽ xây dựng ứng dụng SyncLab.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S19c2",
+  "scene": "S19",
+  "text": "Mục tiêu: khu vực ghi chú dùng chung. Khi A nhập và nhấn Gửi, trình duyệt B nhận thay đổi gần như ngay lập tức.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S19c3",
+  "scene": "S19",
+  "text": "Bước 1: khởi tạo dự án. Tạo thư mục synclab, mở Terminal và chạy các lệnh.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S19c4",
+  "scene": "S19",
+  "text": "npm init, gạch ngang y.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S19c5",
+  "scene": "S19",
+  "text": "npm install express socket chấm ai-âu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S20c1",
+  "scene": "S20",
+  "text": "Express giúp xây máy chủ Web; socket.io hỗ trợ giao tiếp thời gian thực.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S20c2",
+  "scene": "S20",
+  "text": "Cấu trúc gồm server.js và thư mục public chứa index.html.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S21c1",
+  "scene": "S21",
+  "text": "Bước 2: xây dựng Server. Tạo file server.js và viết đoạn code sau.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S21c2",
+  "scene": "S21",
+  "text": "Khởi tạo Express và HTTP Server để Socket.IO dùng cùng máy chủ.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S21c3",
+  "scene": "S21",
+  "text": "sharedData lưu nội dung ghi chú và số phiên bản – trạng thái chung của ứng dụng.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S22c1",
+  "scene": "S22",
+  "text": "Khi Client kết nối, Server gửi trạng thái hiện tại bằng sync-state, để người mới thấy dữ liệu mới nhất.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S22c2",
+  "scene": "S22",
+  "text": "Khi nhận update-data, Server kiểm tra, cập nhật nội dung và tăng phiên bản, để chặn dữ liệu sai kiểu hoặc quá dài.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S22c3",
+  "scene": "S22",
+  "text": "Hàm emit của io phát data-updated đến tất cả Client, gồm cả người vừa gửi.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S22c4",
+  "scene": "S22",
+  "text": "Đây là bước giúp mọi trình duyệt nhận cùng một trạng thái.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S23c1",
+  "scene": "S23",
+  "text": "Bước 3: xây dựng giao diện Client. Tạo file public/index.html.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S23c2",
+  "scene": "S23",
+  "text": "Giao diện gồm ô nhập, nút Gửi cập nhật và dòng số phiên bản.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S23c3",
+  "scene": "S23",
+  "text": "Client gọi hàm io để tạo kết nối với Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S24c1",
+  "scene": "S24",
+  "text": "Khi nhận sync-state, trình duyệt hiển thị dữ liệu hiện tại; khi nhận data-updated, giao diện tự cập nhật nội dung và số phiên bản.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S24c2",
+  "scene": "S24",
+  "text": "Khi nhấn Gửi cập nhật, Client phát update-data kèm nội dung lên Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S25c1",
+  "scene": "S25",
+  "text": "Chúng ta đã hoàn thành ứng dụng đồng bộ dữ liệu thời gian thực cơ bản.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S25c2",
+  "scene": "S25",
+  "text": "Hai trình duyệt giờ đây chia sẻ cùng một ghi chú.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S26c1",
+  "scene": "S26",
+  "text": "Bây giờ, hãy kiểm tra kết quả. Tại Terminal, chạy node, file server chấm giây-ét.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S26c2",
+  "scene": "S26",
+  "text": "Sau đó, mở trình duyệt truy cập localhost, cổng ba nghìn.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S26c3",
+  "scene": "S26",
+  "text": "Mở thêm một tab hoặc trình duyệt khác cùng địa chỉ.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S27c1",
+  "scene": "S27",
+  "text": "Ở trình duyệt thứ nhất, nhập: \"Đây là dữ liệu cập nhật từ người dùng A\", rồi nhấn Gửi cập nhật.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S27c2",
+  "scene": "S27",
+  "text": "Ngay lập tức, trình duyệt thứ hai nhận nội dung mới mà không cần tải lại trang.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S27c3",
+  "scene": "S27",
+  "text": "Số phiên bản cũng tăng sau mỗi lần cập nhật.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S28c1",
+  "scene": "S28",
+  "text": "Vậy điều gì đã xảy ra phía sau?",
+  "rate": "+18%"
+ },
+ {
+  "id": "S28c2",
+  "scene": "S28",
+  "text": "Client A gửi update-data lên Server. Server cập nhật dữ liệu, tăng phiên bản và phát data-updated đến mọi Client.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S28c3",
+  "scene": "S28",
+  "text": "Client B nhận sự kiện và đổi nội dung trên giao diện.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S28c4",
+  "scene": "S28",
+  "text": "Đó là luồng đồng bộ thời gian thực, có thể ứng dụng vào nhiều hệ thống.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S29c1",
+  "scene": "S29",
+  "text": "Trong thực tế, cơ chế này dùng cho quản lý công việc, khi nhiều người theo dõi trạng thái nhiệm vụ.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S29c2",
+  "scene": "S29",
+  "text": "Website bán hàng cập nhật đơn hàng, tồn kho; quản lý lớp học cập nhật danh sách, kết quả; ứng dụng trò chuyện gửi nhận tin nhắn.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S29c3",
+  "scene": "S29",
+  "text": "Trong giáo dục, học sinh cùng làm bài nhóm trực tuyến.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S30c1",
+  "scene": "S30",
+  "text": "Lưu ý: ví dụ này lưu dữ liệu trong RAM, khởi động lại Server sẽ mất.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S30c2",
+  "scene": "S30",
+  "text": "Hệ thống thực tế cần MySQL hoặc PostgreSQL để lưu lâu dài.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S30c3",
+  "scene": "S30",
+  "text": "Cần thêm xác thực người dùng, kiểm tra quyền, xử lý mất kết nối và kiểm soát xung đột.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S30c4",
+  "scene": "S30",
+  "text": "Quan trọng: Socket.IO truyền nhanh nhưng không tự đảm bảo nhất quán. Điều đó phụ thuộc logic xử lý và lưu trữ phía Server.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S31c1",
+  "scene": "S31",
+  "text": "Đồng bộ thời gian thực mang lại nhiều lợi ích.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S31c2",
+  "scene": "S31",
+  "text": "Thứ nhất, dữ liệu cập nhật gần như tức thì, nâng cao trải nghiệm người dùng.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S31c3",
+  "scene": "S31",
+  "text": "Thứ hai, nhiều Client cùng theo dõi một trạng thái mà không cần tải lại trang.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S31c4",
+  "scene": "S31",
+  "text": "Thứ ba, Socket.IO giúp xây ứng dụng tương tác thời gian thực dễ dàng.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S32c1",
+  "scene": "S32",
+  "text": "Thứ nhất, quản lý nhiều kết nối đồng thời có thể gây áp lực lên máy chủ.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S32c2",
+  "scene": "S32",
+  "text": "Thứ hai, cần cơ chế phục hồi khi mất kết nối hoặc xung đột dữ liệu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S32c3",
+  "scene": "S32",
+  "text": "Thứ ba, nhiều máy chủ cần thêm giải pháp chia sẻ trạng thái và phân phối sự kiện.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S32c4",
+  "scene": "S32",
+  "text": "Khi số người dùng tăng, chi phí hạ tầng cũng tăng theo.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S33c1",
+  "scene": "S33",
+  "text": "Tóm lại, chúng ta đã hiểu đồng bộ thời gian thực, phân biệt HTTP và WebSocket, nắm Client – Server và Event trong Socket.IO.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S33c2",
+  "scene": "S33",
+  "text": "Đồng thời, chúng ta đã biết cách xử lý xung đột dữ liệu.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S34c1",
+  "scene": "S34",
+  "text": "Bài tập: phát triển SyncLab thành bảng quản lý công việc, nhiều người thêm, sửa, cập nhật trạng thái; lưu vào MySQL và kiểm soát phiên bản.",
+  "rate": "+18%"
+ },
+ {
+  "id": "S34c2",
+  "scene": "S34",
+  "text": "Hy vọng bài học giúp các bạn hiểu rõ cách xây dựng ứng dụng Web thời gian thực. Cảm ơn các bạn đã theo dõi!",
+  "rate": "+18%"
+ },
+ {
+  "id": "S34c3",
+  "scene": "S34",
+  "text": "Hẹn gặp lại trong bài học tiếp theo. AN TECH ACADEMY – HỌC CÔNG NGHỆ, LÀM CHỦ TƯƠNG LAI!",
+  "rate": "+18%"
+ }
+]

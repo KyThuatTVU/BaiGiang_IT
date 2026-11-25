@@ -1,0 +1,150 @@
+S01c1 base=1.2 beats=5
+  1.29  0.30  Chào các bạn!
+  1.20  0.26  Chào mừng đến với An Tếch A-ca-đê-mi.
+  1.20  0.26  Thử tưởng tượng: trang web bán điện thoại có ba mươi tấm ảnh, mỗi tấm năm mê-ga-bai.
+  1.20  0.32  Đợi mãi…
+  1.23  0.26  mà ảnh vẫn chưa hiện ra.
+S01c2 base=1.2 beats=4
+  1.20  0.26  Cộng lại là một trăm năm mươi mê-ga-bai cho một trang chủ.
+  1.20  0.26  Trên mạng di động, chậm khỏi bàn.
+  1.20  0.24  Khách chờ lâu, họ bỏ đi —
+  1.23  0.26  đơn hàng đi theo.
+S01c3 base=1.2 beats=4
+  1.20  0.26  Hôm nay mình học cách làm ảnh nhẹ đi mà mắt vẫn thấy đẹp.
+  1.20  0.24  Tên chuyên môn: nén ảnh —
+  1.23  0.26  i-mịch com-pờ-ré-sần.
+  1.29  0.30  Bắt đầu nhé!
+S02c1 base=1.2 beats=3
+  1.29  0.30  Vì sao phải nén?
+  1.20  0.26  Ảnh nặng quyết định tốc độ tải trang, tốn băng thông, tốn chỗ lưu trữ.
+  1.20  0.26  Băng thông và máy chủ đều là chi phí thật của người làm web.
+S02c2 base=1.2 beats=3
+  1.20  0.26  Và quan trọng nhất: trải nghiệm.
+  1.20  0.26  Trang thương mại điện tử tải chậm là trang khó bán hàng.
+  1.26  0.30  Các bạn đã bao giờ bỏ đi vì chờ quá lâu chưa?
+S03c1 base=1.2 beats=3
+  1.20  0.20  Nén ảnh là quá trình giảm dung lượng hình ảnh
+  1.20  0.26  bằng cách loại bỏ hoặc tổ chức lại thông tin theo một thuật toán.
+  1.20  0.26  Giống dọn vali: vẫn đủ đồ, xếp khéo nên nhẹ hơn.
+S03c2 base=1.2 beats=3
+  1.20  0.24  Ví dụ: ảnh sản phẩm năm mê-ga-bai, sau khi nén còn ba trăm năm mươi ki-lô-bai —
+  1.20  0.26  giảm chín mươi ba phần trăm.
+  1.20  0.26  Số liệu giả định thôi nhé, thực tế còn tùy ảnh và mức nén.
+S03c3 base=1.2 beats=5
+  1.20  0.20  Dung lượng nhỏ hơn là tải nhanh hơn,
+  1.23  0.20  ít tốn băng thông,
+  1.23  0.20  ít tốn chỗ lưu trữ,
+  1.23  0.26  khách ở lại lâu hơn.
+  1.20  0.26  Một mũi tên trúng bốn đích.
+S04c1 base=1.2 beats=5
+  1.23  0.26  Có hai trường phái.
+  1.20  0.24  Thứ nhất: nén mất dữ liệu —
+  1.19  0.26  lót-xi com-pờ-ré-sần.
+  1.20  0.26  Nó chủ động vứt chi tiết mắt người khó thấy, đổi lấy dung lượng nhỏ hơn nhiều.
+  1.16  0.26  giây-pê-gờ là ví dụ quen thuộc.
+S04c2 base=1.2 beats=7
+  1.23  0.20  Cùng một ảnh hoàng hôn:
+  1.23  0.20  để chất lượng chín mươi,
+  1.20  0.20  file khoảng sáu trăm mười tám ki-lô-bai;
+  1.23  0.20  hạ còn năm mươi,
+  1.20  0.24  chỉ còn một trăm chín mươi tư ki-lô-bai —
+  1.23  0.26  giảm hơn ba lần.
+  1.20  0.26  Nhưng nén quá tay, ảnh bắt đầu nhòe và xuất hiện nhiễu.
+S04c3 base=1.2 beats=3
+  1.20  0.26  Dấu vết đặc trưng: những ô vuông tám nhân tám pích-xồ và vệt lỗi quanh vùng chuyển màu.
+  1.20  0.26  Chữ và nét mảnh mà nén mạnh là răng cưa ngay.
+  1.29  0.30  Nhớ nhé!
+S05c1 base=1.2 beats=4
+  1.20  0.24  Thứ hai: nén không mất dữ liệu —
+  1.19  0.26  lót-lít com-pờ-ré-sần.
+  1.20  0.26  Nén mà không vứt chi tiết nào, khôi phục lại y nguyên bản gốc.
+  1.16  0.26  pê-en-gờ là đại diện tiêu biểu.
+S05c2 base=1.2 beats=4
+  1.16  0.24  Nhờ vậy, pê-en-gờ giữ nét chữ sắc, giữ nền trong suốt —
+  1.23  0.24  như logo sư tử này —
+  1.20  0.26  nên hợp logo, icon, ảnh chụp màn hình.
+  1.16  0.26  Đổi lại, file thường nặng hơn giây-pê-gờ và guép-pê.
+S06c1 base=1.2 beats=5
+  1.26  0.30  Trên website nên dùng định dạng nào?
+  1.16  0.26  giây-pê-gờ nhẹ, hợp ảnh chụp.
+  1.16  0.26  pê-en-gờ nét, có nền trong suốt.
+  1.16  0.26  guép-pê cân bằng, hỗ trợ cả hai kiểu nén.
+  1.16  0.26  ây-víp là định dạng mới, nén rất tốt.
+S06c2 base=1.2 beats=6
+  1.23  0.20  Ví dụ:
+  1.16  0.20  giây-pê-gờ một trăm hai mươi tám ki-lô-bai,
+  1.16  0.20  pê-en-gờ năm trăm mười hai,
+  1.19  0.20  guép-pê bảy mươi tám,
+  1.16  0.26  ây-víp bốn mươi lăm ki-lô-bai.
+  1.20  0.26  Nhưng đây là số liệu của một infographic, không phải chân lý cho mọi ảnh.
+S07c1 base=1.2 beats=6
+  1.20  0.24  Chọn nhanh: ảnh chụp, sản phẩm, banner —
+  1.19  0.26  giây-pê-gờ hoặc guép-pê.
+  1.20  0.24  Logo, icon, nền trong suốt —
+  1.19  0.26  pê-en-gờ hoặc ét-vi-giờ.
+  1.23  0.24  Ảnh bản đồ, chữ nhỏ —
+  1.16  0.26  đừng nén mạnh kiểu giây-pê-gờ, chữ sẽ vỡ.
+S07c2 base=1.2 beats=3
+  1.29  0.30  Còn ro?
+  1.20  0.26  Đó là ảnh gốc để chỉnh sửa, chưa dành cho web: nặng và trình duyệt không đọc được.
+  1.16  0.26  Xuất sang giây-pê-gờ hoặc guép-pê trước khi đăng.
+S08c1 base=1.2 beats=4
+  1.23  0.26  Làm thử nhé.
+  1.16  0.26  Có sờ-quút nén trực tuyến, tai-ni pê-en-gờ, i-mịch ma-gích cho dòng lệnh.
+  1.16  0.24  Còn dân nốt giây-ét thì có sáp —
+  1.20  0.26  nén ngay trên máy chủ, rất nhanh.
+S08c2 base=1.2 beats=6
+  1.16  0.26  Cài bằng en-pi-em in-sto sáp.
+  1.20  0.20  Đọc ảnh pro-đớt chây-pê-gờ,
+  1.20  0.20  ri-sai về chiều rộng tám trăm pích-xồ,
+  1.23  0.20  không phóng lớn ảnh nhỏ,
+  1.16  0.20  chuyển guép-pê chất lượng tám mươi,
+  1.19  0.26  lưu ra pro-đớt guép-pê.
+S08c3 base=1.2 beats=7
+  1.23  0.20  Giải nghĩa:
+  1.19  0.20  sáp mở ảnh;
+  1.23  0.20  ri-sai đổi kích thước;
+  1.20  0.20  gu-i-dao en-lát-mần chặn phóng to;
+  1.19  0.20  guép-pê chọn định dạng;
+  1.20  0.20  quoa-li-ti tám mươi là mức nén;
+  1.23  0.26  tu-phai lưu kết quả.
+S09c1 base=1.2 beats=5
+  1.20  0.26  Ảnh nhẹ rồi, hiển thị cho khôn ngoan.
+  1.20  0.20  Thẻ img cần ét-xờ-xê, alt, uých,
+  1.16  0.20  và đặc biệt là lô-đinh bằng lây-zi:
+  1.23  0.20  khoan tải,
+  1.20  0.26  đợi khách cuộn gần tới hãy tải.
+S09c2 base=1.2 beats=2
+  1.20  0.26  Khai báo uých và hai-tờ để trang không nhảy khi ảnh tải xong.
+  1.20  0.26  Ảnh lớn thì dùng sooc-sét để trình duyệt tự chọn kích thước phù hợp.
+S10c1 base=1.2 beats=3
+  1.23  0.20  Nén ảnh có mặt khắp nơi:
+  1.20  0.20  thương mại điện tử nén ảnh sản phẩm cho trang danh sách mượt;
+  1.20  0.26  tin tức tối ưu ảnh bài viết.
+S10c2 base=1.2 beats=4
+  1.20  0.24  Du lịch giảm thư viện ảnh lớn —
+  1.23  0.26  như hồ núi này.
+  1.20  0.26  Giáo dục tối ưu ảnh khóa học.
+  1.20  0.26  Hễ có ảnh trên web là có chỗ cho nén ảnh.
+S11c1 base=1.2 beats=3
+  1.23  0.26  Vài lưu ý.
+  1.20  0.26  Đừng nén quá tay, ảnh vỡ thì đẹp mấy cũng vô nghĩa.
+  1.16  0.26  Resize đúng kích thước hiển thị, đừng tải ảnh bốn nghìn pích-xồ về khung ba trăm.
+S11c2 base=1.2 beats=4
+  1.16  0.26  Khai báo uých, hai-tờ, dùng lây-zi lô-đinh.
+  1.16  0.26  Cân nhắc xê-đi-en hoặc dịch vụ tối ưu ảnh.
+  1.20  0.24  Cân bằng giữa dung lượng và chất lượng —
+  1.20  0.26  đó là nghệ thuật, không phải phép tính.
+S12c1 base=1.2 beats=3
+  1.23  0.26  Tóm lại, bốn điều.
+  1.20  0.26  Một: nén ảnh giảm dung lượng, tăng tốc tải.
+  1.16  0.26  Hai: Lossy cho ảnh chụp, Lossless cho logo và nền trong suốt.
+S12c2 base=1.2 beats=2
+  1.16  0.26  Ba: guép-pê và ây-víp là lựa chọn hiện đại, nhớ kiểm tra trình duyệt.
+  1.16  0.26  Bốn: sáp, lây-zi lô-đinh và xê-đi-en giúp website nhẹ như lông hồng.
+S12c3 base=1.2 beats=5
+  1.20  0.20  Không phải nén càng nhỏ càng tốt,
+  1.20  0.20  mà là cân bằng giữa dung lượng,
+  1.20  0.26  chất lượng và trải nghiệm.
+  1.20  0.26  Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi.
+  1.29  0.30  Hẹn gặp ở bài tiếp theo!

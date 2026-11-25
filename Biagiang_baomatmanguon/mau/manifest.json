@@ -1,0 +1,314 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+8%",
+  "shift": 0.5,
+  "pause_after": 0.2,
+  "text": "Xin chào các bạn! Chào mừng quay lại với An Tech Academy — học công nghệ cùng An. Hôm nay mình có một câu đố nhỏ dành cho bạn.",
+  "say": "Xin chào các bạn! Chào mừng quay lại với An Tếch A-ca-đê-mi — học công nghệ cùng An. Hôm nay mình có một câu đố nhỏ dành cho bạn.",
+  "subs": [
+   "Xin chào các bạn! Chào mừng quay lại với An Tech Academy",
+   "— học công nghệ cùng An. Hôm nay mình có một câu đố nhỏ."
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+10%",
+  "shift": 0.7,
+  "pause_after": 0.25,
+  "text": "Chỉ cần gõ thêm vài chữ vào thanh địa chỉ, bạn có thể nhìn thấy nguyên bộ đồ lòng của một website. Nghe như ảo thuật, nhưng đây là chuyện thật.",
+  "say": "Chỉ cần gõ thêm vài chữ vào thanh địa chỉ, bạn có thể nhìn thấy nguyên bộ đồ lòng của một website. Nghe như ảo thuật, nhưng đây là chuyện thật.",
+  "subs": [
+   "Chỉ cần gõ thêm vài chữ vào thanh địa chỉ,",
+   "bạn có thể nhìn thấy nguyên bộ đồ lòng của một website."
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Thủ phạm là một lỗi cấu hình rất phổ biến: để lộ mã nguồn và cấu trúc thư mục. Hôm nay, chúng ta sẽ chặn nó bằng ba vũ khí: Apache, tệp htaccess và mô hình Front Controller.",
+  "say": "Thủ phạm là một lỗi cấu hình rất phổ biến: để lộ mã nguồn và cấu trúc thư mục. Hôm nay, chúng ta sẽ chặn nó bằng ba vũ khí: A-pa-chê, tệp hờ-tắc-xét và mô hình Phờ-rông Con-trô-lơ.",
+  "subs": [
+   "Thủ phạm là lỗi cấu hình để lộ mã nguồn và cấu trúc thư mục.",
+   "Cách chặn: Apache, tệp .htaccess và Front Controller."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+8%",
+  "shift": 0.3,
+  "pause_after": 0.2,
+  "text": "Đầu tiên, hãy mở mắt của trình duyệt. Nhấn F12, hoặc tổ hợp Ctrl Shift I, các bạn sẽ gặp DevTools — công cụ có sẵn trong Chrome, Edge và Firefox.",
+  "say": "Đầu tiên, hãy mở mắt của trình duyệt. Nhấn ép mười hai, hoặc tổ hợp cần-trố, sịp ai, các bạn sẽ gặp đép-tút — công cụ có sẵn trong Chrome, Edge và Firefox.",
+  "subs": [
+   "Đầu tiên, hãy mở mắt của trình duyệt: nhấn F12",
+   "hoặc Ctrl + Shift + I để mở DevTools."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.35,
+  "text": "Mở tab Network, bạn thấy mọi tệp trình duyệt tải về, cả những phản hồi API. Nguyên tắc vàng là: thứ gì đã gửi xuống trình duyệt, thì người dùng đều xem được. Ẩn JavaScript bằng vài dòng lệnh khác gì lấy rèm che cửa kính — mà rèm lại trong suốt.",
+  "say": "Mở tab nết-uốc, bạn thấy mọi tệp trình duyệt tải về, cả những phản hồi API. Nguyên tắc vàng là: thứ gì đã gửi xuống trình duyệt, thì người dùng đều xem được. Ẩn ja-va-sờ-cờ-ríp bằng vài dòng lệnh khác gì lấy rèm che cửa kính — mà rèm lại trong suốt.",
+  "subs": [
+   "Mở tab Network: mọi tệp gửi xuống trình duyệt đều hiện ra.",
+   "Ẩn JavaScript để bảo mật khác gì rèm trong suốt che cửa kính."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.25,
+  "text": "Nhưng phần nghiêm trọng nằm ở máy chủ. PHP chạy trên server, người dùng chỉ nhận HTML hoặc JSON, không thấy code. Vấn đề là cấu trúc thư mục vẫn có thể bị lộ nếu cấu hình sai.",
+  "say": "Nhưng phần nghiêm trọng nằm ở máy chủ. pê-hát-pê chạy trên server, người dùng chỉ nhận HTML hoặc dây-sần, không thấy code. Vấn đề là cấu trúc thư mục vẫn có thể bị lộ nếu cấu hình sai.",
+  "subs": [
+   "Nhưng phần nghiêm trọng nằm ở máy chủ: PHP chỉ trả kết quả,",
+   "cấu trúc thư mục vẫn có thể bị lộ nếu cấu hình sai."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Thử gõ thẳng đường dẫn tới thư mục config, hoặc tệp BookingService.php. Nếu cấu hình sai, bạn có thể thấy danh sách tệp, tải cả file cấu hình và file SQL chứa cơ sở dữ liệu.",
+  "say": "Thử gõ thẳng đường dẫn tới thư mục con-phích, hoặc tệp Bu-king Sờ-vịt chấm pê-hát-pê. Nếu cấu hình sai, bạn có thể thấy danh sách tệp, tải cả file cấu hình và file ét-kiu-el chứa cơ sở dữ liệu.",
+  "subs": [
+   "Gõ thẳng đường dẫn tới thư mục config hay BookingService.php:",
+   "có thể thấy danh sách tệp, tải cả cấu hình và file SQL."
+  ]
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+8%",
+  "shift": 0.4,
+  "pause_after": 0.3,
+  "text": "Hệ quả là lộ mã nguồn, lộ cấu hình, lộ dữ liệu, rồi thành bàn đạp cho kẻ tấn công. Không phải thấy tên thư mục là hack được ngay, nhưng để lộ tài nguyên nhạy cảm là rủi ro phải dẹp.",
+  "say": "Hệ quả là lộ mã nguồn, lộ cấu hình, lộ dữ liệu, rồi thành bàn đạp cho kẻ tấn công. Không phải thấy tên thư mục là hack được ngay, nhưng để lộ tài nguyên nhạy cảm là rủi ro phải dẹp.",
+  "subs": [
+   "Lộ mã nguồn, lộ cấu hình, lộ dữ liệu — thành bàn đạp tấn công.",
+   "Thấy tên thư mục chưa chắc hack được, nhưng lộ là rủi ro phải dẹp."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.2,
+  "text": "Vậy ai là người gác cửa? Chính là Apache — máy chủ web mã nguồn mở: nhận yêu cầu HTTP, xác định tài nguyên rồi trả phản hồi. Apache phục vụ tệp tĩnh và phối hợp với PHP để chạy ứng dụng.",
+  "say": "Vậy ai là người gác cửa? Chính là A-pa-chê — máy chủ web mã nguồn mở: nhận yêu cầu HTTP, xác định tài nguyên rồi trả phản hồi. A-pa-chê phục vụ tệp tĩnh và phối hợp với pê-hát-pê để chạy ứng dụng.",
+  "subs": [
+   "Người gác cửa là Apache: nhận yêu cầu HTTP,",
+   "xác định tài nguyên và trả phản hồi cho trình duyệt."
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+5%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Vũ khí nhỏ mà quyền lực là tệp htaccess. Đặt ngay trong thư mục cần bảo vệ, nó đổi luật ở cấp thư mục mà không cần sờ cấu hình tổng. Nhưng nhớ: máy chủ phải bật AllowOverride và mod rewrite.",
+  "say": "Vũ khí nhỏ mà quyền lực là tệp hờ-tắc-xét. Đặt ngay trong thư mục cần bảo vệ, nó đổi luật ở cấp thư mục mà không cần sờ cấu hình tổng. Nhưng nhớ: máy chủ phải bật A-lao-âu-vơ-rai và mót ri-rait.",
+  "subs": [
+   "Tệp .htaccess đổi luật ngay tại thư mục cần bảo vệ.",
+   "Điều kiện: bật AllowOverride và module mod_rewrite."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.2,
+  "text": "Luật đầu tiên, dễ mà nhiều bạn quên: tắt Directory Listing bằng dòng Options trừ Indexes. Khi mở một thư mục không có tệp mặc định, máy chủ sẽ im lặng, thay vì khoe hết danh sách tệp bên trong.",
+  "say": "Luật đầu tiên, dễ mà nhiều bạn quên: tắt Đai-rếch-tơ-ri lít-ting bằng dòng Ốp-sần, trừ in-đếch-sờ. Khi mở một thư mục không có tệp mặc định, máy chủ sẽ im lặng, thay vì khoe hết danh sách tệp bên trong.",
+  "subs": [
+   "Tắt Directory Listing bằng: Options -Indexes",
+   "Mở thư mục trống, máy chủ không còn khoe danh sách tệp."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.35,
+  "text": "Nhưng cẩn thận: tắt danh sách không chặn được từng tệp. Biết đúng tên tệp vẫn vào được — nhiều bạn mới học Apache nhầm chỗ này. Muốn chặn hẳn cả thư mục, dùng Require all denied: mọi yêu cầu sẽ nhận 403 Forbidden.",
+  "say": "Nhưng cẩn thận: tắt danh sách không chặn được từng tệp. Biết đúng tên tệp vẫn vào được — nhiều bạn mới học A-pa-chê nhầm chỗ này. Muốn chặn hẳn cả thư mục, dùng Ri-quai-ơ o đì-nai: mọi yêu cầu sẽ nhận bốn không ba, pho-bít-đần.",
+  "subs": [
+   "Tắt danh sách không chặn được từng tệp nếu biết đúng tên.",
+   "Chặn cả thư mục: Require all denied → 403 Forbidden."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.2,
+  "text": "Còn tệp nhạy cảm rải rác? Dùng FilesMatch chặn theo phần mở rộng: env, sql, log, bak, ini, sh. Cờ i trong ngoặc giúp so khớp không phân biệt hoa thường.",
+  "say": "Còn tệp nhạy cảm rải rác? Dùng Phai-sờ-mách chặn theo phần mở rộng: en-vờ, sql, log, bak, ini, sh. Cờ i trong ngoặc giúp so khớp không phân biệt hoa thường.",
+  "subs": [
+   "Dùng FilesMatch chặn tệp nhạy cảm: .env, .sql, .log, .bak…",
+   "Cờ (?i) giúp so khớp không phân biệt hoa thường."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Nhưng đừng chỉ tin vào phần mở rộng. Bí mật an toàn nhất là cất ngoài DocumentRoot. Đừng để tệp env như cuốn nhật ký bỏ quên trên bàn cà phê.",
+  "say": "Nhưng đừng chỉ tin vào phần mở rộng. Bí mật an toàn nhất là cất ngoài Đốc-kiu-mần-rút. Đừng để tệp en-vờ như cuốn nhật ký bỏ quên trên bàn cà phê.",
+  "subs": [
+   "Đừng chỉ tin vào phần mở rộng: hãy để tệp bí mật",
+   "ngoài DocumentRoot — như nhật ký đừng bỏ quên ở quán cà phê."
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+7%",
+  "shift": 0.3,
+  "pause_after": 0.2,
+  "text": "Luật thứ ba: giấu đường dẫn vật lý bằng URL Rewrite. Người dùng thấy địa chỉ about gọn gàng, còn Apache âm thầm phục vụ tệp nằm sâu trong frontend, pages, about.",
+  "say": "Luật thứ ba: giấu đường dẫn vật lý bằng u-rờ-el ri-rait. Người dùng thấy địa chỉ ơ-bao gọn gàng, còn A-pa-chê âm thầm phục vụ tệp nằm sâu trong phờ-rôn-en, pages, ơ-bao.",
+  "subs": [
+   "URL Rewrite giấu đường dẫn vật lý: /about/ →",
+   "frontend/pages/about/index.html (người dùng không thấy)."
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.35,
+  "text": "Cần RewriteEngine On và module mod rewrite. Quy tắc khớp about, thay bằng đường dẫn thật, cờ L để dừng xử lý. Và đừng lẫn rewrite nội bộ với chuyển hướng 301: một cái giữ nguyên địa chỉ, một cái bắt trình duyệt đổi sang địa chỉ mới.",
+  "say": "Cần Ri-rait-en-gin on và module mót ri-rait. Quy tắc khớp ơ-bao, thay bằng đường dẫn thật, cờ L để dừng xử lý. Và đừng lẫn rewrite nội bộ với chuyển hướng 301: một cái giữ nguyên địa chỉ, một cái bắt trình duyệt đổi sang địa chỉ mới.",
+  "subs": [
+   "RewriteRule khớp /about/ → frontend/pages/about/index.html [L]",
+   "Rewrite nội bộ giữ URL; chuyển hướng 301 thì đổi URL."
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+9%",
+  "shift": 0.6,
+  "pause_after": 0.2,
+  "text": "Giờ đến phần hay nhất: Front Controller. Thay vì mỗi chức năng một tệp riêng như login, register, products, orders, mọi yêu cầu đều đi qua một cửa duy nhất: tệp index.php.",
+  "say": "Giờ đến phần hay nhất: Phờ-rông Con-trô-lơ. Thay vì mỗi chức năng một tệp riêng như login, register, products, orders, mọi yêu cầu đều đi qua một cửa duy nhất: tệp in-đếch chấm pê-hát-pê.",
+  "subs": [
+   "Front Controller: mọi yêu cầu đi qua một cửa duy nhất",
+   "là index.php, thay vì login.php, products.php, orders.php…"
+  ]
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.35,
+  "text": "Cửa đó đọc URL, xác định route, kiểm tra quyền, gọi đúng chức năng rồi trả kết quả. Muốn thêm kiểm tra đăng nhập hay phân quyền? Chỉ sửa một chỗ. Và tuyệt đối không đưa đường dẫn người dùng nhập thẳng vào include.",
+  "say": "Cửa đó đọc u-rờ-el, xác định route, kiểm tra quyền, gọi đúng chức năng rồi trả kết quả. Muốn thêm kiểm tra đăng nhập hay phân quyền? Chỉ sửa một chỗ. Và tuyệt đối không đưa đường dẫn người dùng nhập thẳng vào in-clu-đờ.",
+  "subs": [
+   "Index.php đọc URL → xác định route → kiểm tra quyền → xử lý.",
+   "Không lấy đường dẫn người dùng nhập đưa thẳng vào include!"
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+7%",
+  "shift": 0.3,
+  "pause_after": 0.3,
+  "text": "Cách an toàn là Whitelist Routing: khai báo trước danh sách route được phép. Có trong danh sách thì chạy, không có thì trả 404 Not Found. 404 ở đây không đáng buồn — nó là dấu hiệu hệ thống đang làm đúng: không có cửa thì không mở.",
+  "say": "Cách an toàn là Quai-lít rao-ting: khai báo trước danh sách route được phép. Có trong danh sách thì chạy, không có thì trả bốn không bốn, nót phao. 404 ở đây không đáng buồn — nó là dấu hiệu hệ thống đang làm đúng: không có cửa thì không mở.",
+  "subs": [
+   "Whitelist Routing: chỉ chạy route đã khai báo trước.",
+   "Đường dẫn lạ → 404. Không có cửa thì không mở."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Ghép tất cả lại: tách rõ public và private. Frontend, assets, index.php là công khai; app, config, routes, storage, env là nội bộ. Mấu chốt là trỏ DocumentRoot thẳng vào thư mục public, thay vì ném cả mã nguồn ra vùng công khai rồi cầu nguyện htaccess che giúp.",
+  "say": "Ghép tất cả lại: tách rõ pấp-lịch và private. Frontend, át-sét, in-đếch chấm pê-hát-pê là công khai; app, con-phích, rút, sto-rịch, en-vờ là nội bộ. Mấu chốt là trỏ Đốc-kiu-mần-rút thẳng vào thư mục pấp-lịch, thay vì ném cả mã nguồn ra vùng công khai rồi cầu nguyện hờ-tắc-xét che giúp.",
+  "subs": [
+   "Tách rõ PUBLIC (frontend, assets, index.php) và",
+   "PRIVATE (app, config, routes, storage, .env)."
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+6%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Luồng chạy: trình duyệt gửi yêu cầu, Apache kiểm tra luật, chuyển vào front controller, router xác định route, xử lý rồi trả kết quả. Sai luật thì 403, sai route thì 404.",
+  "say": "Luồng chạy: trình duyệt gửi yêu cầu, A-pa-chê kiểm tra luật, chuyển vào front controller, rao-tơ xác định route, xử lý rồi trả kết quả. Sai luật thì 403, sai route thì 404.",
+  "subs": [
+   "Luồng: trình duyệt → Apache → Front Controller → Router → xử lý.",
+   "Sai luật: 403. Sai route: 404."
+  ]
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+8%",
+  "shift": 0.4,
+  "pause_after": 0.2,
+  "text": "Tóm gọn ba ý. Một: DevTools thấy mọi thứ gửi xuống trình duyệt. Hai: htaccess chặn thư mục, chặn tệp, đổi URL ngay tại máy chủ. Ba: Front Controller cùng whitelist chỉ mở đúng cửa cần mở.",
+  "say": "Tóm gọn ba ý. Một: đép-tút thấy mọi thứ gửi xuống trình duyệt. Hai: hờ-tắc-xét chặn thư mục, chặn tệp, đổi u-rờ-el ngay tại máy chủ. Ba: Phờ-rông Con-trô-lơ cùng whitelist chỉ mở đúng cửa cần mở.",
+  "subs": [
+   "1. DevTools thấy mọi thứ gửi xuống trình duyệt.",
+   "2. .htaccess chặn thư mục, chặn tệp, đổi URL.  3. Whitelist route."
+  ]
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+9%",
+  "shift": 0.5,
+  "pause_after": 0.3,
+  "text": "Thử thách nhanh nhé: dòng nào tắt danh sách thư mục? A, Require all denied. B, Options trừ Indexes. C, RewriteEngine On. Suy nghĩ hai giây... Đáp án là B. Nếu bạn chọn đúng, xin chúc mừng!",
+  "say": "Thử thách nhanh nhé: dòng nào tắt danh sách thư mục? A, Ri-quai-ơ o đì-nai. B, Ốp-sần, trừ in-đếch-sờ. C, Ri-rait-en-gin on. Suy nghĩ hai giây... Đáp án là B. Nếu bạn chọn đúng, xin chúc mừng!",
+  "subs": [
+   "Dòng nào tắt danh sách thư mục? A. Require all denied",
+   "B. Options -Indexes   C. RewriteEngine On  → Đáp án: B"
+  ]
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+7%",
+  "shift": 0.2,
+  "pause_after": 0.1,
+  "text": "Bảo mật không phải là che giấu, mà là kiểm soát đúng chỗ. Hãy thử dựng lại WebShield trên XAMPP, gõ một đường dẫn lạ xem chuyện gì xảy ra. Cảm ơn các bạn đã học cùng An Tech Academy, hẹn gặp ở bài tiếp theo!",
+  "say": "Bảo mật không phải là che giấu, mà là kiểm soát đúng chỗ. Hãy thử dựng lại WebShield trên zăm, gõ một đường dẫn lạ xem chuyện gì xảy ra. Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi, hẹn gặp ở bài tiếp theo!",
+  "subs": [
+   "Bảo mật là kiểm soát đúng chỗ, không phải che giấu.",
+   "Cảm ơn các bạn — hẹn gặp ở bài tiếp theo!"
+  ]
+ }
+]

@@ -1,0 +1,121 @@
+SCRIPT THU ÂM — NÉN ẢNH TRONG WEBSITE
+AN TECH ACADEMY
+
+29 cue. Mỗi cue một file riêng, lưu vào mau\voice_human\raw\
+Tên file đúng nhãn: S01c1.wav, S01c2.wav, ... (WAV/M4A/MP3 đều được).
+Đọc đúng chữ phiên âm trong ngoặc/phiên âm; không tự sửa chính tả.
+Tốc độ hơi nhanh như giảng cho lớp; số giây chỉ là gợi ý.
+— ngắt ngắn; … ngắt dài hơn và hạ giọng; ! lên giọng, tươi.
+Đầu/cuối file để khoảng 1 giây im lặng; không thêm nghỉ dài giữa câu.
+
+
+[S01] Mở đầu — 30 ảnh, 150 MB
+
+S01c1 (~11.7s)
+Chào các bạn! Chào mừng đến với An Tếch A-ca-đê-mi. Thử tưởng tượng: trang web bán điện thoại có ba mươi tấm ảnh, mỗi tấm năm mê-ga-bai. Đợi mãi… mà ảnh vẫn chưa hiện ra.
+
+S01c2 (~9.5s)
+Cộng lại là một trăm năm mươi mê-ga-bai cho một trang chủ. Trên mạng di động, chậm khỏi bàn. Khách chờ lâu, họ bỏ đi — đơn hàng đi theo.
+
+S01c3 (~8.4s)
+Hôm nay mình học cách làm ảnh nhẹ đi mà mắt vẫn thấy đẹp. Tên chuyên môn: nén ảnh — i-mịch com-pờ-ré-sần. Bắt đầu nhé!
+
+[S02] Vì sao website cần nén ảnh
+
+S02c1 (~9.8s)
+Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang, tốn băng thông, tốn chỗ lưu trữ. Băng thông và máy chủ đều là chi phí thật của người làm web.
+
+S02c2 (~9.3s)
+Và quan trọng nhất: trải nghiệm. Trang thương mại điện tử tải chậm là trang khó bán hàng. Các bạn đã bao giờ bỏ đi vì chờ quá lâu chưa?
+
+[S03] Nén ảnh là gì?
+
+S03c1 (~9.8s)
+Nén ảnh là quá trình giảm dung lượng hình ảnh bằng cách loại bỏ hoặc tổ chức lại thông tin theo một thuật toán. Giống dọn vali: vẫn đủ đồ, xếp khéo nên nhẹ hơn.
+
+S03c2 (~10.5s)
+Ví dụ: ảnh sản phẩm năm mê-ga-bai, sau khi nén còn ba trăm năm mươi ki-lô-bai — giảm chín mươi ba phần trăm. Số liệu giả định thôi nhé, thực tế còn tùy ảnh và mức nén.
+
+S03c3 (~8.5s)
+Dung lượng nhỏ hơn là tải nhanh hơn, ít tốn băng thông, ít tốn chỗ lưu trữ, khách ở lại lâu hơn. Một mũi tên trúng bốn đích.
+
+[S04] Nén mất dữ liệu (Lossy)
+
+S04c1 (~12.9s)
+Có hai trường phái. Thứ nhất: nén mất dữ liệu — lót-xi com-pờ-ré-sần. Nó chủ động vứt chi tiết mắt người khó thấy, đổi lấy dung lượng nhỏ hơn nhiều. giây-pê-gờ là ví dụ quen thuộc.
+
+S04c2 (~13.0s)
+Cùng một ảnh hoàng hôn: để chất lượng chín mươi, file khoảng sáu trăm mười tám ki-lô-bai; hạ còn năm mươi, chỉ còn một trăm chín mươi tư ki-lô-bai — giảm hơn ba lần. Nhưng nén quá tay, ảnh bắt đầu nhòe và xuất hiện nhiễu.
+
+S04c3 (~9.3s)
+Dấu vết đặc trưng: những ô vuông tám nhân tám pích-xồ và vệt lỗi quanh vùng chuyển màu. Chữ và nét mảnh mà nén mạnh là răng cưa ngay. Nhớ nhé!
+
+[S05] Nén không mất dữ liệu (Lossless)
+
+S05c1 (~8.6s)
+Thứ hai: nén không mất dữ liệu — lót-lít com-pờ-ré-sần. Nén mà không vứt chi tiết nào, khôi phục lại y nguyên bản gốc. pê-en-gờ là đại diện tiêu biểu.
+
+S05c2 (~11.8s)
+Nhờ vậy, pê-en-gờ giữ nét chữ sắc, giữ nền trong suốt — như logo sư tử này — nên hợp logo, icon, ảnh chụp màn hình. Đổi lại, file thường nặng hơn giây-pê-gờ và guép-pê.
+
+[S06] Bốn định dạng: JPEG, PNG, WebP, AVIF
+
+S06c1 (~14.8s)
+Trên website nên dùng định dạng nào? giây-pê-gờ nhẹ, hợp ảnh chụp. pê-en-gờ nét, có nền trong suốt. guép-pê cân bằng, hỗ trợ cả hai kiểu nén. ây-víp là định dạng mới, nén rất tốt.
+
+S06c2 (~11.7s)
+Ví dụ: giây-pê-gờ một trăm hai mươi tám ki-lô-bai, pê-en-gờ năm trăm mười hai, guép-pê bảy mươi tám, ây-víp bốn mươi lăm ki-lô-bai. Nhưng đây là số liệu của một infographic, không phải chân lý cho mọi ảnh.
+
+[S07] Chọn định dạng theo mục đích
+
+S07c1 (~10.5s)
+Chọn nhanh: ảnh chụp, sản phẩm, banner — giây-pê-gờ hoặc guép-pê. Logo, icon, nền trong suốt — pê-en-gờ hoặc ét-vi-giờ. Ảnh bản đồ, chữ nhỏ — đừng nén mạnh kiểu giây-pê-gờ, chữ sẽ vỡ.
+
+S07c2 (~9.3s)
+Còn ro? Đó là ảnh gốc để chỉnh sửa, chưa dành cho web: nặng và trình duyệt không đọc được. Xuất sang giây-pê-gờ hoặc guép-pê trước khi đăng.
+
+[S08] Thực hành: nén bằng Sharp
+
+S08c1 (~10.9s)
+Làm thử nhé. Có sờ-quút nén trực tuyến, tai-ni pê-en-gờ, i-mịch ma-gích cho dòng lệnh. Còn dân nốt giây-ét thì có sáp — nén ngay trên máy chủ, rất nhanh.
+
+S08c2 (~11.4s)
+Cài bằng en-pi-em in-sto sáp. Đọc ảnh pro-đớt giây-pê-gờ, ri-sai về chiều rộng tám trăm pích-xồ, không phóng lớn ảnh nhỏ, chuyển guép-pê chất lượng tám mươi, lưu ra pro-đớt guép-pê.
+
+S08c3 (~10.2s)
+Giải nghĩa: sáp mở ảnh; ri-sai đổi kích thước; gu-i-dao en-lát-mần chặn phóng to; guép-pê chọn định dạng; quoa-li-ti tám mươi là mức nén; tu-phai lưu kết quả.
+
+[S09] Hiển thị ảnh thông minh trên HTML
+
+S09c1 (~10.6s)
+Ảnh nhẹ rồi, hiển thị cho khôn ngoan. Thẻ img cần ét-xờ-xê, alt, uých, và đặc biệt là lô-đinh bằng lây-zi: khoan tải, đợi khách cuộn gần tới hãy tải.
+
+S09c2 (~7.8s)
+Khai báo uých và hai-tờ để trang không nhảy khi ảnh tải xong. Ảnh lớn thì dùng sooc-sét để trình duyệt tự chọn kích thước phù hợp.
+
+[S10] Ứng dụng thực tế
+
+S10c1 (~6.5s)
+Nén ảnh có mặt khắp nơi: thương mại điện tử nén ảnh sản phẩm cho trang danh sách mượt; tin tức tối ưu ảnh bài viết.
+
+S10c2 (~9.1s)
+Du lịch giảm thư viện ảnh lớn — như hồ núi này. Giáo dục tối ưu ảnh khóa học. Hễ có ảnh trên web là có chỗ cho nén ảnh.
+
+[S11] Lưu ý khi nén ảnh
+
+S11c1 (~9.4s)
+Vài lưu ý. Đừng nén quá tay, ảnh vỡ thì đẹp mấy cũng vô nghĩa. Resize đúng kích thước hiển thị, đừng tải ảnh bốn nghìn pích-xồ về khung ba trăm.
+
+S11c2 (~11.0s)
+Khai báo uých, hai-tờ, dùng lây-zi lô-đinh. Cân nhắc xê-đi-en hoặc dịch vụ tối ưu ảnh. Cân bằng giữa dung lượng và chất lượng — đó là nghệ thuật, không phải phép tính.
+
+[S12] Tổng kết & Outro
+
+S12c1 (~10.4s)
+Tóm lại, bốn điều. Một: nén ảnh giảm dung lượng, tăng tốc tải. Hai: Lossy cho ảnh chụp, Lossless cho logo và nền trong suốt.
+
+S12c2 (~9.6s)
+Ba: guép-pê và ây-víp là lựa chọn hiện đại, nhớ kiểm tra trình duyệt. Bốn: sáp, lây-zi lô-đinh và xê-đi-en giúp website nhẹ như lông hồng.
+
+S12c3 (~9.4s)
+Không phải nén càng nhỏ càng tốt, mà là cân bằng giữa dung lượng, chất lượng và trải nghiệm. Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi. Hẹn gặp ở bài tiếp theo!

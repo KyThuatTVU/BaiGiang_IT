@@ -1,0 +1,27 @@
+1
+00:00:00,000 --> 00:00:06,810
+Bạn vừa thêm một chiếc điện thoại vào giỏ hàng.
+Ngay lập tức, website gợi ý ốp lưng, kính cường lực, tai nghe.
+
+2
+00:00:07,030 --> 00:00:14,320
+Ngẫu nhiên ư? Không hề.
+Hệ thống đã đọc hàng nghìn hoá đơn để tìm ra những món hay mua cùng nhau.
+
+3
+00:00:15,420 --> 00:00:20,260
+Chào mừng bạn đến với An Tech Academy.
+
+4
+00:00:21,360 --> 00:00:26,040
+Bước 1 · ngưỡng Support tối thiểu 40%
+
+5
+00:00:26,260 --> 00:00:32,710
+Bơ 30% < 40% → loại
+Còn: Sữa, Bánh mì, Trứng
+
+6
+00:00:32,930 --> 00:00:37,800
+3 món thay vì 4.
+Mọi tổ hợp chứa Bơ đều bị loại theo.

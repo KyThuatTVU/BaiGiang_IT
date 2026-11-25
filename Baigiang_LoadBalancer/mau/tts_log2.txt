@@ -1,0 +1,7 @@
+TTS START 1/26
+[18:48:24] S06c1 miss r0
+[18:48:49] S06c1 miss r1
+[18:49:13] S06c1 miss r2
+[18:49:37] S06c1 miss r3
+[18:50:13] S06c1 ok 11.11s r4
+TTS DONE missing []

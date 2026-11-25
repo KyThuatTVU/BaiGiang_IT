@@ -1,0 +1,139 @@
+1
+00:00:00,000 --> 00:00:09,330
+Chào các bạn! Chào mừng đến với An Tech Academy.
+5.000 người cùng mua một chiếc điện thoại trong một giây — web có sập không?
+
+2
+00:00:09,830 --> 00:00:16,870
+Câu trả lời nằm ở Load Balancer.
+Giữ hệ thống đứng vững khi truy cập tăng gấp hàng chục lần.
+
+3
+00:00:17,870 --> 00:00:28,650
+Bạn là kỹ sư sàn thương mại điện tử. Ngày 12/12, giảm giá bắt đầu.
+5.000 người truy cập cùng lúc, dồn hết request vào một server.
+
+4
+00:00:29,450 --> 00:00:39,900
+CPU vọt lên, RAM đầy, trang quay mãi. Khách còn bị lỗi thanh toán.
+Một server khỏe đến mấy cũng có giới hạn.
+
+5
+00:00:40,400 --> 00:00:47,590
+Vậy làm sao để cả hệ thống cùng gánh việc?
+Đó chính là lúc Load Balancer phát huy tác dụng.
+
+6
+00:00:48,590 --> 00:00:56,810
+Load Balancer — bộ cân bằng tải — đứng trước các server.
+Nó nhận request và quyết định chia cho server nào phía sau.
+
+7
+00:00:57,610 --> 00:01:08,140
+Giống trạm thu phí cao tốc: xe rất đông, một làn thì kẹt cứng.
+Nhiều làn và một nhân viên điều phối sẽ hướng xe vào làn trống.
+
+8
+00:01:08,640 --> 00:01:18,080
+Load Balancer không làm nghiệp vụ bán hàng, không thay server xử lý đơn.
+Nó chỉ giỏi điều phối để hệ thống nhanh và ổn định hơn.
+
+9
+00:01:19,080 --> 00:01:27,300
+Mô hình cơ bản có bốn thành phần.
+Client là người dùng; Load Balancer là cửa ngõ tiếp nhận kết nối.
+
+10
+00:01:28,100 --> 00:01:37,230
+Backend Server xử lý đăng nhập, tìm sản phẩm, giỏ hàng, đặt hàng.
+Database lưu tài khoản, sản phẩm, tồn kho và đơn hàng.
+
+11
+00:01:37,730 --> 00:01:47,680
+Client gửi request, Load Balancer điều phối, Backend xử lý, Database trả dữ liệu.
+Load Balancer đứng giữa nhưng không thay server làm việc.
+
+12
+00:01:48,680 --> 00:01:58,070
+Khi mở trang chi tiết điện thoại, trình duyệt gửi một HTTP request.
+Load Balancer nhận trước, rồi chuyển đến backend phù hợp — ví dụ Server 01.
+
+13
+00:01:58,870 --> 00:02:06,850
+Server xử lý, truy vấn Database, rồi trả kết quả về.
+Request tiếp theo có thể sang Server 02, rồi Server 03.
+
+14
+00:02:07,350 --> 00:02:15,950
+Thêm nhiều máy để tăng sức chịu tải: đó là Horizontal Scaling.
+Mở rộng hệ thống theo chiều ngang.
+
+15
+00:02:16,950 --> 00:02:24,530
+Vậy Load Balancer dựa vào đâu để chọn server?
+Câu trả lời nằm ở các thuật toán cân bằng tải. Có bốn cách phổ biến.
+
+16
+00:02:25,330 --> 00:02:36,720
+Round Robin — luân phiên: request 1 sang Server 01, 2 sang 02, 3 sang 03, rồi quay lại 01.
+Hợp khi các server cấu hình giống nhau.
+
+17
+00:02:37,220 --> 00:02:46,680
+Weighted Round Robin — có trọng số. Server mạnh nhận nhiều request hơn.
+Ví dụ Server 01 trọng số 3, hai server còn lại trọng số 1.
+
+18
+00:02:47,680 --> 00:02:59,570
+Least Connections — chọn server đang ít kết nối nhất.
+S01 giữ 100 kết nối, S02 giữ 30, S03 chỉ có 10: request tiếp theo ưu tiên S03.
+
+19
+00:03:00,370 --> 00:03:09,960
+IP Hash — băm địa chỉ IP để cùng người dùng thường về cùng một server.
+Tiện giữ phiên đăng nhập, nhưng không đảm bảo tuyệt đối khi server thay đổi.
+
+20
+00:03:10,960 --> 00:03:19,640
+Health Check — Load Balancer định kỳ gọi vào /health.
+Nó hỏi từng server: còn sống không?
+
+21
+00:03:20,440 --> 00:03:35,120
+Server 02 lỗi: nếu vẫn nhận request, khách sẽ gặp lỗi.
+Health Check tạm ngắt Server 02, chuyển request sang 01 và 03.
+
+22
+00:03:35,620 --> 00:03:39,040
+Khi Server 02 khỏe lại, nó được đưa vào nhóm phục vụ.
+Một máy chủ gặp sự cố không kéo cả website chết theo.
+
+23
+00:03:40,040 --> 00:03:48,780
+Load Balancer có thể là Nginx, HAProxy, hoặc dịch vụ đám mây.
+Ví dụ AWS Elastic Load Balancing, Google Cloud Load Balancing.
+
+24
+00:03:49,580 --> 00:04:00,180
+Với Node.js và Express, Nginx thường làm Reverse Proxy.
+Nhận request rồi chuyển đến nhóm backend 192.168.1.101, 102, 103.
+
+25
+00:04:00,680 --> 00:04:11,200
+Nhưng Load Balancer không chữa được mọi bệnh.
+Database quá tải, SQL chậm hay thanh toán lỗi thì web vẫn chậm.
+
+26
+00:04:12,200 --> 00:04:22,090
+Load Balancer chia request cho nhiều server.
+Bốn thuật toán: Round Robin, Weighted Round Robin, Least Connections, IP Hash.
+
+27
+00:04:22,890 --> 00:04:31,300
+Health Check loại bỏ server gặp lỗi.
+Hiểu Load Balancer là bước đầu để thiết kế hệ thống chịu tải lớn.
+
+28
+00:04:31,800 --> 00:04:39,300
+Cảm ơn các bạn đã theo dõi An Tech Academy.
+Nhớ theo dõi kênh và hẹn gặp lại ở bài tiếp theo!

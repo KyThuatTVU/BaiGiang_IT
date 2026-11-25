@@ -1,0 +1,50 @@
+{
+ "S01c1": {
+  "dur": 7.47,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S01c2": {
+  "dur": 4.11,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c1": {
+  "dur": 4.54,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S02c2": {
+  "dur": 6.12,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c1": {
+  "dur": 3.96,
+  "variant": 1,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ },
+ "S03c2": {
+  "dur": 3.28,
+  "variant": 0,
+  "voice": "edge:vi-VN-NamMinhNeural",
+  "scratch": true,
+  "shift": 0.0,
+  "trimmed": true
+ }
+}

@@ -1,0 +1,3 @@
+file 'D:/Edit/Baigiang_Apriori/mau/full/audio_scene/S01_sample.wav'
+file 'D:/Edit/Baigiang_Apriori/mau/full/audio_scene/S02_sample.wav'
+file 'D:/Edit/Baigiang_Apriori/mau/full/audio_scene/S10_sample.wav'

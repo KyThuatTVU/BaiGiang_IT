@@ -1,0 +1,791 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+18%",
+  "text": "Bạn vừa thêm một chiếc điện thoại vào giỏ hàng. Ngay lập tức, website gợi ý ốp lưng, kính cường lực và tai nghe.",
+  "subs": [
+   "Bạn vừa thêm một chiếc điện thoại vào giỏ hàng.",
+   "Ngay lập tức, website gợi ý ốp lưng, kính cường lực, tai nghe."
+  ],
+  "pause_after": 0.0,
+  "direction": "Tò mò, nhịp nhanh vừa"
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+18%",
+  "text": "Ngẫu nhiên ư? Không hề. Hệ thống đã đọc hàng nghìn hoá đơn trước đó, để tìm ra những món thường được mua cùng nhau.",
+  "subs": [
+   "Ngẫu nhiên ư? Không hề.",
+   "Hệ thống đã đọc hàng nghìn hoá đơn để tìm ra những món hay mua cùng nhau."
+  ],
+  "pause_after": 0.25,
+  "direction": "Dí dỏm nhẹ ở \"Không hề\""
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+18%",
+  "text": "Chào mừng bạn đến với An Tech Academy, nơi công nghệ được giải thích theo cách dễ hiểu nhất.",
+  "subs": [
+   "Chào mừng bạn đến với An Tech Academy."
+  ],
+  "pause_after": 0.0,
+  "direction": "Thân thiện, có năng lượng"
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+18%",
+  "text": "Trong bảy phút tới, bạn sẽ nắm được ba việc.",
+  "subs": [
+   "Trong bảy phút tới, bạn sẽ nắm được ba việc."
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ, tạo kỳ vọng"
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+18%",
+  "text": "Một, hiểu nguyên lý hoạt động của A-pri-o-ri.",
+  "subs": [
+   "Một, hiểu nguyên lý hoạt động của Apriori."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn tên thuật toán"
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+18%",
+  "text": "Hai, đọc đúng ba chỉ số sấp-pọt, con-fi-đần và líp. Ba, tự chạy thuật toán bằng pai-thờn và đưa kết quả lên website.",
+  "subs": [
+   "Hai, đọc đúng ba chỉ số Support, Confidence, Lift.",
+   "Ba, tự chạy thuật toán và đưa kết quả lên website."
+  ],
+  "pause_after": 0.2,
+  "direction": "Nhịp đều, ngắt giữa ba mục"
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+14%",
+  "text": "A-pri-o-ri là thuật toán tìm các tập mục phổ biến. Nói cách khác: những nhóm sản phẩm thường xuyên xuất hiện cùng nhau trong dữ liệu giao dịch.",
+  "subs": [
+   "Apriori là thuật toán tìm các tập mục phổ biến:",
+   "những nhóm sản phẩm thường xuất hiện cùng nhau."
+  ],
+  "pause_after": 0.0,
+  "direction": "Giải thích bình tĩnh, chắc giọng"
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+18%",
+  "text": "Mục tiêu cuối cùng là biến những nhóm đó thành luật gợi ý, giống câu: mua bánh mì thì mua thêm sữa.",
+  "subs": [
+   "Mục tiêu: biến nhóm phổ biến thành luật gợi ý,",
+   "ví dụ: mua bánh mì thì mua thêm sữa."
+  ],
+  "pause_after": 0.0,
+  "direction": "Gần gũi, ví dụ đời thường"
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+18%",
+  "text": "Bài học dùng một cửa hàng nhỏ với mười hoá đơn. Mỗi dòng là một giao dịch, ghi lại các món khách đã mua.",
+  "subs": [
+   "Bài học dùng một cửa hàng nhỏ với 10 hoá đơn.",
+   "Mỗi dòng là một giao dịch."
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ ràng, chậm vừa"
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+18%",
+  "text": "Bốn sản phẩm xuất hiện: Sữa, Bánh mì, Trứng và Bơ. Nhìn bằng mắt, ta thấy Sữa và Bánh mì đi với nhau rất nhiều.",
+  "subs": [
+   "Bốn sản phẩm: Sữa, Bánh mì, Trứng, Bơ.",
+   "Sữa và Bánh mì đi với nhau rất nhiều."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn tên sản phẩm"
+ },
+ {
+  "id": "S05c3",
+  "scene": "S05",
+  "rate": "+18%",
+  "text": "Nhưng cảm giác chưa đủ để xây hệ thống. Ta cần con số, và cần cách tính nhanh trên hàng triệu dòng.",
+  "subs": [
+   "Nhưng cảm giác chưa đủ để xây hệ thống.",
+   "Ta cần con số, và cần cách tính nhanh."
+  ],
+  "pause_after": 0.25,
+  "direction": "Chuyển ý, tăng nhịp nhẹ"
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+12%",
+  "text": "Con số đầu tiên là sấp-pọt, hay độ hỗ trợ. Công thức: số giao dịch chứa tập X, chia cho tổng số giao dịch.",
+  "subs": [
+   "Support = số giao dịch chứa X / tổng số giao dịch"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nêu định nghĩa, chắc giọng"
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+18%",
+  "text": "Ví dụ, cặp Bánh mì và Sữa có mặt trong sáu giao dịch. Sáu chia mười, bằng sáu mươi phần trăm.",
+  "subs": [
+   "Bánh mì + Sữa: 6 / 10 = 60%"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ từng con số, ngắt sau phép chia"
+ },
+ {
+  "id": "S06c3",
+  "scene": "S06",
+  "rate": "+18%",
+  "text": "Sấp-pọt càng cao, nhóm đó càng phổ biến. Nhưng duyệt hết mọi tổ hợp thì không tưởng. Đây là lúc nguyên lý A-pri-o-ri phát huy tác dụng.",
+  "subs": [
+   "Support càng cao, nhóm càng phổ biến.",
+   "Nhưng duyệt mọi tổ hợp là không tưởng."
+  ],
+  "pause_after": 0.25,
+  "direction": "Nhấn \"không tưởng\""
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+18%",
+  "text": "Đếm từng món, ta được: Sữa tám mươi phần trăm, Bánh mì sáu mươi, Trứng năm mươi, Bơ ba mươi.",
+  "subs": [
+   "Sữa 80% · Bánh mì 60% · Trứng 50% · Bơ 30%"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhịp đều theo từng cột"
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+18%",
+  "text": "Với cặp đôi: Bánh mì và Sữa đạt sáu mươi phần trăm. Các cặp còn lại chỉ từ mười đến ba mươi phần trăm.",
+  "subs": [
+   "Bánh mì + Sữa: 60%",
+   "Các cặp còn lại: 10–30%"
+  ],
+  "pause_after": 0.0,
+  "direction": "So sánh, nhấn cặp mạnh nhất"
+ },
+ {
+  "id": "S07c3",
+  "scene": "S07",
+  "rate": "+18%",
+  "text": "Nếu thử mọi tổ hợp của bốn món, ta có mười lăm tập. Chỉ mười hoá đơn đã vậy, hàng triệu hoá đơn thì sao?",
+  "subs": [
+   "4 món → 15 tập con",
+   "10 hoá đơn đã vậy, hàng triệu thì sao?"
+  ],
+  "pause_after": 0.3,
+  "direction": "Câu hỏi, ngắt nhịp cho người học suy nghĩ"
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+12%",
+  "text": "Nguyên lý A-pri-o-ri phát biểu rất gọn: nếu một tập không phổ biến, thì mọi tập lớn hơn chứa nó cũng không thể phổ biến.",
+  "subs": [
+   "Nếu một tập không phổ biến,",
+   "mọi tập lớn hơn chứa nó cũng không phổ biến."
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn mạnh từng vế, chậm rõ"
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+18%",
+  "text": "Cụ thể: Bơ và Trứng chỉ đạt mười phần trăm. Vậy bộ ba Bơ, Trứng, Sữa chắc chắn không thể đạt bốn mươi phần trăm.",
+  "subs": [
+   "Bơ + Trứng = 10%",
+   "→ Bơ + Trứng + Sữa ≤ 10%"
+  ],
+  "pause_after": 0.0,
+  "direction": "Suy luận, nhấn \"chắc chắn\""
+ },
+ {
+  "id": "S08c3",
+  "scene": "S08",
+  "rate": "+18%",
+  "text": "Ta loại cả nhánh mà không cần đếm. Tên A-pri-o-ri nghĩa là đi trước: dùng điều đã biết để loại trừ điều chưa cần xét.",
+  "subs": [
+   "Loại cả nhánh mà không cần đếm.",
+   "Apriori = \"đi trước\": dùng điều đã biết để loại trừ."
+  ],
+  "pause_after": 0.25,
+  "direction": "Kết luận chắc giọng"
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+18%",
+  "text": "Thuật toán chạy theo bốn bước, lặp lại cho tới khi không còn tập nào mới.",
+  "subs": [
+   "Bốn bước, lặp lại đến khi không còn tập mới."
+  ],
+  "pause_after": 0.0,
+  "direction": "Tổng quan, nhịp đều"
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+18%",
+  "text": "Bước một: đếm từng món riêng lẻ, gọi là tập một phần tử.",
+  "subs": [
+   "1. Đếm từng món — tập 1 phần tử"
+  ],
+  "pause_after": 0.0,
+  "direction": "Ngắt rõ sau số bước"
+ },
+ {
+  "id": "S09c3",
+  "scene": "S09",
+  "rate": "+18%",
+  "text": "Bước hai: ghép các món phổ biến thành cặp ứng viên. Bước ba: chỉ giữ cặp đạt ngưỡng sấp-pọt.",
+  "subs": [
+   "2. Ghép thành cặp ứng viên",
+   "3. Giữ cặp đạt ngưỡng Support"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhịp đều, ngắt giữa hai bước"
+ },
+ {
+  "id": "S09c4",
+  "scene": "S09",
+  "rate": "+18%",
+  "text": "Bước bốn: biến cặp đạt chuẩn thành luật kết hợp. Giờ ta chạy từng bước trên mười hoá đơn.",
+  "subs": [
+   "4. Tạo luật kết hợp"
+  ],
+  "pause_after": 0.3,
+  "direction": "Chuyển sang ví dụ"
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+18%",
+  "text": "Bước một, bảng một phần tử. Đặt ngưỡng tối thiểu bốn mươi phần trăm.",
+  "subs": [
+   "Bước 1 · ngưỡng Support tối thiểu 40%"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ, nhấn ngưỡng"
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+18%",
+  "text": "Bơ chỉ ba mươi phần trăm, bị loại ngay. Còn lại ba món: Sữa, Bánh mì, Trứng.",
+  "subs": [
+   "Bơ 30% < 40% → loại",
+   "Còn: Sữa, Bánh mì, Trứng"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"bị loại\""
+ },
+ {
+  "id": "S10c3",
+  "scene": "S10",
+  "rate": "+18%",
+  "text": "Chỉ ba món thay vì bốn, và quan trọng hơn: mọi tổ hợp chứa Bơ đều bị loại theo.",
+  "subs": [
+   "3 món thay vì 4.",
+   "Mọi tổ hợp chứa Bơ đều bị loại theo."
+  ],
+  "pause_after": 0.2,
+  "direction": "Nhấn hệ quả"
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+18%",
+  "text": "Bước hai, ghép ba món thành ba cặp ứng viên: Bánh mì Sữa, Sữa Trứng, Bánh mì Trứng.",
+  "subs": [
+   "C(3,2) = 3 cặp ứng viên"
+  ],
+  "pause_after": 0.0,
+  "direction": "Liệt kê, nhịp đều"
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+14%",
+  "text": "Đối chiếu ngưỡng: chỉ Bánh mì và Sữa đạt sáu mươi phần trăm. Hai cặp kia dừng ở ba mươi và hai mươi.",
+  "subs": [
+   "Bánh mì + Sữa 60% ✓",
+   "Sữa + Trứng 30% ✗ · Bánh mì + Trứng 20% ✗"
+  ],
+  "pause_after": 0.0,
+  "direction": "So sánh, ngắt sau mỗi số"
+ },
+ {
+  "id": "S11c3",
+  "scene": "S11",
+  "rate": "+18%",
+  "text": "Chỉ còn một cặp, nên không thể tạo bộ ba. Thuật toán dừng. Toàn bộ không gian tổ hợp đã thu về một điểm.",
+  "subs": [
+   "Không tạo được bộ ba → dừng.",
+   "Không gian tổ hợp thu về 1 cặp."
+  ],
+  "pause_after": 0.3,
+  "direction": "Kết luận, chắc giọng"
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+18%",
+  "text": "Từ cặp phổ biến, ta tạo hai luật: Bánh mì suy ra Sữa, và Sữa suy ra Bánh mì.",
+  "subs": [
+   "Bánh mì → Sữa  ·  Sữa → Bánh mì"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đọc chậm hai luật"
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "rate": "+18%",
+  "text": "Nhưng cùng một cặp, hai chiều lại khác nhau. Sấp-pọt không phân biệt được chiều, nên cần con-fi-đần.",
+  "subs": [
+   "Cùng một cặp, hai chiều khác nhau.",
+   "Support không phân biệt chiều → cần Confidence."
+  ],
+  "pause_after": 0.3,
+  "direction": "Tạo vấn đề, lên giọng nhẹ"
+ },
+ {
+  "id": "S13c1",
+  "scene": "S13",
+  "rate": "+14%",
+  "text": "Con-fi-đần trả lời: trong số đơn có A, bao nhiêu phần trăm cũng có B.",
+  "subs": [
+   "Confidence: trong số đơn có A,",
+   "bao nhiêu % cũng có B?"
+  ],
+  "pause_after": 0.0,
+  "direction": "Định nghĩa, chắc giọng"
+ },
+ {
+  "id": "S13c2",
+  "scene": "S13",
+  "rate": "+10%",
+  "text": "Công thức: sấp-pọt của A và B, chia cho sấp-pọt của A.",
+  "subs": [
+   "Confidence(A→B) = Support(A, B) / Support(A)"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chậm, rõ từng thành phần"
+ },
+ {
+  "id": "S13c3",
+  "scene": "S13",
+  "rate": "+14%",
+  "text": "Bánh mì suy ra Sữa: sáu mươi chia sáu mươi, bằng một trăm phần trăm. Sữa suy ra Bánh mì: sáu mươi chia tám mươi, bằng bảy mươi lăm phần trăm.",
+  "subs": [
+   "Bánh mì → Sữa: 60/60 = 100%",
+   "Sữa → Bánh mì: 60/80 = 75%"
+  ],
+  "pause_after": 0.0,
+  "direction": "Ngắt sau mỗi phép tính"
+ },
+ {
+  "id": "S14c1",
+  "scene": "S14",
+  "rate": "+18%",
+  "text": "Nhưng con-fi-đần cao chưa chắc đã mạnh. Sữa vốn có trong tám mươi phần trăm đơn, nên gợi ý Sữa dễ đúng ngay cả khi chẳng có quy luật nào.",
+  "subs": [
+   "Confidence cao chưa chắc đã mạnh.",
+   "Sữa vốn đã có trong 80% đơn hàng."
+  ],
+  "pause_after": 0.3,
+  "direction": "Cảnh báo nhẹ, nhấn \"vốn đã\""
+ },
+ {
+  "id": "S14c2",
+  "scene": "S14",
+  "rate": "+10%",
+  "text": "Líp sửa đúng điểm này: so con-fi-đần với tỉ lệ nền của B. Công thức: con-fi-đần chia cho sấp-pọt của B.",
+  "subs": [
+   "Lift = Confidence(A→B) / Support(B)"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chậm, rõ công thức"
+ },
+ {
+  "id": "S14c3",
+  "scene": "S14",
+  "rate": "+18%",
+  "text": "Bảy mươi lăm phần trăm chia tám mươi phần trăm, được một phẩy hai lăm. Chiều ngược lại cũng một phẩy hai lăm.",
+  "subs": [
+   "0,75 / 0,80 = 1,25",
+   "Chiều ngược lại: 1,00 / 0,80 = 1,25"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ số, ngắt sau kết quả"
+ },
+ {
+  "id": "S14c4",
+  "scene": "S14",
+  "rate": "+14%",
+  "text": "Líp lớn hơn một: hai món dính nhau hơn mức ngẫu nhiên, ở đây là hơn hai mươi lăm phần trăm. Bằng một là không có liên kết. Nhỏ hơn một là dính ít hơn bình thường.",
+  "subs": [
+   "Lift > 1: dính nhau hơn mức ngẫu nhiên (+25%)",
+   "= 1: không liên kết · < 1: dính ít hơn bình thường"
+  ],
+  "pause_after": 0.3,
+  "direction": "Ba mức, nhấn từng mốc"
+ },
+ {
+  "id": "S15c1",
+  "scene": "S15",
+  "rate": "+18%",
+  "text": "Giờ hiện thực bằng pai-thờn. Cài ba thư viện: pan-đát, em-lờ-ích-ten và phờ-lát.",
+  "subs": [
+   "pip install pandas mlxtend flask"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ tên thư viện"
+ },
+ {
+  "id": "S15c2",
+  "scene": "S15",
+  "rate": "+18%",
+  "text": "Khai báo lại đúng mười giao dịch vừa phân tích, mỗi giao dịch là một danh sách sản phẩm.",
+  "subs": [
+   "Khai báo 10 giao dịch"
+  ],
+  "pause_after": 0.0,
+  "direction": "Bình thường, dẫn dắt"
+ },
+ {
+  "id": "S15c3",
+  "scene": "S15",
+  "rate": "+18%",
+  "text": "Thuật toán chỉ hiểu số, nên ta chuyển sang bảng nhị phân: một là có, không là không.",
+  "subs": [
+   "One-hot: 1 = có, 0 = không"
+  ],
+  "pause_after": 0.0,
+  "direction": "Giải thích khái niệm"
+ },
+ {
+  "id": "S15c4",
+  "scene": "S15",
+  "rate": "+18%",
+  "text": "Tờ-ranh-dắc-sần en-cô-đờ của em-lờ-ích-ten làm việc này trong ba dòng.",
+  "subs": [
+   "TransactionEncoder → bảng 10 × 4"
+  ],
+  "pause_after": 0.2,
+  "direction": "Nhấn tên lớp"
+ },
+ {
+  "id": "S16c1",
+  "scene": "S16",
+  "rate": "+14%",
+  "text": "Gọi hàm a-pri-o-ri với min sấp-pọt bằng không phẩy bốn.",
+  "subs": [
+   "apriori(df, min_support=0.4)"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chậm ở tham số"
+ },
+ {
+  "id": "S16c2",
+  "scene": "S16",
+  "rate": "+18%",
+  "text": "Kết quả đúng như tính tay: bốn món đơn và một cặp Bánh mì Sữa.",
+  "subs": [
+   "4 tập 1 phần tử + 1 cặp = 5 tập phổ biến"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đối chiếu, nhấn \"đúng như tính tay\""
+ },
+ {
+  "id": "S16c3",
+  "scene": "S16",
+  "rate": "+18%",
+  "text": "Tiếp theo, hàm tạo luật kết hợp lọc theo con-fi-đần tối thiểu sáu mươi phần trăm.",
+  "subs": [
+   "association_rules(metric=\"confidence\", min_threshold=0.6)"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ tham số"
+ },
+ {
+  "id": "S16c4",
+  "scene": "S16",
+  "rate": "+18%",
+  "text": "Mỗi luật trả về đủ ba chỉ số: sấp-pọt, con-fi-đần và líp.",
+  "subs": [
+   "Mỗi luật: support · confidence · lift"
+  ],
+  "pause_after": 0.2,
+  "direction": "Liệt kê, nhịp đều"
+ },
+ {
+  "id": "S17c1",
+  "scene": "S17",
+  "rate": "+18%",
+  "text": "Hàm gợi ý chỉ làm một việc: tìm những luật có sản phẩm khách đang xem ở vế trái.",
+  "subs": [
+   "Lọc luật có sản phẩm ở vế trái"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ logic"
+ },
+ {
+  "id": "S17c2",
+  "scene": "S17",
+  "rate": "+18%",
+  "text": "Sắp xếp theo líp rồi con-fi-đần, sau đó gom các sản phẩm ở vế phải.",
+  "subs": [
+   "sort by lift → confidence"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhịp đều"
+ },
+ {
+  "id": "S17c3",
+  "scene": "S17",
+  "rate": "+18%",
+  "text": "Gọi với Bánh mì, kết quả là Sữa. Chính là dòng chữ bạn thấy trên website.",
+  "subs": [
+   "recommend(\"Bánh mì\") → [\"Sữa\"]"
+  ],
+  "pause_after": 0.3,
+  "direction": "Kết quả, nhấn \"Sữa\""
+ },
+ {
+  "id": "S18c1",
+  "scene": "S18",
+  "rate": "+18%",
+  "text": "Đưa lên website cần hai phía: phờ-ron-en là giao diện khách nhìn thấy, bếch-en là nơi chạy thuật toán.",
+  "subs": [
+   "Frontend: giao diện · Backend: xử lý"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ hai vai trò"
+ },
+ {
+  "id": "S18c2",
+  "scene": "S18",
+  "rate": "+18%",
+  "text": "Bếch-en nhận yêu cầu, tra bảng luật đã tính sẵn, trả về danh sách gợi ý. Không tính lại từ đầu mỗi lần.",
+  "subs": [
+   "Tra bảng luật đã tính sẵn"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"không tính lại\""
+ },
+ {
+  "id": "S18c3",
+  "scene": "S18",
+  "rate": "+18%",
+  "text": "Phờ-lát làm cầu nối, mở một ây-pi-ai duy nhất tên là ri-cô-men.",
+  "subs": [
+   "Flask mở API: /recommend"
+  ],
+  "pause_after": 0.2,
+  "direction": "Rõ tên API"
+ },
+ {
+  "id": "S19c1",
+  "scene": "S19",
+  "rate": "+18%",
+  "text": "Trình duyệt gọi: ri-cô-men, với tham số prô-đắc bằng Bánh mì.",
+  "subs": [
+   "GET /recommend?product=Bánh mì"
+  ],
+  "pause_after": 0.0,
+  "direction": "Đọc chậm endpoint"
+ },
+ {
+  "id": "S19c2",
+  "scene": "S19",
+  "rate": "+18%",
+  "text": "Máy chủ trả giây-sần gồm tên sản phẩm và mảng gợi ý: Sữa.",
+  "subs": [
+   "{ \"product\": \"Bánh mì\", \"recommendations\": [\"Sữa\"] }"
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ từng trường"
+ },
+ {
+  "id": "S19c3",
+  "scene": "S19",
+  "rate": "+18%",
+  "text": "Nếu thiếu tham số, ây-pi-ai trả lỗi bốn trăm kèm thông báo rõ ràng, thay vì im lặng.",
+  "subs": [
+   "Thiếu product → 400 + thông báo lỗi"
+  ],
+  "pause_after": 0.2,
+  "direction": "Nhấn \"thay vì im lặng\""
+ },
+ {
+  "id": "S20c1",
+  "scene": "S20",
+  "rate": "+18%",
+  "text": "Phía giao diện chỉ cần một hàm: gọi phét tới ây-pi-ai, đọc giây-sần, rồi in ra khối Có thể bạn cũng thích.",
+  "subs": [
+   "fetch → JSON → hiển thị gợi ý"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhịp đều, ba bước"
+ },
+ {
+  "id": "S20c2",
+  "scene": "S20",
+  "rate": "+18%",
+  "text": "Khi khách mở trang sản phẩm, hàm này chạy và khối gợi ý hiện lên.",
+  "subs": [
+   "Mở trang sản phẩm → gợi ý hiện"
+  ],
+  "pause_after": 0.0,
+  "direction": "Bình thường"
+ },
+ {
+  "id": "S20c3",
+  "scene": "S20",
+  "rate": "+18%",
+  "text": "Phần tính toán nặng vẫn nằm ở máy chủ. Trình duyệt chỉ hiển thị.",
+  "subs": [
+   "Tính toán ở server · trình duyệt chỉ hiển thị"
+  ],
+  "pause_after": 0.3,
+  "direction": "Kết luận"
+ },
+ {
+  "id": "S21c1",
+  "scene": "S21",
+  "rate": "+18%",
+  "text": "Một lưu ý quan trọng: đây là mô hình minh hoạ.",
+  "subs": [
+   "Đây là mô hình minh hoạ."
+  ],
+  "pause_after": 0.3,
+  "direction": "Nhấn cảnh báo vừa đủ"
+ },
+ {
+  "id": "S21c2",
+  "scene": "S21",
+  "rate": "+18%",
+  "text": "Thực tế, dữ liệu lấy từ cơ sở dữ liệu, và bảng luật được tính lại theo lịch, hoặc khi có đủ dữ liệu mới.",
+  "subs": [
+   "Dữ liệu thật lấy từ database.",
+   "Tính lại luật theo lịch hoặc khi có dữ liệu mới."
+  ],
+  "pause_after": 0.0,
+  "direction": "Rõ, chậm vừa"
+ },
+ {
+  "id": "S22c1",
+  "scene": "S22",
+  "rate": "+18%",
+  "text": "Vậy ưu và nhược điểm của A-pri-o-ri là gì?",
+  "subs": [
+   "Ưu điểm và hạn chế"
+  ],
+  "pause_after": 0.0,
+  "direction": "Câu hỏi, ngắt nhịp"
+ },
+ {
+  "id": "S22c2",
+  "scene": "S22",
+  "rate": "+18%",
+  "text": "Ưu điểm: dễ hiểu, dễ triển khai, tìm được quy luật mua hàng có ý nghĩa.",
+  "subs": [
+   "Dễ hiểu · dễ triển khai · quy luật có ý nghĩa"
+  ],
+  "pause_after": 0.0,
+  "direction": "Tích cực, nhịp đều"
+ },
+ {
+  "id": "S22c3",
+  "scene": "S22",
+  "rate": "+18%",
+  "text": "Hạn chế: khi số sản phẩm tăng, số tổ hợp tăng rất nhanh, tốn thời gian và bộ nhớ.",
+  "subs": [
+   "Nhiều sản phẩm → tổ hợp bùng nổ",
+   "tốn thời gian và bộ nhớ"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhấn \"rất nhanh\""
+ },
+ {
+  "id": "S22c4",
+  "scene": "S22",
+  "rate": "+18%",
+  "text": "Kết quả phụ thuộc vào dữ liệu và ngưỡng bạn chọn. Dữ liệu ít hoặc không đại diện thì gợi ý sẽ lệch. Với hệ thống lớn, có thể cân nhắc ép-pi grâu-th.",
+  "subs": [
+   "Phụ thuộc dữ liệu và ngưỡng bạn chọn.",
+   "Hệ thống lớn: cân nhắc FP-Growth."
+  ],
+  "pause_after": 0.3,
+  "direction": "Trung tính, kết luận"
+ },
+ {
+  "id": "S23c1",
+  "scene": "S23",
+  "rate": "+18%",
+  "text": "Tóm lại, ba điều cần nhớ.",
+  "subs": [
+   "Ba điều cần nhớ"
+  ],
+  "pause_after": 0.0,
+  "direction": "Chắc giọng"
+ },
+ {
+  "id": "S23c2",
+  "scene": "S23",
+  "rate": "+14%",
+  "text": "Một: A-pri-o-ri tìm tập phổ biến bằng cắt tỉa dần. Hai: sấp-pọt đo độ phổ biến, con-fi-đần đo độ tin cậy, líp đo liên kết thật sự.",
+  "subs": [
+   "1. Apriori = cắt tỉa dần",
+   "2. Support · Confidence · Lift"
+  ],
+  "pause_after": 0.0,
+  "direction": "Nhịp đều, nhấn tên chỉ số"
+ },
+ {
+  "id": "S23c3",
+  "scene": "S23",
+  "rate": "+18%",
+  "text": "Ba: chỉ vài chục dòng pai-thờn là đủ để đưa gợi ý lên website.",
+  "subs": [
+   "3. Vài chục dòng Python → gợi ý trên web"
+  ],
+  "pause_after": 0.0,
+  "direction": "Khích lệ"
+ },
+ {
+  "id": "S23c4",
+  "scene": "S23",
+  "rate": "+18%",
+  "text": "Cảm ơn bạn đã theo dõi An Tech Academy. Thử đổi ngưỡng sấp-pọt và xem danh sách luật thay đổi thế nào nhé. Hẹn gặp lại.",
+  "subs": [
+   "Cảm ơn bạn đã theo dõi An Tech Academy.",
+   "Thử đổi ngưỡng Support và xem luật thay đổi nhé!"
+  ],
+  "pause_after": 0.4,
+  "direction": "Truyền cảm hứng, ấm"
+ }
+]

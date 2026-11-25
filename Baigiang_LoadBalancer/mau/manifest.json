@@ -1,0 +1,340 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+15%",
+  "shift": 1.0,
+  "pause_after": 0.25,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy. Mình hỏi thật nhé: mười hai giờ đêm mười hai tháng mười hai, cả sàn thương mại điện tử giảm giá, bạn có đoán được chuyện gì xảy ra không?",
+  "say": "Chào các bạn! Chào mừng đến với An Tếch A-ca-đê-mi. Mình hỏi thật nhé: mười hai giờ đêm mười hai tháng mười hai, cả sàn thương mại điện tử giảm giá, bạn có đoán được chuyện gì xảy ra không?",
+  "subs": [
+   "Chào các bạn! Chào mừng đến với An Tech Academy.",
+   "12 giờ đêm 12/12, cả sàn giảm giá — chuyện gì sẽ xảy ra?"
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+13%",
+  "shift": 0.5,
+  "pause_after": 0.2,
+  "text": "Một ngày, một trăm mười nghìn lượt truy cập. Cao điểm, năm nghìn người cùng lúc. Ai cũng bấm mua, ai cũng sợ hết hàng.",
+  "say": "Một ngày, một trăm mười nghìn lượt truy cập. Cao điểm, năm nghìn người cùng lúc. Ai cũng bấm mua, ai cũng sợ hết hàng.",
+  "subs": [
+   "110.000 lượt truy cập một ngày. Cao điểm:",
+   "5.000 người cùng lúc — ai cũng bấm mua."
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+11%",
+  "shift": 0.3,
+  "pause_after": 0.35,
+  "text": "Và rồi, web sập. Không phải vì hết hàng, mà vì máy chủ không kham nổi. Cứu tinh của chúng ta hôm nay là Load Balancer.",
+  "say": "Và rồi, web sập. Không phải vì hết hàng, mà vì máy chủ không kham nổi. Cứu tinh của chúng ta hôm nay là Lâu Ba-lăn-sơ.",
+  "subs": [
+   "Và rồi web sập — không phải vì hết hàng,",
+   "mà vì máy chủ không kham nổi. Cứu tinh: Load Balancer."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Nhìn màn hình này: CPU leo dốc, RAM đầy, thời gian phản hồi kéo dài. Một máy chủ phải gánh năm nghìn kết nối cùng lúc, nghe thôi đã thấy mệt.",
+  "say": "Nhìn màn hình này: xê-pê-u leo dốc, ram đầy, thời gian phản hồi kéo dài. Một máy chủ phải gánh năm nghìn kết nối cùng lúc, nghe thôi đã thấy mệt.",
+  "subs": [
+   "CPU leo dốc, RAM đầy, phản hồi kéo dài.",
+   "Một máy chủ gánh 5.000 kết nối — nghe thôi đã mệt."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+12%",
+  "shift": 0.2,
+  "pause_after": 0.35,
+  "text": "Khách vào không được, bấm thanh toán thì báo lỗi. Mỗi giây chậm là một đơn hàng bay mất. Thêm CPU, thêm RAM ư? Đỡ được một chút, rồi lại chạm trần. Câu hỏi đặt ra: làm sao phục vụ hàng nghìn người mà không bắt một máy chủ gánh hết?",
+  "say": "Khách vào không được, bấm thanh toán thì báo lỗi. Mỗi giây chậm là một đơn hàng bay mất. Thêm xê-pê-u, thêm ram ư? Đỡ được một chút, rồi lại chạm trần. Câu hỏi đặt ra: làm sao phục vụ hàng nghìn người mà không bắt một máy chủ gánh hết?",
+  "subs": [
+   "Khách không vào được, thanh toán báo lỗi.",
+   "Nâng cấp một máy? Đỡ chút rồi chạm trần — cần cách khác."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+8%",
+  "shift": -0.2,
+  "pause_after": 0.3,
+  "text": "Load Balancer, tức bộ cân bằng tải, là nhân viên điều phối đứng trước cửa hệ thống. Nó nhận mọi yêu cầu, rồi chia việc cho nhiều máy chủ phía sau.",
+  "say": "Lâu Ba-lăn-sơ, tức bộ cân bằng tải, là nhân viên điều phối đứng trước cửa hệ thống. Nó nhận mọi yêu cầu, rồi chia việc cho nhiều máy chủ phía sau.",
+  "subs": [
+   "Load Balancer là 'nhân viên điều phối' trước cửa hệ thống:",
+   "nhận yêu cầu và chia việc cho nhiều máy chủ phía sau."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+13%",
+  "shift": 0.7,
+  "pause_after": 0.35,
+  "text": "Giống siêu thị ngày sale: một quầy thì xếp hàng dài, mở thêm quầy và có người chỉ khách vào quầy trống, ai cũng nhanh hơn. Nhưng nhớ nhé, nó chỉ điều phối, không tự bán hàng đâu.",
+  "say": "Giống siêu thị ngày sale: một quầy thì xếp hàng dài, mở thêm quầy và có người chỉ khách vào quầy trống, ai cũng nhanh hơn. Nhưng nhớ nhé, nó chỉ điều phối, không tự bán hàng đâu.",
+  "subs": [
+   "Như siêu thị ngày sale: mở thêm quầy và có người",
+   "chỉ khách vào quầy trống. Nó điều phối, không bán hàng."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+7%",
+  "shift": -0.3,
+  "pause_after": 0.3,
+  "text": "Kiến trúc chuẩn gồm bốn lớp. Một, Client là người dùng. Hai, Load Balancer là cửa ngõ. Ba, các Backend Server xử lý nghiệp vụ. Bốn, Database lưu dữ liệu.",
+  "say": "Kiến trúc chuẩn gồm bốn lớp. Một, cờ-lai-ần là người dùng. Hai, Lâu Ba-lăn-sơ là cửa ngõ. Ba, các béc-en sơ-vơ xử lý nghiệp vụ. Bốn, đây-ta-bây lưu dữ liệu.",
+  "subs": [
+   "Kiến trúc 4 lớp: Client → Load Balancer",
+   "→ các Backend Server → Database."
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Một request đi từ trình duyệt, qua Load Balancer, xuống Server 01, truy vấn Database rồi trả kết quả về. Request tiếp theo sang Server 02, rồi 03. Không máy nào phải gồng một mình. Mô hình bốn lớp này là nền móng của rất nhiều hệ thống thật.",
+  "say": "Một ri-quét đi từ trình duyệt, qua Lâu Ba-lăn-sơ, xuống sơ-vơ không một, truy vấn đây-ta-bây rồi trả kết quả về. Ri-quét tiếp theo sang sơ-vơ không hai, rồi 03. Không máy nào phải gồng một mình. Mô hình bốn lớp này là nền móng của rất nhiều hệ thống thật.",
+  "subs": [
+   "Trình duyệt → Load Balancer → Server 01 → Database → trả kết quả.",
+   "Request sau sang Server 02, 03. Không máy nào gồng một mình."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Đây là Horizontal Scaling, mở rộng theo chiều ngang. Thay vì mua một siêu máy chủ đắt gấp mười, bạn thêm vài máy chủ bình thường, chạy song song.",
+  "say": "Đây là hô-ri-dôn-tồ sờ-kei-ling, mở rộng theo chiều ngang. Thay vì mua một siêu máy chủ đắt gấp mười, bạn thêm vài máy chủ bình thường, chạy song song.",
+  "subs": [
+   "Horizontal Scaling: thêm nhiều máy chủ bình thường",
+   "thay vì mua một siêu máy chủ đắt gấp mười."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+14%",
+  "shift": 0.8,
+  "pause_after": 0.35,
+  "text": "Một máy ốm thì hai máy còn chạy. Hệ thống vừa khỏe hơn, vừa rẻ hơn, lại dễ nâng cấp từng bước. Quá hợp lý còn gì!",
+  "say": "Một máy ốm thì hai máy còn chạy. Hệ thống vừa khỏe hơn, vừa rẻ hơn, lại dễ nâng cấp từng bước. Quá hợp lý còn gì!",
+  "subs": [
+   "Một máy ốm, hai máy vẫn chạy.",
+   "Khỏe hơn, rẻ hơn, dễ nâng cấp từng bước."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+10%",
+  "shift": 0.2,
+  "pause_after": 0.25,
+  "text": "Vậy chia việc kiểu gì? Thuật toán đầu tiên dễ như phát bài: Round Robin. Request một về Server 01, hai về 02, ba về 03, bốn quay lại 01.",
+  "say": "Vậy chia việc kiểu gì? Thuật toán đầu tiên dễ như phát bài: rao rô-bin. Ri-quét một về sơ-vơ không một, hai về 02, ba về 03, bốn quay lại 01.",
+  "subs": [
+   "Round Robin — chia lần lượt như phát bài:",
+   "01 → 02 → 03 → quay lại 01."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+14%",
+  "shift": 0.8,
+  "pause_after": 0.35,
+  "text": "Cứ xoay vòng đều đặn, hết vòng lại quay về đầu. Hợp khi ba máy cấu hình như nhau. Nhưng nếu Server 01 khỏe hơn hẳn, chia đều kiểu này là bắt nó chạy chậm lại cho công bằng. Nghe sai sai đúng không?",
+  "say": "Cứ xoay vòng đều đặn, hết vòng lại quay về đầu. Hợp khi ba máy cấu hình như nhau. Nhưng nếu sơ-vơ không một khỏe hơn hẳn, chia đều kiểu này là bắt nó chạy chậm lại cho công bằng. Nghe sai sai đúng không?",
+  "subs": [
+   "Hợp khi các máy cấu hình như nhau.",
+   "Máy khỏe hơn mà chia đều — nghe sai sai đúng không?"
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+9%",
+  "shift": 0.2,
+  "pause_after": 0.25,
+  "text": "Thế là có Weighted Round Robin, luân phiên có trọng số. Máy khỏe nhận nhiều việc hơn. Server 01 trọng số ba, hai máy còn lại trọng số một.",
+  "say": "Thế là có quây-tịt rao rô-bin, luân phiên có trọng số. Máy khỏe nhận nhiều việc hơn. sơ-vơ không một trọng số ba, hai máy còn lại trọng số một.",
+  "subs": [
+   "Weighted Round Robin — máy khỏe nhận nhiều việc hơn:",
+   "Server 01 w=3, Server 02 w=1, Server 03 w=1."
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+14%",
+  "shift": 0.9,
+  "pause_after": 0.35,
+  "text": "Nghĩa là trong năm request, Server 01 nhận ba, hai bạn còn lại mỗi bạn một. Đúng sức, đúng việc, khỏi cãi nhau!",
+  "say": "Nghĩa là trong năm ri-quét, sơ-vơ không một nhận ba, hai bạn còn lại mỗi bạn một. Đúng sức, đúng việc, khỏi cãi nhau!",
+  "subs": [
+   "5 request: Server 01 nhận 3, hai máy kia mỗi máy 1.",
+   "Đúng sức, đúng việc — khỏi cãi nhau."
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+9%",
+  "shift": 0.1,
+  "pause_after": 0.25,
+  "text": "Nhưng có lúc request nặng nhẹ khác nhau. Lúc đó Least Connections phát huy: nhìn xem máy nào đang rảnh nhất.",
+  "say": "Nhưng có lúc ri-quét nặng nhẹ khác nhau. Lúc đó lít cơ-néc-sần phát huy: nhìn xem máy nào đang rảnh nhất.",
+  "subs": [
+   "Least Connections: chọn máy đang ít kết nối nhất.",
+   "Request nặng nhẹ khác nhau thì cách này rất hợp."
+  ]
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+13%",
+  "shift": 0.7,
+  "pause_after": 0.35,
+  "text": "Server 01 đang giữ một trăm kết nối, Server 02 ba mươi, Server 03 chỉ mười. Request tiếp theo đi đâu? Chắc chắn về Server 03. Ai rảnh thì làm, quá công bằng. Đây là lúc chữ cân bằng có ý nghĩa thật sự.",
+  "say": "sơ-vơ không một đang giữ một trăm kết nối, sơ-vơ không hai ba mươi, sơ-vơ không ba chỉ mười. Ri-quét tiếp theo đi đâu? Chắc chắn về sơ-vơ không ba. Ai rảnh thì làm, quá công bằng. Đây là lúc chữ cân bằng có ý nghĩa thật sự.",
+  "subs": [
+   "Server 01: 100 kết nối, Server 02: 30, Server 03: 10.",
+   "Request tiếp theo → Server 03. Ai rảnh thì làm."
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+8%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Còn IP Hash thì băm địa chỉ IP của khách để chọn máy chủ. Cùng một IP thường vào cùng một máy, rất tiện cho giỏ hàng và phiên đăng nhập.",
+  "say": "Còn ai-pi hát thì băm địa chỉ ai-pi của khách để chọn máy chủ. Cùng một ai-pi thường vào cùng một máy, rất tiện cho giỏ hàng và phiên đăng nhập.",
+  "subs": [
+   "IP Hash: băm địa chỉ IP để chọn máy chủ.",
+   "Cùng IP → cùng máy: tiện cho giỏ hàng, phiên đăng nhập."
+  ]
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+11%",
+  "shift": 0.3,
+  "pause_after": 0.35,
+  "text": "Nhưng đừng thần thánh hóa nó. Đổi cấu hình, thêm bớt máy chủ, khách có thể nhảy sang máy khác. Không có thuật toán nào hoàn hảo cho mọi bài toán.",
+  "say": "Nhưng đừng thần thánh hóa nó. Đổi cấu hình, thêm bớt máy chủ, khách có thể nhảy sang máy khác. Không có thuật toán nào hoàn hảo cho mọi bài toán.",
+  "subs": [
+   "Nhưng đổi cấu hình hay thêm bớt máy chủ,",
+   "khách có thể nhảy máy. Không thuật toán nào hoàn hảo."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+13%",
+  "shift": 0.6,
+  "pause_after": 0.25,
+  "text": "Khoan đã, lỡ một máy chủ chết thì sao? Load Balancer vẫn chia đều vào cái máy đã tắt à? Không đâu, nó có Health Check.",
+  "say": "Khoan đã, lỡ một máy chủ chết thì sao? Lâu Ba-lăn-sơ vẫn chia đều vào cái máy đã tắt à? Không đâu, nó có hen chéc.",
+  "subs": [
+   "Lỡ một máy chủ chết thì sao?",
+   "Load Balancer có Health Check để xử lý chuyện này."
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+10%",
+  "shift": 0.1,
+  "pause_after": 0.4,
+  "text": "Định kỳ gọi vào endpoint health. Máy trả lời hai trăm thì khỏe, im lặng hoặc lỗi thì bị gạch tên khỏi danh sách. Sửa xong, vượt qua kiểm tra, lại được quay về đội.",
+  "say": "Định kỳ gọi vào en-đờ-po-en health. Máy trả lời hai trăm thì khỏe, im lặng hoặc lỗi thì bị gạch tên khỏi danh sách. Sửa xong, vượt qua kiểm tra, lại được quay về đội.",
+  "subs": [
+   "Định kỳ gọi GET /health: trả 200 là khỏe.",
+   "Lỗi hoặc im lặng → gạch tên. Sửa xong → quay lại đội."
+  ]
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Trong thực tế, Nginx, HAProxy hay cloud load balancer đều làm được. Nhìn cấu hình Nginx này: khai báo upstream gồm ba địa chỉ backend.",
+  "say": "Trong thực tế, en-gin-ích, hát-prô-xi hay cloud load balancer đều làm được. Nhìn cấu hình en-gin-ích này: khai báo ắp-strim gồm ba địa chỉ backend.",
+  "subs": [
+   "Nginx, HAProxy hay cloud đều cân bằng tải được.",
+   "Cấu hình Nginx: upstream gồm 3 địa chỉ backend."
+  ]
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+8%",
+  "shift": -0.2,
+  "pause_after": 0.4,
+  "text": "Server block lắng nghe cổng tám mươi, location gốc chuyển tiếp vào upstream. Thế là xong một tầng cân bằng tải gọn gàng.",
+  "say": "sơ-vơ block lắng nghe cổng tám mươi, lô-cây-sần gốc chuyển tiếp vào ắp-strim. Thế là xong một tầng cân bằng tải gọn gàng.",
+  "subs": [
+   "server { listen 80; location / { proxy_pass ... } }",
+   "Một tầng cân bằng tải gọn gàng chỉ với vài dòng."
+  ]
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Nhưng này, Load Balancer không phải cây đũa thần. Database quá tải, câu SQL chậm, cổng thanh toán lỗi, thì web vẫn ì ạch như thường.",
+  "say": "Nhưng này, Lâu Ba-lăn-sơ không phải cây đũa thần. đây-ta-bây quá tải, câu ét-kiu-el chậm, cổng thanh toán lỗi, thì web vẫn ì ạch như thường.",
+  "subs": [
+   "Load Balancer không phải cây đũa thần:",
+   "Database quá tải, SQL chậm, thanh toán lỗi → vẫn ì ạch."
+  ]
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "rate": "+9%",
+  "shift": -0.2,
+  "pause_after": 0.35,
+  "text": "Còn phải lo phiên đăng nhập dùng chung, dữ liệu đồng bộ giữa các server, và chống đặt hàng trùng. Cân bằng tải chỉ là một mảnh ghép.",
+  "say": "Còn phải lo phiên đăng nhập dùng chung, dữ liệu đồng bộ giữa các server, và chống đặt hàng trùng. Cân bằng tải chỉ là một mảnh ghép.",
+  "subs": [
+   "Còn phải lo phiên đăng nhập, đồng bộ dữ liệu,",
+   "chống đặt hàng trùng. Cân bằng tải chỉ là một mảnh ghép."
+  ]
+ },
+ {
+  "id": "S12c3",
+  "scene": "S12",
+  "rate": "+13%",
+  "shift": 0.8,
+  "pause_after": 0.3,
+  "text": "Tóm lại: một cửa ngõ, nhiều máy chủ, bốn thuật toán, một cơ chế health check. Hiểu rồi thì hệ thống của bạn sẽ thở đều hơn hẳn. Cảm ơn các bạn đã học cùng An Tech Academy, hẹn gặp ở bài tiếp theo!",
+  "say": "Tóm lại: một cửa ngõ, nhiều máy chủ, bốn thuật toán, một cơ chế health check. Hiểu rồi thì hệ thống của bạn sẽ thở đều hơn hẳn. Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi, hẹn gặp ở bài tiếp theo!",
+  "subs": [
+   "Một cửa ngõ · nhiều máy chủ · bốn thuật toán · health check.",
+   "Cảm ơn các bạn — hẹn gặp ở bài tiếp theo!"
+  ]
+ }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<title>Cơ sở dữ liệu và ứng dụng trong thực tế</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="stage">
+  <div class="bg"></div>
+  <div class="bg-glow glow-a"></div>
+  <div class="bg-glow glow-b"></div>
+  <div class="bg-grid"></div>
+  <div class="bg-scan"></div>
+  <div id="particles"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <ellipse cx="20" cy="10" rx="12" ry="5" fill="none" stroke="#22d3ee" stroke-width="1.6"/>
+        <path d="M8 10v20c0 2.8 5.4 5 12 5s12-2.2 12-5V10" fill="none" stroke="#22d3ee" stroke-width="1.6"/>
+        <path d="M8 20c0 2.8 5.4 5 12 5s12-2.2 12-5" fill="none" stroke="#38bdf8" stroke-width="1.1" opacity=".7"/>
+        <circle cx="20" cy="10" r="2" fill="#a5f3fc"/>
+      </svg>
+      <div class="brand-text">
+        <span class="brand-title">CƠ SỞ DỮ LIỆU</span>
+        <span class="brand-sub">DATABASE FUNDAMENTALS</span>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="part-chip" id="partChip">BÀI GIẢNG</div>
+      <div class="progress">
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="progress-label" id="progressLabel">00:00</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="scenes"></main>
+
+  <div id="transitionFlash"></div>
+
+  <footer class="caption-wrap">
+    <div class="caption" id="caption"></div>
+  </footer>
+
+  <div class="timecode" id="timecode">00:00</div>
+</div>
+
+<script src="timeline.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

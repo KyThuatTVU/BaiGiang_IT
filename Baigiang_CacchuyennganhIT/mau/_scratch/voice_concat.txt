@@ -1,0 +1,7 @@
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/segA1.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/sil03.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/segA2.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/sil05.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/segB1.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/sil03.mp3'
+file 'D:/Edit/Baigiang_CacchuyennganhIT/mau/segB2.mp3'

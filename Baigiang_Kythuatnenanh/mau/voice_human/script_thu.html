@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Script thu âm — Nén ảnh trong website</title>
+<style>
+:root{--navy:#1b2a4a;--ink:#0f172a;--red:#dc2626;--amber:#d97706;--bg:#f6f8fb;--mut:#64748b;--line:#e2e8f0}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:940px;margin:0 auto;padding:0 18px}
+header{background:var(--navy);color:#fff;padding:18px 0 14px;position:sticky;top:0;z-index:5;box-shadow:0 2px 10px rgba(15,23,42,.15)}
+.brand{font-size:12px;letter-spacing:.14em;color:#cbd5e1;font-weight:700}
+h1{margin:4px 0 6px;font-size:22px;line-height:1.3}
+.sub{font-size:13px;color:#cbd5e1} code{background:#0b1730;padding:1px 5px;border-radius:4px}
+.prog{margin-top:10px;display:flex;align-items:center;gap:12px;font-size:14px;font-weight:600}
+.prog b{color:#fbbf24;font-size:18px}
+.prog button{margin-left:auto;background:transparent;border:1px solid #94a3b8;color:#e2e8f0;border-radius:6px;padding:4px 10px;cursor:pointer;font:inherit;font-size:12px}
+main{padding:20px 0 60px}
+.guide{background:#fff;border:1px solid var(--line);border-left:6px solid var(--amber);border-radius:12px;padding:16px 20px;margin:8px 0 22px}
+.guide h3{margin:0 0 8px;font-size:16px}
+.guide ul{margin:0;padding-left:20px} .guide li{margin:4px 0}
+details{margin-top:10px} summary{cursor:pointer;font-weight:700;color:var(--navy)}
+.gloss{list-style:none;padding:0;margin:10px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:6px 18px;font-size:14px}
+.gloss li{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted #cbd5e1;padding:3px 0}
+.gloss span{color:var(--mut)}
+h2{font-size:18px;color:var(--navy);margin:30px 0 10px;padding-bottom:6px;border-bottom:2px solid var(--red)}
+.card{background:#fff;border:1px solid var(--line);border-left:6px solid var(--red);border-radius:12px;padding:14px 18px 16px;margin:12px 0;transition:opacity .15s}
+.meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.file{background:var(--navy);color:#fff;font:700 13px/1 ui-monospace,Consolas,monospace;padding:6px 9px;border-radius:6px;letter-spacing:.04em}
+.target{background:#fef3c7;color:#92400e;font-size:12px;font-weight:700;padding:4px 8px;border-radius:999px}
+.chk{margin-left:auto;font-size:13px;color:var(--mut);display:flex;align-items:center;gap:6px;cursor:pointer}
+.chk input{width:18px;height:18px;accent-color:var(--red);cursor:pointer}
+.say{margin:10px 0 2px;font-size:21px;line-height:1.75;letter-spacing:.1px}
+.card.done{opacity:.5;background:#f8fafc;border-left-color:#94a3b8}
+.card.done .say{text-decoration:line-through;text-decoration-color:#cbd5e1}
+@media (max-width:560px){.say{font-size:19px} h1{font-size:19px}}
+@media print{header{position:static;background:#fff;color:#000;box-shadow:none} .prog,.chk{display:none} .card{break-inside:avoid} body{background:#fff}}
+</style></head><body>
+<header><div class="wrap">
+<div class="brand">AN TECH ACADEMY · SCRIPT THU ÂM</div>
+<h1>Nén ảnh trong website — 29 cue</h1>
+<div class="sub">Lưu file vào <code>mau\voice_human\raw\</code> · tên đúng nhãn · WAV / M4A / MP3</div>
+<div class="prog"><b id="cnt">0</b><span>/ 29 cue đã thu</span><button id="reset">Đặt lại</button></div>
+</div></header>
+<main class="wrap">
+<section class="guide">
+<h3>Trước khi thu</h3>
+<ul>
+<li>Phòng yên tĩnh, tắt quạt/điều hòa nếu được; mic cách miệng 15–20 cm, hơi lệch sang bên.</li>
+<li>Mỗi cue thu thành một file, tên đúng nhãn (ví dụ <b>S01c1.wav</b>). Sai thì thu lại và ghi đè.</li>
+<li>Đọc <b>đúng chữ phiên âm</b> trong bài (An Tếch, mê-ga-bai, giây-pê-gờ…), không tự sửa lại.</li>
+<li>Tốc độ hơi nhanh như đang giảng cho lớp; cột <b>đích</b> chỉ là gợi ý để giữ tổng thời lượng ~5 phút.</li>
+<li><b>—</b> ngắt ngắn; <b>…</b> ngắt dài hơn và hạ giọng; <b>!</b> lên giọng, tươi. Đầu/cuối file để ~1 giây im lặng.</li>
+<li>Không bật giảm ồn/âm thanh vòng trong app ghi âm; mình xử lý hậu kỳ sau.</li>
+</ul>
+<details><summary>Từ phiên âm → nghĩa</summary><ul class="gloss"><li><b>An Tếch</b><span>An Tech</span></li><li><b>A-ca-đê-mi</b><span>Academy</span></li><li><b>i-mịch com-pờ-ré-sần</b><span>Image Compression</span></li><li><b>mê-ga-bai</b><span>MB</span></li><li><b>ki-lô-bai</b><span>KB</span></li><li><b>lót-xi</b><span>Lossy</span></li><li><b>lót-lít</b><span>Lossless</span></li><li><b>giây-pê-gờ</b><span>JPEG</span></li><li><b>guép-pê</b><span>WebP</span></li><li><b>pê-en-gờ</b><span>PNG</span></li><li><b>ây-víp</b><span>AVIF</span></li><li><b>ét-vi-giờ</b><span>SVG</span></li><li><b>ro</b><span>RAW</span></li><li><b>xê-đi-en</b><span>CDN</span></li><li><b>lây-zi</b><span>lazy</span></li><li><b>lô-đinh</b><span>loading</span></li><li><b>sooc-sét</b><span>srcset</span></li><li><b>ét-xờ-xê</b><span>src</span></li><li><b>uých</b><span>width</span></li><li><b>hai-tờ</b><span>height</span></li><li><b>pích-xồ</b><span>pixel</span></li><li><b>quoa-li-ti</b><span>quality</span></li><li><b>pro-đớt</b><span>product</span></li><li><b>ri-sai</b><span>resize</span></li><li><b>sờ-quút</b><span>Squoosh</span></li><li><b>tai-ni pê-en-gờ</b><span>TinyPNG</span></li><li><b>i-mịch ma-gích</b><span>ImageMagick</span></li><li><b>sáp</b><span>sharp</span></li><li><b>giây-ét</b><span>JS</span></li><li><b>en-pi-em</b><span>npm</span></li><li><b>in-sto</b><span>install</span></li><li><b>gu-i-dao en-lát-mần</b><span>withoutEnlargement</span></li><li><b>tu-phai</b><span>toFile</span></li></ul></details>
+</section>
+<h2 id="S01">S01 — Mở đầu — 30 ảnh, 150 MB</h2><article class="card" data-id="S01c1">
+  <div class="meta"><span class="file">S01c1</span><span class="target">đích ~11.7s</span>
+  <label class="chk"><input type="checkbox" data-id="S01c1"> đã thu</label></div>
+  <p class="say">Chào các bạn! Chào mừng đến với An Tếch A-ca-đê-mi. Thử tưởng tượng: trang web bán điện thoại có ba mươi tấm ảnh, mỗi tấm năm mê-ga-bai. Đợi mãi… mà ảnh vẫn chưa hiện ra.</p>
+</article><article class="card" data-id="S01c2">
+  <div class="meta"><span class="file">S01c2</span><span class="target">đích ~9.5s</span>
+  <label class="chk"><input type="checkbox" data-id="S01c2"> đã thu</label></div>
+  <p class="say">Cộng lại là một trăm năm mươi mê-ga-bai cho một trang chủ. Trên mạng di động, chậm khỏi bàn. Khách chờ lâu, họ bỏ đi — đơn hàng đi theo.</p>
+</article><article class="card" data-id="S01c3">
+  <div class="meta"><span class="file">S01c3</span><span class="target">đích ~8.4s</span>
+  <label class="chk"><input type="checkbox" data-id="S01c3"> đã thu</label></div>
+  <p class="say">Hôm nay mình học cách làm ảnh nhẹ đi mà mắt vẫn thấy đẹp. Tên chuyên môn: nén ảnh — i-mịch com-pờ-ré-sần. Bắt đầu nhé!</p>
+</article><h2 id="S02">S02 — Vì sao website cần nén ảnh</h2><article class="card" data-id="S02c1">
+  <div class="meta"><span class="file">S02c1</span><span class="target">đích ~9.8s</span>
+  <label class="chk"><input type="checkbox" data-id="S02c1"> đã thu</label></div>
+  <p class="say">Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang, tốn băng thông, tốn chỗ lưu trữ. Băng thông và máy chủ đều là chi phí thật của người làm web.</p>
+</article><article class="card" data-id="S02c2">
+  <div class="meta"><span class="file">S02c2</span><span class="target">đích ~9.3s</span>
+  <label class="chk"><input type="checkbox" data-id="S02c2"> đã thu</label></div>
+  <p class="say">Và quan trọng nhất: trải nghiệm. Trang thương mại điện tử tải chậm là trang khó bán hàng. Các bạn đã bao giờ bỏ đi vì chờ quá lâu chưa?</p>
+</article><h2 id="S03">S03 — Nén ảnh là gì?</h2><article class="card" data-id="S03c1">
+  <div class="meta"><span class="file">S03c1</span><span class="target">đích ~9.8s</span>
+  <label class="chk"><input type="checkbox" data-id="S03c1"> đã thu</label></div>
+  <p class="say">Nén ảnh là quá trình giảm dung lượng hình ảnh bằng cách loại bỏ hoặc tổ chức lại thông tin theo một thuật toán. Giống dọn vali: vẫn đủ đồ, xếp khéo nên nhẹ hơn.</p>
+</article><article class="card" data-id="S03c2">
+  <div class="meta"><span class="file">S03c2</span><span class="target">đích ~10.5s</span>
+  <label class="chk"><input type="checkbox" data-id="S03c2"> đã thu</label></div>
+  <p class="say">Ví dụ: ảnh sản phẩm năm mê-ga-bai, sau khi nén còn ba trăm năm mươi ki-lô-bai — giảm chín mươi ba phần trăm. Số liệu giả định thôi nhé, thực tế còn tùy ảnh và mức nén.</p>
+</article><article class="card" data-id="S03c3">
+  <div class="meta"><span class="file">S03c3</span><span class="target">đích ~8.5s</span>
+  <label class="chk"><input type="checkbox" data-id="S03c3"> đã thu</label></div>
+  <p class="say">Dung lượng nhỏ hơn là tải nhanh hơn, ít tốn băng thông, ít tốn chỗ lưu trữ, khách ở lại lâu hơn. Một mũi tên trúng bốn đích.</p>
+</article><h2 id="S04">S04 — Nén mất dữ liệu (Lossy)</h2><article class="card" data-id="S04c1">
+  <div class="meta"><span class="file">S04c1</span><span class="target">đích ~12.9s</span>
+  <label class="chk"><input type="checkbox" data-id="S04c1"> đã thu</label></div>
+  <p class="say">Có hai trường phái. Thứ nhất: nén mất dữ liệu — lót-xi com-pờ-ré-sần. Nó chủ động vứt chi tiết mắt người khó thấy, đổi lấy dung lượng nhỏ hơn nhiều. giây-pê-gờ là ví dụ quen thuộc.</p>
+</article><article class="card" data-id="S04c2">
+  <div class="meta"><span class="file">S04c2</span><span class="target">đích ~13.0s</span>
+  <label class="chk"><input type="checkbox" data-id="S04c2"> đã thu</label></div>
+  <p class="say">Cùng một ảnh hoàng hôn: để chất lượng chín mươi, file khoảng sáu trăm mười tám ki-lô-bai; hạ còn năm mươi, chỉ còn một trăm chín mươi tư ki-lô-bai — giảm hơn ba lần. Nhưng nén quá tay, ảnh bắt đầu nhòe và xuất hiện nhiễu.</p>
+</article><article class="card" data-id="S04c3">
+  <div class="meta"><span class="file">S04c3</span><span class="target">đích ~9.3s</span>
+  <label class="chk"><input type="checkbox" data-id="S04c3"> đã thu</label></div>
+  <p class="say">Dấu vết đặc trưng: những ô vuông tám nhân tám pích-xồ và vệt lỗi quanh vùng chuyển màu. Chữ và nét mảnh mà nén mạnh là răng cưa ngay. Nhớ nhé!</p>
+</article><h2 id="S05">S05 — Nén không mất dữ liệu (Lossless)</h2><article class="card" data-id="S05c1">
+  <div class="meta"><span class="file">S05c1</span><span class="target">đích ~8.6s</span>
+  <label class="chk"><input type="checkbox" data-id="S05c1"> đã thu</label></div>
+  <p class="say">Thứ hai: nén không mất dữ liệu — lót-lít com-pờ-ré-sần. Nén mà không vứt chi tiết nào, khôi phục lại y nguyên bản gốc. pê-en-gờ là đại diện tiêu biểu.</p>
+</article><article class="card" data-id="S05c2">
+  <div class="meta"><span class="file">S05c2</span><span class="target">đích ~11.8s</span>
+  <label class="chk"><input type="checkbox" data-id="S05c2"> đã thu</label></div>
+  <p class="say">Nhờ vậy, pê-en-gờ giữ nét chữ sắc, giữ nền trong suốt — như logo sư tử này — nên hợp logo, icon, ảnh chụp màn hình. Đổi lại, file thường nặng hơn giây-pê-gờ và guép-pê.</p>
+</article><h2 id="S06">S06 — Bốn định dạng: JPEG, PNG, WebP, AVIF</h2><article class="card" data-id="S06c1">
+  <div class="meta"><span class="file">S06c1</span><span class="target">đích ~14.8s</span>
+  <label class="chk"><input type="checkbox" data-id="S06c1"> đã thu</label></div>
+  <p class="say">Trên website nên dùng định dạng nào? giây-pê-gờ nhẹ, hợp ảnh chụp. pê-en-gờ nét, có nền trong suốt. guép-pê cân bằng, hỗ trợ cả hai kiểu nén. ây-víp là định dạng mới, nén rất tốt.</p>
+</article><article class="card" data-id="S06c2">
+  <div class="meta"><span class="file">S06c2</span><span class="target">đích ~11.7s</span>
+  <label class="chk"><input type="checkbox" data-id="S06c2"> đã thu</label></div>
+  <p class="say">Ví dụ: giây-pê-gờ một trăm hai mươi tám ki-lô-bai, pê-en-gờ năm trăm mười hai, guép-pê bảy mươi tám, ây-víp bốn mươi lăm ki-lô-bai. Nhưng đây là số liệu của một infographic, không phải chân lý cho mọi ảnh.</p>
+</article><h2 id="S07">S07 — Chọn định dạng theo mục đích</h2><article class="card" data-id="S07c1">
+  <div class="meta"><span class="file">S07c1</span><span class="target">đích ~10.5s</span>
+  <label class="chk"><input type="checkbox" data-id="S07c1"> đã thu</label></div>
+  <p class="say">Chọn nhanh: ảnh chụp, sản phẩm, banner — giây-pê-gờ hoặc guép-pê. Logo, icon, nền trong suốt — pê-en-gờ hoặc ét-vi-giờ. Ảnh bản đồ, chữ nhỏ — đừng nén mạnh kiểu giây-pê-gờ, chữ sẽ vỡ.</p>
+</article><article class="card" data-id="S07c2">
+  <div class="meta"><span class="file">S07c2</span><span class="target">đích ~9.3s</span>
+  <label class="chk"><input type="checkbox" data-id="S07c2"> đã thu</label></div>
+  <p class="say">Còn ro? Đó là ảnh gốc để chỉnh sửa, chưa dành cho web: nặng và trình duyệt không đọc được. Xuất sang giây-pê-gờ hoặc guép-pê trước khi đăng.</p>
+</article><h2 id="S08">S08 — Thực hành: nén bằng Sharp</h2><article class="card" data-id="S08c1">
+  <div class="meta"><span class="file">S08c1</span><span class="target">đích ~10.9s</span>
+  <label class="chk"><input type="checkbox" data-id="S08c1"> đã thu</label></div>
+  <p class="say">Làm thử nhé. Có sờ-quút nén trực tuyến, tai-ni pê-en-gờ, i-mịch ma-gích cho dòng lệnh. Còn dân nốt giây-ét thì có sáp — nén ngay trên máy chủ, rất nhanh.</p>
+</article><article class="card" data-id="S08c2">
+  <div class="meta"><span class="file">S08c2</span><span class="target">đích ~11.4s</span>
+  <label class="chk"><input type="checkbox" data-id="S08c2"> đã thu</label></div>
+  <p class="say">Cài bằng en-pi-em in-sto sáp. Đọc ảnh pro-đớt giây-pê-gờ, ri-sai về chiều rộng tám trăm pích-xồ, không phóng lớn ảnh nhỏ, chuyển guép-pê chất lượng tám mươi, lưu ra pro-đớt guép-pê.</p>
+</article><article class="card" data-id="S08c3">
+  <div class="meta"><span class="file">S08c3</span><span class="target">đích ~10.2s</span>
+  <label class="chk"><input type="checkbox" data-id="S08c3"> đã thu</label></div>
+  <p class="say">Giải nghĩa: sáp mở ảnh; ri-sai đổi kích thước; gu-i-dao en-lát-mần chặn phóng to; guép-pê chọn định dạng; quoa-li-ti tám mươi là mức nén; tu-phai lưu kết quả.</p>
+</article><h2 id="S09">S09 — Hiển thị ảnh thông minh trên HTML</h2><article class="card" data-id="S09c1">
+  <div class="meta"><span class="file">S09c1</span><span class="target">đích ~10.6s</span>
+  <label class="chk"><input type="checkbox" data-id="S09c1"> đã thu</label></div>
+  <p class="say">Ảnh nhẹ rồi, hiển thị cho khôn ngoan. Thẻ img cần ét-xờ-xê, alt, uých, và đặc biệt là lô-đinh bằng lây-zi: khoan tải, đợi khách cuộn gần tới hãy tải.</p>
+</article><article class="card" data-id="S09c2">
+  <div class="meta"><span class="file">S09c2</span><span class="target">đích ~7.8s</span>
+  <label class="chk"><input type="checkbox" data-id="S09c2"> đã thu</label></div>
+  <p class="say">Khai báo uých và hai-tờ để trang không nhảy khi ảnh tải xong. Ảnh lớn thì dùng sooc-sét để trình duyệt tự chọn kích thước phù hợp.</p>
+</article><h2 id="S10">S10 — Ứng dụng thực tế</h2><article class="card" data-id="S10c1">
+  <div class="meta"><span class="file">S10c1</span><span class="target">đích ~6.5s</span>
+  <label class="chk"><input type="checkbox" data-id="S10c1"> đã thu</label></div>
+  <p class="say">Nén ảnh có mặt khắp nơi: thương mại điện tử nén ảnh sản phẩm cho trang danh sách mượt; tin tức tối ưu ảnh bài viết.</p>
+</article><article class="card" data-id="S10c2">
+  <div class="meta"><span class="file">S10c2</span><span class="target">đích ~9.1s</span>
+  <label class="chk"><input type="checkbox" data-id="S10c2"> đã thu</label></div>
+  <p class="say">Du lịch giảm thư viện ảnh lớn — như hồ núi này. Giáo dục tối ưu ảnh khóa học. Hễ có ảnh trên web là có chỗ cho nén ảnh.</p>
+</article><h2 id="S11">S11 — Lưu ý khi nén ảnh</h2><article class="card" data-id="S11c1">
+  <div class="meta"><span class="file">S11c1</span><span class="target">đích ~9.4s</span>
+  <label class="chk"><input type="checkbox" data-id="S11c1"> đã thu</label></div>
+  <p class="say">Vài lưu ý. Đừng nén quá tay, ảnh vỡ thì đẹp mấy cũng vô nghĩa. Resize đúng kích thước hiển thị, đừng tải ảnh bốn nghìn pích-xồ về khung ba trăm.</p>
+</article><article class="card" data-id="S11c2">
+  <div class="meta"><span class="file">S11c2</span><span class="target">đích ~11.0s</span>
+  <label class="chk"><input type="checkbox" data-id="S11c2"> đã thu</label></div>
+  <p class="say">Khai báo uých, hai-tờ, dùng lây-zi lô-đinh. Cân nhắc xê-đi-en hoặc dịch vụ tối ưu ảnh. Cân bằng giữa dung lượng và chất lượng — đó là nghệ thuật, không phải phép tính.</p>
+</article><h2 id="S12">S12 — Tổng kết &amp; Outro</h2><article class="card" data-id="S12c1">
+  <div class="meta"><span class="file">S12c1</span><span class="target">đích ~10.4s</span>
+  <label class="chk"><input type="checkbox" data-id="S12c1"> đã thu</label></div>
+  <p class="say">Tóm lại, bốn điều. Một: nén ảnh giảm dung lượng, tăng tốc tải. Hai: Lossy cho ảnh chụp, Lossless cho logo và nền trong suốt.</p>
+</article><article class="card" data-id="S12c2">
+  <div class="meta"><span class="file">S12c2</span><span class="target">đích ~9.6s</span>
+  <label class="chk"><input type="checkbox" data-id="S12c2"> đã thu</label></div>
+  <p class="say">Ba: guép-pê và ây-víp là lựa chọn hiện đại, nhớ kiểm tra trình duyệt. Bốn: sáp, lây-zi lô-đinh và xê-đi-en giúp website nhẹ như lông hồng.</p>
+</article><article class="card" data-id="S12c3">
+  <div class="meta"><span class="file">S12c3</span><span class="target">đích ~9.4s</span>
+  <label class="chk"><input type="checkbox" data-id="S12c3"> đã thu</label></div>
+  <p class="say">Không phải nén càng nhỏ càng tốt, mà là cân bằng giữa dung lượng, chất lượng và trải nghiệm. Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi. Hẹn gặp ở bài tiếp theo!</p>
+</article>
+</main>
+<script>
+const KEY='rec_nenanh_v1_';
+const boxes=[...document.querySelectorAll('input[type=checkbox]')];
+const cnt=document.getElementById('cnt');
+function sync(){let n=0;boxes.forEach(b=>{const c=b.closest('.card');c.classList.toggle('done',b.checked);if(b.checked)n++;});cnt.textContent=n;}
+boxes.forEach(b=>{
+  b.checked=localStorage.getItem(KEY+b.dataset.id)==='1';
+  b.addEventListener('change',()=>{localStorage.setItem(KEY+b.dataset.id,b.checked?'1':'0');sync();});
+});
+document.getElementById('reset').addEventListener('click',()=>{
+  if(!confirm('Bỏ đánh dấu tất cả cue?'))return;
+  boxes.forEach(b=>{localStorage.removeItem(KEY+b.dataset.id);b.checked=false;});sync();
+});
+sync();
+</script>
+</body></html>

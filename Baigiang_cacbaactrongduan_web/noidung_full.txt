@@ -1,0 +1,531 @@
+BÀI GIẢNG: BÊN TRONG MỘT DỰ ÁN PHÁT TRIỂN PHẦN MỀM
+1. Lời chào mở đầu
+Xin chào các bạn! Chào mừng các bạn đã quay trở lại với An Tech Academy – Học công nghệ cùng An.
+Khi bắt đầu học Công nghệ thông tin, đặc biệt là lĩnh vực lập trình Web, có lẽ các bạn đã từng nghe đến những chức danh như Frontend Developer, Backend Developer, Project Manager, Business Analyst hay Tester.
+Nhưng các bạn có bao giờ tự hỏi: Những người này làm việc như thế nào trong một công ty phần mềm? Ai là người đưa ra ý tưởng cho một dự án? Ai quyết định công nghệ sử dụng? Ai phân chia công việc cho lập trình viên? Và ai là người kiểm tra xem website đã hoạt động đúng hay chưa?
+Thực tế, để xây dựng một website hoàn chỉnh và đưa vào sử dụng, chúng ta cần sự phối hợp của nhiều vị trí khác nhau.
+Một lập trình viên có thể rất giỏi viết code, nhưng nếu không có người phân tích yêu cầu, người thiết kế giao diện, người quản lý tiến độ và người kiểm thử chất lượng, dự án vẫn có thể gặp rất nhiều khó khăn.
+Trong bài học hôm nay, chúng ta sẽ cùng khám phá bên trong một dự án phát triển phần mềm thực tế.
+Các bạn sẽ được tìm hiểu từ cấp lãnh đạo doanh nghiệp, người bảo trợ dự án, Project Manager, Business Analyst, Technical Lead cho đến những vị trí trực tiếp xây dựng sản phẩm như Frontend Developer, Backend Developer, Database Engineer, QA và DevOps.
+Đặc biệt, An sẽ lấy ví dụ về một dự án xây dựng website bán hàng để các bạn dễ dàng hình dung công việc của từng vị trí.
+Sau bài học này, các bạn không chỉ biết tên các chức danh trong ngành CNTT mà còn hiểu được mình có thể đảm nhận vị trí nào, cần học những kiến thức gì và sẽ phối hợp với những ai khi tham gia một công ty phần mềm.
+Bây giờ, chúng ta hãy cùng bắt đầu nhé!
+ PHẦN 2. DỰ ÁN PHẦN MỀM LÀ GÌ?
+2.1. Khái niệm dự án phần mềm
+Trước tiên, chúng ta cần hiểu một khái niệm cơ bản: Dự án phần mềm là gì?
+Dự án phần mềm là một tập hợp các hoạt động có mục tiêu, thời gian, nguồn lực và phạm vi xác định, nhằm xây dựng, nâng cấp hoặc triển khai một sản phẩm phần mềm để giải quyết một nhu cầu cụ thể.
+Ví dụ, một cửa hàng kinh doanh điện thoại muốn xây dựng website bán hàng trực tuyến.
+Website cần có những chức năng như:
+Hiển thị danh sách sản phẩm.
+Tìm kiếm và lọc sản phẩm.
+Đăng ký và đăng nhập tài khoản.
+Quản lý giỏ hàng.
+Đặt hàng và thanh toán.
+Quản lý kho hàng.
+Quản lý đơn hàng.
+Thống kê doanh thu.
+Để hoàn thành hệ thống này, doanh nghiệp cần xác định yêu cầu, thiết kế giao diện, xây dựng cơ sở dữ liệu, lập trình, kiểm thử và triển khai.
+Toàn bộ quá trình đó được tổ chức thành một dự án phát triển phần mềm.
+2.2. Tại sao cần nhiều vị trí trong một dự án?
+Hãy tưởng tượng một dự án chỉ có một lập trình viên.
+Người đó phải tự tìm hiểu nhu cầu khách hàng, phân tích nghiệp vụ, thiết kế giao diện, lập trình, xây dựng cơ sở dữ liệu, kiểm thử và triển khai lên máy chủ.
+Điều này có thể thực hiện được với một website nhỏ, nhưng khi hệ thống phát triển, khối lượng công việc sẽ tăng lên đáng kể.
+Vì vậy, doanh nghiệp cần phân chia công việc theo chuyên môn.
+Mỗi thành viên chịu trách nhiệm một phần công việc, nhưng tất cả đều hướng đến một mục tiêu chung: hoàn thành sản phẩm đúng yêu cầu, đúng tiến độ và đảm bảo chất lượng.
+2.3. Phân biệt công ty phần mềm và dự án phần mềm
+Đây là hai khái niệm người mới thường nhầm lẫn.
+Công ty phần mềm là tổ chức kinh doanh và phát triển các sản phẩm, dịch vụ công nghệ.
+Dự án phần mềm là một công việc cụ thể được tổ chức thực hiện trong công ty hoặc theo hợp đồng với khách hàng.
+Một công ty có thể triển khai nhiều dự án cùng lúc. Mỗi dự án có thể có đội ngũ nhân sự, ngân sách và thời gian hoàn thành khác nhau.
+Ví dụ:
+Dự án 01: Xây dựng website bán hàng.
+Dự án 02: Xây dựng hệ thống quản lý nhân sự.
+Dự án 03: Xây dựng ứng dụng đặt lịch khám bệnh.
+Dự án 04: Xây dựng hệ thống quản lý nhà hàng.
+Mỗi dự án có thể sử dụng những công nghệ và đội ngũ chuyên môn khác nhau.
+PHẦN 3. CƠ CẤU TỔ CHỨC TRONG MỘT DỰ ÁN CNTT
+3.1. Nhìn tổng thể một đội ngũ phát triển phần mềm
+Trong một doanh nghiệp phần mềm, các vị trí thường được tổ chức thành nhiều nhóm.
+Ở cấp cao nhất là ban lãnh đạo và những người định hướng hoạt động kinh doanh, công nghệ.
+Tiếp theo là nhóm quản lý dự án, chịu trách nhiệm lập kế hoạch và điều phối công việc.
+Bên cạnh đó là những người phụ trách chuyên môn như phân tích nghiệp vụ, kiến trúc hệ thống, thiết kế giao diện và đảm bảo chất lượng.
+Cuối cùng là đội ngũ trực tiếp xây dựng và triển khai sản phẩm.
+The Ultimate Roadmap to Choose Ideal Web Development Teams
+spaceo.ca
+Có thể hình dung thành bốn nhóm:
+Ban lãnh đạo và định hướng.
+Nhóm quản lý dự án.
+Nhóm quản lý chuyên môn.
+Nhóm phát triển và triển khai sản phẩm.
+Tuy nhiên, chúng ta cần lưu ý rằng đây là mô hình tổ chức tham khảo. Trong thực tế, các vị trí không nhất thiết tạo thành một hệ thống cấp bậc cứng nhắc. Nhiều người có thể cùng báo cáo cho một quản lý, hoặc phối hợp trực tiếp với nhau theo quy trình của doanh nghiệp.
+3.2. Nhóm lãnh đạo và định hướng
+Đầu tiên là những người chịu trách nhiệm định hướng hoạt động của doanh nghiệp và dự án.
+Vị trí 1: CEO – Chief Executive Officer
+CEO là Giám đốc điều hành doanh nghiệp.
+Đây là người chịu trách nhiệm điều hành hoạt động tổng thể của công ty và đưa ra những định hướng chiến lược quan trọng.
+Trong một công ty phần mềm, CEO thường quan tâm đến:
+Mục tiêu kinh doanh của công ty.
+Khách hàng và thị trường.
+Doanh thu và chi phí.
+Chiến lược phát triển sản phẩm.
+Hiệu quả hoạt động của các phòng ban.
+Ví dụ, một công ty muốn phát triển nền tảng thương mại điện tử mới. CEO có thể quyết định đầu tư vào dự án này vì nhận thấy tiềm năng kinh doanh.
+Tuy nhiên, CEO không nhất thiết trực tiếp tham gia viết code hay điều hành từng công việc lập trình hằng ngày.
+Vị trí 2: CTO – Chief Technology Officer
+CTO là Giám đốc công nghệ.
+Nếu CEO tập trung vào định hướng điều hành và kinh doanh thì CTO tập trung nhiều hơn vào chiến lược công nghệ.
+CTO thường chịu trách nhiệm:
+Định hướng công nghệ cho doanh nghiệp.
+Đánh giá và lựa chọn công nghệ phù hợp.
+Định hướng kiến trúc hệ thống.
+Đảm bảo giải pháp kỹ thuật có khả năng mở rộng.
+Định hướng các tiêu chuẩn kỹ thuật.
+Đánh giá các vấn đề công nghệ quan trọng.
+Ví dụ, khi công ty muốn xây dựng một website thương mại điện tử lớn, CTO có thể tham gia quyết định sử dụng Node.js hay PHP cho Backend, lựa chọn cơ sở dữ liệu MySQL hay PostgreSQL, cũng như định hướng kiến trúc hệ thống.
+CTO không nhất thiết phải trực tiếp lựa chọn từng thư viện hoặc viết mã nguồn cho từng chức năng. Công việc đó thường được giao cho Tech Lead và đội ngũ kỹ thuật.
+Vị trí 3: Project Sponsor – Người bảo trợ dự án
+Project Sponsor là người bảo trợ hoặc đại diện có thẩm quyền hỗ trợ dự án.
+Người này có thể là CEO, giám đốc bộ phận hoặc đại diện cấp cao của khách hàng.
+Các nhiệm vụ chính bao gồm:
+Phê duyệt mục tiêu và ngân sách.
+Cung cấp nguồn lực cần thiết.
+Hỗ trợ giải quyết vấn đề vượt quyền hạn PM.
+Đánh giá lợi ích mà dự án mang lại.
+Hỗ trợ các quyết định quan trọng.
+Ví dụ, một doanh nghiệp thuê công ty phần mềm xây dựng hệ thống quản lý bán hàng. Đại diện ban lãnh đạo doanh nghiệp có thể đóng vai trò Project Sponsor, chịu trách nhiệm bảo trợ và phê duyệt những vấn đề quan trọng.
+3.3. Nhóm quản lý dự án
+Đây là nhóm rất quan trọng, đặc biệt đối với những bạn muốn phát triển theo hướng quản lý dự án CNTT.
+Vị trí 4: Project Manager – PM
+Project Manager là Quản lý dự án.
+PM chịu trách nhiệm tổ chức và điều phối toàn bộ hoạt động thực hiện dự án trong phạm vi được giao.
+Có thể hiểu đơn giản: PM là người đảm bảo dự án được thực hiện theo kế hoạch, các thành viên hiểu nhiệm vụ của mình và những vấn đề phát sinh được xử lý kịp thời.
+Công việc của PM bao gồm:
+Thứ nhất: Lập kế hoạch dự án.
+PM xác định các giai đoạn thực hiện, thời gian hoàn thành và nguồn lực cần thiết.
+Thứ hai: Phân chia công việc.
+PM phối hợp với các trưởng nhóm chuyên môn để xác định ai sẽ phụ trách từng nhiệm vụ.
+Thứ ba: Theo dõi tiến độ.
+PM kiểm tra công việc đã hoàn thành, công việc đang thực hiện và những nhiệm vụ bị chậm.
+Thứ tư: Quản lý rủi ro.
+Ví dụ, một lập trình viên nghỉ việc giữa dự án hoặc một chức năng thanh toán gặp lỗi nghiêm trọng. PM cần phối hợp với các bên liên quan để đưa ra phương án xử lý.
+Thứ năm: Giao tiếp và báo cáo.
+PM thường xuyên trao đổi với khách hàng, ban lãnh đạo và đội ngũ phát triển để đảm bảo mọi người nắm được tình hình dự án.
+Một điều người mới cần hiểu: PM không nhất thiết là người lập trình giỏi nhất trong nhóm. PM cần có kỹ năng quản lý, giao tiếp, tổ chức công việc và hiểu biết đủ tốt về quy trình phát triển phần mềm.
+Vị trí 5: Product Owner – PO
+Product Owner là người chịu trách nhiệm tối ưu giá trị của sản phẩm trong các nhóm làm việc theo Scrum.
+PO thường làm việc với khách hàng, người dùng và đội ngũ phát triển để xác định tính năng nào quan trọng và cần được ưu tiên.
+Ví dụ, website bán hàng có thể có 20 chức năng, nhưng doanh nghiệp muốn ưu tiên hoàn thành:
+Đăng nhập.
+Quản lý sản phẩm.
+Giỏ hàng.
+Đặt hàng.
+Thanh toán.
+PO sẽ quản lý và sắp xếp thứ tự ưu tiên các yêu cầu trong Product Backlog.
+Cần nhớ rằng PO và PM không phải là hai chức danh giống nhau. PO tập trung vào giá trị và thứ tự ưu tiên sản phẩm, còn PM quản lý việc thực hiện dự án. Tùy mô hình doanh nghiệp, một người có thể kiêm cả hai vai trò.
+Vị trí 6: Business Analyst – BA
+Business Analyst là Chuyên viên phân tích nghiệp vụ.
+Đây là vị trí đóng vai trò kết nối giữa nhu cầu của khách hàng và giải pháp mà đội ngũ kỹ thuật sẽ xây dựng.
+Ví dụ, khách hàng nói:
+"Tôi muốn có một website bán hàng, khách hàng có thể mua sản phẩm và thanh toán trực tuyến."
+Đây mới chỉ là một yêu cầu tổng quát.
+BA cần tìm hiểu sâu hơn:
+Khách hàng có cần đăng ký tài khoản không?
+Có cho phép mua hàng không cần đăng nhập không?
+Sản phẩm có nhiều biến thể không?
+Có áp dụng mã giảm giá không?
+Thanh toán bằng tiền mặt hay ví điện tử?
+Ai được quyền quản lý đơn hàng?
+Khi khách hàng hủy đơn thì hệ thống xử lý thế nào?
+Sau khi thu thập thông tin, BA sẽ phân tích và xây dựng tài liệu nghiệp vụ.
+Một số tài liệu thường gặp:
+BRD – Business Requirements Document.
+SRS – Software Requirements Specification.
+Use Case Diagram.
+Activity Diagram.
+User Story.
+Acceptance Criteria.
+Các tài liệu này giúp đội ngũ phát triển hiểu chính xác hệ thống cần xây dựng những gì.
+3.4. Nhóm quản lý chuyên môn kỹ thuật
+Vị trí 7: Technical Lead – Tech Lead
+Tech Lead là Trưởng nhóm kỹ thuật.
+Đây là người có kinh nghiệm chuyên môn, chịu trách nhiệm định hướng kỹ thuật và hỗ trợ đội ngũ lập trình.
+Ví dụ, trong một dự án sử dụng:
+Frontend: ReactJS.
+Backend: Node.js và Express.
+Database: MySQL.
+Authentication: JWT.
+Deployment: VPS hoặc Cloud.
+Tech Lead có thể định hướng cách tổ chức mã nguồn, thiết kế API, tiêu chuẩn lập trình và quy trình kiểm tra mã nguồn.
+Ngoài ra, Tech Lead thường tham gia:
+Review Code.
+Phân chia nhiệm vụ kỹ thuật.
+Hỗ trợ Developer giải quyết lỗi khó.
+Đánh giá giải pháp kỹ thuật.
+Đảm bảo chất lượng kiến trúc.
+Vị trí 8: UI/UX Lead
+UI/UX Lead chịu trách nhiệm định hướng thiết kế giao diện và trải nghiệm người dùng.
+Người này đảm bảo sản phẩm có thiết kế nhất quán, dễ sử dụng và phù hợp với nhu cầu thực tế.
+Ví dụ, khi xây dựng website bán hàng, UI/UX Lead cần định hướng cách người dùng tìm kiếm sản phẩm, xem chi tiết, thêm vào giỏ hàng và hoàn tất thanh toán.
+Vị trí 9: QA Lead
+QA Lead là người phụ trách đảm bảo chất lượng.
+QA Lead xây dựng chiến lược kiểm thử, kiểm soát quy trình kiểm thử và phối hợp với các nhóm để giảm thiểu lỗi trước khi phát hành sản phẩm.
+3.5. Nhóm trực tiếp phát triển sản phẩm
+Đây là nhóm mà phần lớn sinh viên CNTT thường hướng đến khi bắt đầu sự nghiệp.
+Vị trí 10: UI/UX Designer
+UI là User Interface – Giao diện người dùng.
+UX là User Experience – Trải nghiệm người dùng.
+UI/UX Designer nghiên cứu người dùng và thiết kế cách người dùng tương tác với phần mềm.
+Ví dụ, khi xây dựng website bán hàng, Designer sẽ thiết kế:
+Trang chủ.
+Trang danh sách sản phẩm.
+Trang chi tiết sản phẩm.
+Trang đăng nhập.
+Trang giỏ hàng.
+Trang thanh toán.
+Trang quản trị.
+Công cụ thường gặp là Figma.
+Designer không chỉ làm cho website đẹp mà còn phải đảm bảo người dùng có thể tìm thấy thông tin và thực hiện thao tác một cách thuận tiện.
+Vị trí 11: Frontend Developer
+Frontend Developer là lập trình viên phát triển phần giao diện phía người dùng.
+Đây là người chuyển bản thiết kế từ Figma thành giao diện hoạt động trên trình duyệt.
+Một số công nghệ phổ biến:
+HTML.
+CSS.
+JavaScript.
+TypeScript.
+ReactJS.
+Vue.js.
+Angular.
+Tailwind CSS.
+Bootstrap.
+Ví dụ, Designer đã thiết kế trang đăng nhập. Frontend Developer sẽ lập trình giao diện nhập email, mật khẩu, nút đăng nhập và hiển thị thông báo lỗi.
+Frontend cũng cần kết nối với Backend thông qua API để gửi và nhận dữ liệu.
+Vị trí 12: Backend Developer
+Backend Developer là lập trình viên phát triển phần xử lý phía máy chủ.
+Nếu Frontend là phần người dùng nhìn thấy thì Backend là nơi xử lý logic và dữ liệu của hệ thống.
+Ví dụ, khi người dùng nhấn nút đăng nhập:
+Frontend gửi email và mật khẩu đến API.
+Backend tiếp nhận yêu cầu.
+Backend kiểm tra dữ liệu.
+Backend truy vấn cơ sở dữ liệu.
+Backend xác thực tài khoản.
+Backend trả kết quả về Frontend.
+Một số công nghệ phổ biến:
+PHP và Laravel.
+Node.js và Express.
+Java và Spring Boot.
+Python và Django.
+C# và ASP.NET Core.
+Backend Developer cần hiểu về API, xác thực, phân quyền, bảo mật và xử lý dữ liệu.
+Vị trí 13: Database Engineer
+Database Engineer phụ trách thiết kế, quản lý và tối ưu cơ sở dữ liệu.
+Ví dụ, website bán hàng có thể cần các bảng:
+Users.
+Products.
+Categories.
+Orders.
+Order_Details.
+Payments.
+Reviews.
+Database Engineer cần xác định các trường dữ liệu, khóa chính, khóa ngoại và mối quan hệ giữa các bảng.
+Một số hệ quản trị cơ sở dữ liệu phổ biến:
+MySQL.
+PostgreSQL.
+SQL Server.
+Oracle Database.
+MongoDB.
+Ở dự án nhỏ, công việc này thường được Backend Developer kiêm nhiệm.
+Vị trí 14: QA / Tester
+QA là Quality Assurance.
+Tester là người thực hiện kiểm thử phần mềm.
+Trong thực tế, QA và Tester có phạm vi công việc khác nhau, dù nhiều doanh nghiệp sử dụng tên gọi hoặc phân công kiêm nhiệm.
+Ví dụ, khi kiểm thử chức năng đăng nhập, Tester cần kiểm tra:
+Đăng nhập đúng tài khoản.
+Đăng nhập sai mật khẩu.
+Bỏ trống email.
+Bỏ trống mật khẩu.
+Tài khoản bị khóa.
+Đăng nhập liên tục nhiều lần.
+Giao diện hiển thị trên điện thoại.
+Khi phát hiện lỗi, Tester tạo Bug Report để Developer kiểm tra và sửa chữa.
+Vị trí 15: DevOps Engineer
+DevOps là sự kết hợp giữa Development và Operations.
+DevOps Engineer hỗ trợ tự động hóa quá trình xây dựng, kiểm thử và triển khai phần mềm.
+Một số công việc:
+Quản lý máy chủ.
+Cấu hình môi trường.
+Xây dựng quy trình CI/CD.
+Triển khai ứng dụng.
+Theo dõi hiệu năng.
+Quản lý hệ thống sao lưu.
+Hỗ trợ vận hành.
+Một website sau khi lập trình xong vẫn chưa thể tự động xuất hiện trên Internet. Sản phẩm cần được triển khai lên máy chủ và cấu hình để người dùng có thể truy cập.
+Đó là một trong những nhiệm vụ quan trọng của DevOps.
+Vị trí 16: Security Engineer
+Security Engineer phụ trách các vấn đề bảo mật hệ thống.
+Một số nhiệm vụ:
+Đánh giá lỗ hổng bảo mật.
+Kiểm tra xác thực và phân quyền.
+Đánh giá nguy cơ SQL Injection.
+Kiểm tra XSS và CSRF.
+Kiểm tra cấu hình máy chủ.
+Đề xuất biện pháp bảo vệ dữ liệu.
+Vị trí 17: Technical Writer
+Technical Writer là người chuyên xây dựng tài liệu kỹ thuật.
+Ví dụ:
+Hướng dẫn cài đặt hệ thống.
+Tài liệu API.
+Hướng dẫn sử dụng.
+Tài liệu kiến trúc.
+Tài liệu bàn giao dự án.
+Đây là vị trí giúp những người tiếp nhận hoặc bảo trì hệ thống hiểu được cách phần mềm được xây dựng và vận hành.
+PHẦN 4. MỘT DỰ ÁN WEBSITE THỰC TẾ ĐƯỢC TRIỂN KHAI NHƯ THẾ NÀO?
+Đến đây, các bạn đã biết những vị trí cơ bản trong một dự án phần mềm.
+Nhưng nếu tất cả mọi người đều có nhiệm vụ riêng thì họ phối hợp với nhau như thế nào?
+Chúng ta sẽ cùng tìm hiểu thông qua một tình huống thực tế.
+4.1. Tình huống: Công ty nhận dự án xây dựng website bán hàng
+Online Store Builder in UAE | Create Your Ecommerce Website | Storexio
+storexio.ae
+Giả sử công ty ABC nhận được yêu cầu từ một doanh nghiệp kinh doanh điện thoại.
+Khách hàng muốn xây dựng website để:
+Giới thiệu sản phẩm.
+Bán hàng trực tuyến.
+Quản lý đơn hàng.
+Theo dõi tồn kho.
+Quản lý khách hàng.
+Thống kê doanh thu.
+Thời gian thực hiện dự án dự kiến là 3 tháng.
+Đây là lúc các vị trí trong dự án bắt đầu phối hợp.
+4.2. Giai đoạn 1: Khởi động dự án
+Kick-off meeting: the 4 pillars of a successful launch — Agerix
+agerix.fr
+Ở giai đoạn đầu tiên, doanh nghiệp xác định mục tiêu, phạm vi, ngân sách và nguồn lực.
+CEO hoặc Project Sponsor phê duyệt định hướng và nguồn lực.
+PM tổ chức buổi Kick-off Meeting để các bên thống nhất mục tiêu dự án.
+BA bắt đầu tiếp nhận yêu cầu từ khách hàng.
+Tech Lead xem xét tính khả thi về mặt kỹ thuật.
+Kết quả của giai đoạn:
+Project Charter.
+Phạm vi dự án.
+Mục tiêu và kế hoạch sơ bộ.
+Danh sách các bên liên quan.
+4.3. Giai đoạn 2: Phân tích yêu cầu
+Start | Arendi
+arendi.ch
+BA làm việc với khách hàng để tìm hiểu nghiệp vụ.
+Ví dụ, khách hàng yêu cầu chức năng quản lý sản phẩm.
+BA cần làm rõ:
+Ai được phép thêm sản phẩm?
+Ai được phép chỉnh sửa sản phẩm?
+Sản phẩm có nhiều hình ảnh không?
+Có quản lý số lượng tồn kho không?
+Có cho phép ngừng kinh doanh sản phẩm không?
+Sau đó, BA xây dựng tài liệu yêu cầu để đội ngũ kỹ thuật hiểu và triển khai.
+Kết quả của giai đoạn:
+Tài liệu SRS.
+Use Case Diagram.
+Activity Diagram.
+User Stories.
+Acceptance Criteria.
+4.4. Giai đoạn 3: Thiết kế hệ thống
+10 Best UX/UI Design Services Reviewed: 2026 Guide
+parallelhq.com
+Ở giai đoạn này, UI/UX Designer thiết kế giao diện trên Figma.
+Tech Lead định hướng kiến trúc phần mềm.
+Database Engineer phối hợp với Backend Developer thiết kế cơ sở dữ liệu.
+Ví dụ, hệ thống có thể được xây dựng bằng:
+Kết quả của giai đoạn:
+Wireframe.
+UI Design.
+Prototype.
+ERD.
+Kiến trúc hệ thống.
+Thiết kế API.
+4.5. Giai đoạn 4: Phát triển phần mềm
+2026 What Jobs Can You Get With a Computer Science Bachelor's Degree? | Research.com
+research.com
+Đây là giai đoạn Developer trực tiếp viết mã nguồn.
+Frontend Developer xây dựng giao diện.
+Backend Developer xây dựng API và xử lý nghiệp vụ.
+Database Engineer hỗ trợ tối ưu cơ sở dữ liệu.
+Tech Lead kiểm tra mã nguồn và hướng dẫn đội ngũ.
+Trong quá trình này, các thành viên thường sử dụng Git và GitHub để quản lý mã nguồn, theo dõi thay đổi và phối hợp phát triển.
+Ví dụ:
+Frontend tạo yêu cầu:
+GET /api/products
+Backend tiếp nhận yêu cầu, truy vấn MySQL và trả về danh sách sản phẩm dưới dạng JSON.
+Frontend nhận dữ liệu và hiển thị sản phẩm lên giao diện.
+Đây chính là cách hai nhóm Frontend và Backend phối hợp với nhau.
+4.6. Giai đoạn 5: Kiểm thử phần mềm
+Manual Testing Guide for Beginners | QA Basics & | CDPL Blog
+cinutedigital.com
+Sau khi các chức năng được phát triển, QA và Tester bắt đầu kiểm thử.
+Ví dụ, với chức năng đặt hàng:
+Có thể đặt hàng khi chưa đăng nhập không?
+Khi hết hàng thì hệ thống xử lý thế nào?
+Tổng tiền có được tính chính xác không?
+Thanh toán thất bại thì đơn hàng có bị ghi nhận sai không?
+Người dùng có thể đặt trùng đơn ngoài ý muốn không?
+Nếu phát hiện lỗi, Tester tạo báo cáo Bug và gửi cho Developer xử lý.
+Sau khi sửa, chức năng được kiểm thử lại.
+Quá trình này có thể lặp lại nhiều lần cho đến khi đạt tiêu chí chất lượng đã thống nhất.
+4.7. Giai đoạn 6: Triển khai và bàn giao
+The DevOps Engineer Roles and Responsibilities
+apponix.com
+Sau khi sản phẩm đạt yêu cầu, DevOps phối hợp với đội kỹ thuật để triển khai website lên môi trường thực tế.
+Các công việc có thể bao gồm:
+Cấu hình máy chủ.
+Cấu hình tên miền.
+Thiết lập HTTPS.
+Cài đặt cơ sở dữ liệu.
+Triển khai mã nguồn.
+Thiết lập sao lưu.
+Theo dõi hoạt động.
+PM phối hợp với khách hàng tổ chức nghiệm thu và bàn giao.
+Technical Writer hoặc đội phát triển chuẩn bị tài liệu hướng dẫn sử dụng, tài liệu kỹ thuật và thông tin vận hành.
+Như vậy, dự án đã đi từ ý tưởng ban đầu đến một sản phẩm có thể sử dụng trong thực tế.
+PHẦN 5. QUY TRÌNH PHỐI HỢP GIỮA CÁC VỊ TRÍ
+Một trong những kỹ năng quan trọng nhất khi làm việc trong ngành CNTT là khả năng phối hợp.
+Hãy xem ví dụ khi khách hàng yêu cầu bổ sung chức năng thanh toán trực tuyến.
+☁️Modern Software Development Life Cycle Approach with Huawei Cloud CodeArts Service | by Mehmet Altuğ Akgül | Huawei Developers | Medium
+medium.com
+Quy trình có thể diễn ra như sau:
+Khách hàng đưa ra yêu cầu bổ sung.
+BA phân tích nghiệp vụ và làm rõ yêu cầu.
+PO xác định mức độ ưu tiên nếu dự án áp dụng vai trò này.
+PM đánh giá ảnh hưởng đến phạm vi, chi phí và tiến độ.
+Tech Lead đánh giá giải pháp kỹ thuật.
+UI/UX Designer cập nhật giao diện thanh toán.
+Backend Developer tích hợp API thanh toán.
+Frontend Developer xây dựng giao diện thanh toán.
+QA kiểm thử các tình huống thành công và thất bại.
+DevOps triển khai phiên bản mới khi được phê duyệt.
+Điều quan trọng là không phải cứ khách hàng yêu cầu một chức năng thì Developer lập tức viết code.
+Yêu cầu cần được làm rõ, đánh giá tác động và thống nhất cách thực hiện trước khi triển khai.
+Đó chính là tư duy làm việc theo quy trình của một dự án phần mềm chuyên nghiệp.
+PHẦN 6. NHỮNG CÔNG CỤ THƯỜNG DÙNG TRONG DỰ ÁN CNTT
+Người mới không chỉ cần biết các chức danh mà còn cần làm quen với những công cụ được sử dụng trong công việc.
+Project tracking template | Jira
+Jira – Quản lý dự án
+Theo dõi nhiệm vụ, Sprint, Bug và tiến độ thực hiện.
+PM, BA, Developer, QA.
+UX Design for SaaS Dashboards: What Founders Often Get Wrong | by Unqode | Medium
+Figma – Thiết kế giao diện
+Thiết kế Wireframe, UI và Prototype.
+UI/UX Designer, BA, Developer.
+GitHub - dwyl/quotes: 💬 a curated list of quotes that inspire action + code that returns quotes by tag/author/etc. 💡 · GitHub
+Git và GitHub – Quản lý mã nguồn
+Lưu trữ code, quản lý phiên bản, Branch và Pull Request.
+Developer, Tech Lead.
+10 Modern Node.js Development Tools Real Developers Swear By
+Postman – Kiểm thử API
+Gửi HTTP Request, kiểm tra Response và xác thực API.
+Backend Developer, QA.
+Tema de modo escuro do VS Code – o estilo de modo noturno do freeCodeCamp para o Visual Studio Code
+Visual Studio Code – Lập trình
+Viết, chỉnh sửa và quản lý mã nguồn.
+Frontend Developer, Backend Developer.
+Multi-container applications | Docker Docs
+Docker – Đóng gói và triển khai
+Đóng gói ứng dụng và các thành phần môi trường để triển khai nhất quán.
+DevOps, Backend Developer.
+PHẦN 7. NGƯỜI MỚI NÊN BẮT ĐẦU TỪ VỊ TRÍ NÀO?
+Đây là phần đặc biệt quan trọng đối với sinh viên và người mới học CNTT.
+Không phải ai học Công nghệ thông tin cũng phải trở thành lập trình viên. Ngành CNTT có nhiều hướng phát triển khác nhau.
+Một lời khuyên dành cho các bạn mới bắt đầu:
+Đừng vội chọn chức danh chỉ vì thấy nó có mức lương cao hoặc đang được nhiều người nhắc đến.
+Hãy tìm hiểu công việc thực tế của từng vị trí, xem bản thân yêu thích điều gì và lựa chọn hướng học phù hợp.
+Nếu thích xây dựng giao diện, hãy bắt đầu với Frontend.
+Nếu thích xử lý dữ liệu và logic, hãy tìm hiểu Backend.
+Nếu thích phân tích vấn đề và làm việc với khách hàng, hãy tìm hiểu Business Analyst.
+Nếu thích tổ chức công việc và điều phối con người, có thể tìm hiểu về Project Management.
+Và hãy nhớ rằng, một người có thể thay đổi định hướng nghề nghiệp khi tích lũy thêm kiến thức và kinh nghiệm.
+PHẦN 8. THỰC HÀNH TÌNH HUỐNG
+Bài tập: Thành lập một công ty phần mềm thu nhỏ
+15 Top Computer Science Scholarships in the USA 2025 - 2026
+bestfullyfundedscholarships.com
+Giả sử các bạn được giao nhiệm vụ thành lập một nhóm phát triển phần mềm gồm 8 thành viên.
+Nhóm nhận đề bài:
+Xây dựng website quản lý nhà hàng trực tuyến.
+Hệ thống cần có:
+Quản lý món ăn.
+Quản lý bàn.
+Đặt món.
+Quản lý đơn hàng.
+Quản lý khách hàng.
+Quản lý nhân viên.
+Thống kê doanh thu.
+Các bạn cần thực hiện:
+Nhiệm vụ 1: Phân công 8 thành viên vào những vai trò phù hợp.
+Nhiệm vụ 2: Xác định ai là người quản lý dự án.
+Nhiệm vụ 3: Xác định ai sẽ tiếp nhận và phân tích yêu cầu khách hàng.
+Nhiệm vụ 4: Lựa chọn người phụ trách giao diện, Backend và cơ sở dữ liệu.
+Nhiệm vụ 5: Xác định ai sẽ kiểm thử sản phẩm trước khi bàn giao.
+Nhiệm vụ 6: Xây dựng kế hoạch triển khai trong 8 tuần.
+Mục tiêu của bài tập không phải là yêu cầu mọi người lập trình ngay lập tức, mà là giúp người học hiểu cách một đội ngũ phần mềm tổ chức và phối hợp công việc.
+PHẦN 9. CÂU HỎI KIỂM TRA KIẾN THỨC
+Bài kiểm tra 8 câu hỏi
+0/8 câu
+Câu 1. Ai là người chịu trách nhiệm điều phối tiến độ, nguồn lực và công việc của dự án?
+A. Frontend Developer
+B. Project Manager
+C. Database Engineer
+D. UI/UX Designer
+Câu 2. Ai là người phân tích yêu cầu nghiệp vụ của khách hàng?
+A. Business Analyst
+B. DevOps Engineer
+C. Tester
+D. Frontend Developer
+Câu 3. Vị trí nào chịu trách nhiệm xây dựng giao diện website?
+A. Backend Developer
+B. Database Engineer
+C. Frontend Developer
+D. Security Engineer
+Câu 4. Ai thường phụ trách kiểm thử phần mềm?
+A. CEO
+B. Tester / QA
+C. UI Designer
+D. Project Sponsor
+Câu 5. Công cụ nào thường được sử dụng để thiết kế giao diện?
+A. MySQL
+B. Docker
+C. Figma
+D. Postman
+Câu 6. Ai chịu trách nhiệm định hướng kiến trúc kỹ thuật trong nhóm phát triển?
+A. Technical Lead
+B. Content Writer
+C. Project Sponsor
+D. Tester
+Câu 7. DevOps thường tham gia công việc nào?
+A. Phỏng vấn khách hàng
+B. Thiết kế logo
+C. Triển khai và vận hành hệ thống
+D. Viết tài liệu nghiệp vụ
+Câu 8. Một công ty phần mềm có thể thực hiện nhiều dự án cùng lúc không?
+A. Không
+B. Chỉ khi có CEO mới
+C. Có
+D. Chỉ với dự án nhỏ
+Nộp bài và xem kết quả
+PHẦN 10. TỔNG KẾT VÀ LỜI KẾT
+TỔNG KẾT BÀI HỌC
+Như vậy, trong bài học hôm nay, chúng ta đã cùng tìm hiểu cách một dự án phát triển phần mềm được tổ chức và vận hành trong môi trường doanh nghiệp.
+Các bạn đã biết rằng một sản phẩm Web không chỉ được tạo ra bởi những lập trình viên, mà là kết quả của sự phối hợp giữa nhiều vị trí chuyên môn.
+Chúng ta đã tìm hiểu vai trò của CEO, CTO và Project Sponsor trong việc định hướng và bảo trợ dự án.
+Tiếp theo là những vị trí quản lý và điều phối như Project Manager, Product Owner và Business Analyst.
+Ở nhóm chuyên môn kỹ thuật, chúng ta đã tìm hiểu Technical Lead, UI/UX Lead và QA Lead.
+Cuối cùng là những người trực tiếp tham gia xây dựng sản phẩm như UI/UX Designer, Frontend Developer, Backend Developer, Database Engineer, QA, DevOps, Security Engineer và Technical Writer.
+Đặc biệt, thông qua ví dụ xây dựng website bán hàng, các bạn đã hiểu được một dự án phần mềm thường trải qua những giai đoạn nào, từ khởi động, phân tích yêu cầu, thiết kế, lập trình, kiểm thử cho đến triển khai và bàn giao.
+Điều quan trọng nhất mà An muốn các bạn ghi nhớ là:
+Lập trình phần mềm không đơn thuần là viết những dòng code. Đó là một quá trình giải quyết vấn đề, tổ chức công việc và phối hợp giữa con người với công nghệ để tạo ra một sản phẩm có giá trị.
+Nếu các bạn đang là sinh viên CNTT hoặc mới bắt đầu học lập trình, hãy dành thời gian tìm hiểu những vị trí trong ngành, xác định hướng đi phù hợp và từng bước xây dựng kiến thức chuyên môn của mình.
+Đừng quá lo lắng nếu hiện tại các bạn chưa biết mình sẽ trở thành ai trong một công ty phần mềm. Điều quan trọng là bắt đầu học, thực hành và trải nghiệm.
+Cảm ơn các bạn đã theo dõi bài học tại An Tech Academy – Học công nghệ cùng An.
+Nếu thấy bài học hữu ích, hãy theo dõi kênh để cùng khám phá thêm nhiều kiến thức thực tế trong lĩnh vực Công nghệ thông tin.
+Xin chào và hẹn gặp lại các bạn trong bài học tiếp theo!
+ĐỊNH HƯỚNG SẢN XUẤT VIDEO CHO AN TECH ACADEMY
+Để biến tài liệu này thành một video bài giảng chất lượng, tôi đề xuất:
+
+
+
+

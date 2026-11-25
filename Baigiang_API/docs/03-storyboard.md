@@ -1,0 +1,21 @@
+# 03 — Storyboard (11 cảnh, 32 cue)
+
+Mỗi dòng = một cảnh, gắn trực tiếp với lời thoại. Thời lượng thực tế lấy theo audio sau khi TTS (timeline tự tính), bảng dưới là dự kiến.
+
+| Cảnh | Thời gian | Lời thoại (cue) | Mục tiêu học tập | Hình ảnh / animation | Chữ trên màn hình | Chuyển cảnh | SFX |
+|---|---|---|---|---|---|---|---|
+| **S01** Intro | 0:00–0:16 | c1 chào · c2 hook đặt món · c3 "câu trả lời là API" | Tạo tò mò, nêu chủ đề | Trái: tiêu đề lớn + dải "API · REQUEST · RESPONSE" chạy. Hai polaroid `waiter_order` + `chef_cook` trượt vào, đường nét tay nối, chấm request chạy. Giáo viên An vẫy → chỉ. | "API LÀ GÌ?" + "5 PHÚT BÓC TRẦN" | Fade + whoosh | chime intro, whoosh, pop, marker |
+| **S02** Vấn đề | 0:16–0:44 | c1 frontend/backend · c2 chép cứng dữ liệu · c3 cần quầy chung | Hiểu vì sao cần API | Sơ đồ 3 khối Client–Server–DB (`fe_be_db` crop bỏ logo) + thẻ code "price = 15.900.000" lặp 4 nơi, gạch đỏ. Xuất hiện "1 QUY TẮC CHUNG". | "2 THẾ GIỚI · 0 QUY TẮC" → "CẦN 1 QUẦY CHUNG" | Slide nhẹ | whoosh, deny, pop |
+| **S03** API là gì | 0:44–1:18 | c1 định nghĩa · c2 ổ cắm · c3 ba đặc điểm | Phát biểu được API | Vector tự dựng: phích cắm → ổ cắm có nhãn API → nhà máy. Nét marker khoanh ổ cắm. 3 chip đặc điểm hiện lần lượt. | "APPLICATION PROGRAMMING INTERFACE", "Ổ CẮM GIỮA CÁC HỆ THỐNG" | Fade + zoom 1,04 | marker, pop ×3, chime |
+| **S04** Nhà hàng | 1:18–1:56 | c1 mapping · c2 5 bước · c3 bồi bàn không nấu ăn | Nhớ mapping API = bồi bàn | 5 cột: Khách (icon) – Bồi bàn (`waiter_order` ảnh tròn) – Bếp (`chef_cook` ảnh tròn) – Kho (database icon). Phiếu request bay sang phải, đĩa response bay về. Bảng mapping 6 dòng hiện dần. Nền mờ `handdrawn_cycle`. | "API = ANH BỒI BÀN", mapping chips | Pan nhẹ + fade | whoosh ×2, marker, pop, success |
+| **S05** Endpoint | 1:56–2:26 | c1 endpoint là địa chỉ · c2 bóc URL · c3 cửa + method | Phân biệt API/Endpoint | URL lớn `https://example.com/api/products/1`, 5 nhãn màu trượt xuống từng đoạn, marker gạch chân. Bên phải: 3 thẻ quầy (products/orders/users). | URL + nhãn màu, "ENDPOINT = ĐỊA CHỈ" | Slide + mask | marker ×2, tick, pop |
+| **S06** Request | 2:26–2:56 | c1 bốn phần · c2 giải thích · c3 request thật | Đọc được request | "Phiếu request" 4 dòng: POST /api/products · Headers · Body JSON. `waiter_chef_flat` hiện nhỏ góc phải ("NEW ORDER" → bếp) minh họa phiếu đi vào bếp. | "REQUEST = LÁ PHIẾU", JSON body thật | Fade | pop, whoosh, marker |
+| **S07** Method + Status | 2:56–3:30 | c1 GET/POST/PUT/DELETE · c2 CRUD · c3 status code | Nhớ method, mã trạng thái | Bảng 5 method (GET xanh, POST xanh dương, PUT hổ phách, PATCH tím, DELETE đỏ), ánh xạ CRUD. Hàng mã trạng thái 200/201/400/401/404/500 hiện lần lượt, viền theo nhóm màu. | Bảng method + dải status | Slide trượt | tick ×5, pop, chime |
+| **S08** Response & JSON | 3:30–3:56 | c1 ba phần · c2 kiểu dữ liệu · c3 stringify/parse | Hiểu JSON | Response card navy: status 200 → headers → body JSON sản phẩm. Tách 6 kiểu dữ liệu thành chip. Mũi tên hai chiều stringify/parse. | "RESPONSE = STATUS + HEADERS + BODY" | Fade | pop, tick, whoosh |
+| **S09** Thực chiến | 3:56–4:30 | c1 Express · c2 chạy thử · c3 Fetch | Hình dung code tối giản | Code editor tự dựng (JetBrains Mono) 12 dòng Express; highlight từng dòng theo lời. Ảnh `postman_get` + `thunder_client` trượt vào làm bằng chứng; `fetch_code` chỉ làm nền mờ. | Code + "200 OK" + "GET /api/products" | Cut sạch + zoom | key/click, pop, success |
+| **S10** Lỗi + tổng kết | 4:30–4:58 | c1 ba lỗi · c2 ba điều nhớ · c3 mời bài sau | Củng cố | 3 thẻ lỗi (body rỗng, CORS chặn, không validate) gạch chéo; rồi 3 chip tổng kết + sơ đồ một dòng Request → API → JSON → Response. | "3 LỖI HAY GẶP" → "3 ĐIỀU NHỚ" | Wipe | deny ×3, chime, marker |
+| **S11** Outro | 4:58–5:06 | c1 cảm ơn · c2 hẹn gặp | Nhận diện thương hiệu | Logo chữ AN TECH ACADEMY + sóng mạng vẽ tay, giáo viên vẫy. | "HIỂU CÔNG NGHỆ, LÀM CHỦ TƯƠNG LAI" | Fade to navy | chime kết |
+
+## Liên kết logic
+
+S01 hook → S02 vì sao cần → S03 định nghĩa → S04 ví dụ chốt bản chất → S05 địa chỉ (endpoint) → S06 phiếu gửi (request) → S07 hành động + kết quả → S08 kết quả chi tiết (response/JSON) → S09 áp dụng → S10 sai sót + chốt → S11 outro. Mỗi cảnh mở bằng câu nối tiếp cảnh trước, không lặp định nghĩa.

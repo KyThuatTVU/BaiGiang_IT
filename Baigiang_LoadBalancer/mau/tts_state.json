@@ -1,0 +1,132 @@
+{
+ "S01c1": {
+  "dur": 10.94,
+  "variant": 1,
+  "bytes": 69788
+ },
+ "S01c2": {
+  "dur": 8.23,
+  "variant": 0,
+  "bytes": 43940
+ },
+ "S01c3": {
+  "dur": 8.64,
+  "variant": 0,
+  "bytes": 50156
+ },
+ "S02c1": {
+  "dur": 9.4,
+  "variant": 0,
+  "bytes": 56448
+ },
+ "S02c2": {
+  "dur": 15.69,
+  "variant": 1,
+  "bytes": 90500
+ },
+ "S03c1": {
+  "dur": 9.48,
+  "variant": 1,
+  "bytes": 58556
+ },
+ "S03c2": {
+  "dur": 10.05,
+  "variant": 1,
+  "bytes": 67292
+ },
+ "S04c1": {
+  "dur": 14.11,
+  "variant": 1,
+  "bytes": 74180
+ },
+ "S04c2": {
+  "dur": 16.72,
+  "variant": 0,
+  "bytes": 100368
+ },
+ "S05c1": {
+  "dur": 9.04,
+  "variant": 0,
+  "bytes": 54288
+ },
+ "S05c2": {
+  "dur": 8.56,
+  "variant": 0,
+  "bytes": 49364
+ },
+ "S06c2": {
+  "dur": 12.57,
+  "variant": 0,
+  "bytes": 77036
+ },
+ "S07c1": {
+  "dur": 9.98,
+  "variant": 0,
+  "bytes": 59804
+ },
+ "S07c2": {
+  "dur": 7.65,
+  "variant": 1,
+  "bytes": 46220
+ },
+ "S08c1": {
+  "dur": 6.98,
+  "variant": 0,
+  "bytes": 42836
+ },
+ "S08c2": {
+  "dur": 15.09,
+  "variant": 0,
+  "bytes": 87908
+ },
+ "S09c1": {
+  "dur": 8.73,
+  "variant": 0,
+  "bytes": 52416
+ },
+ "S09c2": {
+  "dur": 9.43,
+  "variant": 3,
+  "bytes": 56036
+ },
+ "S10c1": {
+  "dur": 8.59,
+  "variant": 1,
+  "bytes": 50588
+ },
+ "S10c2": {
+  "dur": 11.13,
+  "variant": 1,
+  "bytes": 68996
+ },
+ "S11c1": {
+  "dur": 9.69,
+  "variant": 0,
+  "bytes": 58176
+ },
+ "S11c2": {
+  "dur": 7.85,
+  "variant": 1,
+  "bytes": 48092
+ },
+ "S12c1": {
+  "dur": 9.5,
+  "variant": 2,
+  "bytes": 57024
+ },
+ "S12c2": {
+  "dur": 8.04,
+  "variant": 0,
+  "bytes": 50708
+ },
+ "S12c3": {
+  "dur": 12.91,
+  "variant": 1,
+  "bytes": 83156
+ },
+ "S06c1": {
+  "dur": 11.11,
+  "variant": 4,
+  "bytes": 65996
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "file": "D:/Edit/Baigiang_API/mau/demo30_vieneu/api_pro_demo30_an.mp4",
+ "dur_s": 30.31,
+ "loudness": {
+  "LUFS": -14.48,
+  "TP": -1.1,
+  "LRA": 2.5
+ },
+ "f0": {
+  "median": 157.1,
+  "p10": 128.4,
+  "p90": 212.2,
+  "voiced_pct": 56.4
+ },
+ "asr_words": 77,
+ "asr_speech_s": 29.08,
+ "wpm": 159.0,
+ "transcript": [
+  {
+   "t0": 0.02,
+   "t1": 7.02,
+   "text": "API, giao diện lập trình ứng dụng, lập trung gian giữa các hệ thống, hợp đồng giữa Client và Server."
+  },
+  {
+   "t0": 7.02,
+   "t1": 11.22,
+   "text": "Client viết bằng React, gửi request qua giao thức HTTP."
+  },
+  {
+   "t0": 11.22,
+   "t1": 21.22,
+   "text": "API trên node.js, tiếp nhận, sát trực token và định tuyến, truy vấn manageql và lấy dữ liệu cần thiết, trải response,"
+  },
+  {
+   "t0": 21.22,
+   "t1": 24.22,
+   "text": "kè mãi trạng thái 200 và thời gian phản hồi."
+  },
+  {
+   "t0": 24.22,
+   "t1": 29.1,
+   "text": "toàn bộ vòng gọi chỉ mất vài trục milij. Một vòng gọi API chọn vẹn."
+  }
+ ],
+ "ref_f0": {
+  "median": 152.2,
+  "p10": 128.4,
+  "p90": 170.3,
+  "voiced_pct": 37.9
+ }
+}

@@ -1,0 +1,716 @@
+1
+00:00:00,000 --> 00:00:04,510
+Để một ứng dụng mua sắm trực tuyến
+đến tay bạn, cần bao nhiêu người phía sau?
+
+2
+00:00:04,760 --> 00:00:08,550
+Không chỉ một lập trình viên đâu —
+mà là cả một đội ngũ.
+
+3
+00:00:08,800 --> 00:00:11,480
+Mỗi người một vai trò rất khác nhau.
+
+4
+00:00:12,980 --> 00:00:17,750
+Xin chào các bạn!
+Chào mừng đến với An Tech Academy —
+
+5
+00:00:18,000 --> 00:00:22,390
+nơi chúng ta cùng khám phá công nghệ
+theo cách dễ hiểu và thực tế nhất.
+
+6
+00:00:22,640 --> 00:00:27,170
+Hôm nay, chúng ta sẽ mở tấm bản đồ
+sáu chuyên ngành của Công nghệ thông tin,
+
+7
+00:00:27,420 --> 00:00:30,390
+để bạn tìm ra con đường phù hợp với mình.
+
+8
+00:00:31,890 --> 00:00:35,800
+Sau video này, bạn sẽ phân biệt được
+sáu nhóm chuyên ngành,
+
+9
+00:00:36,050 --> 00:00:39,410
+kể được vài vị trí nghề nghiệp tiêu biểu
+của mỗi nhóm,
+
+10
+00:00:39,660 --> 00:00:43,040
+và tự đối chiếu sở thích của mình
+với từng hướng đi.
+
+11
+00:00:43,290 --> 00:00:49,090
+Sáu nhóm đó là: Công nghệ phần mềm;
+Khoa học dữ liệu và Trí tuệ nhân tạo;
+
+12
+00:00:49,340 --> 00:00:54,060
+An toàn thông tin; Hệ thống thông tin;
+Mạng máy tính và Điện toán đám mây;
+
+13
+00:00:54,310 --> 00:00:58,820
+cùng Đồ họa máy tính và
+Phát triển trò chơi. Bắt đầu nhé!
+
+14
+00:01:00,320 --> 00:01:02,930
+Đầu tiên: Công nghệ phần mềm.
+
+15
+00:01:03,180 --> 00:01:08,770
+Đây là lĩnh vực nghiên cứu, phân tích,
+thiết kế, xây dựng, kiểm thử
+
+16
+00:01:09,020 --> 00:01:11,440
+và bảo trì sản phẩm phần mềm.
+
+17
+00:01:11,690 --> 00:01:16,870
+Nói dễ hiểu: muốn biến ý tưởng như
+website bán hàng, ứng dụng đặt đồ ăn,
+
+18
+00:01:17,120 --> 00:01:20,360
+hay phần mềm quản lý sinh viên
+thành sản phẩm chạy được,
+
+19
+00:01:20,610 --> 00:01:22,960
+bạn cần Công nghệ phần mềm.
+
+20
+00:01:24,460 --> 00:01:27,240
+Trong đó có ba hướng lập trình phổ biến.
+
+21
+00:01:27,490 --> 00:01:31,490
+Frontend Developer xây dựng giao diện
+người dùng trực tiếp nhìn thấy,
+
+22
+00:01:31,740 --> 00:01:37,690
+với HTML, CSS, JavaScript
+và thư viện React.
+
+23
+00:01:37,940 --> 00:01:42,830
+Backend Developer xử lý nghiệp vụ
+phía máy chủ: đăng nhập, đơn hàng,
+
+24
+00:01:43,080 --> 00:01:48,930
+thanh toán, kết nối cơ sở dữ liệu;
+công nghệ thường gặp là Node.js, Java,
+
+25
+00:01:49,180 --> 00:01:52,970
+PHP, Python và C#.
+
+26
+00:01:53,220 --> 00:01:56,430
+Full-stack Developer làm được cả hai phía.
+
+27
+00:01:57,930 --> 00:02:02,170
+Bên cạnh lập trình viên còn có
+Software Tester và QA Engineer —
+
+28
+00:02:02,420 --> 00:02:07,430
+người kiểm thử, săn lỗi và giữ chất lượng
+phần mềm trước khi đến tay người dùng.
+
+29
+00:02:07,680 --> 00:02:11,300
+Sản phẩm tốt không chỉ chạy được,
+mà còn phải chạy đúng.
+
+30
+00:02:11,550 --> 00:02:15,100
+Một lỗi nhỏ lọt ra ngoài
+cũng có thể làm hỏng trải nghiệm
+
+31
+00:02:15,350 --> 00:02:17,360
+của hàng nghìn người dùng.
+
+32
+00:02:18,860 --> 00:02:22,700
+Nhóm này hợp với bạn nếu bạn thích
+lập trình, tư duy logic
+
+33
+00:02:22,950 --> 00:02:26,860
+và muốn tự tay làm ra sản phẩm công nghệ
+dùng được trong thực tế.
+
+34
+00:02:28,360 --> 00:02:32,460
+Chuyên ngành thứ hai: Khoa học dữ liệu
+và Trí tuệ nhân tạo.
+
+35
+00:02:32,710 --> 00:02:37,600
+Mỗi lần bạn tìm kiếm trên Google,
+xem video trên YouTube hay mua hàng
+
+36
+00:02:37,850 --> 00:02:40,990
+trực tuyến, hệ thống đều ghi nhận dữ liệu.
+
+37
+00:02:41,240 --> 00:02:44,160
+Nhưng dữ liệu thô chưa tự có giá trị —
+
+38
+00:02:44,410 --> 00:02:47,810
+phải phân tích, xử lý và khai thác nó.
+
+39
+00:02:49,310 --> 00:02:53,630
+Khoa học dữ liệu dùng thống kê, lập trình
+và thuật toán
+
+40
+00:02:53,880 --> 00:02:58,050
+để tìm xu hướng, quy luật
+và thông tin hữu ích từ dữ liệu.
+
+41
+00:02:58,300 --> 00:03:02,760
+Trí tuệ nhân tạo đi xa hơn:
+xây dựng hệ thống biết học từ dữ liệu
+
+42
+00:03:03,010 --> 00:03:05,620
+để thực hiện những nhiệm vụ thông minh.
+
+43
+00:03:05,870 --> 00:03:09,110
+Khoa học dữ liệu thiên về
+phân tích và giải thích;
+
+44
+00:03:09,360 --> 00:03:12,810
+AI thiên về dạy máy tự học
+để thực hiện nhiệm vụ.
+
+45
+00:03:14,310 --> 00:03:18,510
+Ví dụ: bạn vừa xem một chiếc điện thoại
+trên trang thương mại điện tử,
+
+46
+00:03:18,760 --> 00:03:21,970
+hệ thống phân tích lịch sử
+tìm kiếm và mua hàng,
+
+47
+00:03:22,220 --> 00:03:25,260
+để gợi ý những sản phẩm hợp sở thích bạn.
+
+48
+00:03:25,510 --> 00:03:30,280
+Đó chính là hệ thống gợi ý sản phẩm —
+một ứng dụng rất đời thường của AI.
+
+49
+00:03:31,780 --> 00:03:39,670
+Công nghệ thường gặp: Python, SQL, Pandas,
+Scikit-learn, TensorFlow và PyTorch.
+
+50
+00:03:39,920 --> 00:03:44,160
+Vị trí nghề nghiệp: Data Analyst,
+Data Scientist,
+
+51
+00:03:44,410 --> 00:03:47,860
+Machine Learning Engineer, AI Engineer.
+
+52
+00:03:48,110 --> 00:03:53,750
+Hợp với bạn nếu bạn thích toán, thống kê
+và tò mò cách máy tính học hỏi, dự đoán.
+
+53
+00:03:55,250 --> 00:03:57,740
+Thứ ba: An toàn thông tin.
+
+54
+00:03:57,990 --> 00:04:00,910
+Thử tưởng tượng tài khoản ngân hàng
+bị đánh cắp,
+
+55
+00:04:01,160 --> 00:04:05,330
+thông tin khách hàng bị rò rỉ,
+hay hệ thống máy chủ bị tấn công —
+
+56
+00:04:05,580 --> 00:04:08,100
+hậu quả sẽ nghiêm trọng thế nào?
+
+57
+00:04:08,350 --> 00:04:11,900
+An toàn thông tin hướng đến giải quyết
+chính những vấn đề đó.
+
+58
+00:04:13,400 --> 00:04:17,520
+Người làm bảo mật tìm lỗ hổng,
+kiểm tra sức phòng thủ của hệ thống,
+
+59
+00:04:17,770 --> 00:04:21,680
+giám sát hoạt động đáng ngờ
+và xây giải pháp ngăn tấn công.
+
+60
+00:04:21,930 --> 00:04:25,960
+Ví dụ, chuyên gia kiểm thử xâm nhập
+có thể được doanh nghiệp giao
+
+61
+00:04:26,210 --> 00:04:30,090
+dò tìm điểm yếu của website
+trước khi hacker kịp khai thác.
+
+62
+00:04:30,340 --> 00:04:34,340
+Họ cũng diễn tập ứng phó sự cố
+để doanh nghiệp không bị động
+
+63
+00:04:34,590 --> 00:04:36,770
+khi tấn công thật xảy ra.
+
+64
+00:04:38,270 --> 00:04:41,770
+Một nguyên tắc bắt buộc:
+mọi hoạt động kiểm thử xâm nhập
+
+65
+00:04:42,020 --> 00:04:44,850
+chỉ được thực hiện trong phạm vi
+được cho phép.
+
+66
+00:04:45,100 --> 00:04:48,960
+Bảo mật là bảo vệ hệ thống,
+không phải tấn công tùy tiện.
+
+67
+00:04:50,460 --> 00:04:56,600
+Vị trí phổ biến: Security Analyst,
+Penetration Tester, Security Engineer.
+
+68
+00:04:56,850 --> 00:05:02,680
+Kiến thức nền: mạng máy tính,
+hệ điều hành, Linux, mã hóa dữ liệu
+
+69
+00:05:02,930 --> 00:05:04,970
+và bảo mật ứng dụng.
+
+70
+00:05:05,220 --> 00:05:08,530
+Hợp với bạn nếu bạn cẩn thận,
+thích khám phá
+
+71
+00:05:08,780 --> 00:05:11,610
+và muốn bảo vệ các hệ thống công nghệ.
+
+72
+00:05:13,110 --> 00:05:17,670
+Thứ tư: Hệ thống thông tin —
+lĩnh vực kết hợp công nghệ, dữ liệu
+
+73
+00:05:17,920 --> 00:05:20,460
+và hoạt động quản lý của doanh nghiệp.
+
+74
+00:05:20,710 --> 00:05:23,900
+Khác với việc tập trung viết code
+để tạo sản phẩm,
+
+75
+00:05:24,150 --> 00:05:28,610
+ở đây công nghệ được dùng để giải
+các bài toán quản lý và vận hành thực tế.
+
+76
+00:05:30,110 --> 00:05:33,990
+Ví dụ: một công ty muốn xây
+hệ thống quản lý nhân sự.
+
+77
+00:05:34,240 --> 00:05:38,890
+Trước khi lập trình, phải tìm hiểu
+quy trình tuyển dụng, chấm công,
+
+78
+00:05:39,140 --> 00:05:42,640
+tính lương, phân quyền và quản lý hồ sơ.
+
+79
+00:05:42,890 --> 00:05:47,010
+Người phân tích và chuyển các yêu cầu đó
+thành tài liệu cho đội phát triển
+
+80
+00:05:47,260 --> 00:05:51,700
+chính là Business Analyst —
+chuyên viên phân tích nghiệp vụ.
+
+81
+00:05:53,200 --> 00:05:57,540
+Ngoài ra còn có System Analyst,
+Database Administrator
+
+82
+00:05:57,790 --> 00:06:00,830
+và chuyên viên triển khai hệ thống ERP.
+
+83
+00:06:01,080 --> 00:06:07,560
+Kiến thức quan trọng gồm SQL,
+cơ sở dữ liệu, UML, BPMN,
+
+84
+00:06:07,810 --> 00:06:10,850
+phân tích nghiệp vụ và thiết kế hệ thống.
+
+85
+00:06:12,350 --> 00:06:15,300
+Hợp với bạn nếu bạn thích
+phân tích vấn đề,
+
+86
+00:06:15,550 --> 00:06:19,770
+tìm hiểu cách doanh nghiệp vận hành,
+và làm cầu nối giữa người sử dụng
+
+87
+00:06:20,020 --> 00:06:22,100
+với đội ngũ lập trình.
+
+88
+00:06:23,600 --> 00:06:27,170
+Thứ năm: Mạng máy tính
+và Điện toán đám mây.
+
+89
+00:06:27,420 --> 00:06:31,980
+Một trường đại học với hàng nghìn
+máy tính, hệ thống Wi-Fi, máy chủ
+
+90
+00:06:32,230 --> 00:06:37,750
+và phần mềm quản lý — làm sao tất cả
+kết nối, trao đổi dữ liệu và chạy ổn định?
+
+91
+00:06:38,000 --> 00:06:40,680
+Đó là nhiệm vụ của người làm mạng.
+
+92
+00:06:42,180 --> 00:06:47,360
+Họ thiết kế, cấu hình, triển khai
+và bảo trì mạng nội bộ, máy chủ
+
+93
+00:06:47,610 --> 00:06:49,690
+và thiết bị kết nối.
+
+94
+00:06:49,940 --> 00:06:58,650
+Kiến thức nền gồm TCP/IP, DNS, DHCP,
+Linux, Windows Server, ảo hóa
+
+95
+00:06:58,900 --> 00:07:00,980
+và quản trị hệ thống.
+
+96
+00:07:02,480 --> 00:07:06,340
+Ngày nay, thay vì tự đầu tư
+toàn bộ máy chủ vật lý,
+
+97
+00:07:06,590 --> 00:07:10,450
+doanh nghiệp có thể dùng tài nguyên
+điện toán từ các nền tảng đám mây
+
+98
+00:07:10,700 --> 00:07:16,720
+như Amazon Web Services, Microsoft Azure
+hay Google Cloud —
+
+99
+00:07:16,970 --> 00:07:20,010
+linh hoạt hơn và trả theo mức sử dụng.
+
+100
+00:07:20,260 --> 00:07:24,120
+Đám mây cũng giúp đội ngũ kỹ thuật mở rộng
+hệ thống trong vài phút
+
+101
+00:07:24,370 --> 00:07:26,980
+thay vì vài tuần mua sắm phần cứng.
+
+102
+00:07:28,480 --> 00:07:33,850
+Vị trí nghề nghiệp: Network Engineer,
+System Administrator, Cloud Engineer
+
+103
+00:07:34,100 --> 00:07:36,230
+và IT Support.
+
+104
+00:07:36,480 --> 00:07:40,150
+Hợp với bạn nếu bạn thích tìm hiểu
+cách Internet vận hành,
+
+105
+00:07:40,400 --> 00:07:44,400
+cách máy chủ hoạt động
+và cách các thiết bị kết nối với nhau.
+
+106
+00:07:45,900 --> 00:07:50,100
+Cuối cùng: Đồ họa máy tính
+và Phát triển trò chơi điện tử —
+
+107
+00:07:50,350 --> 00:07:54,500
+nơi lập trình gặp mỹ thuật, sáng tạo
+và công nghệ mô phỏng.
+
+108
+00:07:54,750 --> 00:07:58,230
+Bạn từng chơi những trò chơi có nhân vật
+chuyển động chân thực,
+
+109
+00:07:58,480 --> 00:08:00,800
+môi trường ba chiều sống động?
+
+110
+00:08:01,050 --> 00:08:05,130
+Đằng sau là cả đội ngũ lập trình viên
+và chuyên viên đồ họa.
+
+111
+00:08:06,630 --> 00:08:11,400
+Người làm lĩnh vực này phát triển
+trò chơi điện tử, mô hình 3D, hoạt hình,
+
+112
+00:08:11,650 --> 00:08:15,030
+mô phỏng kỹ thuật và các ứng dụng
+thực tế ảo —
+
+113
+00:08:15,280 --> 00:08:18,180
+vừa cần code, vừa cần mắt thẩm mỹ.
+
+114
+00:08:19,680 --> 00:08:26,590
+Công nghệ phổ biến gồm Unity,
+Unreal Engine, C#, C++, Blender
+
+115
+00:08:26,840 --> 00:08:29,480
+và các công cụ thiết kế đồ họa.
+
+116
+00:08:29,730 --> 00:08:34,720
+Vị trí nghề nghiệp: Game Developer,
+Game Designer, 3D Artist
+
+117
+00:08:34,970 --> 00:08:37,270
+và Graphics Programmer.
+
+118
+00:08:38,770 --> 00:08:42,920
+Hợp với bạn nếu bạn vừa mê công nghệ,
+vừa thích thiết kế hình ảnh
+
+119
+00:08:43,170 --> 00:08:45,350
+và trò chơi điện tử.
+
+120
+00:08:45,600 --> 00:08:49,990
+Sáng tạo ở đây không chỉ là vẽ đẹp —
+mà còn làm cho thế giới ảo
+
+121
+00:08:50,240 --> 00:08:52,470
+chuyển động đúng và mượt.
+
+122
+00:08:53,970 --> 00:08:56,410
+Vậy đâu là chuyên ngành tốt nhất?
+
+123
+00:08:56,660 --> 00:09:00,930
+Câu trả lời: không có chuyên ngành nào
+tốt nhất cho tất cả mọi người.
+
+124
+00:09:01,180 --> 00:09:05,520
+Mỗi lĩnh vực có yêu cầu, đặc điểm
+và cơ hội phát triển riêng.
+
+125
+00:09:05,770 --> 00:09:08,770
+Điều đáng chọn là chuyên ngành
+phù hợp với bạn,
+
+126
+00:09:09,020 --> 00:09:11,440
+không phải chuyên ngành "hot" nhất.
+
+127
+00:09:12,940 --> 00:09:17,160
+Thích lập trình, xây ứng dụng?
+Công nghệ phần mềm.
+
+128
+00:09:17,410 --> 00:09:21,700
+Mê phân tích dữ liệu và AI?
+Khoa học dữ liệu.
+
+129
+00:09:21,950 --> 00:09:26,480
+Quan tâm bảo mật, phòng chống tấn công?
+An toàn thông tin.
+
+130
+00:09:26,730 --> 00:09:31,070
+Thích quy trình và bài toán quản lý?
+Hệ thống thông tin.
+
+131
+00:09:31,320 --> 00:09:36,480
+Mê hạ tầng, máy chủ, kết nối mạng?
+Mạng và đám mây.
+
+132
+00:09:36,730 --> 00:09:41,930
+Còn đam mê hình ảnh, thiết kế, trò chơi?
+Đồ họa và game.
+
+133
+00:09:43,430 --> 00:09:46,860
+Bây giờ, dừng lại ba giây và tự hỏi:
+
+134
+00:09:47,110 --> 00:09:51,640
+mình thích tạo ra sản phẩm,
+phân tích dữ liệu, hay bảo vệ hệ thống?
+
+135
+00:09:54,890 --> 00:09:58,050
+Câu trả lời chính là manh mối
+đầu tiên của bạn.
+
+136
+00:09:59,550 --> 00:10:03,650
+Và một lời khuyên quan trọng:
+đừng chọn chuyên ngành chỉ vì nghe nói
+
+137
+00:10:03,900 --> 00:10:05,980
+lĩnh vực đó lương cao.
+
+138
+00:10:06,230 --> 00:10:10,140
+Hãy tìm hiểu bản chất công việc,
+thử thực hành một dự án nhỏ,
+
+139
+00:10:10,390 --> 00:10:13,600
+rồi tự đánh giá xem mình
+có thực sự phù hợp.
+
+140
+00:10:15,100 --> 00:10:18,740
+Tóm lại, Công nghệ thông tin
+là một thế giới rộng lớn,
+
+141
+00:10:18,990 --> 00:10:21,670
+mỗi chuyên ngành một vai trò quan trọng.
+
+142
+00:10:21,920 --> 00:10:25,420
+Dù chọn con đường nào,
+hãy nhớ ba hành trang:
+
+143
+00:10:25,670 --> 00:10:29,390
+nền tảng kiến thức vững chắc,
+khả năng thực hành,
+
+144
+00:10:29,640 --> 00:10:32,080
+và tinh thần học hỏi không ngừng.
+
+145
+00:10:32,330 --> 00:10:37,150
+Công nghệ có thể đổi thay từng ngày,
+nhưng tư duy và cách học mới là hành trang
+
+146
+00:10:37,400 --> 00:10:39,480
+đi cùng bạn lâu dài.
+
+147
+00:10:40,980 --> 00:10:43,420
+Bạn đang nghiêng về chuyên ngành nào?
+
+148
+00:10:43,670 --> 00:10:47,700
+Hãy để lại câu trả lời,
+và thử một dự án nhỏ đầu tiên
+
+149
+00:10:47,950 --> 00:10:49,820
+ngay tuần này nhé.
+
+150
+00:10:51,320 --> 00:10:54,240
+Cảm ơn bạn đã theo dõi bài giảng hôm nay.
+
+151
+00:10:54,490 --> 00:10:58,950
+Đừng quên theo dõi An Tech Academy
+để cùng khám phá thêm nhiều kiến thức
+
+152
+00:10:59,200 --> 00:11:01,070
+công nghệ hữu ích.
+
+153
+00:11:01,320 --> 00:11:04,940
+Xin chào và hẹn gặp lại
+trong những bài học tiếp theo!

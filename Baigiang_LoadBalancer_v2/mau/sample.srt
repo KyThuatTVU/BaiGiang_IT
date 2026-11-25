@@ -1,0 +1,29 @@
+1
+00:00:00,000 --> 00:00:07,470
+Chào các bạn! Chào mừng đến với An Tech Academy.
+5.000 người cùng mua hàng trong một giây — web có sập không?
+
+2
+00:00:07,970 --> 00:00:12,080
+Câu trả lời là Load Balancer.
+Cách giữ hệ thống đứng vững khi truy cập tăng vọt.
+
+3
+00:00:13,080 --> 00:00:17,620
+Ngày 12/12, 5.000 người truy cập cùng lúc,
+dồn hết request vào một server.
+
+4
+00:00:18,420 --> 00:00:24,540
+CPU vọt lên, RAM đầy, trang quay mãi.
+Một server khỏe đến mấy cũng có giới hạn.
+
+5
+00:00:25,540 --> 00:00:29,500
+Load Balancer đứng trước các server,
+nhận request rồi chia đều cho phía sau.
+
+6
+00:00:30,300 --> 00:00:33,580
+Giống trạm thu phí:
+nhiều làn, một nhân viên điều phối.

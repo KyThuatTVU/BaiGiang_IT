@@ -1,0 +1,16 @@
+S01 encoded 905
+S02 encode skip
+S03 encode skip
+S04 encode skip
+S05 encode skip
+S06 encode skip
+S07 encode skip
+S08 encode skip
+S09 encode skip
+S10 encode skip
+S11 encode skip
+S12 encode skip
+VIDEO full 290.10s
+LOUDNORM_IN {'input_i': '-20.10', 'input_tp': '-2.13', 'input_lra': '2.80'}
+FINAL_LOUDNESS {'input_i': '-14.72', 'input_tp': '-0.80', 'input_lra': '2.80'}
+DRAFT_DONE full 290.08s

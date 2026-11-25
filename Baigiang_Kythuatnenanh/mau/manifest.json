@@ -1,0 +1,379 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+15%",
+  "shift": 1.0,
+  "pause_after": 0.25,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy. Thử tưởng tượng: trang web bán điện thoại có ba mươi tấm ảnh, mỗi tấm năm MB. Đợi mãi… mà ảnh vẫn chưa hiện ra.",
+  "say": "Chào các bạn! Chào mừng đến với An Tếch A-ca-đê-mi. Thử tưởng tượng: trang web bán điện thoại có ba mươi tấm ảnh, mỗi tấm năm mê-ga-bai. Đợi mãi… mà ảnh vẫn chưa hiện ra.",
+  "subs": [
+   "Chào các bạn! Chào mừng đến với An Tech Academy.",
+   "Trang web 30 ảnh, mỗi ảnh 5 MB — đợi mãi ảnh chưa hiện."
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+13%",
+  "shift": 0.5,
+  "pause_after": 0.2,
+  "text": "Cộng lại là một trăm năm mươi MB cho một trang chủ. Trên mạng di động, chậm khỏi bàn. Khách chờ lâu, họ bỏ đi — đơn hàng đi theo.",
+  "say": "Cộng lại là một trăm năm mươi mê-ga-bai cho một trang chủ. Trên mạng di động, chậm khỏi bàn. Khách chờ lâu, họ bỏ đi — đơn hàng đi theo.",
+  "subs": [
+   "30 × 5 MB = 150 MB cho một trang chủ.",
+   "Mạng di động càng chậm — khách bỏ đi, đơn hàng đi theo."
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+12%",
+  "shift": 0.4,
+  "pause_after": 0.35,
+  "text": "Hôm nay mình học cách làm ảnh nhẹ đi mà mắt vẫn thấy đẹp. Tên chuyên môn: nén ảnh — Image Compression. Bắt đầu nhé!",
+  "say": "Hôm nay mình học cách làm ảnh nhẹ đi mà mắt vẫn thấy đẹp. Tên chuyên môn: nén ảnh — i-mịch com-pờ-ré-sần. Bắt đầu nhé!",
+  "subs": [
+   "Hôm nay: làm ảnh nhẹ đi mà mắt vẫn thấy đẹp.",
+   "Tên chuyên môn: nén ảnh — Image Compression."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang, tốn băng thông, tốn chỗ lưu trữ. Băng thông và máy chủ đều là chi phí thật của người làm web.",
+  "say": "Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang, tốn băng thông, tốn chỗ lưu trữ. Băng thông và máy chủ đều là chi phí thật của người làm web.",
+  "subs": [
+   "Vì sao phải nén? Ảnh nặng quyết định tốc độ tải trang,",
+   "tốn băng thông, tốn lưu trữ — mỗi MB đều có chi phí."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+9%",
+  "shift": -0.1,
+  "pause_after": 0.4,
+  "text": "Và quan trọng nhất: trải nghiệm. Trang thương mại điện tử tải chậm là trang khó bán hàng. Các bạn đã bao giờ bỏ đi vì chờ quá lâu chưa?",
+  "say": "Và quan trọng nhất: trải nghiệm. Trang thương mại điện tử tải chậm là trang khó bán hàng. Các bạn đã bao giờ bỏ đi vì chờ quá lâu chưa?",
+  "subs": [
+   "Quan trọng nhất: trải nghiệm.",
+   "Trang tải chậm là trang khó bán hàng."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+8%",
+  "shift": -0.2,
+  "pause_after": 0.3,
+  "text": "Nén ảnh là quá trình giảm dung lượng hình ảnh bằng cách loại bỏ hoặc tổ chức lại thông tin theo một thuật toán. Giống dọn vali: vẫn đủ đồ, xếp khéo nên nhẹ hơn.",
+  "say": "Nén ảnh là quá trình giảm dung lượng hình ảnh bằng cách loại bỏ hoặc tổ chức lại thông tin theo một thuật toán. Giống dọn vali: vẫn đủ đồ, xếp khéo nên nhẹ hơn.",
+  "subs": [
+   "Nén ảnh: giảm dung lượng bằng cách loại bỏ hoặc",
+   "tổ chức lại thông tin theo một thuật toán."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.35,
+  "text": "Ví dụ: ảnh sản phẩm năm MB, sau khi nén còn ba trăm năm mươi KB — giảm chín mươi ba phần trăm. Số liệu giả định thôi nhé, thực tế còn tùy ảnh và mức nén.",
+  "say": "Ví dụ: ảnh sản phẩm năm mê-ga-bai, sau khi nén còn ba trăm năm mươi ki-lô-bai — giảm chín mươi ba phần trăm. Số liệu giả định thôi nhé, thực tế còn tùy ảnh và mức nén.",
+  "subs": [
+   "Ví dụ: 5 MB → 350 KB, giảm khoảng 93%.",
+   "(Số liệu giả định để minh họa — thực tế tùy ảnh.)"
+  ]
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.4,
+  "text": "Dung lượng nhỏ hơn là tải nhanh hơn, ít tốn băng thông, ít tốn chỗ lưu trữ, khách ở lại lâu hơn. Một mũi tên trúng bốn đích.",
+  "say": "Dung lượng nhỏ hơn là tải nhanh hơn, ít tốn băng thông, ít tốn chỗ lưu trữ, khách ở lại lâu hơn. Một mũi tên trúng bốn đích.",
+  "subs": [
+   "Tải nhanh hơn · ít băng thông · ít lưu trữ ·",
+   "khách ở lại lâu hơn — một mũi tên trúng bốn đích."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+8%",
+  "shift": -0.1,
+  "pause_after": 0.3,
+  "text": "Có hai trường phái. Thứ nhất: nén mất dữ liệu — Lossy Compression. Nó chủ động vứt chi tiết mắt người khó thấy, đổi lấy dung lượng nhỏ hơn nhiều. JPEG là ví dụ quen thuộc.",
+  "say": "Có hai trường phái. Thứ nhất: nén mất dữ liệu — lót-xi com-pờ-ré-sần. Nó chủ động vứt chi tiết mắt người khó thấy, đổi lấy dung lượng nhỏ hơn nhiều. giây-pê-gờ là ví dụ quen thuộc.",
+  "subs": [
+   "Nén mất dữ liệu (Lossy): bỏ chi tiết mắt khó thấy",
+   "để đổi lấy dung lượng nhỏ hơn nhiều. Ví dụ: JPEG."
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+9%",
+  "shift": 0.1,
+  "pause_after": 0.3,
+  "text": "Cùng một ảnh hoàng hôn: để chất lượng chín mươi, file khoảng sáu trăm mười tám KB; hạ còn năm mươi, chỉ còn một trăm chín mươi tư KB — giảm hơn ba lần. Nhưng nén quá tay, ảnh bắt đầu nhòe và xuất hiện nhiễu.",
+  "say": "Cùng một ảnh hoàng hôn: để chất lượng chín mươi, file khoảng sáu trăm mười tám ki-lô-bai; hạ còn năm mươi, chỉ còn một trăm chín mươi tư ki-lô-bai — giảm hơn ba lần. Nhưng nén quá tay, ảnh bắt đầu nhòe và xuất hiện nhiễu.",
+  "subs": [
+   "Cùng ảnh: quality 90 ≈ 618 KB → quality 50 ≈ 194 KB.",
+   "Giảm hơn ba lần — nhưng bắt đầu nhòe, xuất hiện nhiễu."
+  ]
+ },
+ {
+  "id": "S04c3",
+  "scene": "S04",
+  "rate": "+12%",
+  "shift": 0.6,
+  "pause_after": 0.4,
+  "text": "Dấu vết đặc trưng: những ô vuông tám nhân tám pixel và vệt lỗi quanh vùng chuyển màu. Chữ và nét mảnh mà nén mạnh là răng cưa ngay. Nhớ nhé!",
+  "say": "Dấu vết đặc trưng: những ô vuông tám nhân tám pích-xồ và vệt lỗi quanh vùng chuyển màu. Chữ và nét mảnh mà nén mạnh là răng cưa ngay. Nhớ nhé!",
+  "subs": [
+   "Đặc trưng JPEG: ô vuông 8×8 pixel, lỗi vùng chuyển màu.",
+   "Chữ và nét mảnh nén mạnh → răng cưa ngay."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+8%",
+  "shift": -0.1,
+  "pause_after": 0.25,
+  "text": "Thứ hai: nén không mất dữ liệu — Lossless Compression. Nén mà không vứt chi tiết nào, khôi phục lại y nguyên bản gốc. PNG là đại diện tiêu biểu.",
+  "say": "Thứ hai: nén không mất dữ liệu — lót-lít com-pờ-ré-sần. Nén mà không vứt chi tiết nào, khôi phục lại y nguyên bản gốc. pê-en-gờ là đại diện tiêu biểu.",
+  "subs": [
+   "Nén không mất dữ liệu (Lossless): không vứt chi tiết,",
+   "khôi phục y nguyên bản gốc. Đại diện: PNG."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+10%",
+  "shift": 0.1,
+  "pause_after": 0.4,
+  "text": "Nhờ vậy, PNG giữ nét chữ sắc, giữ nền trong suốt — như logo sư tử này — nên hợp logo, icon, ảnh chụp màn hình. Đổi lại, file thường nặng hơn JPEG và WebP.",
+  "say": "Nhờ vậy, pê-en-gờ giữ nét chữ sắc, giữ nền trong suốt — như logo sư tử này — nên hợp logo, icon, ảnh chụp màn hình. Đổi lại, file thường nặng hơn giây-pê-gờ và guép-pê.",
+  "subs": [
+   "PNG: nét chữ sắc, nền trong suốt → hợp logo, icon,",
+   "ảnh chụp màn hình. Đổi lại: file nặng hơn JPEG, WebP."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Trên website nên dùng định dạng nào? JPEG nhẹ, hợp ảnh chụp. PNG nét, có nền trong suốt. WebP cân bằng, hỗ trợ cả hai kiểu nén. AVIF là định dạng mới, nén rất tốt.",
+  "say": "Trên website nên dùng định dạng nào? giây-pê-gờ nhẹ, hợp ảnh chụp. pê-en-gờ nét, có nền trong suốt. guép-pê cân bằng, hỗ trợ cả hai kiểu nén. ây-víp là định dạng mới, nén rất tốt.",
+  "subs": [
+   "JPEG: nhẹ, hợp ảnh chụp · PNG: nét, nền trong suốt",
+   "WebP: cân bằng · AVIF: định dạng mới, nén rất tốt."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+11%",
+  "shift": 0.3,
+  "pause_after": 0.45,
+  "text": "Ví dụ: JPEG một trăm hai mươi tám KB, PNG năm trăm mười hai, WebP bảy mươi tám, AVIF bốn mươi lăm KB. Nhưng đây là số liệu của một infographic, không phải chân lý cho mọi ảnh.",
+  "say": "Ví dụ: giây-pê-gờ một trăm hai mươi tám ki-lô-bai, pê-en-gờ năm trăm mười hai, guép-pê bảy mươi tám, ây-víp bốn mươi lăm ki-lô-bai. Nhưng đây là số liệu của một infographic, không phải chân lý cho mọi ảnh.",
+  "subs": [
+   "JPEG 128 KB · PNG 512 KB · WebP 78 KB · AVIF 45 KB.",
+   "Số liệu từ infographic — ảnh khác, kết quả khác."
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Chọn nhanh: ảnh chụp, sản phẩm, banner — JPEG hoặc WebP. Logo, icon, nền trong suốt — PNG hoặc SVG. Ảnh bản đồ, chữ nhỏ — đừng nén mạnh kiểu JPEG, chữ sẽ vỡ.",
+  "say": "Chọn nhanh: ảnh chụp, sản phẩm, banner — giây-pê-gờ hoặc guép-pê. Logo, icon, nền trong suốt — pê-en-gờ hoặc ét-vi-giờ. Ảnh bản đồ, chữ nhỏ — đừng nén mạnh kiểu giây-pê-gờ, chữ sẽ vỡ.",
+  "subs": [
+   "Ảnh chụp, sản phẩm → JPEG/WebP. Logo, icon → PNG/SVG.",
+   "Ảnh bản đồ, chữ nhỏ → tránh JPEG nén mạnh."
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+11%",
+  "shift": 0.3,
+  "pause_after": 0.4,
+  "text": "Còn RAW? Đó là ảnh gốc để chỉnh sửa, chưa dành cho web: nặng và trình duyệt không đọc được. Xuất sang JPEG hoặc WebP trước khi đăng.",
+  "say": "Còn ro? Đó là ảnh gốc để chỉnh sửa, chưa dành cho web: nặng và trình duyệt không đọc được. Xuất sang giây-pê-gờ hoặc guép-pê trước khi đăng.",
+  "subs": [
+   "RAW: ảnh gốc để chỉnh sửa, chưa dành cho web.",
+   "Xuất sang JPEG/WebP trước khi đăng."
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Làm thử nhé. Có Squoosh nén trực tuyến, TinyPNG, ImageMagick cho dòng lệnh. Còn dân Node.js thì có Sharp — nén ngay trên máy chủ, rất nhanh.",
+  "say": "Làm thử nhé. Có sờ-quút nén trực tuyến, tai-ni pê-en-gờ, i-mịch ma-gích cho dòng lệnh. Còn dân nốt giây-ét thì có sáp — nén ngay trên máy chủ, rất nhanh.",
+  "subs": [
+   "Công cụ: Squoosh, TinyPNG, ImageMagick.",
+   "Dân Node.js: Sharp — nén ngay trên máy chủ."
+  ]
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+8%",
+  "shift": -0.2,
+  "pause_after": 0.3,
+  "text": "Cài bằng npm install sharp. Đọc ảnh product.jpg, resize về chiều rộng tám trăm pixel, không phóng lớn ảnh nhỏ, chuyển WebP chất lượng tám mươi, lưu ra product.webp.",
+  "say": "Cài bằng en-pi-em in-sto sáp. Đọc ảnh pro-đớt giây-pê-gờ, ri-sai về chiều rộng tám trăm pích-xồ, không phóng lớn ảnh nhỏ, chuyển guép-pê chất lượng tám mươi, lưu ra pro-đớt guép-pê.",
+  "subs": [
+   "npm install sharp → đọc product.jpg, resize 800px,",
+   "chuyển WebP quality 80 → lưu product.webp."
+  ]
+ },
+ {
+  "id": "S08c3",
+  "scene": "S08",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.4,
+  "text": "Giải nghĩa: sharp mở ảnh; resize đổi kích thước; withoutEnlargement chặn phóng to; webp chọn định dạng; quality tám mươi là mức nén; toFile lưu kết quả.",
+  "say": "Giải nghĩa: sáp mở ảnh; ri-sai đổi kích thước; gu-i-dao en-lát-mần chặn phóng to; guép-pê chọn định dạng; quoa-li-ti tám mươi là mức nén; tu-phai lưu kết quả.",
+  "subs": [
+   "sharp · resize · withoutEnlargement · webp ·",
+   "quality 80 · toFile — ảnh nhẹ hơn, sẵn sàng lên web."
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Ảnh nhẹ rồi, hiển thị cho khôn ngoan. Thẻ img cần src, alt, width, và đặc biệt là loading bằng lazy: khoan tải, đợi khách cuộn gần tới hãy tải.",
+  "say": "Ảnh nhẹ rồi, hiển thị cho khôn ngoan. Thẻ img cần ét-xờ-xê, alt, uých, và đặc biệt là lô-đinh bằng lây-zi: khoan tải, đợi khách cuộn gần tới hãy tải.",
+  "subs": [
+   "Thẻ img: src, alt, width, loading=\"lazy\".",
+   "lazy = khoan tải, đợi khách cuộn gần tới."
+  ]
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+11%",
+  "shift": 0.3,
+  "pause_after": 0.4,
+  "text": "Khai báo width và height để trang không nhảy khi ảnh tải xong. Ảnh lớn thì dùng srcset để trình duyệt tự chọn kích thước phù hợp.",
+  "say": "Khai báo uých và hai-tờ để trang không nhảy khi ảnh tải xong. Ảnh lớn thì dùng sooc-sét để trình duyệt tự chọn kích thước phù hợp.",
+  "subs": [
+   "width + height: trang không nhảy khi ảnh tải xong.",
+   "srcset: trình duyệt tự chọn kích thước phù hợp."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.25,
+  "text": "Nén ảnh có mặt khắp nơi: thương mại điện tử nén ảnh sản phẩm cho trang danh sách mượt; tin tức tối ưu ảnh bài viết.",
+  "say": "Nén ảnh có mặt khắp nơi: thương mại điện tử nén ảnh sản phẩm cho trang danh sách mượt; tin tức tối ưu ảnh bài viết.",
+  "subs": [
+   "Thương mại điện tử: nén ảnh sản phẩm, trang mượt hơn.",
+   "Tin tức: tối ưu ảnh bài viết."
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.35,
+  "text": "Du lịch giảm thư viện ảnh lớn — như hồ núi này. Giáo dục tối ưu ảnh khóa học. Hễ có ảnh trên web là có chỗ cho nén ảnh.",
+  "say": "Du lịch giảm thư viện ảnh lớn — như hồ núi này. Giáo dục tối ưu ảnh khóa học. Hễ có ảnh trên web là có chỗ cho nén ảnh.",
+  "subs": [
+   "Du lịch: giảm thư viện ảnh. Giáo dục: ảnh khóa học.",
+   "Hễ có ảnh trên web — là có chỗ cho nén ảnh."
+  ]
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Vài lưu ý. Đừng nén quá tay, ảnh vỡ thì đẹp mấy cũng vô nghĩa. Resize đúng kích thước hiển thị, đừng tải ảnh bốn nghìn pixel về khung ba trăm.",
+  "say": "Vài lưu ý. Đừng nén quá tay, ảnh vỡ thì đẹp mấy cũng vô nghĩa. Resize đúng kích thước hiển thị, đừng tải ảnh bốn nghìn pích-xồ về khung ba trăm.",
+  "subs": [
+   "Đừng nén quá tay — ảnh vỡ thì đẹp mấy cũng vô nghĩa.",
+   "Resize đúng kích thước hiển thị thực tế."
+  ]
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+10%",
+  "shift": 0.1,
+  "pause_after": 0.4,
+  "text": "Khai báo width, height, dùng lazy loading. Cân nhắc CDN hoặc dịch vụ tối ưu ảnh. Cân bằng giữa dung lượng và chất lượng — đó là nghệ thuật, không phải phép tính.",
+  "say": "Khai báo uých, hai-tờ, dùng lây-zi lô-đinh. Cân nhắc xê-đi-en hoặc dịch vụ tối ưu ảnh. Cân bằng giữa dung lượng và chất lượng — đó là nghệ thuật, không phải phép tính.",
+  "subs": [
+   "width, height + lazy loading. Cân nhắc CDN / dịch vụ",
+   "tối ưu ảnh. Cân bằng dung lượng ↔ chất lượng."
+  ]
+ },
+ {
+  "id": "S12c1",
+  "scene": "S12",
+  "rate": "+9%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Tóm lại, bốn điều. Một: nén ảnh giảm dung lượng, tăng tốc tải. Hai: Lossy cho ảnh chụp, Lossless cho logo và nền trong suốt.",
+  "say": "Tóm lại, bốn điều. Một: nén ảnh giảm dung lượng, tăng tốc tải. Hai: Lossy cho ảnh chụp, Lossless cho logo và nền trong suốt.",
+  "subs": [
+   "1. Nén ảnh giảm dung lượng, tăng tốc tải.",
+   "2. Lossy (JPEG) cho ảnh chụp · Lossless (PNG) cho logo."
+  ]
+ },
+ {
+  "id": "S12c2",
+  "scene": "S12",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.3,
+  "text": "Ba: WebP và AVIF là lựa chọn hiện đại, nhớ kiểm tra trình duyệt. Bốn: Sharp, lazy loading và CDN giúp website nhẹ như lông hồng.",
+  "say": "Ba: guép-pê và ây-víp là lựa chọn hiện đại, nhớ kiểm tra trình duyệt. Bốn: sáp, lây-zi lô-đinh và xê-đi-en giúp website nhẹ như lông hồng.",
+  "subs": [
+   "3. WebP/AVIF: hiện đại, nhớ kiểm tra trình duyệt hỗ trợ.",
+   "4. Sharp + lazy loading + CDN = website nhẹ."
+  ]
+ },
+ {
+  "id": "S12c3",
+  "scene": "S12",
+  "rate": "+12%",
+  "shift": 0.6,
+  "pause_after": 0.3,
+  "text": "Không phải nén càng nhỏ càng tốt, mà là cân bằng giữa dung lượng, chất lượng và trải nghiệm. Cảm ơn các bạn đã học cùng An Tech Academy. Hẹn gặp ở bài tiếp theo!",
+  "say": "Không phải nén càng nhỏ càng tốt, mà là cân bằng giữa dung lượng, chất lượng và trải nghiệm. Cảm ơn các bạn đã học cùng An Tếch A-ca-đê-mi. Hẹn gặp ở bài tiếp theo!",
+  "subs": [
+   "Không phải nén càng nhỏ càng tốt — mà là cân bằng",
+   "dung lượng, chất lượng, trải nghiệm. Hẹn gặp lại!"
+  ]
+ }
+]

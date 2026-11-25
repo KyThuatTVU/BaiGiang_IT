@@ -1,0 +1,75 @@
+{
+ "file": "mau/congB_41s/thanhtoan_congB_41s.mp4",
+ "dur_s": 39.06,
+ "loudness": {
+  "LUFS": -14.51,
+  "TP": -1.07,
+  "LRA": 2.1
+ },
+ "f0": {
+  "median": 149.2,
+  "p10": 121.2,
+  "p90": 196.8,
+  "voiced_pct": 66.5
+ },
+ "asr_words": 128,
+ "asr_speech_s": 34.52,
+ "wpm": 222.0,
+ "transcript": [
+  {
+   "t0": 0.11,
+   "t1": 3.23,
+   "text": "Xin chào các bạn, chào mừng đến với Antec Academy."
+  },
+  {
+   "t0": 3.23,
+   "t1": 6.39,
+   "text": "Hôm nay, chúng ta sẽ nối website bán hàng với ngân hàng."
+  },
+  {
+   "t0": 6.39,
+   "t1": 9.27,
+   "text": "API ngân hàng là giao dịch lập trình do ngân hàng cung cấp."
+  },
+  {
+   "t0": 9.27,
+   "t1": 12.79,
+   "text": "Nó cho phép phần mềm bên ngoài gọi dịch vụ ngân hàng qua Internet."
+  },
+  {
+   "t0": 12.79,
+   "t1": 16.63,
+   "text": "Bước 2, bà Ken tự tính tiền từ dữ liệu trong Database."
+  },
+  {
+   "t0": 16.63,
+   "t1": 20.39,
+   "text": "Không tin số tiền do Frontend hủy lên, vì client có thể sửa."
+  },
+  {
+   "t0": 20.39,
+   "t1": 22.79,
+   "text": "Đơn hàng được lưu ở trạm thái trở thanh toán."
+  },
+  {
+   "t0": 22.79,
+   "t1": 25.19,
+   "text": "Bước 7, bà Ken kiểm tra chữ ký."
+  },
+  {
+   "t0": 25.19,
+   "t1": 27.63,
+   "text": "Mã giao dịch số tiền và trạm thái."
+  },
+  {
+   "t0": 27.63,
+   "t1": 31.63,
+   "text": "Bước 8. Hợp lệ thì cập nhật đã thanh toán và chuyển đơn sang xử lý."
+  },
+  {
+   "t0": 31.63,
+   "t1": 34.63,
+   "text": "Nếu bước 7 thất bạng, tuyệt đối không cập nhật đơn hàng."
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+  "title": "Lập trình hướng đối tượng (OOP) với Java",
+  "version": "1.0",
+  "voice": "clone_vieneu",
+  "ref": "Kit/cache/ref_voice/ref_final.wav",
+  "fps": 30,
+  "size": [
+    1920,
+    1080
+  ],
+  "music": null,
+  "scenes": [
+    {
+      "id": "s01",
+      "title": "Mở đầu & Giới thiệu",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c01",
+          "say": "Xin chào các bạn! Chào mừng các bạn đã quay trở lại với An Tech Academy.",
+          "pause": 0.4,
+          "img": "1.jpg"
+        },
+        {
+          "id": "c02",
+          "say": "Khi xây dựng một phần mềm, chúng ta không chỉ quan tâm đến việc viết code sao cho chương trình chạy được.",
+          "pause": 0.4,
+          "img": "1.jpg"
+        },
+        {
+          "id": "c03",
+          "say": "Mà còn phải tổ chức mã nguồn như thế nào để dễ quản lý, dễ mở rộng và dễ bảo trì.",
+          "pause": 0.4,
+          "img": "8.jpg"
+        },
+        {
+          "id": "c04",
+          "say": "Và đó chính là lý do chúng ta cần tìm hiểu về lập trình hướng đối tượng, hay còn gọi là Ô-Ô-Pê.",
+          "pause": 0.45
+        },
+        {
+          "id": "c05",
+          "say": "Trong bài học hôm nay, chúng ta sẽ tìm hiểu khái niệm Ô-Ô-Pê, bốn tính chất quan trọng nhất, thông qua ngôn ngữ Java.",
+          "pause": 0.4
+        },
+        {
+          "id": "c06",
+          "say": "Đồng thời, chúng ta sẽ xem Ô-Ô-Pê được ứng dụng như thế nào trong những dự án phần mềm thực tế.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "title": "OOP là gì? Class & Object",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c07",
+          "say": "Các bạn hãy tưởng tượng chúng ta đang xây dựng một phần mềm quản lý sinh viên.",
+          "pause": 0.4,
+          "img": "3.jpg"
+        },
+        {
+          "id": "c08",
+          "say": "Mỗi sinh viên sẽ có những thông tin như mã sinh viên, họ tên, tuổi và email.",
+          "pause": 0.4
+        },
+        {
+          "id": "c09",
+          "say": "Đồng thời, sinh viên cũng có những hành động như đăng ký môn học, xem điểm và cập nhật thông tin.",
+          "pause": 0.4
+        },
+        {
+          "id": "c10",
+          "say": "Thay vì viết tất cả dữ liệu và chức năng một cách rời rạc, Ô-Ô-Pê cho phép gom những thông tin và hành động liên quan vào một đối tượng.",
+          "pause": 0.45
+        },
+        {
+          "id": "c11",
+          "say": "Trong Java, chúng ta có hai khái niệm quan trọng.",
+          "pause": 0.35
+        },
+        {
+          "id": "c12",
+          "say": "Class — lớp — là bản thiết kế để tạo ra các đối tượng.",
+          "pause": 0.45,
+          "img": "11.jpg"
+        },
+        {
+          "id": "c13",
+          "say": "Object — đối tượng — là một thực thể cụ thể được tạo ra từ lớp.",
+          "pause": 0.45,
+          "img": "11.jpg"
+        },
+        {
+          "id": "c14",
+          "say": "Ví dụ, lớp SinhVien có thuộc tính họ tên, tuổi, và phương thức hiển thị thông tin.",
+          "pause": 0.4,
+          "img": "4.jpg"
+        },
+        {
+          "id": "c15",
+          "say": "Trong hàm main, chúng ta tạo đối tượng sv từ lớp SinhVien, gán họ tên là Nguyễn Văn An, tuổi hai mươi.",
+          "pause": 0.45
+        },
+        {
+          "id": "c16",
+          "say": "Sau đó gọi phương thức hiển thị thông tin.",
+          "pause": 0.4
+        },
+        {
+          "id": "c17",
+          "say": "Ở đây, SinhVien là lớp, còn sv là một đối tượng được tạo ra từ lớp đó.",
+          "pause": 0.4,
+          "img": "6.jpg"
+        },
+        {
+          "id": "c18",
+          "say": "Đây chính là nền tảng đầu tiên của lập trình hướng đối tượng.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "title": "Bốn tính chất cơ bản",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c19",
+          "say": "Đây là nội dung trọng tâm của bài học. Lập trình hướng đối tượng có bốn tính chất cơ bản: Đóng gói, Kế thừa, Đa hình và Trừu tượng.",
+          "pause": 0.5,
+          "img": "5.jpg"
+        },
+        {
+          "id": "c20",
+          "say": "Chúng ta sẽ đi qua từng tính chất, kèm ví dụ và code Java minh họa.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "title": "Tính chất 1: Đóng gói (Encapsulation)",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c21",
+          "say": "Tính chất thứ nhất: Đóng gói — Encapsulation.",
+          "pause": 0.45,
+          "img": "12.jpg"
+        },
+        {
+          "id": "c22",
+          "say": "Đóng gói có nghĩa là chúng ta bảo vệ dữ liệu bên trong đối tượng, không cho phép bên ngoài truy cập và thay đổi tùy ý.",
+          "pause": 0.45
+        },
+        {
+          "id": "c23",
+          "say": "Ví dụ, trong phần mềm quản lý ngân hàng, số dư tài khoản không nên được thay đổi trực tiếp từ bên ngoài.",
+          "pause": 0.4
+        },
+        {
+          "id": "c24",
+          "say": "Trong Java, ta khai báo số dư là private. Muốn nạp tiền, phải thông qua phương thức nạp tiền.",
+          "pause": 0.45
+        },
+        {
+          "id": "c25",
+          "say": "Phương thức này kiểm tra số tiền hợp lệ trước khi cộng vào số dư.",
+          "pause": 0.4
+        },
+        {
+          "id": "c26",
+          "say": "Muốn xem số dư, ta dùng phương thức get số dư.",
+          "pause": 0.4
+        },
+        {
+          "id": "c27",
+          "say": "Đóng gói đảm bảo dữ liệu an toàn, hạn chế sai sót và kiểm soát cách truy cập dữ liệu.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "title": "Tính chất 2: Kế thừa (Inheritance)",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c28",
+          "say": "Tính chất thứ hai: Kế thừa — Inheritance.",
+          "pause": 0.45,
+          "img": "13.jpg"
+        },
+        {
+          "id": "c29",
+          "say": "Kế thừa cho phép một lớp con sử dụng lại những thuộc tính và phương thức của lớp cha.",
+          "pause": 0.45
+        },
+        {
+          "id": "c30",
+          "say": "Ví dụ, lớp Animal có phương thức eat và sleep. Các lớp Dog, Cat, Horse kế thừa từ Animal và có thêm hành vi riêng.",
+          "pause": 0.45
+        },
+        {
+          "id": "c31",
+          "say": "Trong hệ thống quản lý nhân sự, chúng ta có lớp NhanVien.",
+          "pause": 0.4
+        },
+        {
+          "id": "c32",
+          "say": "Lớp NhanVienIT kế thừa NhanVien thông qua từ khóa extends.",
+          "pause": 0.45
+        },
+        {
+          "id": "c33",
+          "say": "Nhờ vậy, nhân viên IT có thể sử dụng thuộc tính họ tên và phương thức làm việc mà không cần viết lại.",
+          "pause": 0.45
+        },
+        {
+          "id": "c34",
+          "say": "Kế thừa giúp tái sử dụng mã nguồn, giảm trùng lặp và dễ mở rộng hệ thống.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "title": "Tính chất 3: Đa hình (Polymorphism)",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c35",
+          "say": "Tính chất thứ ba: Đa hình — Polymorphism.",
+          "pause": 0.45,
+          "img": "14.jpg"
+        },
+        {
+          "id": "c36",
+          "say": "Đa hình có nghĩa là cùng một phương thức nhưng có thể thể hiện những hành vi khác nhau tùy theo đối tượng.",
+          "pause": 0.45
+        },
+        {
+          "id": "c37",
+          "say": "Ví dụ, chúng ta có nhiều loại nhân viên. Khi gọi phương thức tính lương, mỗi loại sẽ có cách tính riêng.",
+          "pause": 0.4
+        },
+        {
+          "id": "c38",
+          "say": "Lớp NhanVienFullTime ghi đè phương thức tính lương để in ra lương cố định hàng tháng.",
+          "pause": 0.45
+        },
+        {
+          "id": "c39",
+          "say": "Lớp NhanVienPartTime cũng ghi đè phương thức này, nhưng tính lương theo giờ.",
+          "pause": 0.45
+        },
+        {
+          "id": "c40",
+          "say": "Đây là ví dụ về ghi đè phương thức — Method Overriding.",
+          "pause": 0.45
+        },
+        {
+          "id": "c41",
+          "say": "Đa hình giúp chương trình linh hoạt, dễ mở rộng và xử lý nhiều loại đối tượng thông qua cùng một cách gọi.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "title": "Tính chất 4: Trừu tượng (Abstraction)",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c42",
+          "say": "Tính chất thứ tư: Trừu tượng — Abstraction.",
+          "pause": 0.45,
+          "img": "15.jpg"
+        },
+        {
+          "id": "c43",
+          "say": "Trừu tượng là việc tập trung vào những chức năng cần thiết và ẩn đi cách thức triển khai phức tạp bên trong.",
+          "pause": 0.45
+        },
+        {
+          "id": "c44",
+          "say": "Ví dụ, khi thanh toán trực tuyến, người dùng chỉ cần chọn phương thức thanh toán và thực hiện giao dịch.",
+          "pause": 0.45
+        },
+        {
+          "id": "c45",
+          "say": "Họ không cần biết hệ thống xử lý kết nối ngân hàng như thế nào.",
+          "pause": 0.4
+        },
+        {
+          "id": "c46",
+          "say": "Trong Java, interface ThanhToan định nghĩa chức năng chung. Mỗi lớp sẽ triển khai cách thanh toán riêng.",
+          "pause": 0.45
+        },
+        {
+          "id": "c47",
+          "say": "Trừu tượng giảm sự phức tạp, tách biệt chức năng và cách triển khai, giúp hệ thống dễ thay đổi.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "title": "Ứng dụng thực tế của OOP",
+      "hold": 2.0,
+      "cues": [
+        {
+          "id": "c48",
+          "say": "Vậy lập trình hướng đối tượng được ứng dụng như thế nào trong những dự án thực tế?",
+          "pause": 0.45
+        },
+        {
+          "id": "c49",
+          "say": "Thực tế, Ô-Ô-Pê được sử dụng rất rộng rãi trong quá trình phát triển phần mềm.",
+          "pause": 0.4
+        },
+        {
+          "id": "c50",
+          "say": "Thứ nhất, hệ thống quản lý nhà hàng. Chúng ta có thể xây dựng các lớp như MonAn, BanAn, NhanVien, HoaDon và KhachHang.",
+          "pause": 0.45,
+          "img": "16.jpg"
+        },
+        {
+          "id": "c51",
+          "say": "Thứ hai, website thương mại điện tử, với các lớp SanPham, KhachHang, GioHang và DonHang.",
+          "pause": 0.45,
+          "img": "17.jpg"
+        },
+        {
+          "id": "c52",
+          "say": "Thứ ba, hệ thống quản lý bệnh viện, với các lớp BenhNhan, BacSi, LichKham và DonThuoc.",
+          "pause": 0.45,
+          "img": "18.jpg"
+        },
+        {
+          "id": "c53",
+          "say": "Thứ tư, ứng dụng ngân hàng, với các đối tượng TaiKhoan, GiaoDich và KhachHang.",
+          "pause": 0.45,
+          "img": "19.jpg"
+        },
+        {
+          "id": "c54",
+          "say": "Điều quan trọng cần nhớ là Ô-Ô-Pê không chỉ dành riêng cho Java.",
+          "pause": 0.4
+        },
+        {
+          "id": "c55",
+          "say": "Nó còn được ứng dụng trong nhiều ngôn ngữ như C plus plus, C thăng, Python, PHP và nhiều công nghệ khác.",
+          "pause": 0.5
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "title": "Tổng kết & Outro",
+      "hold": 3.0,
+      "cues": [
+        {
+          "id": "c56",
+          "say": "Như vậy, trong bài học hôm nay, chúng ta đã tìm hiểu những kiến thức quan trọng nhất của lập trình hướng đối tượng.",
+          "pause": 0.45,
+          "img": "2.jpg"
+        },
+        {
+          "id": "c57",
+          "say": "Hãy ghi nhớ bốn tính chất: Đóng gói bảo vệ dữ liệu. Kế thừa tái sử dụng mã nguồn.",
+          "pause": 0.45
+        },
+        {
+          "id": "c58",
+          "say": "Đa hình: một phương thức, nhiều cách thực hiện. Trừu tượng: ẩn đi sự phức tạp, tập trung vào chức năng cần thiết.",
+          "pause": 0.5
+        },
+        {
+          "id": "c59",
+          "say": "Ô-Ô-Pê không đơn thuần là một cách viết code, mà còn là tư duy thiết kế phần mềm.",
+          "pause": 0.45
+        },
+        {
+          "id": "c60",
+          "say": "Khi nắm vững những nguyên tắc này, các bạn sẽ có nền tảng tốt hơn để xây dựng những dự án lớn, chuyên nghiệp và dễ bảo trì.",
+          "pause": 0.5
+        },
+        {
+          "id": "c61",
+          "say": "Cảm ơn các bạn đã theo dõi bài giảng của An Tech Academy. Hẹn gặp lại các bạn trong những bài học lập trình tiếp theo!",
+          "pause": 0.6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<title>Thiết kế màu sắc và hệ thống nút bấm</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div id="stage">
+  <div class="bg"></div>
+  <div class="bg-mesh mesh-a" id="blobA"></div>
+  <div class="bg-mesh mesh-b" id="blobB"></div>
+  <div class="bg-mesh mesh-c" id="blobC"></div>
+  <div class="bg-dots"></div>
+  <div id="floating"></div>
+  <div id="sweep"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true">
+        <rect x="5" y="5" width="38" height="38" rx="12" fill="#2563EB"/>
+        <circle cx="18" cy="19" r="6" fill="#F59E0B"/>
+        <circle cx="30" cy="19" r="6" fill="#06B6D4"/>
+        <rect x="14" y="29" width="20" height="8" rx="4" fill="#FFFFFF"/>
+      </svg>
+      <div class="brand-text">
+        <span class="brand-title">UI LAB</span>
+        <span class="brand-sub">MÀU SẮC · HỆ THỐNG NÚT BẤM</span>
+      </div>
+    </div>
+    <div class="top-right">
+      <div class="part-chip" id="partChip">BÀI GIẢNG</div>
+      <div class="progress">
+        <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+        <div class="progress-label" id="progressLabel">00:00</div>
+      </div>
+    </div>
+  </header>
+
+  <main id="scenes"></main>
+
+  <footer class="caption-wrap">
+    <div class="caption" id="caption"></div>
+  </footer>
+
+  <div class="timecode" id="timecode">00:00</div>
+</div>
+
+<script src="timeline.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

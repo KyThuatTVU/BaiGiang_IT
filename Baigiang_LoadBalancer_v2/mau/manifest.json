@@ -1,0 +1,366 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy. Thử tưởng tượng: 5.000 người cùng bấm mua một chiếc điện thoại trong đúng một giây — website của bạn có sập không?",
+  "say": "Chào các bạn! Chào mừng đến với An Tech Academy. Thử tưởng tượng: 5.000 người cùng bấm mua một chiếc điện thoại trong đúng một giây — website của bạn có sập không?",
+  "subs": [
+   "Chào các bạn! Chào mừng đến với An Tech Academy.",
+   "5.000 người cùng mua một chiếc điện thoại trong một giây — web có sập không?"
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Câu trả lời nằm ở Load Balancer. Xem xong clip này, bạn sẽ biết cách giữ hệ thống đứng vững khi truy cập tăng gấp hàng chục lần.",
+  "say": "Câu trả lời nằm ở Load Balancer. Xem xong clip này, bạn sẽ biết cách giữ hệ thống đứng vững khi truy cập tăng gấp hàng chục lần.",
+  "subs": [
+   "Câu trả lời nằm ở Load Balancer.",
+   "Giữ hệ thống đứng vững khi truy cập tăng gấp hàng chục lần."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Bạn là kỹ sư của một sàn thương mại điện tử. Ngày 12/12, chương trình giảm giá bắt đầu. Chỉ trong vài phút, 5.000 người truy cập cùng lúc, dồn hết request vào một server duy nhất.",
+  "say": "Bạn là kỹ sư của một sàn thương mại điện tử. Ngày 12/12, chương trình giảm giá bắt đầu. Chỉ trong vài phút, 5.000 người truy cập cùng lúc, dồn hết request vào một server duy nhất.",
+  "subs": [
+   "Bạn là kỹ sư sàn thương mại điện tử. Ngày 12/12, giảm giá bắt đầu.",
+   "5.000 người truy cập cùng lúc, dồn hết request vào một server."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "CPU vọt lên, RAM đầy, thời gian phản hồi kéo dài. Khách bấm mua mà trang quay mãi, có người còn bị lỗi thanh toán. Một server khỏe đến mấy cũng có giới hạn.",
+  "say": "CPU vọt lên, RAM đầy, thời gian phản hồi kéo dài. Khách bấm mua mà trang quay mãi, có người còn bị lỗi thanh toán. Một server khỏe đến mấy cũng có giới hạn.",
+  "subs": [
+   "CPU vọt lên, RAM đầy, trang quay mãi. Khách còn bị lỗi thanh toán.",
+   "Một server khỏe đến mấy cũng có giới hạn."
+  ]
+ },
+ {
+  "id": "S02c3",
+  "scene": "S02",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Vậy làm sao để cả hệ thống cùng gánh việc, thay vì để một chú server oằn lưng? Đó chính là lúc Load Balancer phát huy tác dụng.",
+  "say": "Vậy làm sao để cả hệ thống cùng gánh việc, thay vì để một chú server oằn lưng? Đó chính là lúc Load Balancer phát huy tác dụng.",
+  "subs": [
+   "Vậy làm sao để cả hệ thống cùng gánh việc?",
+   "Đó chính là lúc Load Balancer phát huy tác dụng."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Load Balancer — hay bộ cân bằng tải — là thành phần đứng trước các server. Nó nhận request từ người dùng rồi quyết định chia cho server nào phía sau.",
+  "say": "Load Balancer — hay bộ cân bằng tải — là thành phần đứng trước các server. Nó nhận request từ người dùng rồi quyết định chia cho server nào phía sau.",
+  "subs": [
+   "Load Balancer — bộ cân bằng tải — đứng trước các server.",
+   "Nó nhận request và quyết định chia cho server nào phía sau."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Hãy hình dung một trạm thu phí cao tốc. Xe đến rất đông; nếu chỉ mở một làn thì kẹt cứng. Nhưng khi có nhiều làn và một nhân viên điều phối, từng xe sẽ được hướng vào làn đang trống.",
+  "say": "Hãy hình dung một trạm thu phí cao tốc. Xe đến rất đông; nếu chỉ mở một làn thì kẹt cứng. Nhưng khi có nhiều làn và một nhân viên điều phối, từng xe sẽ được hướng vào làn đang trống.",
+  "subs": [
+   "Giống trạm thu phí cao tốc: xe rất đông, một làn thì kẹt cứng.",
+   "Nhiều làn và một nhân viên điều phối sẽ hướng xe vào làn trống."
+  ]
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Load Balancer cũng vậy. Nó không làm nghiệp vụ bán hàng, không thay server xử lý đơn. Nó chỉ giỏi một việc: điều phối để hệ thống nhanh và ổn định hơn.",
+  "say": "Load Balancer cũng vậy. Nó không làm nghiệp vụ bán hàng, không thay server xử lý đơn. Nó chỉ giỏi một việc: điều phối để hệ thống nhanh và ổn định hơn.",
+  "subs": [
+   "Load Balancer không làm nghiệp vụ bán hàng, không thay server xử lý đơn.",
+   "Nó chỉ giỏi điều phối để hệ thống nhanh và ổn định hơn."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Một mô hình cơ bản có bốn thành phần. Client là người dùng với điện thoại hoặc trình duyệt. Load Balancer là cửa ngõ tiếp nhận kết nối.",
+  "say": "Một mô hình cơ bản có bốn thành phần. Client là người dùng với điện thoại hoặc trình duyệt. Load Balancer là cửa ngõ tiếp nhận kết nối.",
+  "subs": [
+   "Mô hình cơ bản có bốn thành phần.",
+   "Client là người dùng; Load Balancer là cửa ngõ tiếp nhận kết nối."
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Backend Server xử lý nghiệp vụ: đăng nhập, tìm sản phẩm, giỏ hàng, đặt hàng. Database lưu tài khoản, sản phẩm, tồn kho và đơn hàng.",
+  "say": "Backend Server xử lý nghiệp vụ: đăng nhập, tìm sản phẩm, giỏ hàng, đặt hàng. Database lưu tài khoản, sản phẩm, tồn kho và đơn hàng.",
+  "subs": [
+   "Backend Server xử lý đăng nhập, tìm sản phẩm, giỏ hàng, đặt hàng.",
+   "Database lưu tài khoản, sản phẩm, tồn kho và đơn hàng."
+  ]
+ },
+ {
+  "id": "S04c3",
+  "scene": "S04",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Bốn lớp nối thành một luồng: Client gửi request, Load Balancer điều phối, Backend xử lý, Database trả dữ liệu. Load Balancer đứng giữa nhưng không thay server làm việc.",
+  "say": "Bốn lớp nối thành một luồng: Client gửi request, Load Balancer điều phối, Backend xử lý, Database trả dữ liệu. Load Balancer đứng giữa nhưng không thay server làm việc.",
+  "subs": [
+   "Client gửi request, Load Balancer điều phối, Backend xử lý, Database trả dữ liệu.",
+   "Load Balancer đứng giữa nhưng không thay server làm việc."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Khi bạn mở trang chi tiết một chiếc điện thoại, trình duyệt gửi một HTTP request. Request đến Load Balancer trước, rồi được chuyển đến một backend phù hợp — ví dụ Server 01.",
+  "say": "Khi bạn mở trang chi tiết một chiếc điện thoại, trình duyệt gửi một HTTP request. Request đến Load Balancer trước, rồi được chuyển đến một backend phù hợp — ví dụ Server 01.",
+  "subs": [
+   "Khi mở trang chi tiết điện thoại, trình duyệt gửi một HTTP request.",
+   "Load Balancer nhận trước, rồi chuyển đến backend phù hợp — ví dụ Server 01."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Server xử lý, truy vấn Database, rồi trả kết quả về cho bạn. Request tiếp theo có thể sang Server 02, rồi Server 03. ",
+  "say": "Server xử lý, truy vấn Database, rồi trả kết quả về cho bạn. Request tiếp theo có thể sang Server 02, rồi Server 03. ",
+  "subs": [
+   "Server xử lý, truy vấn Database, rồi trả kết quả về.",
+   "Request tiếp theo có thể sang Server 02, rồi Server 03."
+  ]
+ },
+ {
+  "id": "S05c3",
+  "scene": "S05",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Thay vì nâng cấp CPU, RAM cho một máy, ta thêm nhiều máy để tăng sức chịu tải. Đó là Horizontal Scaling — mở rộng hệ thống theo chiều ngang.",
+  "say": "Thay vì nâng cấp CPU, RAM cho một máy, ta thêm nhiều máy để tăng sức chịu tải. Đó là Horizontal Scaling — mở rộng hệ thống theo chiều ngang.",
+  "subs": [
+   "Thêm nhiều máy để tăng sức chịu tải: đó là Horizontal Scaling.",
+   "Mở rộng hệ thống theo chiều ngang."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Vậy Load Balancer dựa vào đâu để chọn server? Câu trả lời nằm ở các thuật toán cân bằng tải. Có bốn cách phổ biến.",
+  "say": "Vậy Load Balancer dựa vào đâu để chọn server? Câu trả lời nằm ở các thuật toán cân bằng tải. Có bốn cách phổ biến.",
+  "subs": [
+   "Vậy Load Balancer dựa vào đâu để chọn server?",
+   "Câu trả lời nằm ở các thuật toán cân bằng tải. Có bốn cách phổ biến."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Đầu tiên là Round Robin — luân phiên theo thứ tự. Request 1 sang Server 01, request 2 sang 02, request 3 sang 03, rồi quay lại 01. Hợp khi các server cấu hình giống nhau.",
+  "say": "Đầu tiên là Round Robin — luân phiên theo thứ tự. Request 1 sang Server 01, request 2 sang 02, request 3 sang 03, rồi quay lại 01. Hợp khi các server cấu hình giống nhau.",
+  "subs": [
+   "Round Robin — luân phiên: request 1 sang Server 01, 2 sang 02, 3 sang 03, rồi quay lại 01.",
+   "Hợp khi các server cấu hình giống nhau."
+  ]
+ },
+ {
+  "id": "S06c3",
+  "scene": "S06",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Thứ hai là Weighted Round Robin — có trọng số. Server mạnh hơn nhận nhiều request hơn. Ví dụ Server 01 trọng số 3, hai server còn lại trọng số 1.",
+  "say": "Thứ hai là Weighted Round Robin — có trọng số. Server mạnh hơn nhận nhiều request hơn. Ví dụ Server 01 trọng số 3, hai server còn lại trọng số 1.",
+  "subs": [
+   "Weighted Round Robin — có trọng số. Server mạnh nhận nhiều request hơn.",
+   "Ví dụ Server 01 trọng số 3, hai server còn lại trọng số 1."
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Thứ ba là Least Connections — chọn server đang ít kết nối nhất. Server 01 giữ 100 kết nối, Server 02 giữ 30, Server 03 chỉ có 10. Request tiếp theo sẽ ưu tiên Server 03.",
+  "say": "Thứ ba là Least Connections — chọn server đang ít kết nối nhất. Server 01 giữ 100 kết nối, Server 02 giữ 30, Server 03 chỉ có 10. Request tiếp theo sẽ ưu tiên Server 03.",
+  "subs": [
+   "Least Connections — chọn server đang ít kết nối nhất.",
+   "S01 giữ 100 kết nối, S02 giữ 30, S03 chỉ có 10: request tiếp theo ưu tiên S03."
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Thứ tư là IP Hash — băm địa chỉ IP để cùng một người dùng thường về cùng một server. Tiện cho việc giữ phiên đăng nhập, nhưng không đảm bảo tuyệt đối khi danh sách server thay đổi.",
+  "say": "Thứ tư là IP Hash — băm địa chỉ IP để cùng một người dùng thường về cùng một server. Tiện cho việc giữ phiên đăng nhập, nhưng không đảm bảo tuyệt đối khi danh sách server thay đổi.",
+  "subs": [
+   "IP Hash — băm địa chỉ IP để cùng người dùng thường về cùng một server.",
+   "Tiện giữ phiên đăng nhập, nhưng không đảm bảo tuyệt đối khi server thay đổi."
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Còn một cơ chế cực quan trọng: Health Check. Load Balancer định kỳ gọi vào một endpoint, ví dụ /health, để hỏi từng server: còn sống không?",
+  "say": "Còn một cơ chế cực quan trọng: Health Check. Load Balancer định kỳ gọi vào một endpoint, ví dụ /health, để hỏi từng server: còn sống không?",
+  "subs": [
+   "Health Check — Load Balancer định kỳ gọi vào /health.",
+   "Nó hỏi từng server: còn sống không?"
+  ]
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Giả sử Server 02 đột nhiên lỗi. Nếu vẫn nhận request, khách sẽ gặp lỗi. Health Check phát hiện, tạm ngắt Server 02 và chuyển request sang Server 01, 03. Khi 02 được sửa và trả lời khỏe trở lại, nó được đưa vào nhóm phục vụ.",
+  "say": "Giả sử Server 02 đột nhiên lỗi. Nếu vẫn nhận request, khách sẽ gặp lỗi. Health Check phát hiện, tạm ngắt Server 02 và chuyển request sang Server 01, 03. Khi 02 được sửa và trả lời khỏe trở lại, nó được đưa vào nhóm phục vụ.",
+  "subs": [
+   "Server 02 lỗi: nếu vẫn nhận request, khách sẽ gặp lỗi.",
+   "Health Check tạm ngắt Server 02, chuyển request sang 01 và 03."
+  ]
+ },
+ {
+  "id": "S08c3",
+  "scene": "S08",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Nhờ vậy, một máy chủ gặp sự cố không kéo cả website chết theo.",
+  "say": "Nhờ vậy, một máy chủ gặp sự cố không kéo cả website chết theo.",
+  "subs": [
+   "Khi Server 02 khỏe lại, nó được đưa vào nhóm phục vụ.",
+   "Một máy chủ gặp sự cố không kéo cả website chết theo."
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Trong thực tế, Load Balancer có thể là phần mềm như Nginx, HAProxy, hoặc dịch vụ đám mây như AWS Elastic Load Balancing, Google Cloud Load Balancing.",
+  "say": "Trong thực tế, Load Balancer có thể là phần mềm như Nginx, HAProxy, hoặc dịch vụ đám mây như AWS Elastic Load Balancing, Google Cloud Load Balancing.",
+  "subs": [
+   "Load Balancer có thể là Nginx, HAProxy, hoặc dịch vụ đám mây.",
+   "Ví dụ AWS Elastic Load Balancing, Google Cloud Load Balancing."
+  ]
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Với Node.js và Express, Nginx thường đứng làm Reverse Proxy: nhận request rồi chuyển đến nhóm backend 192.168.1.101, 102, 103.",
+  "say": "Với Node.js và Express, Nginx thường đứng làm Reverse Proxy: nhận request rồi chuyển đến nhóm backend 192.168.1.101, 102, 103.",
+  "subs": [
+   "Với Node.js và Express, Nginx thường làm Reverse Proxy.",
+   "Nhận request rồi chuyển đến nhóm backend 192.168.1.101, 102, 103."
+  ]
+ },
+ {
+  "id": "S09c3",
+  "scene": "S09",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Nhưng Load Balancer không chữa được mọi bệnh. Database quá tải, câu SQL chậm hay thanh toán lỗi thì website vẫn chậm. Còn phải lo phiên đăng nhập và tránh đặt hàng trùng.",
+  "say": "Nhưng Load Balancer không chữa được mọi bệnh. Database quá tải, câu SQL chậm hay thanh toán lỗi thì website vẫn chậm. Còn phải lo phiên đăng nhập và tránh đặt hàng trùng.",
+  "subs": [
+   "Nhưng Load Balancer không chữa được mọi bệnh.",
+   "Database quá tải, SQL chậm hay thanh toán lỗi thì web vẫn chậm."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.5,
+  "text": "Tóm lại: Load Balancer nhận request và chia cho nhiều server; bốn thuật toán chính là Round Robin, Weighted Round Robin, Least Connections và IP Hash; Health Check giúp loại bỏ server gặp lỗi.",
+  "say": "Tóm lại: Load Balancer nhận request và chia cho nhiều server; bốn thuật toán chính là Round Robin, Weighted Round Robin, Least Connections và IP Hash; Health Check giúp loại bỏ server gặp lỗi.",
+  "subs": [
+   "Load Balancer chia request cho nhiều server.",
+   "Bốn thuật toán: Round Robin, Weighted Round Robin, Least Connections, IP Hash."
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Hiểu Load Balancer là bước đầu để thiết kế hệ thống chịu tải lớn. Phía sau còn cache, message queue, database scaling — rất nhiều thứ thú vị.",
+  "say": "Hiểu Load Balancer là bước đầu để thiết kế hệ thống chịu tải lớn. Phía sau còn cache, message queue, database scaling — rất nhiều thứ thú vị.",
+  "subs": [
+   "Health Check loại bỏ server gặp lỗi.",
+   "Hiểu Load Balancer là bước đầu để thiết kế hệ thống chịu tải lớn."
+  ]
+ },
+ {
+  "id": "S10c3",
+  "scene": "S10",
+  "rate": "+10%",
+  "shift": 0.0,
+  "pause_after": 0.2,
+  "text": "Cảm ơn các bạn đã theo dõi An Tech Academy. Nhớ theo dõi kênh và để lại câu hỏi nha. Hẹn gặp lại ở bài tiếp theo!",
+  "say": "Cảm ơn các bạn đã theo dõi An Tech Academy. Nhớ theo dõi kênh và để lại câu hỏi nha. Hẹn gặp lại ở bài tiếp theo!",
+  "subs": [
+   "Cảm ơn các bạn đã theo dõi An Tech Academy.",
+   "Nhớ theo dõi kênh và hẹn gặp lại ở bài tiếp theo!"
+  ]
+ }
+]

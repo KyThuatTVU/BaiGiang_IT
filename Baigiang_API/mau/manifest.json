@@ -1,0 +1,418 @@
+[
+ {
+  "id": "S01c1",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Chào các bạn! Chào mừng đến với An Tech Academy.",
+  "say": "Chào các bạn! Chào mừng đến với An Tech Academy.",
+  "subs": [
+   "Chào các bạn!",
+   "Chào mừng đến với An Tech Academy."
+  ]
+ },
+ {
+  "id": "S01c2",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bạn bấm đặt món trên app, hai giây sau đã có thông báo xác nhận. Vậy ai đã nói chuyện với nhà bếp?",
+  "say": "Bạn bấm đặt món trên app, hai giây sau đã có thông báo xác nhận. Vậy ai đã nói chuyện với nhà bếp?",
+  "subs": [
+   "Bấm đặt món trên app, hai giây sau đã có xác nhận.",
+   "Ai đã nói chuyện với nhà bếp?"
+  ]
+ },
+ {
+  "id": "S01c3",
+  "scene": "S01",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Câu trả lời là API. Năm phút nữa, bạn sẽ hiểu nó là gì và chạy như thế nào.",
+  "say": "Câu trả lời là API. Năm phút nữa, bạn sẽ hiểu nó là gì và chạy như thế nào.",
+  "subs": [
+   "Câu trả lời là API.",
+   "Năm phút nữa, bạn sẽ hiểu nó chạy thế nào."
+  ]
+ },
+ {
+  "id": "S02c1",
+  "scene": "S02",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Frontend là mặt tiền: nút bấm, danh sách sản phẩm. Backend là phía sau: xử lý nghiệp vụ, tính toán, lưu dữ liệu.",
+  "say": "Frontend là mặt tiền: nút bấm, danh sách sản phẩm. Backend là phía sau: xử lý nghiệp vụ, tính toán, lưu dữ liệu.",
+  "subs": [
+   "Frontend là mặt tiền: nút bấm, danh sách sản phẩm.",
+   "Backend xử lý, tính toán, lưu dữ liệu."
+  ]
+ },
+ {
+  "id": "S02c2",
+  "scene": "S02",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Hai bên ở hai thế giới khác nhau. Không có quy tắc chung, mỗi màn hình phải chép cứng dữ liệu. Đổi một cái giá là sửa cả chục chỗ.",
+  "say": "Hai bên ở hai thế giới khác nhau. Không có quy tắc chung, mỗi màn hình phải chép cứng dữ liệu. Đổi một cái giá là sửa cả chục chỗ.",
+  "subs": [
+   "Không có quy tắc chung, mỗi màn hình chép cứng dữ liệu.",
+   "Đổi một cái giá là sửa cả chục chỗ."
+  ]
+ },
+ {
+  "id": "S02c3",
+  "scene": "S02",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Nên cần một quầy giao dịch chung: bên này gửi yêu cầu, bên kia trả kết quả. Quầy đó chính là API.",
+  "say": "Nên cần một quầy giao dịch chung: bên này gửi yêu cầu, bên kia trả kết quả. Quầy đó chính là API.",
+  "subs": [
+   "Cần một quầy giao dịch chung:",
+   "gửi yêu cầu — trả kết quả. Đó là API."
+  ]
+ },
+ {
+  "id": "S03c1",
+  "scene": "S03",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "API, viết tắt của Application Programming Interface, tiếng Việt là giao diện lập trình ứng dụng. Nghe to tát, nhưng hiểu đơn giản là bộ quy tắc để hai phần mềm nói chuyện.",
+  "say": "API, viết tắt của Application Programming Interface, tiếng Việt là giao diện lập trình ứng dụng. Nghe to tát, nhưng hiểu đơn giản là bộ quy tắc để hai phần mềm nói chuyện.",
+  "subs": [
+   "API — Application Programming Interface.",
+   "Bộ quy tắc để hai phần mềm nói chuyện."
+  ]
+ },
+ {
+  "id": "S03c2",
+  "scene": "S03",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Giống ổ cắm điện trong nhà. Bạn cắm phích là có điện, không cần biết nhà máy điện xây thế nào. API chính là ổ cắm giữa các hệ thống.",
+  "say": "Giống ổ cắm điện trong nhà. Bạn cắm phích là có điện, không cần biết nhà máy điện xây thế nào. API chính là ổ cắm giữa các hệ thống.",
+  "subs": [
+   "Giống ổ cắm điện: cắm phích là có điện,",
+   "không cần biết nhà máy điện xây thế nào."
+  ]
+ },
+ {
+  "id": "S03c3",
+  "scene": "S03",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Ba đặc điểm: có quy tắc chung, có đầu vào và đầu ra, và giấu phần xử lý bên trong. Một API có thể phục vụ web, app điện thoại và app quản trị cùng lúc.",
+  "say": "Ba đặc điểm: có quy tắc chung, có đầu vào và đầu ra, và giấu phần xử lý bên trong. Một API có thể phục vụ web, app điện thoại và app quản trị cùng lúc.",
+  "subs": [
+   "Có quy tắc chung, có đầu vào — đầu ra,",
+   "và giấu phần xử lý bên trong."
+  ]
+ },
+ {
+  "id": "S04c1",
+  "scene": "S04",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Dễ nhất là ví dụ nhà hàng. Bạn là khách, tức Client. Anh bồi bàn là API. Phiếu gọi món là Request. Nhà bếp là Backend. Món bưng ra là Response.",
+  "say": "Dễ nhất là ví dụ nhà hàng. Bạn là khách, tức Client. Anh bồi bàn là API. Phiếu gọi món là Request. Nhà bếp là Backend. Món bưng ra là Response.",
+  "subs": [
+   "Khách = Client · Bồi bàn = API · Phiếu = Request",
+   "Bếp = Backend · Món bưng ra = Response"
+  ]
+ },
+ {
+  "id": "S04c2",
+  "scene": "S04",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bạn gọi cơm gà. Bồi bàn ghi phiếu, chuyển xuống bếp. Bếp kiểm tra nguyên liệu, nấu chín, trao lại. Bồi bàn bưng ra bàn cho bạn.",
+  "say": "Bạn gọi cơm gà. Bồi bàn ghi phiếu, chuyển xuống bếp. Bếp kiểm tra nguyên liệu, nấu chín, trao lại. Bồi bàn bưng ra bàn cho bạn.",
+  "subs": [
+   "Bồi bàn ghi phiếu, chuyển xuống bếp.",
+   "Bếp nấu xong, bồi bàn bưng ra."
+  ]
+ },
+ {
+  "id": "S04c3",
+  "scene": "S04",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Nhớ kỹ: anh bồi bàn không nấu ăn. API cũng không tự xử lý nghiệp vụ. Nó là người đưa thư: đúng người, đúng món, đúng lúc.",
+  "say": "Nhớ kỹ: anh bồi bàn không nấu ăn. API cũng không tự xử lý nghiệp vụ. Nó là người đưa thư: đúng người, đúng món, đúng lúc.",
+  "subs": [
+   "Bồi bàn không nấu ăn — API không tự xử lý nghiệp vụ.",
+   "Nó là người đưa thư: đúng người, đúng món."
+  ]
+ },
+ {
+  "id": "S05c1",
+  "scene": "S05",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Endpoint là địa chỉ cụ thể để gửi yêu cầu. Nhà hàng có nhiều quầy: quầy món ăn, quầy đồ uống. API có nhiều endpoint: sản phẩm, đơn hàng, người dùng.",
+  "say": "Endpoint là địa chỉ cụ thể để gửi yêu cầu. Nhà hàng có nhiều quầy: quầy món ăn, quầy đồ uống. API có nhiều endpoint: sản phẩm, đơn hàng, người dùng.",
+  "subs": [
+   "Endpoint là địa chỉ cụ thể để gửi yêu cầu.",
+   "API có nhiều endpoint: sản phẩm, đơn hàng, người dùng."
+  ]
+ },
+ {
+  "id": "S05c2",
+  "scene": "S05",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bóc một địa chỉ nhé: https là giao thức, example chấm com là tên miền, api là khu vực API, products là tài nguyên, còn số 1 là mã sản phẩm.",
+  "say": "Bóc một địa chỉ nhé: https là giao thức, example chấm com là tên miền, api là khu vực API, products là tài nguyên, còn số 1 là mã sản phẩm.",
+  "subs": [
+   "https = giao thức · example.com = tên miền",
+   "api/products = tài nguyên · 1 = mã sản phẩm"
+  ]
+ },
+ {
+  "id": "S05c3",
+  "scene": "S05",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Một API gồm nhiều endpoint. Endpoint là cái cửa; HTTP method là việc bạn muốn làm ở cái cửa đó.",
+  "say": "Một API gồm nhiều endpoint. Endpoint là cái cửa; HTTP method là việc bạn muốn làm ở cái cửa đó.",
+  "subs": [
+   "Endpoint là cái cửa.",
+   "HTTP method là việc bạn muốn làm ở cửa đó."
+  ]
+ },
+ {
+  "id": "S06c1",
+  "scene": "S06",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Request là lá phiếu gửi đi. Nó có bốn phần: method, URL, headers và body.",
+  "say": "Request là lá phiếu gửi đi. Nó có bốn phần: method, URL, headers và body.",
+  "subs": [
+   "Request là lá phiếu gửi đi.",
+   "Bốn phần: method · URL · headers · body."
+  ]
+ },
+ {
+  "id": "S06c2",
+  "scene": "S06",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Method là hành động. URL là địa chỉ. Headers là giấy tờ tùy thân, ví dụ token đăng nhập. Body là nội dung, thường là JSON.",
+  "say": "Method là hành động. URL là địa chỉ. Headers là giấy tờ tùy thân, ví dụ token đăng nhập. Body là nội dung, thường là JSON.",
+  "subs": [
+   "Method = hành động · URL = địa chỉ",
+   "Headers = giấy tờ · Body = nội dung (JSON)"
+  ]
+ },
+ {
+  "id": "S06c3",
+  "scene": "S06",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Nhìn một request thật: POST tới api products, Content-Type là application JSON, body gồm tên, giá, số lượng. Bếp đọc phiếu là biết phải nấu gì.",
+  "say": "Nhìn một request thật: POST tới api products, Content-Type là application JSON, body gồm tên, giá, số lượng. Bếp đọc phiếu là biết phải nấu gì.",
+  "subs": [
+   "POST /api/products · Content-Type: application/json",
+   "Body: tên, giá, số lượng"
+  ]
+ },
+ {
+  "id": "S07c1",
+  "scene": "S07",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Bốn method quen thuộc: GET lấy dữ liệu, POST tạo mới, PUT cập nhật toàn bộ, DELETE xóa. Chỉ sửa một trường? Dùng PATCH.",
+  "say": "Bốn method quen thuộc: GET lấy dữ liệu, POST tạo mới, PUT cập nhật toàn bộ, DELETE xóa. Chỉ sửa một trường? Dùng PATCH.",
+  "subs": [
+   "GET lấy · POST tạo · PUT thay thế · DELETE xóa",
+   "Chỉ sửa một trường: PATCH"
+  ]
+ },
+ {
+  "id": "S07c2",
+  "scene": "S07",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Bốn thao tác đó chính là CRUD: Create, Read, Update, Delete.",
+  "say": "Bốn thao tác đó chính là CRUD: Create, Read, Update, Delete.",
+  "subs": [
+   "Đó chính là CRUD:",
+   "Create · Read · Update · Delete"
+  ]
+ },
+ {
+  "id": "S07c3",
+  "scene": "S07",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Server trả mã trạng thái: 200 là OK, 201 đã tạo, 400 gửi sai, 401 chưa đăng nhập, 404 không tìm thấy, 500 server lỗi. Nhìn mã là biết chuyện gì.",
+  "say": "Server trả mã trạng thái: 200 là OK, 201 đã tạo, 400 gửi sai, 401 chưa đăng nhập, 404 không tìm thấy, 500 server lỗi. Nhìn mã là biết chuyện gì.",
+  "subs": [
+   "200 OK · 201 Created · 400 sai · 401 chưa đăng nhập",
+   "404 không thấy · 500 server lỗi"
+  ]
+ },
+ {
+  "id": "S08c1",
+  "scene": "S08",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Response cũng ba phần: mã trạng thái, headers và body. Body thường là JSON, văn bản dễ đọc cho cả người lẫn máy.",
+  "say": "Response cũng ba phần: mã trạng thái, headers và body. Body thường là JSON, văn bản dễ đọc cho cả người lẫn máy.",
+  "subs": [
+   "Response: status · headers · body.",
+   "Body thường là JSON — dễ đọc cho người và máy."
+  ]
+ },
+ {
+  "id": "S08c2",
+  "scene": "S08",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "JSON có string, number, boolean, null, object và array. Danh sách sản phẩm là một array gồm nhiều object.",
+  "say": "JSON có string, number, boolean, null, object và array. Danh sách sản phẩm là một array gồm nhiều object.",
+  "subs": [
+   "JSON: string · number · boolean · null · object · array",
+   "Danh sách = array các object"
+  ]
+ },
+ {
+  "id": "S08c3",
+  "scene": "S08",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "JavaScript có JSON điểm stringify để đóng gói, và JSON điểm parse để mở ra. Gửi đi thì stringify, nhận về thì parse.",
+  "say": "JavaScript có JSON điểm stringify để đóng gói, và JSON điểm parse để mở ra. Gửi đi thì stringify, nhận về thì parse.",
+  "subs": [
+   "JSON.stringify để đóng gói",
+   "JSON.parse để mở ra"
+  ]
+ },
+ {
+  "id": "S09c1",
+  "scene": "S09",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Thực chiến với Node.js và Express.js. Khai báo app, bật express json, viết route app get cho api products, rồi trả về res json. Chưa tới hai chục dòng.",
+  "say": "Thực chiến với Node.js và Express.js. Khai báo app, bật express json, viết route app get cho api products, rồi trả về res json. Chưa tới hai chục dòng.",
+  "subs": [
+   "Node.js + Express.js: app.get(\"/api/products\")",
+   "res.json(...) — chưa tới 20 dòng"
+  ]
+ },
+ {
+  "id": "S09c2",
+  "scene": "S09",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Chạy node server điểm js, mở localhost 3000 trên api products là thấy danh sách. Thử POST bằng Postman hoặc Thunder Client, vì trình duyệt chỉ gửi GET.",
+  "say": "Chạy node server điểm js, mở localhost 3000 trên api products là thấy danh sách. Thử POST bằng Postman hoặc Thunder Client, vì trình duyệt chỉ gửi GET.",
+  "subs": [
+   "Mở localhost:3000/api/products là thấy JSON.",
+   "Thử POST bằng Postman hoặc Thunder Client."
+  ]
+ },
+ {
+  "id": "S09c3",
+  "scene": "S09",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Phía frontend, Fetch API gọi endpoint, await response json, rồi đổ dữ liệu lên giao diện. Frontend không cần biết bên kia dùng MySQL hay mảng tạm.",
+  "say": "Phía frontend, Fetch API gọi endpoint, await response json, rồi đổ dữ liệu lên giao diện. Frontend không cần biết bên kia dùng MySQL hay mảng tạm.",
+  "subs": [
+   "fetch(endpoint) → await response.json()",
+   "Frontend không cần biết backend lưu ở đâu."
+  ]
+ },
+ {
+  "id": "S10c1",
+  "scene": "S10",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Vài lỗi hay gặp: quên bật express json nên body rỗng; quên cấu hình CORS nên trình duyệt chặn; và tin dữ liệu frontend mà không kiểm tra ở backend.",
+  "say": "Vài lỗi hay gặp: quên bật express json nên body rỗng; quên cấu hình CORS nên trình duyệt chặn; và tin dữ liệu frontend mà không kiểm tra ở backend.",
+  "subs": [
+   "Quên express.json → body rỗng.",
+   "Quên CORS → trình duyệt chặn."
+  ]
+ },
+ {
+  "id": "S10c2",
+  "scene": "S10",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Nhớ ba điều: API là cầu nối, endpoint là địa chỉ, method cộng status code là ngôn ngữ chung. Request đi, response về, JSON ở giữa.",
+  "say": "Nhớ ba điều: API là cầu nối, endpoint là địa chỉ, method cộng status code là ngôn ngữ chung. Request đi, response về, JSON ở giữa.",
+  "subs": [
+   "API = cầu nối · Endpoint = địa chỉ",
+   "Method + status code = ngôn ngữ chung"
+  ]
+ },
+ {
+  "id": "S10c3",
+  "scene": "S10",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Hiểu API là bạn đã mở cửa bước sang backend. Còn RESTful, xác thực JWT và bảo mật API, mình sẽ nói ở bài sau.",
+  "say": "Hiểu API là bạn đã mở cửa bước sang backend. Còn RESTful, xác thực JWT và bảo mật API, mình sẽ nói ở bài sau.",
+  "subs": [
+   "Hiểu API là mở cửa bước sang backend.",
+   "RESTful, JWT và bảo mật API — bài sau."
+  ]
+ },
+ {
+  "id": "S11c1",
+  "scene": "S11",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.45,
+  "text": "Cảm ơn các bạn đã theo dõi An Tech Academy. Hiểu công nghệ, làm chủ tương lai!",
+  "say": "Cảm ơn các bạn đã theo dõi An Tech Academy. Hiểu công nghệ, làm chủ tương lai!",
+  "subs": [
+   "Cảm ơn các bạn đã theo dõi An Tech Academy.",
+   "Hiểu công nghệ, làm chủ tương lai!"
+  ]
+ },
+ {
+  "id": "S11c2",
+  "scene": "S11",
+  "rate": "+18%",
+  "shift": 0.0,
+  "pause_after": 0.18,
+  "text": "Nhớ theo dõi kênh và để lại câu hỏi nha. Hẹn gặp lại ở bài tiếp theo.",
+  "say": "Nhớ theo dõi kênh và để lại câu hỏi nha. Hẹn gặp lại ở bài tiếp theo.",
+  "subs": [
+   "Nhớ theo dõi kênh và để lại câu hỏi nha.",
+   "Hẹn gặp lại!"
+  ]
+ }
+]
