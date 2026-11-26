@@ -1,0 +1,22 @@
+a01	SVD.
+a02	S-V-D.
+a03	ét vê đê.
+t01	Singular Value Decomposition.
+t02	Collaborative Filtering.
+t03	Lọc cộng tác.
+t04	User-Item Matrix.
+t05	Ma trận người dùng, sản phẩm.
+t06	Latent factors.
+t07	Yếu tố tiềm ẩn.
+t08	U, Sigma, V chuyển vị.
+t09	R mũ bằng U con k, Sigma con k, V chuyển vị con k.
+t10	r mũ bằng mu, cộng b-u, cộng b-i, cộng q-i chuyển vị nhân p-u.
+t11	Top N.
+t12	RMSE.
+t13	MAE.
+t14	Cold Start.
+t15	Surprise.
+t16	scikit-surprise.
+t17	Flask.
+t18	Node.js.
+t19	AirPods.

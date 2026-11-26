@@ -1,0 +1,5 @@
+- Thời lượng mục tiêu: 5 phút
+- Giọng đọc: clone (VieNeu-TTS)
+- Lời chào mở đầu & lời kết: bật mặc định chuẩn AN TECH ACADEMY
+- Theme mặc định: dark_cyan
+- Sử dụng đủ 6 ảnh minh họa trong img/ (1.jpg đến 6.jpg) kết hợp đủ 8 hiệu ứng động của Kit.
